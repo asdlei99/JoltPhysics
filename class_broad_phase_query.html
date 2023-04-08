@@ -105,9 +105,6 @@ $(document).ready(function(){initNavTree('class_broad_phase_query.html',''); ini
 </div><!--header-->
 <div class="contents">
 
-<p>Interface to the broadphase that can perform collision queries. These queries will only test the bounding box of the body to quickly determine a potential set of colliding bodies.  
- <a href="class_broad_phase_query.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="_broad_phase_query_8h_source.html">BroadPhaseQuery.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for BroadPhaseQuery:</div>
@@ -154,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Interface to the broadphase that can perform collision queries. These queries will only test the bounding box of the body to quickly determine a potential set of colliding bodies. </p>
+<div class="textblock"><p >Interface to the broadphase that can perform collision queries. These queries will only test the bounding box of the body to quickly determine a potential set of colliding bodies. The shapes of the bodies are not tested, if you want this then you should use the <a class="el" href="class_narrow_phase_query.html">NarrowPhaseQuery</a> interface. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3eb1b1cf5421ba7785cff7e7aa4bd702" name="a3eb1b1cf5421ba7785cff7e7aa4bd702"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3eb1b1cf5421ba7785cff7e7aa4bd702">&#9670;&#160;</a></span>~BroadPhaseQuery()</h2>
