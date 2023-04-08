@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"class_wheel.html#a49fc75e7639dbf0a484ccd9bf1968ae4":[3,0,319,41],
 "class_wheel.html#a4ed45e80dae82a05fe3a07bd8f81d96f":[3,0,319,9],
 "class_wheel.html#a4f4df6da668a8f3d147ee53a3c46910c":[3,0,319,5],
 "class_wheel.html#a53ae6143cfd91eba78398b03f427c7ed":[3,0,319,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "globals_func_v.html":[4,1,1,19],
 "globals_g.html":[4,1,0,6],
 "globals_h.html":[4,1,0,7],
-"globals_i.html":[4,1,0,8],
-"globals_j.html":[4,1,0,9]
+"globals_i.html":[4,1,0,8]
 };

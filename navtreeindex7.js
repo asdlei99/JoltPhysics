@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"class_broad_phase_brute_force.html#a56f59ffbc87333de2af4c7d995a048a3":[3,0,33,1],
 "class_broad_phase_brute_force.html#a59e4b801e711b42da8018c7f9e8362be":[3,0,33,9],
 "class_broad_phase_brute_force.html#a75b3feb54f2c3710b20b27c5379ad55e":[3,0,33,0],
 "class_broad_phase_brute_force.html#a7e8ac19b326adf19996bd1288089018b":[3,0,33,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "class_character_virtual_settings.html":[3,0,52],
 "class_character_virtual_settings.html#a1c5a728c9f0e095f4c76a51e61ff8bb3":[3,0,52,6],
 "class_character_virtual_settings.html#a1ddf59bd95417f3b95341f03ade9812b":[3,0,52,5],
-"class_character_virtual_settings.html#a43cabe3e717a0d42ce6ba8383760c20f":[3,0,52,9],
-"class_character_virtual_settings.html#a5a58aa76a938c5845f1b375114a4cebb":[3,0,52,10]
+"class_character_virtual_settings.html#a43cabe3e717a0d42ce6ba8383760c20f":[3,0,52,9]
 };

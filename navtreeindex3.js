@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"_quick_sort_8h.html":[4,0,1,1,35],
 "_quick_sort_8h.html#a09973cb7cb8a1e98a51005ecedaf6eff":[4,0,1,1,35,1],
 "_quick_sort_8h.html#a7f9496a620493fec0bb6e08af489dc27":[4,0,1,1,35,3],
 "_quick_sort_8h.html#aa6450fb30b4a42e991c89908bd3575b9":[4,0,1,1,35,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "_skeleton_8h.html":[4,0,1,7,3],
 "_skeleton_8h_source.html":[4,0,1,7,3],
 "_skeleton_mapper_8cpp.html":[4,0,1,7,4],
-"_skeleton_mapper_8h.html":[4,0,1,7,5],
-"_skeleton_mapper_8h_source.html":[4,0,1,7,5]
+"_skeleton_mapper_8h.html":[4,0,1,7,5]
 };

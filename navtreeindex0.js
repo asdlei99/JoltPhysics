@@ -246,8 +246,8 @@ var NAVTREEINDEX0 =
 "_convex_support_8h.html":[4,0,1,2,8],
 "_convex_support_8h_source.html":[4,0,1,2,8],
 "_core_8h.html":[4,0,1,1,5],
-"_core_8h.html#a06421dbef09f6a781ed52965f5f5eac8":[4,0,1,1,5,17],
-"_core_8h.html#a0e5e358b4576bd9e1692d2ce14088702":[4,0,1,1,5,20],
+"_core_8h.html#a06421dbef09f6a781ed52965f5f5eac8":[4,0,1,1,5,18],
+"_core_8h.html#a0e5e358b4576bd9e1692d2ce14088702":[4,0,1,1,5,21],
 "_core_8h.html#a19cd70ae9b66fee2faf10a0d00fe8a13":[4,0,1,1,5,10],
 "_core_8h.html#a252846bbcc9c2281dba7ad4673e708ce":[4,0,1,1,5,0]
 };

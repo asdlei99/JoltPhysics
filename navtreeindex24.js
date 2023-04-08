@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"globals_j.html":[4,1,0,9],
 "globals_m.html":[4,1,0,10],
 "globals_n.html":[4,1,0,11],
 "globals_o.html":[4,1,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "struct_compound_shape_1_1_collide_shape_vs_compound_visitor.html#af99172bf5598b022f42e3b071d7dd7e9":[3,0,68,6,0],
 "struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html":[3,0,68,7],
 "struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a0271b87f4c7610b317b82a77d7d255c6":[3,0,68,7,3],
-"struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a0747547a9895a7dc598391e602ae67e6":[3,0,68,7,2],
-"struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a0f676ecd2951cd9c1abd7d3ebfa24561":[3,0,68,7,0]
+"struct_compound_shape_1_1_get_intersecting_sub_shapes_visitor.html#a0747547a9895a7dc598391e602ae67e6":[3,0,68,7,2]
 };

@@ -14,6 +14,7 @@ var _core_8h =
     [ "JPH_IF_NOT_DEBUG_RENDERER", "_core_8h.html#a5f790aaecc28630723d8d68801ce8865", null ],
     [ "JPH_IF_SINGLE_PRECISION", "_core_8h.html#a2b44b10d432bafc0db7e105e3c246425", null ],
     [ "JPH_IF_SINGLE_PRECISION_ELSE", "_core_8h.html#aa004a0f7df4c0472bb33a149fce1f21c", null ],
+    [ "JPH_MSVC2019_SUPPRESS_WARNING", "_core_8h.html#abbf86de84b7cb1817f2be1e28b6b754f", null ],
     [ "JPH_MSVC_SUPPRESS_WARNING", "_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8", null ],
     [ "JPH_NAMESPACE_BEGIN", "_core_8h.html#ad14098b68b8c44ea6112601031268405", null ],
     [ "JPH_NAMESPACE_END", "_core_8h.html#a73da8725998b00321a9db341202d650d", null ],

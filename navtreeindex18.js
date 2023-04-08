@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4":[3,0,227,3],
 "class_serializable_object.html":[3,0,228],
 "class_serializable_object.html#afad98c73b77e9cef11cf5083a5866d49":[3,0,228,0],
 "class_shape.html":[3,0,229],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "class_skeleton_pose.html#a8539fe080abaa69f63d4a071404c320d":[3,0,244,3],
 "class_skeleton_pose.html#a91f801a519aa40ed65e4ff2aee71bc93":[3,0,244,8],
 "class_skeleton_pose.html#a9c8491b64eb337b033003d67f9c1d962":[3,0,244,14],
-"class_skeleton_pose.html#a9e4d521e23999bef15f0a0fd2b5f4c91":[3,0,244,2],
-"class_skeleton_pose.html#aa8669194e2646ec9de2fbab978e299be":[3,0,244,11]
+"class_skeleton_pose.html#a9e4d521e23999bef15f0a0fd2b5f4c91":[3,0,244,2]
 };

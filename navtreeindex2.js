@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"_math_8h.html#a92bab343999851b4ded776dd2a70c742":[4,0,1,3,15,10],
 "_math_8h.html#a97f957fb70036cbce7e1b5871424b242":[4,0,1,3,15,12],
 "_math_8h.html#aacba3fe18847d926ab86e86dbf94d219":[4,0,1,3,15,6],
 "_math_8h.html#ab2cbe30946edbf23887cfc1291025866":[4,0,1,3,15,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "_quad_tree_8h_source.html":[4,0,1,5,2,0,9],
 "_quat_8h.html":[4,0,1,3,18],
 "_quat_8h_source.html":[4,0,1,3,18],
-"_quat_8inl.html":[4,0,1,3,19],
-"_quick_sort_8h.html":[4,0,1,1,35]
+"_quat_8inl.html":[4,0,1,3,19]
 };
