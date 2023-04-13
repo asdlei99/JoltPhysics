@@ -194,7 +194,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a69c9f67351312d43f8e1c1f5d23fdf99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all constraints.  <a href="class_physics_system.html#a69c9f67351312d43f8e1c1f5d23fdf99">More...</a><br /></td></tr>
 <tr class="separator:a69c9f67351312d43f8e1c1f5d23fdf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3cd9f2562f0f051c032b3bc298d9604"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604">OptimizeBroadPhase</a> ()</td></tr>
-<tr class="memdesc:ab3cd9f2562f0f051c032b3bc298d9604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimize the broadphase, needed only if you've added many bodies prior to calling <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">Update()</a> for the first time.  <a href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604">More...</a><br /></td></tr>
+<tr class="memdesc:ab3cd9f2562f0f051c032b3bc298d9604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimize the broadphase, needed only if you've added many bodies prior to calling <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">Update()</a> for the first time.  <a href="class_physics_system.html#ab3cd9f2562f0f051c032b3bc298d9604">More...</a><br /></td></tr>
 <tr class="separator:ab3cd9f2562f0f051c032b3bc298d9604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0964d49514b7447981dcc7438876e988"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a0964d49514b7447981dcc7438876e988">AddStepListener</a> (<a class="el" href="class_physics_step_listener.html">PhysicsStepListener</a> *inListener)</td></tr>
 <tr class="memdesc:a0964d49514b7447981dcc7438876e988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new step listener.  <a href="class_physics_system.html#a0964d49514b7447981dcc7438876e988">More...</a><br /></td></tr>
@@ -202,8 +202,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a00aeeff60505f9baa3dd1ffdfe73c2b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a00aeeff60505f9baa3dd1ffdfe73c2b3">RemoveStepListener</a> (<a class="el" href="class_physics_step_listener.html">PhysicsStepListener</a> *inListener)</td></tr>
 <tr class="memdesc:a00aeeff60505f9baa3dd1ffdfe73c2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a step listener.  <a href="class_physics_system.html#a00aeeff60505f9baa3dd1ffdfe73c2b3">More...</a><br /></td></tr>
 <tr class="separator:a00aeeff60505f9baa3dd1ffdfe73c2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac006018c787d317557c6ff5bd02f2991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">Update</a> (float inDeltaTime, int inCollisionSteps, int inIntegrationSubSteps, <a class="el" href="class_temp_allocator.html">TempAllocator</a> *inTempAllocator, <a class="el" href="class_job_system.html">JobSystem</a> *inJobSystem)</td></tr>
-<tr class="separator:ac006018c787d317557c6ff5bd02f2991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb982732988bb2a7d35d394a680ed0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_e_physics_update_error_8h.html#a1df3f14c5cc9f3be49f239b17470aaa1">EPhysicsUpdateError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">Update</a> (float inDeltaTime, int inCollisionSteps, int inIntegrationSubSteps, <a class="el" href="class_temp_allocator.html">TempAllocator</a> *inTempAllocator, <a class="el" href="class_job_system.html">JobSystem</a> *inJobSystem)</td></tr>
+<tr class="separator:abfb982732988bb2a7d35d394a680ed0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a8d0bd0f310e7f40bece38378d4ae33b5">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_physics_system.html#a8d0bd0f310e7f40bece38378d4ae33b5">More...</a><br /></td></tr>
 <tr class="separator:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,7 +273,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The main class for the physics system. It contains all rigid bodies and simulates them.</p>
-<p >The main simulation is performed by the <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">Update()</a> call on multiple threads (if the <a class="el" href="class_job_system.html">JobSystem</a> is configured to use them). Please refer to the general architecture overview in the Docs folder for more information. </p>
+<p >The main simulation is performed by the <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">Update()</a> call on multiple threads (if the <a class="el" href="class_job_system.html">JobSystem</a> is configured to use them). Please refer to the general architecture overview in the Docs folder for more information. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a8298f68e3a5a5990ea4c5391750b3d90" name="a8298f68e3a5a5990ea4c5391750b3d90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8298f68e3a5a5990ea4c5391750b3d90">&#9670;&#160;</a></span>BodyStats</h2>
@@ -1232,7 +1232,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Optimize the broadphase, needed only if you've added many bodies prior to calling <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">Update()</a> for the first time. </p>
+<p>Optimize the broadphase, needed only if you've added many bodies prior to calling <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">Update()</a> for the first time. </p>
 
 </div>
 </div>
@@ -1528,14 +1528,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac006018c787d317557c6ff5bd02f2991" name="ac006018c787d317557c6ff5bd02f2991"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac006018c787d317557c6ff5bd02f2991">&#9670;&#160;</a></span>Update()</h2>
+<a id="abfb982732988bb2a7d35d394a680ed0e" name="abfb982732988bb2a7d35d394a680ed0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfb982732988bb2a7d35d394a680ed0e">&#9670;&#160;</a></span>Update()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void PhysicsSystem::Update </td>
+          <td class="memname"><a class="el" href="_e_physics_update_error_8h.html#a1df3f14c5cc9f3be49f239b17470aaa1">EPhysicsUpdateError</a> PhysicsSystem::Update </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>inDeltaTime</em>, </td>
@@ -1608,7 +1608,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Check if 2 bodies were in contact during the last simulation step. Since contacts are only detected between active bodies, so at least one of the bodies must be active in order for this function to work. It queries the state at the time of the last <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">PhysicsSystem::Update</a> and will return true if the bodies were in contact, even if one of the bodies was moved / removed afterwards. This function can be called from any thread when the <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">PhysicsSystem::Update</a> is not running. During <a class="el" href="class_physics_system.html#ac006018c787d317557c6ff5bd02f2991">PhysicsSystem::Update</a> this function is only valid during contact callbacks:</p><ul>
+<p >Check if 2 bodies were in contact during the last simulation step. Since contacts are only detected between active bodies, so at least one of the bodies must be active in order for this function to work. It queries the state at the time of the last <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">PhysicsSystem::Update</a> and will return true if the bodies were in contact, even if one of the bodies was moved / removed afterwards. This function can be called from any thread when the <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">PhysicsSystem::Update</a> is not running. During <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">PhysicsSystem::Update</a> this function is only valid during contact callbacks:</p><ul>
 <li>During the <a class="el" href="class_contact_listener.html#aeb1d7908c8556ce24448ac572d7ad944">ContactListener::OnContactAdded</a> callback this function can be used to determine if a different contact pair between the bodies was active in the previous simulation step (function returns true) or if this is the first step that the bodies are touching (function returns false).</li>
 <li>During the <a class="el" href="class_contact_listener.html#aef8f0cac1d560622743420afcd1ce17a">ContactListener::OnContactRemoved</a> callback this function can be used to determine if this is the last contact pair between the bodies (function returns false) or if there are other contacts still present (function returns true). </li>
 </ul>

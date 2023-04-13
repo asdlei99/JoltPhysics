@@ -192,6 +192,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad7882ca12262d805d6f2de6babe96560"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">mUseLargeIslandSplitter</a></td></tr>
 <tr class="memdesc:ad7882ca12262d805d6f2de6babe96560"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, use large island splitting.  <a href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">More...</a><br /></td></tr>
 <tr class="separator:ad7882ca12262d805d6f2de6babe96560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bb8d85178c1a1082cfabed7334fa75"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">mErrors</a> { 0 }</td></tr>
+<tr class="memdesc:a57bb8d85178c1a1082cfabed7334fa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors that occurred during the update, actual type is EPhysicsUpdateError.  <a href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">More...</a><br /></td></tr>
+<tr class="separator:a57bb8d85178c1a1082cfabed7334fa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f3d5772169584520a19f7d85820206"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint.html">Constraint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a06f3d5772169584520a19f7d85820206">mActiveConstraints</a> = nullptr</td></tr>
 <tr class="memdesc:a06f3d5772169584520a19f7d85820206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constraints that were active at the start of the physics update step (activating bodies can activate constraints and we need a consistent snapshot). Only these constraints will be resolved.  <a href="class_physics_update_context.html#a06f3d5772169584520a19f7d85820206">More...</a><br /></td></tr>
 <tr class="separator:a06f3d5772169584520a19f7d85820206"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -457,6 +460,22 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A list of body pairs found by the broadphase. </p>
+
+</div>
+</div>
+<a id="a57bb8d85178c1a1082cfabed7334fa75" name="a57bb8d85178c1a1082cfabed7334fa75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bb8d85178c1a1082cfabed7334fa75">&#9670;&#160;</a></span>mErrors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::mErrors { 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Errors that occurred during the update, actual type is EPhysicsUpdateError. </p>
 
 </div>
 </div>

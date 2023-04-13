@@ -14,6 +14,7 @@ var class_physics_update_context =
     [ "mActiveConstraints", "class_physics_update_context.html#a06f3d5772169584520a19f7d85820206", null ],
     [ "mBarrier", "class_physics_update_context.html#a26472dbbba0458cc803a6adda1d71b5f", null ],
     [ "mBodyPairs", "class_physics_update_context.html#a8b9c15a6ef1a5072d539c18a45ae457f", null ],
+    [ "mErrors", "class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75", null ],
     [ "mIslandBuilder", "class_physics_update_context.html#afa015c9ca2db6ffc71181cb809cdb30a", null ],
     [ "mJobSystem", "class_physics_update_context.html#a736edcba88a4a7bd3bc37d417e317ed7", null ],
     [ "mPhysicsSystem", "class_physics_update_context.html#a081d18872fcf446aa811f95c0d66b05c", null ],

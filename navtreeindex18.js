@@ -1,5 +1,17 @@
 var NAVTREEINDEX18 =
 {
+"class_serializable_attribute.html#a35e667b9f50f27293b7dd1abf0753305":[3,0,227,1],
+"class_serializable_attribute.html#a6738344c9c5ddbf28680db6511dda210":[3,0,227,9],
+"class_serializable_attribute.html#a72008d94009acc09cec81d10486783eb":[3,0,227,7],
+"class_serializable_attribute.html#a835cd7db4edd6bd36f2130e9498122c2":[3,0,227,8],
+"class_serializable_attribute.html#a9ce63d609aeb2c8fcdff058957d4644f":[3,0,227,13],
+"class_serializable_attribute.html#ab8ee3ad5a95fdf86aec0422cac3b7a42":[3,0,227,5],
+"class_serializable_attribute.html#ab928f1de1446823484b4437a79214924":[3,0,227,11],
+"class_serializable_attribute.html#ac5151d0f316587c6baaac9a7f731861b":[3,0,227,2],
+"class_serializable_attribute.html#ad8b999830598842432441df6647be298":[3,0,227,12],
+"class_serializable_attribute.html#ae8a205bb6313394469d97affd2964046":[3,0,227,6],
+"class_serializable_attribute.html#aeef84793af0dbf4397f0e0ca4590a39c":[3,0,227,10],
+"class_serializable_attribute.html#af7f01caef8726c642aaeb8ce7016c97a":[3,0,227,0],
 "class_serializable_attribute.html#aff266618effe94c6ea33145d783337a4":[3,0,227,3],
 "class_serializable_object.html":[3,0,228],
 "class_serializable_object.html#afad98c73b77e9cef11cf5083a5866d49":[3,0,228,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX18 =
 "class_skeleton_mapper_1_1_unmapped.html#a59408695490b38ff289316be1b90c8e2":[3,0,243,3,0],
 "class_skeleton_mapper_1_1_unmapped.html#ad91b1fd5a34203f9aeacd6234c56da17":[3,0,243,3,3],
 "class_skeleton_pose.html":[3,0,244],
-"class_skeleton_pose.html#a067c1fa5353fa017050c331a43aeb63c":[3,0,244,13],
-"class_skeleton_pose.html#a123163a0e50b7f76a7cb208df96d59b3":[3,0,244,12],
-"class_skeleton_pose.html#a16e37c44ea1f562854d8a6e3d0afafcf":[3,0,244,20],
-"class_skeleton_pose.html#a2e60e72ebf66740c7d9d99274b70efe7":[3,0,244,18],
-"class_skeleton_pose.html#a39706bc656fd0c4907689bad870a45af":[3,0,244,5],
-"class_skeleton_pose.html#a5ede20d56bfae3b3be7c26165a34fdbc":[3,0,244,4],
-"class_skeleton_pose.html#a62ddf1ab02eaf223875eeebcb2dfa617":[3,0,244,15],
-"class_skeleton_pose.html#a7c8c656a80fb4b9509744d5a991cc34c":[3,0,244,16],
-"class_skeleton_pose.html#a83a440cd06f24159b01879670c4bf856":[3,0,244,19],
-"class_skeleton_pose.html#a8539fe080abaa69f63d4a071404c320d":[3,0,244,3],
-"class_skeleton_pose.html#a91f801a519aa40ed65e4ff2aee71bc93":[3,0,244,8],
-"class_skeleton_pose.html#a9c8491b64eb337b033003d67f9c1d962":[3,0,244,14],
-"class_skeleton_pose.html#a9e4d521e23999bef15f0a0fd2b5f4c91":[3,0,244,2]
+"class_skeleton_pose.html#a067c1fa5353fa017050c331a43aeb63c":[3,0,244,13]
 };
