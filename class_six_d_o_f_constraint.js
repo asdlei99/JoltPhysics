@@ -25,6 +25,7 @@ var class_six_d_o_f_constraint =
     [ "GetTotalLambdaRotation", "class_six_d_o_f_constraint.html#a660cc3a7a434504917d71b2c463cef47", null ],
     [ "IsFixedAxis", "class_six_d_o_f_constraint.html#a9388c6c3c237389fa77aec2862fba244", null ],
     [ "IsFreeAxis", "class_six_d_o_f_constraint.html#aaa234472e01794bfa881cf59d0c5d6be", null ],
+    [ "NotifyShapeChanged", "class_six_d_o_f_constraint.html#a7da40332bca888038baa167dc1cb0d8b", null ],
     [ "RestoreState", "class_six_d_o_f_constraint.html#a816d37d27455acd262a58e565445ba8d", null ],
     [ "SaveState", "class_six_d_o_f_constraint.html#ad6062bc0bb66d6bfa9a57e6e4e62fefa", null ],
     [ "SetMaxFriction", "class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3", null ],

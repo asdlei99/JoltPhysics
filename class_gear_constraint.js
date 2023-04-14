@@ -7,6 +7,7 @@ var class_gear_constraint =
     [ "GetConstraintToBody2Matrix", "class_gear_constraint.html#a100fdd22b7dc94df36529b4be8c27b60", null ],
     [ "GetSubType", "class_gear_constraint.html#ad760c5afd1f0a52d595b4788247d892c", null ],
     [ "GetTotalLambda", "class_gear_constraint.html#a0e2ee073695aedec977446582365ed3b", null ],
+    [ "NotifyShapeChanged", "class_gear_constraint.html#a16af2cebb97b81fb5d7061a810f22bd7", null ],
     [ "RestoreState", "class_gear_constraint.html#acdb35bebda74e178f96d516277dda140", null ],
     [ "SaveState", "class_gear_constraint.html#a31f12343d049e8c9a48136bb1a103b73", null ],
     [ "SetConstraints", "class_gear_constraint.html#a7464b55c817e3ca115ea18537245ccee", null ],

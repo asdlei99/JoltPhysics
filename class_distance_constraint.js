@@ -11,6 +11,7 @@ var class_distance_constraint =
     [ "GetMinDistance", "class_distance_constraint.html#a4417a1efabd5ff92a82b5657479eab93", null ],
     [ "GetSubType", "class_distance_constraint.html#aca72385bb8b1dede13ca841681e37cae", null ],
     [ "GetTotalLambdaPosition", "class_distance_constraint.html#a9c2f0f9859df29f33e5688f42e14471d", null ],
+    [ "NotifyShapeChanged", "class_distance_constraint.html#aa6ac58843c176b849972406a38f50c89", null ],
     [ "RestoreState", "class_distance_constraint.html#a748c652cfab4475e85d97ed4caf42c79", null ],
     [ "SaveState", "class_distance_constraint.html#a8220e4b735572de4324c0cd1a181150f", null ],
     [ "SetDamping", "class_distance_constraint.html#a46b06500e56c14ef5137ab53a2be496a", null ],

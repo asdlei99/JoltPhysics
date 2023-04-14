@@ -10,6 +10,7 @@ var class_pulley_constraint =
     [ "GetMinLength", "class_pulley_constraint.html#a7736c362467fcdcc9e1922b6847cd77a", null ],
     [ "GetSubType", "class_pulley_constraint.html#a175acacfe8fcc7518a90d7b29e0ad8eb", null ],
     [ "GetTotalLambdaPosition", "class_pulley_constraint.html#adac156b26e519ea9f183609b731b81b5", null ],
+    [ "NotifyShapeChanged", "class_pulley_constraint.html#abf1f2d838a54008edca4ee2a907ac0f6", null ],
     [ "RestoreState", "class_pulley_constraint.html#a292df1ddeb2b9ec1ff7c96f3742c81f7", null ],
     [ "SaveState", "class_pulley_constraint.html#ac37299bf924b5d34e41c8a51c621906a", null ],
     [ "SetLength", "class_pulley_constraint.html#a3c250975bff80256a8d79f04bed8aeaa", null ],

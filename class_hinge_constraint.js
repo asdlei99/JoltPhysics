@@ -21,6 +21,7 @@ var class_hinge_constraint =
     [ "GetTotalLambdaRotation", "class_hinge_constraint.html#a69121251820ce4c305f3275b15242f7a", null ],
     [ "GetTotalLambdaRotationLimits", "class_hinge_constraint.html#a689cbcabdb90d98b59fcdffc5417a3e7", null ],
     [ "HasLimits", "class_hinge_constraint.html#af1934023ab6d537ecc04cb605c6fada3", null ],
+    [ "NotifyShapeChanged", "class_hinge_constraint.html#ab9dd0d5de72165fcb15b85d02308213a", null ],
     [ "RestoreState", "class_hinge_constraint.html#ab511231f1d1c0ea20d9d7e9a3d996091", null ],
     [ "SaveState", "class_hinge_constraint.html#a5a0a5235be47dfd889f89a4651f36993", null ],
     [ "SetLimits", "class_hinge_constraint.html#a7ca6ee7cd4daf818ce62fd868f0b0fdc", null ],

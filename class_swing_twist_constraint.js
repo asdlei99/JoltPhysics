@@ -30,6 +30,7 @@ var class_swing_twist_constraint =
     [ "GetTwistMotorSettings", "class_swing_twist_constraint.html#aec236c29d446311925a62f2004ae6974", null ],
     [ "GetTwistMotorSettings", "class_swing_twist_constraint.html#ae63b6cda1826e0b1aa6b6960780e92e3", null ],
     [ "GetTwistMotorState", "class_swing_twist_constraint.html#a44ce1ccf1c4d95f88bb6ab2571035196", null ],
+    [ "NotifyShapeChanged", "class_swing_twist_constraint.html#ab510d96b7f9f7df51cea9b2400474db4", null ],
     [ "RestoreState", "class_swing_twist_constraint.html#ab8a66fa8ace006007551e20f26859e60", null ],
     [ "SaveState", "class_swing_twist_constraint.html#aee888f6c281abbbccc3e33d108716824", null ],
     [ "SetMaxFrictionTorque", "class_swing_twist_constraint.html#abf0d635feedfe665fa4f7a6e566bf168", null ],

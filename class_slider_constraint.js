@@ -23,6 +23,7 @@ var class_slider_constraint =
     [ "GetTotalLambdaPositionLimits", "class_slider_constraint.html#a75ac80302b69828523d3fe1aa55348a5", null ],
     [ "GetTotalLambdaRotation", "class_slider_constraint.html#a10e5c1d92324b6df087498f75b4f83e4", null ],
     [ "HasLimits", "class_slider_constraint.html#a7b5b4709994b7a7f4133e0e7d129d3c5", null ],
+    [ "NotifyShapeChanged", "class_slider_constraint.html#a13363a2168538544705cff396e1eab28", null ],
     [ "RestoreState", "class_slider_constraint.html#a9512c8658bafebac41965f0e5d8b0377", null ],
     [ "SaveState", "class_slider_constraint.html#a7025971cdb5e449293df12e2f4f56e97", null ],
     [ "SetDamping", "class_slider_constraint.html#ada5c65ab466a51bc52ef3207483120ff", null ],

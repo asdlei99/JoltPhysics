@@ -8,6 +8,7 @@ var class_fixed_constraint =
     [ "GetSubType", "class_fixed_constraint.html#ae4a226e769a4bab140f41f72a2aff9b5", null ],
     [ "GetTotalLambdaPosition", "class_fixed_constraint.html#a1f2e160cf0bac4e5a08a10a4db32fe27", null ],
     [ "GetTotalLambdaRotation", "class_fixed_constraint.html#a28f17b6379474d45e29faebfef63e670", null ],
+    [ "NotifyShapeChanged", "class_fixed_constraint.html#a2c3cfcfafdde98e5cc2ef15e300edbce", null ],
     [ "RestoreState", "class_fixed_constraint.html#acf092e49dff8f3e45c4a315924ace105", null ],
     [ "SaveState", "class_fixed_constraint.html#ae23ae7de219a75c7d80d0e9b8af6ea2c", null ],
     [ "SetupVelocityConstraint", "class_fixed_constraint.html#a357bd20813fdf9b5d6d6730ea1cb5cb7", null ],

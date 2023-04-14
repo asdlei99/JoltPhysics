@@ -20,6 +20,7 @@ var class_path_constraint =
     [ "GetTotalLambdaRotation", "class_path_constraint.html#a7dc7086987fb9a1761fc9fab81ceadb3", null ],
     [ "GetTotalLambdaRotationHinge", "class_path_constraint.html#abb7f43813e7aa47c1719550303e8b768", null ],
     [ "IsActive", "class_path_constraint.html#a5f6d3c7d860ee5c715f8fef818fd4f1f", null ],
+    [ "NotifyShapeChanged", "class_path_constraint.html#ae10bed0a11582fbe738f8339aa1257d5", null ],
     [ "RestoreState", "class_path_constraint.html#ae404de8c3ac283d010ca1e0f637873f1", null ],
     [ "SaveState", "class_path_constraint.html#a488ab67aba069c0fa0c81194afc74bd1", null ],
     [ "SetMaxFrictionForce", "class_path_constraint.html#ad6901dcd63274ede819db76d1e68607e", null ],

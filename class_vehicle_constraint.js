@@ -21,6 +21,7 @@ var class_vehicle_constraint =
     [ "GetWheels", "class_vehicle_constraint.html#af2a24975a01de3cf22ab55ba2ac6ed74", null ],
     [ "GetWheelWorldTransform", "class_vehicle_constraint.html#ab4e43b201b7379b643820447daae173c", null ],
     [ "IsActive", "class_vehicle_constraint.html#a44c4c794a9bc8e0812e72ee67644418e", null ],
+    [ "NotifyShapeChanged", "class_vehicle_constraint.html#ac3df25ba1e2c0a85e46a1b93702155cf", null ],
     [ "RestoreState", "class_vehicle_constraint.html#a2d36c8bcd57ab5136e962bd03f1992e8", null ],
     [ "SaveState", "class_vehicle_constraint.html#a6bdcc90af7d830f5821534d34be01ff7", null ],
     [ "SetMaxPitchRollAngle", "class_vehicle_constraint.html#a54aac9425dccebec4565b02df9351641", null ],

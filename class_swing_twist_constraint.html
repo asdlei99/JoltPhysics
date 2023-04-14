@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a259cdffe333947fb29e1455619b81dd5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5">GetSubType</a> () const override</td></tr>
 <tr class="memdesc:a259cdffe333947fb29e1455619b81dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sub type of a constraint.  <a href="class_swing_twist_constraint.html#a259cdffe333947fb29e1455619b81dd5">More...</a><br /></td></tr>
 <tr class="separator:a259cdffe333947fb29e1455619b81dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab510d96b7f9f7df51cea9b2400474db4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#ab510d96b7f9f7df51cea9b2400474db4">NotifyShapeChanged</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDeltaCOM) override</td></tr>
+<tr class="separator:ab510d96b7f9f7df51cea9b2400474db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51932e901316b06ac2c5a55c5ce54856"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#a51932e901316b06ac2c5a55c5ce54856">SetupVelocityConstraint</a> (float inDeltaTime) override</td></tr>
 <tr class="separator:a51932e901316b06ac2c5a55c5ce54856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf698847ac574454093180b23cc74a4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_swing_twist_constraint.html#acf698847ac574454093180b23cc74a4e">WarmStartVelocityConstraint</a> (float inWarmStartImpulseRatio) override</td></tr>
@@ -281,6 +283,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a51361e09906d05f85d341d1bad2cecd5 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e643bd3c3a9167c70037d3eb87acb75 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a2e643bd3c3a9167c70037d3eb87acb75">SetUserData</a> (<a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a> inUserData)</td></tr>
 <tr class="separator:a2e643bd3c3a9167c70037d3eb87acb75 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3072411d2c9da10356f2087cdc02ec70 inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a3072411d2c9da10356f2087cdc02ec70">NotifyShapeChanged</a> (const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;inBodyID, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDeltaCOM)=0</td></tr>
+<tr class="separator:a3072411d2c9da10356f2087cdc02ec70 inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">BuildIslands</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inConstraintIndex, <a class="el" href="class_island_builder.html">IslandBuilder</a> &amp;ioBuilder, <a class="el" href="class_body_manager.html">BodyManager</a> &amp;inBodyManager)=0</td></tr>
 <tr class="memdesc:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link bodies that are connected by this constraint in the island builder.  <a href="class_constraint.html#af62388f6f234f8cd7d24af34e49180fd">More...</a><br /></td></tr>
 <tr class="separator:af62388f6f234f8cd7d24af34e49180fd inherit pub_methods_class_constraint"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1164,6 +1168,51 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab510d96b7f9f7df51cea9b2400474db4" name="ab510d96b7f9f7df51cea9b2400474db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab510d96b7f9f7df51cea9b2400474db4">&#9670;&#160;</a></span>NotifyShapeChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SwingTwistConstraint::NotifyShapeChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td>
+          <td class="paramname"><em>inBodyID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDeltaCOM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Notify the constraint that the shape of a body has changed and that its center of mass has moved by inDeltaCOM. Bodies don't know which constraints are connected to them so the user is responsible for notifying the relevant constraints when a body changes. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inBodyID</td><td>ID of the body that has changed </td></tr>
+    <tr><td class="paramname">inDeltaCOM</td><td>The delta of the center of mass of the body (shape-&gt;GetCenterOfMass() - shape_before_change-&gt;GetCenterOfMass()) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_constraint.html#a3072411d2c9da10356f2087cdc02ec70">Constraint</a>.</p>
 
 </div>
 </div>

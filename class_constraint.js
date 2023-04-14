@@ -16,6 +16,7 @@ var class_constraint =
     [ "GetType", "class_constraint.html#a6e290088c6049b1f1d1fb26df96dce3a", null ],
     [ "GetUserData", "class_constraint.html#a51361e09906d05f85d341d1bad2cecd5", null ],
     [ "IsActive", "class_constraint.html#a2181f0c1fdc1de4b22afcd42e1b2273a", null ],
+    [ "NotifyShapeChanged", "class_constraint.html#a3072411d2c9da10356f2087cdc02ec70", null ],
     [ "RestoreState", "class_constraint.html#a9a8b58f759bee231ebbfc7147041a0b7", null ],
     [ "SaveState", "class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b", null ],
     [ "SetDrawConstraintSize", "class_constraint.html#ae26efcf11518c9b1c2e15821ca7d8937", null ],

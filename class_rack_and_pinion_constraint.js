@@ -7,6 +7,7 @@ var class_rack_and_pinion_constraint =
     [ "GetConstraintToBody2Matrix", "class_rack_and_pinion_constraint.html#a06a84a89bfdc1be4679f60e56defe18a", null ],
     [ "GetSubType", "class_rack_and_pinion_constraint.html#ae8c15998c1efe563c3153b27c58ab87a", null ],
     [ "GetTotalLambda", "class_rack_and_pinion_constraint.html#a10684549bb08d47150e26754db83179d", null ],
+    [ "NotifyShapeChanged", "class_rack_and_pinion_constraint.html#ae5158af0c72fb1b412c1b17a2f8389aa", null ],
     [ "RestoreState", "class_rack_and_pinion_constraint.html#a466997d9cdcd2cae27eca964faa5ebd3", null ],
     [ "SaveState", "class_rack_and_pinion_constraint.html#a7af920eb7de9a8e52f80b2ca386fb8a5", null ],
     [ "SetConstraints", "class_rack_and_pinion_constraint.html#a988486107b258cdec71cd2bff44c8080", null ],

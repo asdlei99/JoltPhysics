@@ -9,6 +9,7 @@ var class_point_constraint =
     [ "GetLocalSpacePoint2", "class_point_constraint.html#aec29f6eef0cbafd0b0f9a97caa50b83a", null ],
     [ "GetSubType", "class_point_constraint.html#a0993bfa066a32b159d45cf54b346163f", null ],
     [ "GetTotalLambdaPosition", "class_point_constraint.html#a393464647f68f5dbfcdb034b00d4b1d1", null ],
+    [ "NotifyShapeChanged", "class_point_constraint.html#a988ec795ba7e071d1cd256afc5edd6cf", null ],
     [ "RestoreState", "class_point_constraint.html#a69f08d8239b0202d27429f0ca15de580", null ],
     [ "SaveState", "class_point_constraint.html#aa6743d4f861f34b303b5bddadb3157d9", null ],
     [ "SetPoint1", "class_point_constraint.html#aa6ac6b94199f9b28b59a0e2c1a07c85d", null ],

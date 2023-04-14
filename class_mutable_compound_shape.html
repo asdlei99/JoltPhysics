@@ -598,7 +598,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Recalculate the center of mass and shift all objects so they're centered around it (this needs to be done of dynamic bodies and if the center of mass changes significantly due to adding / removing / repositioning sub shapes or else the simulation will look unnatural) </p>
+<p >Recalculate the center of mass and shift all objects so they're centered around it (this needs to be done of dynamic bodies and if the center of mass changes significantly due to adding / removing / repositioning sub shapes or else the simulation will look unnatural) Note that after adjusting the center of mass of an object you need to call <a class="el" href="class_body_interface.html#aa2e0c12f152375b42b3de56faf9bec86">BodyInterface::NotifyShapeChanged</a> and <a class="el" href="class_constraint.html#a3072411d2c9da10356f2087cdc02ec70">Constraint::NotifyShapeChanged</a> on the relevant bodies / constraints. </p>
 
 </div>
 </div>
