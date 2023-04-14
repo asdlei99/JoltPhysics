@@ -102,7 +102,6 @@ $(document).ready(function(){initNavTree('class_contact_constraint_manager.html'
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_contact_constraint_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ContactConstraintManager Class Reference</div></div>
@@ -217,12 +216,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a501d34ffcc34b30de6d541887a901057 inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
 <tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1805b7efe5c1d9bcc00e45dc2406fb0d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a1805b7efe5c1d9bcc00e45dc2406fb0d">sFinalizeContactAllocator</a> (<a class="el" href="struct_physics_update_context_1_1_step.html">PhysicsUpdateContext::Step</a> &amp;ioStep, const <a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;inAllocator)</td></tr>
-<tr class="memdesc:a1805b7efe5c1d9bcc00e45dc2406fb0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect information from the contact allocator and accumulate it in the step.  <a href="class_contact_constraint_manager.html#a1805b7efe5c1d9bcc00e45dc2406fb0d">More...</a><br /></td></tr>
-<tr class="separator:a1805b7efe5c1d9bcc00e45dc2406fb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -954,44 +947,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>AddContactConstraint will also setup the velocity constraints for the first sub step. For subsequent sub steps this function must be called prior to warm starting the constraint. </p>
-
-</div>
-</div>
-<a id="a1805b7efe5c1d9bcc00e45dc2406fb0d" name="a1805b7efe5c1d9bcc00e45dc2406fb0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1805b7efe5c1d9bcc00e45dc2406fb0d">&#9670;&#160;</a></span>sFinalizeContactAllocator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ContactConstraintManager::sFinalizeContactAllocator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_physics_update_context_1_1_step.html">PhysicsUpdateContext::Step</a> &amp;&#160;</td>
-          <td class="paramname"><em>ioStep</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_contact_constraint_manager_1_1_contact_allocator.html">ContactAllocator</a> &amp;&#160;</td>
-          <td class="paramname"><em>inAllocator</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Collect information from the contact allocator and accumulate it in the step. </p>
 
 </div>
 </div>
