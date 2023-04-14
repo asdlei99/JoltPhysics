@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_serializable_attribute.html#a2d75640f1636e85a47da938b71b3a736":[3,0,227,14],
+"class_serializable_attribute.html#a30c9f23371b5552485ebf5bfea47afef":[3,0,227,15],
 "class_serializable_attribute.html#a35e667b9f50f27293b7dd1abf0753305":[3,0,227,1],
 "class_serializable_attribute.html#a6738344c9c5ddbf28680db6511dda210":[3,0,227,9],
 "class_serializable_attribute.html#a72008d94009acc09cec81d10486783eb":[3,0,227,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_skeleton_mapper_1_1_unmapped.html#a2420a9dbf237dfdd9fb74c7b8bd1eec0":[3,0,243,3,1],
 "class_skeleton_mapper_1_1_unmapped.html#a2fc5f1a02042bc53fe51ce0e76b88225":[3,0,243,3,2],
 "class_skeleton_mapper_1_1_unmapped.html#a59408695490b38ff289316be1b90c8e2":[3,0,243,3,0],
-"class_skeleton_mapper_1_1_unmapped.html#ad91b1fd5a34203f9aeacd6234c56da17":[3,0,243,3,3],
-"class_skeleton_pose.html":[3,0,244],
-"class_skeleton_pose.html#a067c1fa5353fa017050c331a43aeb63c":[3,0,244,13]
+"class_skeleton_mapper_1_1_unmapped.html#ad91b1fd5a34203f9aeacd6234c56da17":[3,0,243,3,3]
 };

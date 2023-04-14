@@ -4,6 +4,8 @@ var class_motorcycle_controller =
     [ "Draw", "class_motorcycle_controller.html#ad6cec4ca1b528d91c5ff6e5d6f225b2b", null ],
     [ "GetWheelBase", "class_motorcycle_controller.html#ab3fdaf44396f6325dccb7cc1e8aab6a7", null ],
     [ "PreCollide", "class_motorcycle_controller.html#a8ef4e6dc7edda1ad1d6219b38c4a8e66", null ],
+    [ "RestoreState", "class_motorcycle_controller.html#a6487c412c79e33f47863ab08f2b63935", null ],
+    [ "SaveState", "class_motorcycle_controller.html#aaf36cea2087933532624f37c78052a93", null ],
     [ "SolveLongitudinalAndLateralConstraints", "class_motorcycle_controller.html#a2cbe39aef2e451e60fb0a021e8d31d92", null ],
     [ "mAppliedImpulse", "class_motorcycle_controller.html#ad9e7a708da11a8da6e91bbb4c56b08d7", null ],
     [ "mLeanSmoothingFactor", "class_motorcycle_controller.html#a7196a7d0932e3e537e39514385e7184c", null ],

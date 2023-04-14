@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"class_triangle_shape.html#a9f8379fa338802436700b86a07fab3be":[3,0,286,23],
+"class_triangle_shape.html#aa130f6df7eb934713fce70d29bd5d526":[3,0,286,25],
 "class_triangle_shape.html#aa28d229f86caa87f195cf1bf9b0529f2":[3,0,286,24],
 "class_triangle_shape.html#aadffe4301ac4d7a85693978a441b6c08":[3,0,286,7],
 "class_triangle_shape.html#aaf0e4efd78402e813ebd25d219020773":[3,0,286,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "class_vec4.html#a37a85cfb52ff5a074877db484772cc63":[3,0,300,60],
 "class_vec4.html#a3b17e39450cc5af4ab75661f2ab76d6f":[3,0,300,27],
 "class_vec4.html#a443fbe63a61166e98e61af3aac0849ee":[3,0,300,31],
-"class_vec4.html#a4aa88b04387365a68c74880173fabc60":[3,0,300,62],
-"class_vec4.html#a4eb731c3e56eb2eab155f38a1c888834":[3,0,300,22],
-"class_vec4.html#a5e1fefaa806551ca4fae202b62965e93":[3,0,300,24]
+"class_vec4.html#a4aa88b04387365a68c74880173fabc60":[3,0,300,62]
 };

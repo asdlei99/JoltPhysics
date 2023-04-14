@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"class_wheel.html#a024cd676398378408f174ebdd8fefd6c":[3,0,319,39],
+"class_wheel.html#a06226466b8c4ff0f65ae329bb3b7a3b2":[3,0,319,12],
 "class_wheel.html#a155778dd99828ddbcc6b4e34305b40f5":[3,0,319,22],
 "class_wheel.html#a1972924bef7c43ef8544a7ba2dc28c07":[3,0,319,14],
 "class_wheel.html#a1b32822acc30f1afc25f57de681c7389":[3,0,319,0],
@@ -164,8 +166,8 @@ var NAVTREEINDEX23 =
 "functions_enum.html":[3,3,4],
 "functions_eval.html":[3,3,5],
 "functions_f.html":[3,3,0,5],
-"functions_func.html":[3,3,1,0],
 "functions_func.html":[3,3,1],
+"functions_func.html":[3,3,1,0],
 "functions_func_b.html":[3,3,1,1],
 "functions_func_c.html":[3,3,1,2],
 "functions_func_d.html":[3,3,1,3],
@@ -228,8 +230,8 @@ var NAVTREEINDEX23 =
 "functions_y.html":[3,3,0,24],
 "functions_z.html":[3,3,0,25],
 "functions_~.html":[3,3,0,26],
-"globals.html":[4,1,0,0],
 "globals.html":[4,1,0],
+"globals.html":[4,1,0,0],
 "globals_b.html":[4,1,0,1],
 "globals_c.html":[4,1,0,2],
 "globals_d.html":[4,1,0,3],
@@ -238,8 +240,8 @@ var NAVTREEINDEX23 =
 "globals_enum.html":[4,1,4],
 "globals_eval.html":[4,1,5],
 "globals_f.html":[4,1,0,5],
-"globals_func.html":[4,1,1,0],
 "globals_func.html":[4,1,1],
+"globals_func.html":[4,1,1,0],
 "globals_func_b.html":[4,1,1,1],
 "globals_func_c.html":[4,1,1,2],
 "globals_func_d.html":[4,1,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "globals_func_f.html":[4,1,1,5],
 "globals_func_g.html":[4,1,1,6],
 "globals_func_h.html":[4,1,1,7],
-"globals_func_i.html":[4,1,1,8],
-"globals_func_j.html":[4,1,1,9],
-"globals_func_m.html":[4,1,1,10]
+"globals_func_i.html":[4,1,1,8]
 };

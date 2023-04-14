@@ -198,6 +198,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a8ef4e6dc7edda1ad1d6219b38c4a8e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cbe39aef2e451e60fb0a021e8d31d92"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a2cbe39aef2e451e60fb0a021e8d31d92">SolveLongitudinalAndLateralConstraints</a> (float inDeltaTime) override</td></tr>
 <tr class="separator:a2cbe39aef2e451e60fb0a021e8d31d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf36cea2087933532624f37c78052a93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#aaf36cea2087933532624f37c78052a93">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const override</td></tr>
+<tr class="separator:aaf36cea2087933532624f37c78052a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6487c412c79e33f47863ab08f2b63935"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a6487c412c79e33f47863ab08f2b63935">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) override</td></tr>
+<tr class="separator:a6487c412c79e33f47863ab08f2b63935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6cec4ca1b528d91c5ff6e5d6f225b2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#ad6cec4ca1b528d91c5ff6e5d6f225b2b">Draw</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const override</td></tr>
 <tr class="separator:ad6cec4ca1b528d91c5ff6e5d6f225b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_wheeled_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_wheeled_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_wheeled_vehicle_controller.html">WheeledVehicleController</a></td></tr>
@@ -419,6 +423,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_wheeled_vehicle_controller.html#a8b2dc5370272f15c968425a422ccaeff">WheeledVehicleController</a>.</p>
+
+</div>
+</div>
+<a id="a6487c412c79e33f47863ab08f2b63935" name="a6487c412c79e33f47863ab08f2b63935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6487c412c79e33f47863ab08f2b63935">&#9670;&#160;</a></span>RestoreState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MotorcycleController::RestoreState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_wheeled_vehicle_controller.html#a832989bb00f7c2577925f3bb978d116a">WheeledVehicleController</a>.</p>
+
+</div>
+</div>
+<a id="aaf36cea2087933532624f37c78052a93" name="aaf36cea2087933532624f37c78052a93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf36cea2087933532624f37c78052a93">&#9670;&#160;</a></span>SaveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MotorcycleController::SaveState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
+          <td class="paramname"><em>inStream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_wheeled_vehicle_controller.html#ad625db11394127fd656e149e5131c10a">WheeledVehicleController</a>.</p>
 
 </div>
 </div>
