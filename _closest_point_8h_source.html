@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('_closest_point_8h_source.html',''); in
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordtype">float</span> d01 = v0.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(v1); </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="keywordtype">float</span> denominator = d00 * d11 - d01 * d01; </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">if</span> (abs(denominator) &lt; FLT_EPSILON)</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordflow">if</span> (abs(denominator) &lt; 1.0e-12f)</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            {</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                <span class="comment">// Degenerate triangle, return coordinates along longest edge</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                <span class="keywordflow">if</span> (d00 &gt; d11)</div>
@@ -191,7 +191,7 @@ $(document).ready(function(){initNavTree('_closest_point_8h_source.html',''); in
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <span class="keywordtype">float</span> d12 = v1.<a class="code hl_function" href="class_vec3.html#a0e078ff09f69e669db71a2b0e37939ff">Dot</a>(v2); </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            <span class="keywordtype">float</span> denominator = d11 * d22 - d12 * d12; </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keywordflow">if</span> (abs(denominator) &lt; FLT_EPSILON)</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <span class="keywordflow">if</span> (abs(denominator) &lt; 1.0e-12f)</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            {</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                <span class="comment">// Degenerate triangle, return coordinates along longest edge</span></div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                <span class="keywordflow">if</span> (d11 &gt; d22)</div>
