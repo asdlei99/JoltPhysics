@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e88c415ed7c4ae5cea93506fd53ae28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a9e88c415ed7c4ae5cea93506fd53ae28">GetLocalUp</a> () const</td></tr>
 <tr class="memdesc:a9e88c415ed7c4ae5cea93506fd53ae28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the local space up vector of the vehicle.  <a href="class_vehicle_constraint.html#a9e88c415ed7c4ae5cea93506fd53ae28">More...</a><br /></td></tr>
 <tr class="separator:a9e88c415ed7c4ae5cea93506fd53ae28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f86aee9e1cde819a5cbe56fa0a6aa4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a6f86aee9e1cde819a5cbe56fa0a6aa4e">GetWorldUp</a> () const</td></tr>
+<tr class="memdesc:a6f86aee9e1cde819a5cbe56fa0a6aa4e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_vector.html" title="Templatized vector class.">Vector</a> indicating the world space up direction (used to limit vehicle pitch/roll), calculated every frame by inverting gravity.  <a href="class_vehicle_constraint.html#a6f86aee9e1cde819a5cbe56fa0a6aa4e">More...</a><br /></td></tr>
+<tr class="separator:a6f86aee9e1cde819a5cbe56fa0a6aa4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402cd50d87d5f478036104b9185fb2db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a402cd50d87d5f478036104b9185fb2db">GetVehicleBody</a> () const</td></tr>
 <tr class="memdesc:a402cd50d87d5f478036104b9185fb2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the vehicle body.  <a href="class_vehicle_constraint.html#a402cd50d87d5f478036104b9185fb2db">More...</a><br /></td></tr>
 <tr class="separator:a402cd50d87d5f478036104b9185fb2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -948,6 +951,33 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a6f86aee9e1cde819a5cbe56fa0a6aa4e" name="a6f86aee9e1cde819a5cbe56fa0a6aa4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f86aee9e1cde819a5cbe56fa0a6aa4e">&#9670;&#160;</a></span>GetWorldUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> VehicleConstraint::GetWorldUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_vector.html" title="Templatized vector class.">Vector</a> indicating the world space up direction (used to limit vehicle pitch/roll), calculated every frame by inverting gravity. </p>
 
 </div>
 </div>

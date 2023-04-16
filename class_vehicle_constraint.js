@@ -20,6 +20,7 @@ var class_vehicle_constraint =
     [ "GetWheels", "class_vehicle_constraint.html#a5b39b845e91504642e180a4f35df0a45", null ],
     [ "GetWheels", "class_vehicle_constraint.html#af2a24975a01de3cf22ab55ba2ac6ed74", null ],
     [ "GetWheelWorldTransform", "class_vehicle_constraint.html#ab4e43b201b7379b643820447daae173c", null ],
+    [ "GetWorldUp", "class_vehicle_constraint.html#a6f86aee9e1cde819a5cbe56fa0a6aa4e", null ],
     [ "IsActive", "class_vehicle_constraint.html#a44c4c794a9bc8e0812e72ee67644418e", null ],
     [ "NotifyShapeChanged", "class_vehicle_constraint.html#ac3df25ba1e2c0a85e46a1b93702155cf", null ],
     [ "RestoreState", "class_vehicle_constraint.html#a2d36c8bcd57ab5136e962bd03f1992e8", null ],
