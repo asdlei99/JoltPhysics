@@ -125,8 +125,14 @@ Macros</h2></td></tr>
 <tr class="separator:a06421dbef09f6a781ed52965f5f5eac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac5e592f9e714fda0c006772758e3c6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#aac5e592f9e714fda0c006772758e3c6f">JPH_IF_NOT_ANDROID</a>(x)&#160;&#160;&#160;x</td></tr>
 <tr class="separator:aac5e592f9e714fda0c006772758e3c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2712a9b0f778ab9d1aa5118b4e8e6bd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a2712a9b0f778ab9d1aa5118b4e8e6bd8">JPH_EXPORT</a></td></tr>
+<tr class="separator:a2712a9b0f778ab9d1aa5118b4e8e6bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c075faa1ac3c9c5263a6729726c931"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#ac2c075faa1ac3c9c5263a6729726c931">JPH_NO_EXPORT</a></td></tr>
+<tr class="separator:ac2c075faa1ac3c9c5263a6729726c931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e4d18d1740a496e87b0b745a83175e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a7e4d18d1740a496e87b0b745a83175e1">JPH_CLANG_SUPPRESS_WARNING</a>(w)</td></tr>
 <tr class="separator:a7e4d18d1740a496e87b0b745a83175e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b2f8bbe701eb1d5abb795108938d94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a56b2f8bbe701eb1d5abb795108938d94">JPH_CLANG_13_PLUS_SUPPRESS_WARNING</a>(w)</td></tr>
+<tr class="separator:a56b2f8bbe701eb1d5abb795108938d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d791d2b1f95fa056399441a2ad8667"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a>(w)</td></tr>
 <tr class="separator:a46d791d2b1f95fa056399441a2ad8667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e50ac7352b8f5948a91b543756c84a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8">JPH_MSVC_SUPPRESS_WARNING</a>(w)</td></tr>
@@ -212,6 +218,24 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="a56b2f8bbe701eb1d5abb795108938d94" name="a56b2f8bbe701eb1d5abb795108938d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b2f8bbe701eb1d5abb795108938d94">&#9670;&#160;</a></span>JPH_CLANG_13_PLUS_SUPPRESS_WARNING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_CLANG_13_PLUS_SUPPRESS_WARNING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">w</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e4d18d1740a496e87b0b745a83175e1" name="a7e4d18d1740a496e87b0b745a83175e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e4d18d1740a496e87b0b745a83175e1">&#9670;&#160;</a></span>JPH_CLANG_SUPPRESS_WARNING</h2>
 
@@ -238,6 +262,20 @@ Typedefs</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define JPH_CRASH&#160;&#160;&#160;do { int *ptr = nullptr; *ptr = 0; } while (false)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2712a9b0f778ab9d1aa5118b4e8e6bd8" name="a2712a9b0f778ab9d1aa5118b4e8e6bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2712a9b0f778ab9d1aa5118b4e8e6bd8">&#9670;&#160;</a></span>JPH_EXPORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_EXPORT</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,6 +539,20 @@ Typedefs</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    }                                                                                           \</div>
 <div class="line">    JPH_SUPPRESS_WARNING_POP</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="ac2c075faa1ac3c9c5263a6729726c931" name="ac2c075faa1ac3c9c5263a6729726c931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c075faa1ac3c9c5263a6729726c931">&#9670;&#160;</a></span>JPH_NO_EXPORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define JPH_NO_EXPORT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a06421dbef09f6a781ed52965f5f5eac8" name="a06421dbef09f6a781ed52965f5f5eac8"></a>

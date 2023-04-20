@@ -134,10 +134,10 @@ Macros</h2></td></tr>
 <tr class="memitem:ad4065f7f547ab9ee221c76b6dc313425"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#ad4065f7f547ab9ee221c76b6dc313425">JPH_PROFILE_END</a>()&#160;&#160;&#160;do { <a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>(); delete <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>; <a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a> = nullptr; } while (false)</td></tr>
 <tr class="memdesc:ad4065f7f547ab9ee221c76b6dc313425"><td class="mdescLeft">&#160;</td><td class="mdescRight">End instrumenting program.  <a href="_profiler_8h.html#ad4065f7f547ab9ee221c76b6dc313425">More...</a><br /></td></tr>
 <tr class="separator:ad4065f7f547ab9ee221c76b6dc313425"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5455272d603b90d629b74c0d64338173"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name)&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name); } while (false)</td></tr>
+<tr class="memitem:a5455272d603b90d629b74c0d64338173"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">JPH_PROFILE_THREAD_START</a>(name)&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#ad957acc068d3fd9af54ba3d3e6f80d8f">ProfileThread::sSetInstance</a>(new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name)); } while (false)</td></tr>
 <tr class="memdesc:a5455272d603b90d629b74c0d64338173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start instrumenting a thread.  <a href="_profiler_8h.html#a5455272d603b90d629b74c0d64338173">More...</a><br /></td></tr>
 <tr class="separator:a5455272d603b90d629b74c0d64338173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdb6d6bc05aad36435219ee5f631efc8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>()&#160;&#160;&#160;do { delete <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a>; <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = nullptr; } while (false)</td></tr>
+<tr class="memitem:acdb6d6bc05aad36435219ee5f631efc8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">JPH_PROFILE_THREAD_END</a>()&#160;&#160;&#160;do { delete <a class="el" href="class_profile_thread.html#a90519c92e016925589a4866b3dc916b7">ProfileThread::sGetInstance</a>(); <a class="el" href="class_profile_thread.html#ad957acc068d3fd9af54ba3d3e6f80d8f">ProfileThread::sSetInstance</a>(nullptr); } while (false)</td></tr>
 <tr class="memdesc:acdb6d6bc05aad36435219ee5f631efc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">End instrumenting a thread.  <a href="_profiler_8h.html#acdb6d6bc05aad36435219ee5f631efc8">More...</a><br /></td></tr>
 <tr class="separator:acdb6d6bc05aad36435219ee5f631efc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c67544eb8ec8c174946341070a4ec0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_profiler_8h.html#a25c67544eb8ec8c174946341070a4ec0">JPH_PROFILE_TAG2</a>(line)&#160;&#160;&#160;profile##line</td></tr>
@@ -323,7 +323,7 @@ Macros</h2></td></tr>
           <td class="memname">#define JPH_PROFILE_THREAD_END</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;do { delete <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a>; <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = nullptr; } while (false)</td>
+          <td>&#160;&#160;&#160;do { delete <a class="el" href="class_profile_thread.html#a90519c92e016925589a4866b3dc916b7">ProfileThread::sGetInstance</a>(); <a class="el" href="class_profile_thread.html#ad957acc068d3fd9af54ba3d3e6f80d8f">ProfileThread::sSetInstance</a>(nullptr); } while (false)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -343,7 +343,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name</td><td>)</td>
-          <td>&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">ProfileThread::sInstance</a> = new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name); } while (false)</td>
+          <td>&#160;&#160;&#160;do { if (<a class="el" href="class_profiler.html#a804901c292686e870e221a0fa0621dbe">Profiler::sInstance</a>) <a class="el" href="class_profile_thread.html#ad957acc068d3fd9af54ba3d3e6f80d8f">ProfileThread::sSetInstance</a>(new <a class="el" href="class_profile_thread.html">ProfileThread</a>(name)); } while (false)</td>
         </tr>
       </table>
 </div><div class="memdoc">

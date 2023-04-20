@@ -24,7 +24,7 @@ var searchData=
   ['sgreen_21',['sGreen',['../class_color.html#a36eb714e97155bdeda7bc276acf007e2',1,'Color']]],
   ['sgrey_22',['sGrey',['../class_color.html#adbb787dece4b7f18b70590bdff300a4b',1,'Color']]],
   ['shouldearlyoutfraction_23',['ShouldEarlyOutFraction',['../class_collision_collector_traits_cast_ray.html#afa6f91ce29ad08f2e10f02de6b6f88c8',1,'CollisionCollectorTraitsCastRay::ShouldEarlyOutFraction()'],['../class_collision_collector_traits_cast_shape.html#a0e140c58d35f83e0992dd50e7f51bb20',1,'CollisionCollectorTraitsCastShape::ShouldEarlyOutFraction()'],['../class_collision_collector_traits_collide_shape.html#ae17bd05b85c1d2e11adcbd1dad050299',1,'CollisionCollectorTraitsCollideShape::ShouldEarlyOutFraction()']]],
-  ['sinstance_24',['sInstance',['../class_factory.html#afdbac3e3e59f7981d7dec696e914e69f',1,'Factory::sInstance()'],['../class_profiler.html#a804901c292686e870e221a0fa0621dbe',1,'Profiler::sInstance()'],['../class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a',1,'ProfileThread::sInstance()'],['../class_debug_renderer.html#ab03458cbd419bc22da1d176b27ce74ea',1,'DebugRenderer::sInstance()']]],
+  ['sinstance_24',['sInstance',['../class_factory.html#afdbac3e3e59f7981d7dec696e914e69f',1,'Factory::sInstance()'],['../class_profiler.html#a804901c292686e870e221a0fa0621dbe',1,'Profiler::sInstance()'],['../class_debug_renderer.html#ab03458cbd419bc22da1d176b27ce74ea',1,'DebugRenderer::sInstance()']]],
   ['slightgrey_25',['sLightGrey',['../class_color.html#a952b07c63d2b23a6b3c81efcd9fad9fe',1,'Color']]],
   ['snullidentifier_26',['sNullIdentifier',['../class_object_stream.html#afb1b32a3aff83d99a4ac14c5cb828778',1,'ObjectStream']]],
   ['sorange_27',['sOrange',['../class_color.html#a990ba9412e70ae76b1108c2447b62744',1,'Color']]],

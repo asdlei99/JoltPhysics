@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('class_profile_thread.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_profile_thread-members.html">List of all members</a>  </div>
@@ -136,6 +137,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_non_copyable.html#aaf9b12dcaae80c9d304df7a941d4e21f">operator=</a> (const <a class="el" href="class_non_copyable.html">NonCopyable</a> &amp;)=delete</td></tr>
 <tr class="separator:aaf9b12dcaae80c9d304df7a941d4e21f inherit pub_methods_class_non_copyable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad957acc068d3fd9af54ba3d3e6f80d8f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile_thread.html#ad957acc068d3fd9af54ba3d3e6f80d8f">sSetInstance</a> (<a class="el" href="class_profile_thread.html">ProfileThread</a> *inInstance)</td></tr>
+<tr class="separator:ad957acc068d3fd9af54ba3d3e6f80d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90519c92e016925589a4866b3dc916b7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_profile_thread.html">ProfileThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile_thread.html#a90519c92e016925589a4866b3dc916b7">sGetInstance</a> ()</td></tr>
+<tr class="separator:a90519c92e016925589a4866b3dc916b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa442ddaa639a059c3a99f40186ffe676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_t_l_allocator_8h.html#a0dacf8f805f8da23c2a50d9f7eb41ece">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile_thread.html#aa442ddaa639a059c3a99f40186ffe676">mThreadName</a></td></tr>
@@ -152,8 +160,6 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:af045dc3280abc3cb73e0f0915bd83a5f"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile_thread.html#af045dc3280abc3cb73e0f0915bd83a5f">cMaxSamples</a> = 65536</td></tr>
 <tr class="separator:af045dc3280abc3cb73e0f0915bd83a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90c637bb032d7413f3fa4f3c2c9bc37a"><td class="memItemLeft" align="right" valign="top">static thread_local <a class="el" href="class_profile_thread.html">ProfileThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_profile_thread.html#a90c637bb032d7413f3fa4f3c2c9bc37a">sInstance</a> = nullptr</td></tr>
-<tr class="separator:a90c637bb032d7413f3fa4f3c2c9bc37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Collects all samples of a single thread. </p>
@@ -205,6 +211,58 @@ Static Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a90519c92e016925589a4866b3dc916b7" name="a90519c92e016925589a4866b3dc916b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90519c92e016925589a4866b3dc916b7">&#9670;&#160;</a></span>sGetInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_profile_thread.html">ProfileThread</a> * ProfileThread::sGetInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad957acc068d3fd9af54ba3d3e6f80d8f" name="ad957acc068d3fd9af54ba3d3e6f80d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad957acc068d3fd9af54ba3d3e6f80d8f">&#9670;&#160;</a></span>sSetInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ProfileThread::sSetInstance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_profile_thread.html">ProfileThread</a> *&#160;</td>
+          <td class="paramname"><em>inInstance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -279,28 +337,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Name of the thread that we're collecting information for. </p>
-
-</div>
-</div>
-<a id="a90c637bb032d7413f3fa4f3c2c9bc37a" name="a90c637bb032d7413f3fa4f3c2c9bc37a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90c637bb032d7413f3fa4f3c2c9bc37a">&#9670;&#160;</a></span>sInstance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">thread_local <a class="el" href="class_profile_thread.html">ProfileThread</a> * ProfileThread::sInstance = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

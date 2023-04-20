@@ -2,8 +2,10 @@ var _core_8h =
 [
     [ "JPH_BREAKPOINT", "_core_8h.html#a252846bbcc9c2281dba7ad4673e708ce", null ],
     [ "JPH_CACHE_LINE_SIZE", "_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278", null ],
+    [ "JPH_CLANG_13_PLUS_SUPPRESS_WARNING", "_core_8h.html#a56b2f8bbe701eb1d5abb795108938d94", null ],
     [ "JPH_CLANG_SUPPRESS_WARNING", "_core_8h.html#a7e4d18d1740a496e87b0b745a83175e1", null ],
     [ "JPH_CRASH", "_core_8h.html#acffb1280ceae712be03de4d700cc758b", null ],
+    [ "JPH_EXPORT", "_core_8h.html#a2712a9b0f778ab9d1aa5118b4e8e6bd8", null ],
     [ "JPH_GCC_SUPPRESS_WARNING", "_core_8h.html#a46d791d2b1f95fa056399441a2ad8667", null ],
     [ "JPH_IF_DEBUG", "_core_8h.html#a3feba9adfefa0cf951f6b4aeb4990fb4", null ],
     [ "JPH_IF_DEBUG_RENDERER", "_core_8h.html#ab6d002cadb39841b46bb93fe8a20e00e", null ],
@@ -18,6 +20,7 @@ var _core_8h =
     [ "JPH_MSVC_SUPPRESS_WARNING", "_core_8h.html#a7e50ac7352b8f5948a91b543756c84a8", null ],
     [ "JPH_NAMESPACE_BEGIN", "_core_8h.html#ad14098b68b8c44ea6112601031268405", null ],
     [ "JPH_NAMESPACE_END", "_core_8h.html#a73da8725998b00321a9db341202d650d", null ],
+    [ "JPH_NO_EXPORT", "_core_8h.html#ac2c075faa1ac3c9c5263a6729726c931", null ],
     [ "JPH_PLATFORM_WINDOWS", "_core_8h.html#a06421dbef09f6a781ed52965f5f5eac8", null ],
     [ "JPH_PLATFORM_WINDOWS_UWP", "_core_8h.html#a32aff07e497254f9fbe9bbe669c94bcf", null ],
     [ "JPH_STACK_ALLOC", "_core_8h.html#a438e7b853f86742bcbdf0faeaa2094a2", null ],
