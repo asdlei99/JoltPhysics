@@ -116,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a618a8eb64122263b8c64109f03ac47b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get axis and angle that represents this quaternion, outAngle will always be in the range \([0, \pi]\).  <a href="class_quat.html#a618a8eb64122263b8c64109f03ac47b5">More...</a><br /></td></tr>
 <tr class="separator:a618a8eb64122263b8c64109f03ac47b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e71415ee746c38c27b04e7dbc9b4ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_quat.html#ae0e71415ee746c38c27b04e7dbc9b4ed">GetEulerAngles</a> () const</td></tr>
-<tr class="memdesc:ae0e71415ee746c38c27b04e7dbc9b4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to Euler angles.  <a href="class_quat.html#ae0e71415ee746c38c27b04e7dbc9b4ed">More...</a><br /></td></tr>
+<tr class="memdesc:ae0e71415ee746c38c27b04e7dbc9b4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to Euler angles. Rotation order is X then Y then Z (RotZ * RotY * RotX). Angles in radians.  <a href="class_quat.html#ae0e71415ee746c38c27b04e7dbc9b4ed">More...</a><br /></td></tr>
 <tr class="separator:ae0e71415ee746c38c27b04e7dbc9b4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a646b3edebee182d86159eed987ba91a0"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_quat.html#a646b3edebee182d86159eed987ba91a0">operator*</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inValue) const</td></tr>
 <tr class="memdesc:a646b3edebee182d86159eed987ba91a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate a vector by this quaternion.  <a href="class_quat.html#a646b3edebee182d86159eed987ba91a0">More...</a><br /></td></tr>
@@ -229,7 +229,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0686810998da92e9ab857b314b282d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random unit quaternion.  <a href="class_quat.html#a0686810998da92e9ab857b314b282d91">More...</a><br /></td></tr>
 <tr class="separator:a0686810998da92e9ab857b314b282d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef2428c09a41f3d0549d216ecfca710"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_quat.html#a1ef2428c09a41f3d0549d216ecfca710">sEulerAngles</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAngles)</td></tr>
-<tr class="memdesc:a1ef2428c09a41f3d0549d216ecfca710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from Euler angles.  <a href="class_quat.html#a1ef2428c09a41f3d0549d216ecfca710">More...</a><br /></td></tr>
+<tr class="memdesc:a1ef2428c09a41f3d0549d216ecfca710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from Euler angles. Rotation order is X then Y then Z (RotZ * RotY * RotX). Angles in radians.  <a href="class_quat.html#a1ef2428c09a41f3d0549d216ecfca710">More...</a><br /></td></tr>
 <tr class="separator:a1ef2428c09a41f3d0549d216ecfca710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60c11537faec1e7517a957f02afc4b6d"><td class="memItemLeft" align="right" valign="top">static JPH_INLINE <a class="el" href="class_quat.html">Quat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_quat.html#a60c11537faec1e7517a957f02afc4b6d">sLoadFloat3Unsafe</a> (const <a class="el" href="class_float3.html">Float3</a> &amp;inV)</td></tr>
 <tr class="memdesc:a60c11537faec1e7517a957f02afc4b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load 3 floats from memory (X, Y and Z component and then calculates W) reads 32 bits extra which it doesn't use.  <a href="class_quat.html#a60c11537faec1e7517a957f02afc4b6d">More...</a><br /></td></tr>
@@ -551,7 +551,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Conversion to Euler angles. </p>
+<p>Conversion to Euler angles. Rotation order is X then Y then Z (RotZ * RotY * RotX). Angles in radians. </p>
 
 </div>
 </div>
@@ -1505,7 +1505,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Conversion from Euler angles. </p>
+<p>Conversion from Euler angles. Rotation order is X then Y then Z (RotZ * RotY * RotX). Angles in radians. </p>
 
 </div>
 </div>
