@@ -20,6 +20,7 @@ var class_ragdoll =
     [ "GetRagdollSettings", "class_ragdoll.html#adf2f2237288c30779260c4b1e744a76d", null ],
     [ "GetRootTransform", "class_ragdoll.html#ab6ccff7d0aee7c9931a308c722614fff", null ],
     [ "GetWorldSpaceBounds", "class_ragdoll.html#a8ab1cc3715aafa05d4b04647c54282a3", null ],
+    [ "IsActive", "class_ragdoll.html#aa86e5cf49f753abc4ad077440d08faa0", null ],
     [ "RemoveFromPhysicsSystem", "class_ragdoll.html#a76f2d87e4f41cc22ff280b9c962698cf", null ],
     [ "SetGroupID", "class_ragdoll.html#add1a811191c5e75e489598594123e85b", null ],
     [ "SetLinearAndAngularVelocity", "class_ragdoll.html#a8ba64ad182563d9110980155b86538bc", null ],

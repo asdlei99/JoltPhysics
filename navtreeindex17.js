@@ -1,12 +1,13 @@
 var NAVTREEINDEX17 =
 {
+"class_ragdoll.html#abcf8c32f6b7cbdf98bc29e2bf7075ba7":[3,0,204,4],
 "class_ragdoll.html#abf6b6eb34e63af813cc4e394b536208e":[3,0,204,0],
-"class_ragdoll.html#ac0b96e2a568868b67792889d26137ec8":[3,0,204,23],
+"class_ragdoll.html#ac0b96e2a568868b67792889d26137ec8":[3,0,204,24],
 "class_ragdoll.html#ac57cdfcd77dc9dce4679fcb45012083a":[3,0,204,10],
-"class_ragdoll.html#add1a811191c5e75e489598594123e85b":[3,0,204,21],
+"class_ragdoll.html#add1a811191c5e75e489598594123e85b":[3,0,204,22],
 "class_ragdoll.html#adf2f2237288c30779260c4b1e744a76d":[3,0,204,17],
 "class_ragdoll.html#aeb6b26fdc0eefbb815af1d06c9e5da69":[3,0,204,16],
-"class_ragdoll.html#af287d5dd184fd0349ba44a279f6cacdf":[3,0,204,26],
+"class_ragdoll.html#af287d5dd184fd0349ba44a279f6cacdf":[3,0,204,27],
 "class_ragdoll.html#afbd932bcd7ceae5811204c5c1219d5ac":[3,0,204,1],
 "class_ragdoll_settings.html":[3,0,205],
 "class_ragdoll_settings.html#a0d32abac6067ec311bb89c65f1fd6e3e":[3,0,205,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "class_scaled_shape.html#ad222933cc81e3136f2b02cc70db545d9":[3,0,224,20],
 "class_scaled_shape.html#adc0e48fe3e684665c0b4ba3ec9e9ed6b":[3,0,224,23],
 "class_scaled_shape.html#adc6c23ae1479cd048a6b6c87b8b0aa2a":[3,0,224,17],
-"class_scaled_shape.html#add12e8276eda4a003e528e1646836bec":[3,0,224,4],
-"class_scaled_shape.html#ae0c292389243763cf6abd92048200cf3":[3,0,224,22]
+"class_scaled_shape.html#add12e8276eda4a003e528e1646836bec":[3,0,224,4]
 };

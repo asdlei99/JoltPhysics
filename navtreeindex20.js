@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_stream_out_wrapper.html#a9021148d55d478d1431b9196e96c8125":[3,0,264,2],
 "class_sub_shape_i_d.html":[3,0,265],
 "class_sub_shape_i_d.html#a08bb5c298b21da17f8ff31502f5f90d7":[3,0,265,6],
 "class_sub_shape_i_d.html#a139169c43883bdc72791c61a4c40f30d":[3,0,265,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html#ab4e4d57f7c4750037a52136fa23d6c5c":[3,0,281,4,1],
 "class_triangle_grouper.html":[3,0,283],
 "class_triangle_grouper.html#a002940499a58b60dafdcdedb7e26fbb5":[3,0,283,1],
-"class_triangle_grouper.html#a5c9c53e78df6ff8a53cb144e42458cfa":[3,0,283,0],
-"class_triangle_grouper_closest_centroid.html":[3,0,284]
+"class_triangle_grouper.html#a5c9c53e78df6ff8a53cb144e42458cfa":[3,0,283,0]
 };

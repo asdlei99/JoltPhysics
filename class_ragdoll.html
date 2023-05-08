@@ -138,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a584d5a41fd6118589b420ed96272827b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#a584d5a41fd6118589b420ed96272827b">Activate</a> (bool inLockBodies=true)</td></tr>
 <tr class="memdesc:a584d5a41fd6118589b420ed96272827b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wake up all bodies in the ragdoll.  <a href="class_ragdoll.html#a584d5a41fd6118589b420ed96272827b">More...</a><br /></td></tr>
 <tr class="separator:a584d5a41fd6118589b420ed96272827b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa86e5cf49f753abc4ad077440d08faa0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#aa86e5cf49f753abc4ad077440d08faa0">IsActive</a> (bool inLockBodies=true) const</td></tr>
+<tr class="separator:aa86e5cf49f753abc4ad077440d08faa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add1a811191c5e75e489598594123e85b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ragdoll.html#add1a811191c5e75e489598594123e85b">SetGroupID</a> (<a class="el" href="class_collision_group.html#ab44e31c9fa83c4818b1560d71c15dddd">CollisionGroup::GroupID</a> inGroupID, bool inLockBodies=true)</td></tr>
 <tr class="memdesc:add1a811191c5e75e489598594123e85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the group ID on all bodies in the ragdoll.  <a href="class_ragdoll.html#add1a811191c5e75e489598594123e85b">More...</a><br /></td></tr>
 <tr class="separator:add1a811191c5e75e489598594123e85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -822,6 +824,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get world space bounding box for all bodies of the ragdoll. </p>
+
+</div>
+</div>
+<a id="aa86e5cf49f753abc4ad077440d08faa0" name="aa86e5cf49f753abc4ad077440d08faa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa86e5cf49f753abc4ad077440d08faa0">&#9670;&#160;</a></span>IsActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Ragdoll::IsActive </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inLockBodies</em> = <code>true</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Check if one or more of the bodies in the ragdoll are active. Note that this involves locking the bodies (if inLockBodies is true) and looping over them. An alternative and possibly faster way could be to install a <a class="el" href="class_body_activation_listener.html">BodyActivationListener</a> and count the number of active bodies of a ragdoll as they're activated / deactivated (basically check if the body that activates / deactivates is in <a class="el" href="class_ragdoll.html#a98603396696b276256ffe74283a26fca" title="Access to the array of body IDs.">GetBodyIDs()</a> and increment / decrement a counter). </p>
 
 </div>
 </div>

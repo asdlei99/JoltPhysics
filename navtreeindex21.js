@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"class_triangle_grouper_closest_centroid.html":[3,0,284],
 "class_triangle_grouper_closest_centroid.html#a41cf43b8c59cd10eedf1fafbca09fd42":[3,0,284,0],
 "class_triangle_grouper_morton.html":[3,0,285],
 "class_triangle_grouper_morton.html#ac20ae93a828b828b47e20f1b0630c4fb":[3,0,285,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "class_vec3.html#afd477997c0834bd3080156e730ced38d":[3,0,299,57],
 "class_vec4.html":[3,0,300],
 "class_vec4.html#a01e7322229eaf37c8b9479c6e648d221":[3,0,300,29],
-"class_vec4.html#a02525e7f8473c93268058324115eeb02":[3,0,300,52],
-"class_vec4.html#a03151fec0517ac59f467e6400bd2e79d":[3,0,300,26]
+"class_vec4.html#a02525e7f8473c93268058324115eeb02":[3,0,300,52]
 };
