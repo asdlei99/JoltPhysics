@@ -131,6 +131,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3fdaf44396f6325dccb7cc1e8aab6a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#ab3fdaf44396f6325dccb7cc1e8aab6a7">GetWheelBase</a> () const</td></tr>
 <tr class="memdesc:ab3fdaf44396f6325dccb7cc1e8aab6a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the distance between the front and back wheels.  <a href="class_motorcycle_controller.html#ab3fdaf44396f6325dccb7cc1e8aab6a7">More...</a><br /></td></tr>
 <tr class="separator:ab3fdaf44396f6325dccb7cc1e8aab6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0d6c78cc5ee2dd850f535a972875df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#ac0d6c78cc5ee2dd850f535a972875df8">EnableLeanController</a> (bool inEnable)</td></tr>
+<tr class="memdesc:ac0d6c78cc5ee2dd850f535a972875df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the lean spring. This allows you to temporarily disable the lean spring to allow the motorcycle to fall over.  <a href="class_motorcycle_controller.html#ac0d6c78cc5ee2dd850f535a972875df8">More...</a><br /></td></tr>
+<tr class="separator:ac0d6c78cc5ee2dd850f535a972875df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45023171410fa8b5abcdce36068dd10c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a45023171410fa8b5abcdce36068dd10c">IsLeanControllerEnabled</a> () const</td></tr>
+<tr class="memdesc:a45023171410fa8b5abcdce36068dd10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the lean spring is enabled.  <a href="class_motorcycle_controller.html#a45023171410fa8b5abcdce36068dd10c">More...</a><br /></td></tr>
+<tr class="separator:a45023171410fa8b5abcdce36068dd10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_wheeled_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_wheeled_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_wheeled_vehicle_controller.html">WheeledVehicleController</a></td></tr>
 <tr class="memitem:ad00936264e25f1902bed6e7c86f198dc inherit pub_methods_class_wheeled_vehicle_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ad00936264e25f1902bed6e7c86f198dc">WheeledVehicleController</a> (const <a class="el" href="class_wheeled_vehicle_controller_settings.html">WheeledVehicleControllerSettings</a> &amp;inSettings, <a class="el" href="class_vehicle_constraint.html">VehicleConstraint</a> &amp;inConstraint)</td></tr>
 <tr class="memdesc:ad00936264e25f1902bed6e7c86f198dc inherit pub_methods_class_wheeled_vehicle_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_wheeled_vehicle_controller.html#ad00936264e25f1902bed6e7c86f198dc">More...</a><br /></td></tr>
@@ -240,6 +246,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a2d5d508db4203835f4b683a1eea97615"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a2d5d508db4203835f4b683a1eea97615">mEnableLeanController</a> = true</td></tr>
+<tr class="separator:a2d5d508db4203835f4b683a1eea97615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55d13eac40efa2eef9a7d87f23c39405"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a55d13eac40efa2eef9a7d87f23c39405">mMaxLeanAngle</a></td></tr>
 <tr class="separator:a55d13eac40efa2eef9a7d87f23c39405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688718567a63ba567e52c13dab088373"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a688718567a63ba567e52c13dab088373">mLeanSpringConstant</a></td></tr>
@@ -369,6 +377,34 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac0d6c78cc5ee2dd850f535a972875df8" name="ac0d6c78cc5ee2dd850f535a972875df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d6c78cc5ee2dd850f535a972875df8">&#9670;&#160;</a></span>EnableLeanController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MotorcycleController::EnableLeanController </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inEnable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable or disable the lean spring. This allows you to temporarily disable the lean spring to allow the motorcycle to fall over. </p>
+
+</div>
+</div>
 <a id="ab3fdaf44396f6325dccb7cc1e8aab6a7" name="ab3fdaf44396f6325dccb7cc1e8aab6a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3fdaf44396f6325dccb7cc1e8aab6a7">&#9670;&#160;</a></span>GetWheelBase()</h2>
 
@@ -385,6 +421,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the distance between the front and back wheels. </p>
+
+</div>
+</div>
+<a id="a45023171410fa8b5abcdce36068dd10c" name="a45023171410fa8b5abcdce36068dd10c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45023171410fa8b5abcdce36068dd10c">&#9670;&#160;</a></span>IsLeanControllerEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MotorcycleController::IsLeanControllerEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the lean spring is enabled. </p>
 
 </div>
 </div>
@@ -522,6 +585,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float MotorcycleController::mAppliedImpulse = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d5d508db4203835f4b683a1eea97615" name="a2d5d508db4203835f4b683a1eea97615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d5d508db4203835f4b683a1eea97615">&#9670;&#160;</a></span>mEnableLeanController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MotorcycleController::mEnableLeanController = true</td>
         </tr>
       </table>
   </td>
