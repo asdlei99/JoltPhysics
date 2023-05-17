@@ -1,8 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"class_triangle_grouper.html":[3,0,283],
-"class_triangle_grouper.html#a002940499a58b60dafdcdedb7e26fbb5":[3,0,283,1],
-"class_triangle_grouper.html#a5c9c53e78df6ff8a53cb144e42458cfa":[3,0,283,0],
 "class_triangle_grouper_closest_centroid.html":[3,0,284],
 "class_triangle_grouper_closest_centroid.html#a41cf43b8c59cd10eedf1fafbca09fd42":[3,0,284,0],
 "class_triangle_grouper_morton.html":[3,0,285],
@@ -249,5 +246,8 @@ var NAVTREEINDEX21 =
 "class_vec3.html#aeeadce7b9b442cccab2d2f3cbde2ccb9":[3,0,299,58],
 "class_vec3.html#aeecf02c008ca1e3a1695d8962a5b24da":[3,0,299,2],
 "class_vec3.html#aefba3895f1a98e1a5854b7e79598a408":[3,0,299,14],
-"class_vec3.html#afd477997c0834bd3080156e730ced38d":[3,0,299,57]
+"class_vec3.html#afd477997c0834bd3080156e730ced38d":[3,0,299,57],
+"class_vec4.html":[3,0,300],
+"class_vec4.html#a01e7322229eaf37c8b9479c6e648d221":[3,0,300,29],
+"class_vec4.html#a02525e7f8473c93268058324115eeb02":[3,0,300,52]
 };
