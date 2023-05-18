@@ -119,6 +119,13 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1da599bacd865c579f31e64676e36206"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_collector.html#a1da599bacd865c579f31e64676e36206">CollisionCollector</a> ()=default</td></tr>
+<tr class="memdesc:a1da599bacd865c579f31e64676e36206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_collision_collector.html#a1da599bacd865c579f31e64676e36206">More...</a><br /></td></tr>
+<tr class="separator:a1da599bacd865c579f31e64676e36206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7b02e890a7ea24b0030027ce4851f9"><td class="memTemplParams" colspan="2">template&lt;class ResultTypeArg2 &gt; </td></tr>
+<tr class="memitem:a7d7b02e890a7ea24b0030027ce4851f9"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_collision_collector.html#a7d7b02e890a7ea24b0030027ce4851f9">CollisionCollector</a> (const <a class="el" href="class_collision_collector.html">CollisionCollector</a>&lt; ResultTypeArg2, TraitsType &gt; &amp;inRHS)</td></tr>
+<tr class="memdesc:a7d7b02e890a7ea24b0030027ce4851f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to initialize from another collector.  <a href="class_collision_collector.html#a7d7b02e890a7ea24b0030027ce4851f9">More...</a><br /></td></tr>
+<tr class="separator:a7d7b02e890a7ea24b0030027ce4851f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a428497d94c0d54c4fb4e7ce6a016fc0d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_collector.html#a428497d94c0d54c4fb4e7ce6a016fc0d">~CollisionCollector</a> ()=default</td></tr>
 <tr class="memdesc:a428497d94c0d54c4fb4e7ce6a016fc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="class_collision_collector.html#a428497d94c0d54c4fb4e7ce6a016fc0d">More...</a><br /></td></tr>
 <tr class="separator:a428497d94c0d54c4fb4e7ce6a016fc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab972bb0e68e602c5eea898dfb7166d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_collector.html#ab972bb0e68e602c5eea898dfb7166d07">GetEarlyOutFraction</a> () const</td></tr>
 <tr class="memdesc:ab972bb0e68e602c5eea898dfb7166d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current early out value.  <a href="class_collision_collector.html#ab972bb0e68e602c5eea898dfb7166d07">More...</a><br /></td></tr>
 <tr class="separator:ab972bb0e68e602c5eea898dfb7166d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb1fb262127298ec8bc296ead30a2e77"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_collector.html#aeb1fb262127298ec8bc296ead30a2e77">GetPositiveEarlyOutFraction</a> () const</td></tr>
+<tr class="memdesc:aeb1fb262127298ec8bc296ead30a2e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current early out value but make sure it's bigger than zero, this is used for shape casting as negative values are used for penetration.  <a href="class_collision_collector.html#aeb1fb262127298ec8bc296ead30a2e77">More...</a><br /></td></tr>
+<tr class="separator:aeb1fb262127298ec8bc296ead30a2e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class ResultTypeArg, class TraitsType&gt;<br />
@@ -174,6 +184,67 @@ template&lt;class ResultTypeArg , class TraitsType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1da599bacd865c579f31e64676e36206" name="a1da599bacd865c579f31e64676e36206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da599bacd865c579f31e64676e36206">&#9670;&#160;</a></span>CollisionCollector() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ResultTypeArg , class TraitsType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_collision_collector.html">CollisionCollector</a>&lt; ResultTypeArg, TraitsType &gt;<a class="el" href="class_collision_collector.html">::CollisionCollector</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+
+</div>
+</div>
+<a id="a7d7b02e890a7ea24b0030027ce4851f9" name="a7d7b02e890a7ea24b0030027ce4851f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7b02e890a7ea24b0030027ce4851f9">&#9670;&#160;</a></span>CollisionCollector() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ResultTypeArg , class TraitsType &gt; </div>
+<div class="memtemplate">
+template&lt;class ResultTypeArg2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_collision_collector.html">CollisionCollector</a>&lt; ResultTypeArg, TraitsType &gt;<a class="el" href="class_collision_collector.html">::CollisionCollector</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_collision_collector.html">CollisionCollector</a>&lt; ResultTypeArg2, TraitsType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>inRHS</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor to initialize from another collector. </p>
+
+</div>
+</div>
 <a id="a428497d94c0d54c4fb4e7ce6a016fc0d" name="a428497d94c0d54c4fb4e7ce6a016fc0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a428497d94c0d54c4fb4e7ce6a016fc0d">&#9670;&#160;</a></span>~CollisionCollector()</h2>
 
@@ -316,6 +387,35 @@ template&lt;class ResultTypeArg , class TraitsType &gt; </div>
 </div><div class="memdoc">
 
 <p>Get the current early out value. </p>
+
+</div>
+</div>
+<a id="aeb1fb262127298ec8bc296ead30a2e77" name="aeb1fb262127298ec8bc296ead30a2e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb1fb262127298ec8bc296ead30a2e77">&#9670;&#160;</a></span>GetPositiveEarlyOutFraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ResultTypeArg , class TraitsType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="class_collision_collector.html">CollisionCollector</a>&lt; ResultTypeArg, TraitsType &gt;::GetPositiveEarlyOutFraction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current early out value but make sure it's bigger than zero, this is used for shape casting as negative values are used for penetration. </p>
 
 </div>
 </div>
