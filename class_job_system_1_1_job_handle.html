@@ -148,9 +148,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a21f5e370fda6e98566758933246e9792"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job_handle.html#a21f5e370fda6e98566758933246e9792">sRemoveDependencies</a> (<a class="el" href="class_job_system_1_1_job_handle.html">JobHandle</a> *inHandles, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumHandles, int inCount=1)</td></tr>
-<tr class="memdesc:a21f5e370fda6e98566758933246e9792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a dependency from a batch of jobs at once, this can be more efficient than removing them one by one as it requires less locking.  <a href="class_job_system_1_1_job_handle.html#a21f5e370fda6e98566758933246e9792">More...</a><br /></td></tr>
-<tr class="separator:a21f5e370fda6e98566758933246e9792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0daface7b509f0f9bd5b03a33554b6c4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job_handle.html#a0daface7b509f0f9bd5b03a33554b6c4">sRemoveDependencies</a> (const <a class="el" href="class_job_system_1_1_job_handle.html">JobHandle</a> *inHandles, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inNumHandles, int inCount=1)</td></tr>
+<tr class="memdesc:a0daface7b509f0f9bd5b03a33554b6c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a dependency from a batch of jobs at once, this can be more efficient than removing them one by one as it requires less locking.  <a href="class_job_system_1_1_job_handle.html#a0daface7b509f0f9bd5b03a33554b6c4">More...</a><br /></td></tr>
+<tr class="separator:a0daface7b509f0f9bd5b03a33554b6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a822d3ea702c61fe9aa32b2c6e6925749"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> N&gt; </td></tr>
 <tr class="memitem:a822d3ea702c61fe9aa32b2c6e6925749"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job_handle.html#a822d3ea702c61fe9aa32b2c6e6925749">sRemoveDependencies</a> (<a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="class_job_system_1_1_job_handle.html">JobHandle</a>, N &gt; &amp;inHandles, int inCount=1)</td></tr>
 <tr class="memdesc:a822d3ea702c61fe9aa32b2c6e6925749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to remove dependencies on a static array of job handles.  <a href="class_job_system_1_1_job_handle.html#a822d3ea702c61fe9aa32b2c6e6925749">More...</a><br /></td></tr>
@@ -430,8 +430,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a21f5e370fda6e98566758933246e9792" name="a21f5e370fda6e98566758933246e9792"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21f5e370fda6e98566758933246e9792">&#9670;&#160;</a></span>sRemoveDependencies() <span class="overload">[1/2]</span></h2>
+<a id="a0daface7b509f0f9bd5b03a33554b6c4" name="a0daface7b509f0f9bd5b03a33554b6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0daface7b509f0f9bd5b03a33554b6c4">&#9670;&#160;</a></span>sRemoveDependencies() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +442,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void JobSystem::JobHandle::sRemoveDependencies </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_job_system_1_1_job_handle.html">JobHandle</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_job_system_1_1_job_handle.html">JobHandle</a> *&#160;</td>
           <td class="paramname"><em>inHandles</em>, </td>
         </tr>
         <tr>
