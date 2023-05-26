@@ -194,12 +194,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab2db20476c9ab24b796a9f5877caaea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73cef0ab26c9bc15a2908e632c953bc2"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a73cef0ab26c9bc15a2908e632c953bc2">GetAccumulatedTorque</a> () const</td></tr>
 <tr class="separator:a73cef0ab26c9bc15a2908e632c953bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98ccf77045902a10f5665ba7208b67f4"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a98ccf77045902a10f5665ba7208b67f4">ResetForce</a> ()</td></tr>
+<tr class="separator:a98ccf77045902a10f5665ba7208b67f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed5a48ab2a5e703c00e2e9ef2e0c68a"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#afed5a48ab2a5e703c00e2e9ef2e0c68a">ResetTorque</a> ()</td></tr>
+<tr class="separator:afed5a48ab2a5e703c00e2e9ef2e0c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d0e7670106211909852cd6844286d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ae1d0e7670106211909852cd6844286d9">ApplyForceTorqueAndDragInternal</a> (<a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inBodyRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, float inDeltaTime)</td></tr>
 <tr class="memdesc:ae1d0e7670106211909852cd6844286d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply all accumulated forces, torques and drag (should only be called by the <a class="el" href="class_physics_system.html">PhysicsSystem</a>)  <a href="class_motion_properties.html#ae1d0e7670106211909852cd6844286d9">More...</a><br /></td></tr>
 <tr class="separator:ae1d0e7670106211909852cd6844286d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc68299c70c4c3e0c08998dd263846bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#adc68299c70c4c3e0c08998dd263846bf">ResetForceAndTorqueInternal</a> ()</td></tr>
-<tr class="memdesc:adc68299c70c4c3e0c08998dd263846bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">At the end of a simulation update the forces and torques need to be reset for the next frame.  <a href="class_motion_properties.html#adc68299c70c4c3e0c08998dd263846bf">More...</a><br /></td></tr>
-<tr class="separator:adc68299c70c4c3e0c08998dd263846bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0907c71717fa56d6af7dfc642bc56e2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a0907c71717fa56d6af7dfc642bc56e2b">GetIslandIndexInternal</a> () const</td></tr>
 <tr class="memdesc:a0907c71717fa56d6af7dfc642bc56e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the island index.  <a href="class_motion_properties.html#a0907c71717fa56d6af7dfc642bc56e2b">More...</a><br /></td></tr>
 <tr class="separator:a0907c71717fa56d6af7dfc642bc56e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1006,8 +1007,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="adc68299c70c4c3e0c08998dd263846bf" name="adc68299c70c4c3e0c08998dd263846bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc68299c70c4c3e0c08998dd263846bf">&#9670;&#160;</a></span>ResetForceAndTorqueInternal()</h2>
+<a id="a98ccf77045902a10f5665ba7208b67f4" name="a98ccf77045902a10f5665ba7208b67f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ccf77045902a10f5665ba7208b67f4">&#9670;&#160;</a></span>ResetForce()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1016,7 +1017,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MotionProperties::ResetForceAndTorqueInternal </td>
+          <td class="memname">JPH_INLINE void MotionProperties::ResetForce </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1028,8 +1029,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>At the end of a simulation update the forces and torques need to be reset for the next frame. </p>
 
 </div>
 </div>
@@ -1058,6 +1057,31 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reset spheres to center around inPoints with radius 0. </p>
+
+</div>
+</div>
+<a id="afed5a48ab2a5e703c00e2e9ef2e0c68a" name="afed5a48ab2a5e703c00e2e9ef2e0c68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed5a48ab2a5e703c00e2e9ef2e0c68a">&#9670;&#160;</a></span>ResetTorque()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPH_INLINE void MotionProperties::ResetTorque </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

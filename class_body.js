@@ -61,6 +61,8 @@ var class_body =
     [ "IsSensor", "class_body.html#a251e1c9d8c9c7e40ddabc73420ac9ab1", null ],
     [ "IsStatic", "class_body.html#a83748a3d5a5b0a5b0242ba91875b8e13", null ],
     [ "MoveKinematic", "class_body.html#a015be9d70225c08eb10d01753415febd", null ],
+    [ "ResetForce", "class_body.html#a91ec38c6d564c65d7dde56f315a8eb31", null ],
+    [ "ResetTorque", "class_body.html#ab3872c4fdcf4046aac2565bbe14061e8", null ],
     [ "RestoreState", "class_body.html#a5b4cf0e59625d5607d1317e8ad2de290", null ],
     [ "SaveState", "class_body.html#a64202a0bd7babbef34094157036bda8c", null ],
     [ "SetAllowSleeping", "class_body.html#a4fcb04dbca94ff4cf4b48289f26c26b4", null ],

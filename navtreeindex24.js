@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"functions_w.html":[3,3,0,22],
+"functions_x.html":[3,3,0,23],
+"functions_y.html":[3,3,0,24],
 "functions_z.html":[3,3,0,25],
 "functions_~.html":[3,3,0,26],
 "globals.html":[4,1,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a350f11e56d89c4f9200163a131f3f444":[3,0,68,4,6],
 "struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a3e53fc715eeb683b4b753c43923f5839":[3,0,68,4,15],
 "struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a5b0a740a68fd32de56518ab00e2d5afa":[3,0,68,4,11],
-"struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a63d01e5f27bd4944b066e6a33c3f4698":[3,0,68,4,10],
-"struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a7b3698ab299d4e1f2881337c09892cd5":[3,0,68,4,7],
-"struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a7d54b29e53e0fb097be48c090307afa2":[3,0,68,4,13],
-"struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a80a7872b09611c352c0c02cf18a0fa67":[3,0,68,4,8]
+"struct_compound_shape_1_1_collide_compound_vs_shape_visitor.html#a63d01e5f27bd4944b066e6a33c3f4698":[3,0,68,4,10]
 };
