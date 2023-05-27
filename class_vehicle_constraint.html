@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('class_vehicle_constraint.html',''); in
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_vehicle_constraint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VehicleConstraint Class Reference</div></div>
@@ -119,6 +120,12 @@ Inheritance diagram for VehicleConstraint:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a9bf8ee16d32ce64de1a81ceed8a95ef5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">CombineFunction</a> = float(*)(float inTireFriction, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID2)</td></tr>
+<tr class="memdesc:a9bf8ee16d32ce64de1a81ceed8a95ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function to combine the friction of a tire with the friction of the body it is colliding with.  <a href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">More...</a><br /></td></tr>
+<tr class="separator:a9bf8ee16d32ce64de1a81ceed8a95ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af1d28eee52fc3cb7a2f8b8a81edfc464"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#af1d28eee52fc3cb7a2f8b8a81edfc464">VehicleConstraint</a> (<a class="el" href="class_body.html">Body</a> &amp;inVehicleBody, const <a class="el" href="class_vehicle_constraint_settings.html">VehicleConstraintSettings</a> &amp;inSettings)</td></tr>
@@ -135,6 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52476f3cd6814c10993dacb4e3dd03cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a52476f3cd6814c10993dacb4e3dd03cd">SetVehicleCollisionTester</a> (const <a class="el" href="class_vehicle_collision_tester.html">VehicleCollisionTester</a> *inTester)</td></tr>
 <tr class="memdesc:a52476f3cd6814c10993dacb4e3dd03cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the interface that tests collision between wheel and ground.  <a href="class_vehicle_constraint.html#a52476f3cd6814c10993dacb4e3dd03cd">More...</a><br /></td></tr>
 <tr class="separator:a52476f3cd6814c10993dacb4e3dd03cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb080a8a3dac2e847b8b1e91aef7f931"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#aeb080a8a3dac2e847b8b1e91aef7f931">SetCombineFriction</a> (<a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">CombineFunction</a> inCombineFriction)</td></tr>
+<tr class="separator:aeb080a8a3dac2e847b8b1e91aef7f931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9c1946f5095049e1cc551e30c9c42a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">CombineFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#aaf9c1946f5095049e1cc551e30c9c42a">GetCombineFriction</a> () const</td></tr>
+<tr class="separator:aaf9c1946f5095049e1cc551e30c9c42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a54f4f23549e7d828e4a2e51fcfc312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_constraint.html#a5a54f4f23549e7d828e4a2e51fcfc312">GetLocalForward</a> () const</td></tr>
 <tr class="memdesc:a5a54f4f23549e7d828e4a2e51fcfc312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the local space forward vector of the vehicle.  <a href="class_vehicle_constraint.html#a5a54f4f23549e7d828e4a2e51fcfc312">More...</a><br /></td></tr>
 <tr class="separator:a5a54f4f23549e7d828e4a2e51fcfc312"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,7 +342,24 @@ Additional Inherited Members</h2></td></tr>
 <li>You could filter out collisions between the vehicle collision test and the rubble completely. This would make the wheels ignore the rubble but would cause the vehicle to drive through it as if nothing happened. You could create fake wheels (keyframed bodies) that move along with the vehicle and that only collide with rubble (and not the vehicle or the ground). This would cause the vehicle to push away the rubble without the rubble being able to affect the vehicle (unless it hits the main body of course).</li>
 </ol>
 <p >Note that when driving over rubble, you may see the wheel jump up and down quite quickly because one frame a collision is found and the next frame not. To alleviate this, it may be needed to smooth the motion of the visual mesh for the wheel. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a9bf8ee16d32ce64de1a81ceed8a95ef5" name="a9bf8ee16d32ce64de1a81ceed8a95ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf8ee16d32ce64de1a81ceed8a95ef5">&#9670;&#160;</a></span>CombineFunction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">VehicleConstraint::CombineFunction</a> =  float (*)(float inTireFriction, const <a class="el" href="class_body.html">Body</a> &amp;inBody2, const <a class="el" href="class_sub_shape_i_d.html">SubShapeID</a> &amp;inSubShapeID2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Callback function to combine the friction of a tire with the friction of the body it is colliding with. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af1d28eee52fc3cb7a2f8b8a81edfc464" name="af1d28eee52fc3cb7a2f8b8a81edfc464"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1d28eee52fc3cb7a2f8b8a81edfc464">&#9670;&#160;</a></span>VehicleConstraint()</h2>
 
@@ -517,6 +545,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="class_constraint.html#a528e67a83b796e469b10d5c473dc195f">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="aaf9c1946f5095049e1cc551e30c9c42a" name="aaf9c1946f5095049e1cc551e30c9c42a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9c1946f5095049e1cc551e30c9c42a">&#9670;&#160;</a></span>GetCombineFriction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">CombineFunction</a> VehicleConstraint::GetCombineFriction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1110,6 +1163,33 @@ Additional Inherited Members</h2></td></tr>
 <p>Saving state for replay. </p>
 
 <p>Reimplemented from <a class="el" href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="aeb080a8a3dac2e847b8b1e91aef7f931" name="aeb080a8a3dac2e847b8b1e91aef7f931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb080a8a3dac2e847b8b1e91aef7f931">&#9670;&#160;</a></span>SetCombineFriction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleConstraint::SetCombineFriction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5">CombineFunction</a>&#160;</td>
+          <td class="paramname"><em>inCombineFriction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Set the function that combines the friction of two bodies and returns it Default method is the geometric mean: sqrt(friction1 * friction2). </p>
 
 </div>
 </div>

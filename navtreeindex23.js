@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"class_vehicle_track_settings.html#a22893d7c73b60b53e21885cdf65ac7ba":[3,0,316,1],
+"class_vehicle_track_settings.html#aa8f02b8434926bcb503772b9cf798d00":[3,0,316,5],
+"class_vehicle_track_settings.html#abdcb4574025a04f9779c86d8bf3f24a4":[3,0,316,7],
 "class_vehicle_track_settings.html#adfc2a350504c7850a1c544f6dc06f6ab":[3,0,316,3],
 "class_vehicle_track_settings.html#aff65474e817507daa9d777ebc47d4aa1":[3,0,316,4],
 "class_vehicle_track_settings.html#affda379a129ca982243cdb36017d690e":[3,0,316,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "functions_vars_r.html":[3,3,2,9],
 "functions_vars_s.html":[3,3,2,10],
 "functions_vars_t.html":[3,3,2,11],
-"functions_vars_w.html":[3,3,2,12],
-"functions_vars_x.html":[3,3,2,13],
-"functions_vars_y.html":[3,3,2,14],
-"functions_vars_z.html":[3,3,2,15]
+"functions_vars_w.html":[3,3,2,12]
 };

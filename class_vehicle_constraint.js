@@ -1,11 +1,13 @@
 var class_vehicle_constraint =
 [
+    [ "CombineFunction", "class_vehicle_constraint.html#a9bf8ee16d32ce64de1a81ceed8a95ef5", null ],
     [ "VehicleConstraint", "class_vehicle_constraint.html#af1d28eee52fc3cb7a2f8b8a81edfc464", null ],
     [ "~VehicleConstraint", "class_vehicle_constraint.html#a9ea9a006933b3e0b1938b3b247957830", null ],
     [ "BuildIslands", "class_vehicle_constraint.html#ad04e72e964c227c63e9c2c264de269c9", null ],
     [ "BuildIslandSplits", "class_vehicle_constraint.html#a3e1637cfc4d982db7ba9116da7986adf", null ],
     [ "DrawConstraint", "class_vehicle_constraint.html#af2493620d3e9d960b3cbf0641c182251", null ],
     [ "DrawConstraintLimits", "class_vehicle_constraint.html#aa5ecf61104253599b367ce944f9a3dba", null ],
+    [ "GetCombineFriction", "class_vehicle_constraint.html#aaf9c1946f5095049e1cc551e30c9c42a", null ],
     [ "GetConstraintSettings", "class_vehicle_constraint.html#af953060386f731482956bb772840262c", null ],
     [ "GetController", "class_vehicle_constraint.html#a4f55ac332056282078f054e099b147cc", null ],
     [ "GetController", "class_vehicle_constraint.html#ab0b1fdc09970442c9cb800cbadcf9643", null ],
@@ -25,6 +27,7 @@ var class_vehicle_constraint =
     [ "NotifyShapeChanged", "class_vehicle_constraint.html#ac3df25ba1e2c0a85e46a1b93702155cf", null ],
     [ "RestoreState", "class_vehicle_constraint.html#a2d36c8bcd57ab5136e962bd03f1992e8", null ],
     [ "SaveState", "class_vehicle_constraint.html#a6bdcc90af7d830f5821534d34be01ff7", null ],
+    [ "SetCombineFriction", "class_vehicle_constraint.html#aeb080a8a3dac2e847b8b1e91aef7f931", null ],
     [ "SetMaxPitchRollAngle", "class_vehicle_constraint.html#a54aac9425dccebec4565b02df9351641", null ],
     [ "SetupVelocityConstraint", "class_vehicle_constraint.html#a7db85aa03eb1cadb974ca4600204daa5", null ],
     [ "SetVehicleCollisionTester", "class_vehicle_constraint.html#a52476f3cd6814c10993dacb4e3dd03cd", null ],

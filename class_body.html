@@ -183,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4fcb04dbca94ff4cf4b48289f26c26b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a4fcb04dbca94ff4cf4b48289f26c26b4">SetAllowSleeping</a> (bool inAllow)</td></tr>
 <tr class="separator:a4fcb04dbca94ff4cf4b48289f26c26b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb35a0778672e9f3622d8cfa93b428b3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#abb35a0778672e9f3622d8cfa93b428b3">GetFriction</a> () const</td></tr>
-<tr class="memdesc:abb35a0778672e9f3622d8cfa93b428b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Friction (dimensionless number, usually between 0 and 1, 0 = no friction, 1 = friction force equals force that presses the two bodies together)  <a href="class_body.html#abb35a0778672e9f3622d8cfa93b428b3">More...</a><br /></td></tr>
+<tr class="memdesc:abb35a0778672e9f3622d8cfa93b428b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Friction (dimensionless number, usually between 0 and 1, 0 = no friction, 1 = friction force equals force that presses the two bodies together). Note that bodies can have negative friction but the combined friction (see <a class="el" href="class_physics_system.html#ae1cc3e726b7e186f642c7da5f6c6a2c2">PhysicsSystem::SetCombineFriction</a>) should never go below zero.  <a href="class_body.html#abb35a0778672e9f3622d8cfa93b428b3">More...</a><br /></td></tr>
 <tr class="separator:abb35a0778672e9f3622d8cfa93b428b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3576faa64307d6d9318a7c0dad47d21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#af3576faa64307d6d9318a7c0dad47d21">SetFriction</a> (float inFriction)</td></tr>
 <tr class="separator:af3576faa64307d6d9318a7c0dad47d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1113,7 +1113,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Friction (dimensionless number, usually between 0 and 1, 0 = no friction, 1 = friction force equals force that presses the two bodies together) </p>
+<p>Friction (dimensionless number, usually between 0 and 1, 0 = no friction, 1 = friction force equals force that presses the two bodies together). Note that bodies can have negative friction but the combined friction (see <a class="el" href="class_physics_system.html#ae1cc3e726b7e186f642c7da5f6c6a2c2">PhysicsSystem::SetCombineFriction</a>) should never go below zero. </p>
 
 </div>
 </div>
