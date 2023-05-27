@@ -229,7 +229,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a43650f269088d8351a1ad5a1da8824c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Friction of the body (dimensionless number, usually between 0 and 1, 0 = no friction, 1 = friction force equals force that presses the two bodies together)  <a href="class_body_creation_settings.html#a43650f269088d8351a1ad5a1da8824c0">More...</a><br /></td></tr>
 <tr class="separator:a43650f269088d8351a1ad5a1da8824c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad248781dc0ad8671c19af02106c9f054"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_creation_settings.html#ad248781dc0ad8671c19af02106c9f054">mRestitution</a> = 0.0f</td></tr>
-<tr class="memdesc:ad248781dc0ad8671c19af02106c9f054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restitution of body (dimensionless number, usually between 0 and 1, 0 = completely inelastic collision response, 1 = completely elastic collision response)  <a href="class_body_creation_settings.html#ad248781dc0ad8671c19af02106c9f054">More...</a><br /></td></tr>
+<tr class="memdesc:ad248781dc0ad8671c19af02106c9f054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restitution of body (dimensionless number, usually between 0 and 1, 0 = completely inelastic collision response, 1 = completely elastic collision response). Note that bodies can have negative restitution but the combined restitution (see <a class="el" href="class_physics_system.html#aadad532dfda2006fd3b699116e9fed08">PhysicsSystem::SetCombineRestitution</a>) should never go below zero.  <a href="class_body_creation_settings.html#ad248781dc0ad8671c19af02106c9f054">More...</a><br /></td></tr>
 <tr class="separator:ad248781dc0ad8671c19af02106c9f054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acda69c9b63d5be31be48b13059d3d438"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_creation_settings.html#acda69c9b63d5be31be48b13059d3d438">mLinearDamping</a> = 0.05f</td></tr>
 <tr class="memdesc:acda69c9b63d5be31be48b13059d3d438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear damping: dv/dt = -c * v. c must be between 0 and 1 but is usually close to 0.  <a href="class_body_creation_settings.html#acda69c9b63d5be31be48b13059d3d438">More...</a><br /></td></tr>
@@ -1107,7 +1107,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Restitution of body (dimensionless number, usually between 0 and 1, 0 = completely inelastic collision response, 1 = completely elastic collision response) </p>
+<p>Restitution of body (dimensionless number, usually between 0 and 1, 0 = completely inelastic collision response, 1 = completely elastic collision response). Note that bodies can have negative restitution but the combined restitution (see <a class="el" href="class_physics_system.html#aadad532dfda2006fd3b699116e9fed08">PhysicsSystem::SetCombineRestitution</a>) should never go below zero. </p>
 
 </div>
 </div>
