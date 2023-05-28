@@ -87,6 +87,7 @@ var NAVTREEINDEX9 =
 "class_contact_manifold.html#add2819f7131894b379fd2c6f4b90099a":[3,0,77,4],
 "class_contact_settings.html":[3,0,78],
 "class_contact_settings.html#a1c5f448521399a40a9384dcc1aa1474f":[3,0,78,2],
+"class_contact_settings.html#a2c4a41fd1958fbdb62e6bdd272a27ccb":[3,0,78,3],
 "class_contact_settings.html#a7a6722d38f6dd9f504412e3663400a2d":[3,0,78,0],
 "class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979":[3,0,78,1],
 "class_convex_hull_builder.html":[3,0,79],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "class_cylinder_shape.html#a588bfdea87ca78a28f2c02c4d9d05630":[3,0,85,22],
 "class_cylinder_shape.html#a6685737b774a4fdbcc626aae25f27770":[3,0,85,6],
 "class_cylinder_shape.html#a6cfbb512a0c4dc1a9f02d4a830829721":[3,0,85,19],
-"class_cylinder_shape.html#a6ed4653b983e5e91e0a86f16b4186a25":[3,0,85,10],
-"class_cylinder_shape.html#a85e3891076275d55c6274d3cfd480b18":[3,0,85,21]
+"class_cylinder_shape.html#a6ed4653b983e5e91e0a86f16b4186a25":[3,0,85,10]
 };
