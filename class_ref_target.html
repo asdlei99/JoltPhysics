@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1fc15bfe979bc43a7fa71c7c34f87ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_target.html">RefTarget</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">operator=</a> (const <a class="el" href="class_ref_target.html">RefTarget</a> &amp;)</td></tr>
 <tr class="memdesc:a1fc15bfe979bc43a7fa71c7c34f87ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_ref_target.html#a1fc15bfe979bc43a7fa71c7c34f87ed0">More...</a><br /></td></tr>
 <tr class="separator:a1fc15bfe979bc43a7fa71c7c34f87ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaf07366183c51cd8460c7d3dcd07c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#acaf07366183c51cd8460c7d3dcd07c2d">GetRefCount</a> () const</td></tr>
+<tr class="memitem:acaf07366183c51cd8460c7d3dcd07c2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#acaf07366183c51cd8460c7d3dcd07c2d">GetRefCount</a> () const</td></tr>
 <tr class="memdesc:acaf07366183c51cd8460c7d3dcd07c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current refcount of this object.  <a href="class_ref_target.html#acaf07366183c51cd8460c7d3dcd07c2d">More...</a><br /></td></tr>
 <tr class="separator:acaf07366183c51cd8460c7d3dcd07c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf02c18a343bc9de9d6afb7c966f0363"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#acf02c18a343bc9de9d6afb7c966f0363">AddRef</a> () const</td></tr>
@@ -142,13 +142,13 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a12afba0bdae7706a0afd4d96ac128231"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">mRefCount</a> = 0</td></tr>
+<tr class="memitem:a12afba0bdae7706a0afd4d96ac128231"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">mRefCount</a> = 0</td></tr>
 <tr class="memdesc:a12afba0bdae7706a0afd4d96ac128231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current reference count.  <a href="class_ref_target.html#a12afba0bdae7706a0afd4d96ac128231">More...</a><br /></td></tr>
 <tr class="separator:a12afba0bdae7706a0afd4d96ac128231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ad37db773efa3c8756f6d95df3862b875"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ad37db773efa3c8756f6d95df3862b875">cEmbedded</a> = 0x0ebedded</td></tr>
+<tr class="memitem:ad37db773efa3c8756f6d95df3862b875"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ref_target.html#ad37db773efa3c8756f6d95df3862b875">cEmbedded</a> = 0x0ebedded</td></tr>
 <tr class="memdesc:ad37db773efa3c8756f6d95df3862b875"><td class="mdescLeft">&#160;</td><td class="mdescRight">A large value that gets added to the refcount to mark the object as embedded.  <a href="class_ref_target.html#ad37db773efa3c8756f6d95df3862b875">More...</a><br /></td></tr>
 <tr class="separator:ad37db773efa3c8756f6d95df3862b875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -286,7 +286,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::GetRefCount </td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::GetRefCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -430,7 +430,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::cEmbedded = 0x0ebedded</td>
+          <td class="memname">constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::cEmbedded = 0x0ebedded</td>
         </tr>
       </table>
   </td>
@@ -456,7 +456,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::mRefCount = 0</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; <a class="el" href="class_ref_target.html">RefTarget</a>&lt; T &gt;::mRefCount = 0</td>
         </tr>
       </table>
   </td>

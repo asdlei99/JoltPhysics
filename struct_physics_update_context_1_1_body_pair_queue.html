@@ -109,16 +109,16 @@ $(document).ready(function(){initNavTree('struct_physics_update_context_1_1_body
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:abbf11d72c4fe4c3e5f7558f1b87c0495"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#abbf11d72c4fe4c3e5f7558f1b87c0495">mWriteIdx</a> { 0 }</td></tr>
+<tr class="memitem:abbf11d72c4fe4c3e5f7558f1b87c0495"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#abbf11d72c4fe4c3e5f7558f1b87c0495">mWriteIdx</a> { 0 }</td></tr>
 <tr class="memdesc:abbf11d72c4fe4c3e5f7558f1b87c0495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next index to write in mBodyPair array (need to add thread index * mMaxBodyPairsPerQueue and modulo mMaxBodyPairsPerQueue)  <a href="struct_physics_update_context_1_1_body_pair_queue.html#abbf11d72c4fe4c3e5f7558f1b87c0495">More...</a><br /></td></tr>
 <tr class="separator:abbf11d72c4fe4c3e5f7558f1b87c0495"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b5b5872901d9cdfa32c9507b53e4920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a6b5b5872901d9cdfa32c9507b53e4920">mPadding1</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memitem:a6b5b5872901d9cdfa32c9507b53e4920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a6b5b5872901d9cdfa32c9507b53e4920">mPadding1</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;)]</td></tr>
 <tr class="memdesc:a6b5b5872901d9cdfa32c9507b53e4920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moved to own cache line to avoid conflicts with consumer jobs.  <a href="struct_physics_update_context_1_1_body_pair_queue.html#a6b5b5872901d9cdfa32c9507b53e4920">More...</a><br /></td></tr>
 <tr class="separator:a6b5b5872901d9cdfa32c9507b53e4920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2022c7c479b154d1c42d4351c8d12ea4"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a2022c7c479b154d1c42d4351c8d12ea4">mReadIdx</a> { 0 }</td></tr>
+<tr class="memitem:a2022c7c479b154d1c42d4351c8d12ea4"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a2022c7c479b154d1c42d4351c8d12ea4">mReadIdx</a> { 0 }</td></tr>
 <tr class="memdesc:a2022c7c479b154d1c42d4351c8d12ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next index to read in mBodyPair array (need to add thread index * mMaxBodyPairsPerQueue and modulo mMaxBodyPairsPerQueue)  <a href="struct_physics_update_context_1_1_body_pair_queue.html#a2022c7c479b154d1c42d4351c8d12ea4">More...</a><br /></td></tr>
 <tr class="separator:a2022c7c479b154d1c42d4351c8d12ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72e1a83841d0ef254a8f242537d93b96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a72e1a83841d0ef254a8f242537d93b96">mPadding2</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td></tr>
+<tr class="memitem:a72e1a83841d0ef254a8f242537d93b96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html#a72e1a83841d0ef254a8f242537d93b96">mPadding2</a> [<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;)]</td></tr>
 <tr class="memdesc:a72e1a83841d0ef254a8f242537d93b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moved to own cache line to avoid conflicts with producer/consumer jobs.  <a href="struct_physics_update_context_1_1_body_pair_queue.html#a72e1a83841d0ef254a8f242537d93b96">More...</a><br /></td></tr>
 <tr class="separator:a72e1a83841d0ef254a8f242537d93b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::BodyPairQueue::mPadding1[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+          <td class="memname"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> PhysicsUpdateContext::BodyPairQueue::mPadding1[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;)]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -146,7 +146,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> PhysicsUpdateContext::BodyPairQueue::mPadding2[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;)]</td>
+          <td class="memname"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> PhysicsUpdateContext::BodyPairQueue::mPadding2[<a class="el" href="_core_8h.html#a2eca4e00d11d8fdbbd04c4a23a244278">JPH_CACHE_LINE_SIZE</a> - sizeof(atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;)]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,7 +162,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::BodyPairQueue::mReadIdx { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::BodyPairQueue::mReadIdx { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -178,7 +178,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::BodyPairQueue::mWriteIdx { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::BodyPairQueue::mWriteIdx { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

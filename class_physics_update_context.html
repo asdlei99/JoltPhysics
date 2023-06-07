@@ -142,7 +142,7 @@ Public Types</h2></td></tr>
 <tr class="separator:aac38112db4038adfa0a67a9fb2634b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a8cbbf5b9b0f8bf54cdd936b2a6516e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a1a8cbbf5b9b0f8bf54cdd936b2a6516e">BodyPairQueues</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html">BodyPairQueue</a>, <a class="el" href="class_physics_update_context.html#a914eeb78829e0177ad07274a1472aa70">cMaxConcurrency</a> &gt;</td></tr>
 <tr class="separator:a1a8cbbf5b9b0f8bf54cdd936b2a6516e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57722f8a1c879b71ae19337e61600b3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">JobMask</a> = <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></td></tr>
+<tr class="memitem:a57722f8a1c879b71ae19337e61600b3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">JobMask</a> = <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a></td></tr>
 <tr class="memdesc:a57722f8a1c879b71ae19337e61600b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mask that has as many bits as we can have concurrent jobs.  <a href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">More...</a><br /></td></tr>
 <tr class="separator:a57722f8a1c879b71ae19337e61600b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e631b90f31cf616621e61ed588aac2f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">Steps</a> = std::vector&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt; <a class="el" href="struct_physics_update_context_1_1_step.html">Step</a> &gt; &gt;</td></tr>
@@ -192,7 +192,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad7882ca12262d805d6f2de6babe96560"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">mUseLargeIslandSplitter</a></td></tr>
 <tr class="memdesc:ad7882ca12262d805d6f2de6babe96560"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, use large island splitting.  <a href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">More...</a><br /></td></tr>
 <tr class="separator:ad7882ca12262d805d6f2de6babe96560"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57bb8d85178c1a1082cfabed7334fa75"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">mErrors</a> { 0 }</td></tr>
+<tr class="memitem:a57bb8d85178c1a1082cfabed7334fa75"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">mErrors</a> { 0 }</td></tr>
 <tr class="memdesc:a57bb8d85178c1a1082cfabed7334fa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors that occurred during the update, actual type is EPhysicsUpdateError.  <a href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">More...</a><br /></td></tr>
 <tr class="separator:a57bb8d85178c1a1082cfabed7334fa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f3d5772169584520a19f7d85820206"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint.html">Constraint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a06f3d5772169584520a19f7d85820206">mActiveConstraints</a> = nullptr</td></tr>
@@ -254,7 +254,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">PhysicsUpdateContext::JobMask</a> =  <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></td>
+          <td class="memname">using <a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">PhysicsUpdateContext::JobMask</a> =  <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -470,7 +470,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::mErrors { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::mErrors { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">

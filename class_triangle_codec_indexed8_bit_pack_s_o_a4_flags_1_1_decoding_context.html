@@ -115,25 +115,25 @@ $(document).ready(function(){initNavTree('class_triangle_codec_indexed8_bit_pack
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af84b416ab6da3ec2c8b3285e18537dc0"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#af84b416ab6da3ec2c8b3285e18537dc0">DecodingContext</a> (const <a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_triangle_header.html">TriangleHeader</a> *inHeader)</td></tr>
 <tr class="separator:af84b416ab6da3ec2c8b3285e18537dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada5a0630058e85675e03c6d054b5bff2"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ada5a0630058e85675e03c6d054b5bff2">Unpack</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumTriangles, <a class="el" href="class_vec3.html">Vec3</a> *outTriangles) const</td></tr>
+<tr class="memitem:ada5a0630058e85675e03c6d054b5bff2"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ada5a0630058e85675e03c6d054b5bff2">Unpack</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumTriangles, <a class="el" href="class_vec3.html">Vec3</a> *outTriangles) const</td></tr>
 <tr class="memdesc:ada5a0630058e85675e03c6d054b5bff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpacks triangles in the format t1v1,t1v2,t1v3, t2v1,t2v2,t2v3, ...  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ada5a0630058e85675e03c6d054b5bff2">More...</a><br /></td></tr>
 <tr class="separator:ada5a0630058e85675e03c6d054b5bff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae532afd31a81a660a2602ce779449b23"><td class="memItemLeft" align="right" valign="top">JPH_INLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ae532afd31a81a660a2602ce779449b23">TestRay</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayDirection, const void *inTriangleStart, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumTriangles, float inClosest, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &amp;outClosestTriangleIndex) const</td></tr>
+<tr class="memitem:ae532afd31a81a660a2602ce779449b23"><td class="memItemLeft" align="right" valign="top">JPH_INLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ae532afd31a81a660a2602ce779449b23">TestRay</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayOrigin, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inRayDirection, const void *inTriangleStart, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumTriangles, float inClosest, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &amp;outClosestTriangleIndex) const</td></tr>
 <tr class="memdesc:ae532afd31a81a660a2602ce779449b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests a ray against the packed triangles.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ae532afd31a81a660a2602ce779449b23">More...</a><br /></td></tr>
 <tr class="separator:ae532afd31a81a660a2602ce779449b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fb4bf3fda3a5fe7fede50bdfad3ed17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fb4bf3fda3a5fe7fede50bdfad3ed17">GetTriangle</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inTriangleIdx, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV2, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV3) const</td></tr>
+<tr class="memitem:a3fb4bf3fda3a5fe7fede50bdfad3ed17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fb4bf3fda3a5fe7fede50bdfad3ed17">GetTriangle</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inTriangleIdx, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV1, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV2, <a class="el" href="class_vec3.html">Vec3</a> &amp;outV3) const</td></tr>
 <tr class="memdesc:a3fb4bf3fda3a5fe7fede50bdfad3ed17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a single triangle.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a3fb4bf3fda3a5fe7fede50bdfad3ed17">More...</a><br /></td></tr>
 <tr class="separator:a3fb4bf3fda3a5fe7fede50bdfad3ed17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2f3679c65f018d1dcb3e462dad0eef0"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab2f3679c65f018d1dcb3e462dad0eef0">Unpack</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumTriangles, <a class="el" href="class_vec3.html">Vec3</a> *outTriangles, <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *outTriangleFlags) const</td></tr>
+<tr class="memitem:ab2f3679c65f018d1dcb3e462dad0eef0"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab2f3679c65f018d1dcb3e462dad0eef0">Unpack</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumTriangles, <a class="el" href="class_vec3.html">Vec3</a> *outTriangles, <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *outTriangleFlags) const</td></tr>
 <tr class="memdesc:ab2f3679c65f018d1dcb3e462dad0eef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unpacks triangles and flags, convencience function.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#ab2f3679c65f018d1dcb3e462dad0eef0">More...</a><br /></td></tr>
 <tr class="separator:ab2f3679c65f018d1dcb3e462dad0eef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a546c633b400007f4f848b1b86dc1be61"><td class="memItemLeft" align="right" valign="top">static JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a546c633b400007f4f848b1b86dc1be61">sGetFlags</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumTriangles, <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *outTriangleFlags)</td></tr>
+<tr class="memitem:a546c633b400007f4f848b1b86dc1be61"><td class="memItemLeft" align="right" valign="top">static JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a546c633b400007f4f848b1b86dc1be61">sGetFlags</a> (const void *inTriangleStart, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumTriangles, <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *outTriangleFlags)</td></tr>
 <tr class="memdesc:a546c633b400007f4f848b1b86dc1be61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get flags for entire triangle block.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a546c633b400007f4f848b1b86dc1be61">More...</a><br /></td></tr>
 <tr class="separator:a546c633b400007f4f848b1b86dc1be61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e137a15d4867a854f9e4c94656a0773"><td class="memItemLeft" align="right" valign="top">static JPH_INLINE <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a4e137a15d4867a854f9e4c94656a0773">sGetFlags</a> (const void *inTriangleStart, int inTriangleIndex)</td></tr>
+<tr class="memitem:a4e137a15d4867a854f9e4c94656a0773"><td class="memItemLeft" align="right" valign="top">static JPH_INLINE <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a4e137a15d4867a854f9e4c94656a0773">sGetFlags</a> (const void *inTriangleStart, int inTriangleIndex)</td></tr>
 <tr class="memdesc:a4e137a15d4867a854f9e4c94656a0773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get flags for a particular triangle.  <a href="class_triangle_codec_indexed8_bit_pack_s_o_a4_flags_1_1_decoding_context.html#a4e137a15d4867a854f9e4c94656a0773">More...</a><br /></td></tr>
 <tr class="separator:a4e137a15d4867a854f9e4c94656a0773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -185,7 +185,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inTriangleIdx</em>, </td>
         </tr>
         <tr>
@@ -233,7 +233,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static JPH_INLINE <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext::sGetFlags </td>
+          <td class="memname">static JPH_INLINE <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> TriangleCodecIndexed8BitPackSOA4Flags::DecodingContext::sGetFlags </td>
           <td>(</td>
           <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>inTriangleStart</em>, </td>
@@ -279,13 +279,13 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inNumTriangles</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *&#160;</td>
           <td class="paramname"><em>outTriangleFlags</em>&#160;</td>
         </tr>
         <tr>
@@ -335,7 +335,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inNumTriangles</em>, </td>
         </tr>
         <tr>
@@ -347,7 +347,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &amp;&#160;</td>
           <td class="paramname"><em>outClosestTriangleIndex</em>&#160;</td>
         </tr>
         <tr>
@@ -385,7 +385,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inNumTriangles</em>, </td>
         </tr>
         <tr>
@@ -429,7 +429,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inNumTriangles</em>, </td>
         </tr>
         <tr>
@@ -441,7 +441,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *&#160;</td>
           <td class="paramname"><em>outTriangleFlags</em>&#160;</td>
         </tr>
         <tr>

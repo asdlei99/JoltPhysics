@@ -155,7 +155,7 @@ Macros</h2></td></tr>
 <tr class="separator:a96bfac00708a5a1649b5581b3d082d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1da7ef8dc2aa9668cd7cb65e543941"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_t_t_i_8h.html#aec1da7ef8dc2aa9668cd7cb65e543941">JPH_RENAME_CLASS</a>(class_name,  new_name)&#160;&#160;&#160;								inRTTI.SetName(#new_name);</td></tr>
 <tr class="separator:aec1da7ef8dc2aa9668cd7cb65e543941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a668438b38455c6832cd177af4462cdec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_t_t_i_8h.html#a668438b38455c6832cd177af4462cdec">JPH_BASE_CLASS_OFFSET</a>(inClass,  inBaseClass)&#160;&#160;&#160;((int(<a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>((inBaseClass *)((inClass *)0x10000))))-0x10000)</td></tr>
+<tr class="memitem:a668438b38455c6832cd177af4462cdec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_t_t_i_8h.html#a668438b38455c6832cd177af4462cdec">JPH_BASE_CLASS_OFFSET</a>(inClass,  inBaseClass)&#160;&#160;&#160;((int(<a class="el" href="_core_8h.html#a60e8696a4678cd348e991a1f172e53f7">uint64</a>((inBaseClass *)((inClass *)0x10000))))-0x10000)</td></tr>
 <tr class="memdesc:a668438b38455c6832cd177af4462cdec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define very dirty macro to get the offset of a baseclass into a class.  <a href="_r_t_t_i_8h.html#a668438b38455c6832cd177af4462cdec">More...</a><br /></td></tr>
 <tr class="separator:a668438b38455c6832cd177af4462cdec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b6dec4b6f44b7b759575042b90f1e0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_t_t_i_8h.html#a6b6dec4b6f44b7b759575042b90f1e0e">JPH_ADD_BASE_CLASS</a>(class_name,  base_class_name)&#160;&#160;&#160;								inRTTI.AddBaseClass(<a class="el" href="_r_t_t_i_8h.html#a96bfac00708a5a1649b5581b3d082d12">JPH_RTTI</a>(base_class_name), <a class="el" href="_r_t_t_i_8h.html#a668438b38455c6832cd177af4462cdec">JPH_BASE_CLASS_OFFSET</a>(class_name, base_class_name));</td></tr>
@@ -260,7 +260,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((int(<a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a>((inBaseClass *)((inClass *)0x10000))))-0x10000)</td>
+          <td></td><td>&#160;&#160;&#160;((int(<a class="el" href="_core_8h.html#a60e8696a4678cd348e991a1f172e53f7">uint64</a>((inBaseClass *)((inClass *)0x10000))))-0x10000)</td>
         </tr>
       </table>
 </div><div class="memdoc">

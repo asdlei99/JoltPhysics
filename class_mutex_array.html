@@ -133,13 +133,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa901f85cfe3dff0c32edc0d8a852813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#afa901f85cfe3dff0c32edc0d8a852813">GetNumMutexes</a> () const</td></tr>
 <tr class="memdesc:afa901f85cfe3dff0c32edc0d8a852813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of mutexes that were allocated.  <a href="class_mutex_array.html#afa901f85cfe3dff0c32edc0d8a852813">More...</a><br /></td></tr>
 <tr class="separator:afa901f85cfe3dff0c32edc0d8a852813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149c27328334bbe38b64230f2a5251f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#a149c27328334bbe38b64230f2a5251f8">GetMutexIndex</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inObjectIndex) const</td></tr>
+<tr class="memitem:a149c27328334bbe38b64230f2a5251f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#a149c27328334bbe38b64230f2a5251f8">GetMutexIndex</a> (<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inObjectIndex) const</td></tr>
 <tr class="memdesc:a149c27328334bbe38b64230f2a5251f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an object index to a mutex index.  <a href="class_mutex_array.html#a149c27328334bbe38b64230f2a5251f8">More...</a><br /></td></tr>
 <tr class="separator:a149c27328334bbe38b64230f2a5251f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39bf8c118d368c256e5a5c09b39a42be"><td class="memItemLeft" align="right" valign="top">MutexType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#a39bf8c118d368c256e5a5c09b39a42be">GetMutexByObjectIndex</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inObjectIndex)</td></tr>
+<tr class="memitem:a39bf8c118d368c256e5a5c09b39a42be"><td class="memItemLeft" align="right" valign="top">MutexType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#a39bf8c118d368c256e5a5c09b39a42be">GetMutexByObjectIndex</a> (<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inObjectIndex)</td></tr>
 <tr class="memdesc:a39bf8c118d368c256e5a5c09b39a42be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mutex belonging to a certain object by index.  <a href="class_mutex_array.html#a39bf8c118d368c256e5a5c09b39a42be">More...</a><br /></td></tr>
 <tr class="separator:a39bf8c118d368c256e5a5c09b39a42be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1837f7f0a9b0ce63ccbf6d34ca26058"><td class="memItemLeft" align="right" valign="top">MutexType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#ab1837f7f0a9b0ce63ccbf6d34ca26058">GetMutexByIndex</a> (<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inMutexIndex)</td></tr>
+<tr class="memitem:ab1837f7f0a9b0ce63ccbf6d34ca26058"><td class="memItemLeft" align="right" valign="top">MutexType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#ab1837f7f0a9b0ce63ccbf6d34ca26058">GetMutexByIndex</a> (<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inMutexIndex)</td></tr>
 <tr class="memdesc:ab1837f7f0a9b0ce63ccbf6d34ca26058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a mutex by index in the array.  <a href="class_mutex_array.html#ab1837f7f0a9b0ce63ccbf6d34ca26058">More...</a><br /></td></tr>
 <tr class="separator:ab1837f7f0a9b0ce63ccbf6d34ca26058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7192bee3d37aa5fcc12074081a66a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mutex_array.html#a6b7192bee3d37aa5fcc12074081a66a6">LockAll</a> ()</td></tr>
@@ -263,7 +263,7 @@ template&lt;class MutexType &gt; </div>
         <tr>
           <td class="memname">MutexType &amp; <a class="el" href="class_mutex_array.html">MutexArray</a>&lt; MutexType &gt;::GetMutexByIndex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inMutexIndex</em></td><td>)</td>
           <td></td>
         </tr>
@@ -293,7 +293,7 @@ template&lt;class MutexType &gt; </div>
         <tr>
           <td class="memname">MutexType &amp; <a class="el" href="class_mutex_array.html">MutexArray</a>&lt; MutexType &gt;::GetMutexByObjectIndex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inObjectIndex</em></td><td>)</td>
           <td></td>
         </tr>
@@ -321,9 +321,9 @@ template&lt;class MutexType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> <a class="el" href="class_mutex_array.html">MutexArray</a>&lt; MutexType &gt;::GetMutexIndex </td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> <a class="el" href="class_mutex_array.html">MutexArray</a>&lt; MutexType &gt;::GetMutexIndex </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inObjectIndex</em></td><td>)</td>
           <td> const</td>
         </tr>

@@ -124,14 +124,14 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> LastPo<span class="keywordtype">int</span>PartOfClosestFeature&gt;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">bool</span>        GetClosest(<span class="keywordtype">float</span> inPrevVLenSq, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outV, <span class="keywordtype">float</span> &amp;outVLenSq, <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &amp;outSet)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">bool</span>        GetClosest(<span class="keywordtype">float</span> inPrevVLenSq, <a class="code hl_class" href="class_vec3.html">Vec3</a> &amp;outV, <span class="keywordtype">float</span> &amp;outVLenSq, <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &amp;outSet)<span class="keyword"> const</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;y[%d] = [%s], |y[%d]| = %g&quot;</span>, i, <a class="code hl_function" href="_string_tools_8h.html#a12b5bdab675fcd7004cbf9dbf2197538">ConvertToString</a>(mY[i]).c_str(), i, (<span class="keywordtype">double</span>)mY[i].Length());</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> set;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_class" href="class_vec3.html">Vec3</a> v;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">switch</span> (mNumPoints)</div>
@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="comment">// Remove points that are not in the set, only updates mY</span></div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">void</span>        UpdatePointSetY(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inSet)</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">void</span>        UpdatePointSetY(<a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inSet)</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    {</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordtype">int</span> num_points = 0;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <a class="code hl_define" href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a>(<span class="stringliteral">&quot;-Wmaybe-uninitialized&quot;</span>)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="comment">// Remove points that are not in the set, only updates mP</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">void</span>        UpdatePointSetP(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inSet)</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">void</span>        UpdatePointSetP(<a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inSet)</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    {</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keywordtype">int</span> num_points = 0;</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    }</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="comment">// Remove points that are not in the set, only updates mP and mQ</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span>        UpdatePointSetPQ(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inSet)</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordtype">void</span>        UpdatePointSetPQ(<a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inSet)</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    {</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        <span class="keywordtype">int</span> num_points = 0;</div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
@@ -237,7 +237,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    }</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="comment">// Remove points that are not in the set, updates mY, mP and mQ</span></div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordtype">void</span>        UpdatePointSetYPQ(<a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inSet)</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordtype">void</span>        UpdatePointSetYPQ(<a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inSet)</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    {</div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordtype">int</span> num_points = 0;</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mNumPoints; ++i)</div>
@@ -340,7 +340,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>            <span class="comment">// Determine the new closest point</span></div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>            <span class="keywordtype">float</span> v_len_sq;         <span class="comment">// Length^2 of v</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;             <span class="comment">// Set of points that form the new simplex</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>            <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> set;             <span class="comment">// Set of points that form the new simplex</span></div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>            <span class="keywordflow">if</span> (!GetClosest&lt;true&gt;(prev_v_len_sq, ioV, v_len_sq, set))</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
@@ -475,7 +475,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>            <a class="code hl_variable" href="_issue_reporting_8cpp.html#a5b9da8153a0850dccf744d526486ebd2">Trace</a>(<span class="stringliteral">&quot;w = [%s]&quot;</span>, <a class="code hl_function" href="_string_tools_8h.html#a12b5bdab675fcd7004cbf9dbf2197538">ConvertToString</a>(w).c_str());</div>
 <div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span> </div>
-<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>            <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> set;</div>
 <div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>            <span class="keywordflow">if</span> (!GetClosest&lt;true&gt;(prev_v_len_sq, ioV, v_len_sq, set))</div>
 <div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>            {</div>
 <div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>                --mNumPoints; <span class="comment">// Undo add last point</span></div>
@@ -651,7 +651,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span> </div>
 <div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>            <span class="comment">// Determine the new closest point from Y to origin</span></div>
 <div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>            <span class="keywordtype">bool</span> needs_restart = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>            <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
 <div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>            <span class="keywordflow">if</span> (!GetClosest&lt;false&gt;(v_len_sq, v, v_len_sq, set))</div>
 <div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span>            {</div>
 <div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
@@ -833,7 +833,7 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="line"><a id="l00808" name="l00808"></a><span class="lineno">  808</span> </div>
 <div class="line"><a id="l00809" name="l00809"></a><span class="lineno">  809</span>            <span class="comment">// Determine the new closest point from Y to origin</span></div>
 <div class="line"><a id="l00810" name="l00810"></a><span class="lineno">  810</span>            <span class="keywordtype">bool</span> needs_restart = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>            <a class="code hl_typedef" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
+<div class="line"><a id="l00811" name="l00811"></a><span class="lineno">  811</span>            <a class="code hl_typedef" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> set;                     <span class="comment">// Set of points that form the new simplex</span></div>
 <div class="line"><a id="l00812" name="l00812"></a><span class="lineno">  812</span>            <span class="keywordflow">if</span> (!GetClosest&lt;false&gt;(v_len_sq, v, v_len_sq, set))</div>
 <div class="line"><a id="l00813" name="l00813"></a><span class="lineno">  813</span>            {</div>
 <div class="line"><a id="l00814" name="l00814"></a><span class="lineno">  814</span><span class="preprocessor">#ifdef JPH_GJK_DEBUG</span></div>
@@ -999,9 +999,9 @@ $(document).ready(function(){initNavTree('_g_j_k_closest_point_8h_source.html','
 <div class="ttc" id="a_closest_point_8h_html"><div class="ttname"><a href="_closest_point_8h.html">ClosestPoint.h</a></div></div>
 <div class="ttc" id="a_convex_support_8h_html"><div class="ttname"><a href="_convex_support_8h.html">ConvexSupport.h</a></div></div>
 <div class="ttc" id="a_core_8h_html_a46d791d2b1f95fa056399441a2ad8667"><div class="ttname"><a href="_core_8h.html#a46d791d2b1f95fa056399441a2ad8667">JPH_GCC_SUPPRESS_WARNING</a></div><div class="ttdeci">#define JPH_GCC_SUPPRESS_WARNING(w)</div><div class="ttdef"><b>Definition:</b> Core.h:172</div></div>
-<div class="ttc" id="a_core_8h_html_a5522c54735d837fae7d6ba026b858441"><div class="ttname"><a href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a></div><div class="ttdeci">uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:346</div></div>
 <div class="ttc" id="a_core_8h_html_a69aa29b598b851b0640aa225a9e5d61d"><div class="ttname"><a href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a></div><div class="ttdeci">unsigned int uint</div><div class="ttdef"><b>Definition:</b> Core.h:343</div></div>
 <div class="ttc" id="a_core_8h_html_a73da8725998b00321a9db341202d650d"><div class="ttname"><a href="_core_8h.html#a73da8725998b00321a9db341202d650d">JPH_NAMESPACE_END</a></div><div class="ttdeci">#define JPH_NAMESPACE_END</div><div class="ttdef"><b>Definition:</b> Core.h:273</div></div>
+<div class="ttc" id="a_core_8h_html_a8f95e75e58492e87412191fabadd8ca8"><div class="ttname"><a href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Core.h:346</div></div>
 <div class="ttc" id="a_core_8h_html_ad14098b68b8c44ea6112601031268405"><div class="ttname"><a href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a></div><div class="ttdeci">#define JPH_NAMESPACE_BEGIN</div><div class="ttdef"><b>Definition:</b> Core.h:267</div></div>
 <div class="ttc" id="a_debug_renderer_8h_html"><div class="ttname"><a href="_debug_renderer_8h.html">DebugRenderer.h</a></div></div>
 <div class="ttc" id="a_f_p_exception_8h_html"><div class="ttname"><a href="_f_p_exception_8h.html">FPException.h</a></div></div>

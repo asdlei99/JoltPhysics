@@ -144,7 +144,7 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ae1f52f80ea3133d1b767f007f83350e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0d75a5176680f7c00728fa33cbe9e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">MutexMask</a> = <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></td></tr>
+<tr class="memitem:aee0d75a5176680f7c00728fa33cbe9e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">MutexMask</a> = <a class="el" href="_core_8h.html#a60e8696a4678cd348e991a1f172e53f7">uint64</a></td></tr>
 <tr class="memdesc:aee0d75a5176680f7c00728fa33cbe9e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bodies are protected using an array of mutexes (so a fixed number, not 1 per body). Each bit in this mask indicates a locked mutex.  <a href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">More...</a><br /></td></tr>
 <tr class="separator:aee0d75a5176680f7c00728fa33cbe9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -196,10 +196,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac82eddab23702dc985be81be36d91afb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_body_i_d.html">BodyID</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac82eddab23702dc985be81be36d91afb">GetActiveBodiesUnsafe</a> () const</td></tr>
 <tr class="memdesc:ac82eddab23702dc985be81be36d91afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of active bodies. Note: Not thread safe. The active bodies list can change at any moment.  <a href="class_body_manager.html#ac82eddab23702dc985be81be36d91afb">More...</a><br /></td></tr>
 <tr class="separator:ac82eddab23702dc985be81be36d91afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62687e8da923c91581a90e4854b556cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a62687e8da923c91581a90e4854b556cc">GetNumActiveBodies</a> () const</td></tr>
+<tr class="memitem:a62687e8da923c91581a90e4854b556cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a62687e8da923c91581a90e4854b556cc">GetNumActiveBodies</a> () const</td></tr>
 <tr class="memdesc:a62687e8da923c91581a90e4854b556cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of active bodies.  <a href="class_body_manager.html#a62687e8da923c91581a90e4854b556cc">More...</a><br /></td></tr>
 <tr class="separator:a62687e8da923c91581a90e4854b556cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a462f40b51e2bbdae500c62584d0376be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a462f40b51e2bbdae500c62584d0376be">GetNumActiveCCDBodies</a> () const</td></tr>
+<tr class="memitem:a462f40b51e2bbdae500c62584d0376be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a462f40b51e2bbdae500c62584d0376be">GetNumActiveCCDBodies</a> () const</td></tr>
 <tr class="memdesc:a462f40b51e2bbdae500c62584d0376be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of active bodies that are using continuous collision detection.  <a href="class_body_manager.html#a462f40b51e2bbdae500c62584d0376be">More...</a><br /></td></tr>
 <tr class="separator:a462f40b51e2bbdae500c62584d0376be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f4202f0ef087177b642a93c13d82d9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a5f4202f0ef087177b642a93c13d82d9a">SetBodyActivationListener</a> (<a class="el" href="class_body_activation_listener.html">BodyActivationListener</a> *inListener)</td></tr>
@@ -292,7 +292,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">BodyManager::MutexMask</a> =  <a class="el" href="_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb">uint64</a></td>
+          <td class="memname">using <a class="el" href="class_body_manager.html#aee0d75a5176680f7c00728fa33cbe9e2">BodyManager::MutexMask</a> =  <a class="el" href="_core_8h.html#a60e8696a4678cd348e991a1f172e53f7">uint64</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -918,7 +918,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> BodyManager::GetNumActiveBodies </td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> BodyManager::GetNumActiveBodies </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -945,7 +945,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> BodyManager::GetNumActiveCCDBodies </td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> BodyManager::GetNumActiveCCDBodies </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

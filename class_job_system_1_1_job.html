@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('class_job_system_1_1_job.html',''); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a50f9de63538bb632101548fef86258e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a50f9de63538bb632101548fef86258e1">Job</a> (const char *inJobName, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, <a class="el" href="class_job_system.html">JobSystem</a> *inJobSystem, const <a class="el" href="class_job_system.html#ae31ef61a509934f03d4705aec19c61f5">JobFunction</a> &amp;inJobFunction, <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> inNumDependencies)</td></tr>
+<tr class="memitem:a50f9de63538bb632101548fef86258e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a50f9de63538bb632101548fef86258e1">Job</a> (const char *inJobName, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, <a class="el" href="class_job_system.html">JobSystem</a> *inJobSystem, const <a class="el" href="class_job_system.html#ae31ef61a509934f03d4705aec19c61f5">JobFunction</a> &amp;inJobFunction, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumDependencies)</td></tr>
 <tr class="memdesc:a50f9de63538bb632101548fef86258e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_job_system_1_1_job.html#a50f9de63538bb632101548fef86258e1">More...</a><br /></td></tr>
 <tr class="separator:a50f9de63538bb632101548fef86258e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3922bb7442e7e778cec6a8ea984f454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_job_system.html">JobSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#aa3922bb7442e7e778cec6a8ea984f454">GetJobSystem</a> ()</td></tr>
@@ -134,7 +134,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83a4dee7e40f01cab6eafbafa53a4efc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a83a4dee7e40f01cab6eafbafa53a4efc">SetBarrier</a> (<a class="el" href="class_job_system_1_1_barrier.html">Barrier</a> *inBarrier)</td></tr>
 <tr class="memdesc:a83a4dee7e40f01cab6eafbafa53a4efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the job barrier that this job belongs to and returns false if this was not possible because the job already finished.  <a href="class_job_system_1_1_job.html#a83a4dee7e40f01cab6eafbafa53a4efc">More...</a><br /></td></tr>
 <tr class="separator:a83a4dee7e40f01cab6eafbafa53a4efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51718f809ac43edfcd1a3ae87acc2bd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a51718f809ac43edfcd1a3ae87acc2bd4">Execute</a> ()</td></tr>
+<tr class="memitem:a51718f809ac43edfcd1a3ae87acc2bd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a51718f809ac43edfcd1a3ae87acc2bd4">Execute</a> ()</td></tr>
 <tr class="memdesc:a51718f809ac43edfcd1a3ae87acc2bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the job function, returns the number of dependencies that this job still has or cExecutingState or cDoneState.  <a href="class_job_system_1_1_job.html#a51718f809ac43edfcd1a3ae87acc2bd4">More...</a><br /></td></tr>
 <tr class="separator:a51718f809ac43edfcd1a3ae87acc2bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa223bb40f3b9a54e69440ae309a661f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#aaa223bb40f3b9a54e69440ae309a661f">CanBeExecuted</a> () const</td></tr>
@@ -146,10 +146,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:add5d0be4f40149e9b66ebaf3ed99f96b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#add5d0be4f40149e9b66ebaf3ed99f96b">cExecutingState</a> = 0xe0e0e0e0</td></tr>
+<tr class="memitem:add5d0be4f40149e9b66ebaf3ed99f96b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#add5d0be4f40149e9b66ebaf3ed99f96b">cExecutingState</a> = 0xe0e0e0e0</td></tr>
 <tr class="memdesc:add5d0be4f40149e9b66ebaf3ed99f96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of mNumDependencies when job is executing.  <a href="class_job_system_1_1_job.html#add5d0be4f40149e9b66ebaf3ed99f96b">More...</a><br /></td></tr>
 <tr class="separator:add5d0be4f40149e9b66ebaf3ed99f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36ca70b191d31c36707cf642167b926"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#aa36ca70b191d31c36707cf642167b926">cDoneState</a> = 0xd0d0d0d0</td></tr>
+<tr class="memitem:aa36ca70b191d31c36707cf642167b926"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#aa36ca70b191d31c36707cf642167b926">cDoneState</a> = 0xd0d0d0d0</td></tr>
 <tr class="memdesc:aa36ca70b191d31c36707cf642167b926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of mNumDependencies when job is done executing.  <a href="class_job_system_1_1_job.html#aa36ca70b191d31c36707cf642167b926">More...</a><br /></td></tr>
 <tr class="separator:aa36ca70b191d31c36707cf642167b926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d1be0a8e2bcb376eee7915050b17739"><td class="memItemLeft" align="right" valign="top">static constexpr intptr_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_job_system_1_1_job.html#a0d1be0a8e2bcb376eee7915050b17739">cBarrierDoneState</a> = ~intptr_t(0)</td></tr>
@@ -195,7 +195,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
           <td class="paramname"><em>inNumDependencies</em>&#160;</td>
         </tr>
         <tr>
@@ -308,7 +308,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> JobSystem::Job::Execute </td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> JobSystem::Job::Execute </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -521,7 +521,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> JobSystem::Job::cDoneState = 0xd0d0d0d0</td>
+          <td class="memname">constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> JobSystem::Job::cDoneState = 0xd0d0d0d0</td>
         </tr>
       </table>
   </td>
@@ -545,7 +545,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> JobSystem::Job::cExecutingState = 0xe0e0e0e0</td>
+          <td class="memname">constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> JobSystem::Job::cExecutingState = 0xe0e0e0e0</td>
         </tr>
       </table>
   </td>

@@ -29,8 +29,8 @@ var _core_8h =
     [ "JPH_SUPPRESS_WARNINGS_STD_END", "_core_8h.html#a5f6b64537a538d9204b253532b799467", null ],
     [ "JPH_UNUSED", "_core_8h.html#a719a73b9e445920bf5969f05d01ce69c", null ],
     [ "uint", "_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d", null ],
-    [ "uint16", "_core_8h.html#aa720ba8c0d1dcc513c82c51d3f6e9995", null ],
-    [ "uint32", "_core_8h.html#a5522c54735d837fae7d6ba026b858441", null ],
-    [ "uint64", "_core_8h.html#aca0ba831b19773ec091e57f5cf76a1fb", null ],
-    [ "uint8", "_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1", null ]
+    [ "uint16", "_core_8h.html#aea9840dd402bd5d5201bef4633398cb3", null ],
+    [ "uint32", "_core_8h.html#a8f95e75e58492e87412191fabadd8ca8", null ],
+    [ "uint64", "_core_8h.html#a60e8696a4678cd348e991a1f172e53f7", null ],
+    [ "uint8", "_core_8h.html#a115946cb5fc5879545e9ccea096a6031", null ]
 ];

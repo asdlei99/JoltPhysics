@@ -117,7 +117,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa3ed16d2ad735587cc31672b2db9c6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#aa3ed16d2ad735587cc31672b2db9c6f4">More...</a><br /></td></tr>
 <tr class="separator:aa3ed16d2ad735587cc31672b2db9c6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084241df274ee41e4bb4908b8bd5c943"><td class="memTemplParams" colspan="2">template&lt;class TriangleContext , class Visitor &gt; </td></tr>
-<tr class="memitem:a084241df274ee41e4bb4908b8bd5c943"><td class="memTemplItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a084241df274ee41e4bb4908b8bd5c943">WalkTree</a> (const <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *inBufferStart, const TriangleContext &amp;inTriangleContext, Visitor &amp;ioVisitor)</td></tr>
+<tr class="memitem:a084241df274ee41e4bb4908b8bd5c943"><td class="memTemplItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a084241df274ee41e4bb4908b8bd5c943">WalkTree</a> (const <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *inBufferStart, const TriangleContext &amp;inTriangleContext, Visitor &amp;ioVisitor)</td></tr>
 <tr class="memdesc:a084241df274ee41e4bb4908b8bd5c943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk the node tree calling the Visitor::VisitNodes for each node encountered and Visitor::VisitTriangles for each triangle encountered.  <a href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a084241df274ee41e4bb4908b8bd5c943">More...</a><br /></td></tr>
 <tr class="separator:a084241df274ee41e4bb4908b8bd5c943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a497beb4af569cc217d1b6d8b311f89ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a497beb4af569cc217d1b6d8b311f89ae">IsDoneWalking</a> () const</td></tr>
@@ -129,7 +129,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a90be34ac29998cfd210f0c1d28956a9c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a90be34ac29998cfd210f0c1d28956a9c">sTriangleBlockIDBits</a> (const <a class="el" href="class_byte_buffer.html">ByteBuffer</a> &amp;inTree)</td></tr>
 <tr class="memdesc:a90be34ac29998cfd210f0c1d28956a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the amount of bits needed to store an ID to a triangle block.  <a href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a90be34ac29998cfd210f0c1d28956a9c">More...</a><br /></td></tr>
 <tr class="separator:a90be34ac29998cfd210f0c1d28956a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6897b5f58d055fde378516056dec1836"><td class="memItemLeft" align="right" valign="top">static const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a6897b5f58d055fde378516056dec1836">sGetTriangleBlockStart</a> (const <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *inBufferStart, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inTriangleBlockID)</td></tr>
+<tr class="memitem:a6897b5f58d055fde378516056dec1836"><td class="memItemLeft" align="right" valign="top">static const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a6897b5f58d055fde378516056dec1836">sGetTriangleBlockStart</a> (const <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *inBufferStart, <a class="el" href="_core_8h.html#a69aa29b598b851b0640aa225a9e5d61d">uint</a> inTriangleBlockID)</td></tr>
 <tr class="memdesc:a6897b5f58d055fde378516056dec1836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a triangle block ID to the start of the triangle buffer.  <a href="class_node_codec_quad_tree_half_float_1_1_decoding_context.html#a6897b5f58d055fde378516056dec1836">More...</a><br /></td></tr>
 <tr class="separator:a6897b5f58d055fde378516056dec1836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -211,7 +211,7 @@ template&lt;int Alignment&gt; </div>
         <tr>
           <td class="memname">static const void * <a class="el" href="class_node_codec_quad_tree_half_float.html">NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::sGetTriangleBlockStart </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *&#160;</td>
           <td class="paramname"><em>inBufferStart</em>, </td>
         </tr>
         <tr>
@@ -283,7 +283,7 @@ template&lt;class TriangleContext , class Visitor &gt; </div>
         <tr>
           <td class="memname">JPH_INLINE void <a class="el" href="class_node_codec_quad_tree_half_float.html">NodeCodecQuadTreeHalfFloat</a>&lt; Alignment &gt;::DecodingContext::WalkTree </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#aa17fc6cc2c9a4ad80e9fcdd3f64320e1">uint8</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a> *&#160;</td>
           <td class="paramname"><em>inBufferStart</em>, </td>
         </tr>
         <tr>

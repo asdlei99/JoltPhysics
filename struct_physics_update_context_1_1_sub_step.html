@@ -134,31 +134,31 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a24cdea3b868f58ba8ba5c050bb6e2c98"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a24cdea3b868f58ba8ba5c050bb6e2c98">mIsLastOfAll</a></td></tr>
 <tr class="memdesc:a24cdea3b868f58ba8ba5c050bb6e2c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this is the last substep in the last step.  <a href="struct_physics_update_context_1_1_sub_step.html#a24cdea3b868f58ba8ba5c050bb6e2c98">More...</a><br /></td></tr>
 <tr class="separator:a24cdea3b868f58ba8ba5c050bb6e2c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf50d3d400f6ddb7246de6a6296801fa"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#acf50d3d400f6ddb7246de6a6296801fa">mSolveVelocityConstraintsNextIsland</a> { 0 }</td></tr>
+<tr class="memitem:acf50d3d400f6ddb7246de6a6296801fa"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#acf50d3d400f6ddb7246de6a6296801fa">mSolveVelocityConstraintsNextIsland</a> { 0 }</td></tr>
 <tr class="memdesc:acf50d3d400f6ddb7246de6a6296801fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next island that needs to be processed for the solve velocity constraints step (doesn't need own cache line since position jobs don't run at same time)  <a href="struct_physics_update_context_1_1_sub_step.html#acf50d3d400f6ddb7246de6a6296801fa">More...</a><br /></td></tr>
 <tr class="separator:acf50d3d400f6ddb7246de6a6296801fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c30f0c734fc9e2742538138d078f47f"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a6c30f0c734fc9e2742538138d078f47f">mSolvePositionConstraintsNextIsland</a> { 0 }</td></tr>
+<tr class="memitem:a6c30f0c734fc9e2742538138d078f47f"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a6c30f0c734fc9e2742538138d078f47f">mSolvePositionConstraintsNextIsland</a> { 0 }</td></tr>
 <tr class="memdesc:a6c30f0c734fc9e2742538138d078f47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next island that needs to be processed for the solve position constraints step (doesn't need own cache line since velocity jobs don't run at same time)  <a href="struct_physics_update_context_1_1_sub_step.html#a6c30f0c734fc9e2742538138d078f47f">More...</a><br /></td></tr>
 <tr class="separator:a6c30f0c734fc9e2742538138d078f47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a039b40959bf4cd5b0ad27618c57c54ec"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a039b40959bf4cd5b0ad27618c57c54ec">mIntegrateVelocityReadIdx</a> { 0 }</td></tr>
+<tr class="memitem:a039b40959bf4cd5b0ad27618c57c54ec"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a039b40959bf4cd5b0ad27618c57c54ec">mIntegrateVelocityReadIdx</a> { 0 }</td></tr>
 <tr class="memdesc:a039b40959bf4cd5b0ad27618c57c54ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next active body index to take when integrating velocities.  <a href="struct_physics_update_context_1_1_sub_step.html#a039b40959bf4cd5b0ad27618c57c54ec">More...</a><br /></td></tr>
 <tr class="separator:a039b40959bf4cd5b0ad27618c57c54ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970a57db9780c65ac27b81935b640df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_physics_update_context_1_1_sub_step_1_1_c_c_d_body.html">CCDBody</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a970a57db9780c65ac27b81935b640df9">mCCDBodies</a> = nullptr</td></tr>
 <tr class="memdesc:a970a57db9780c65ac27b81935b640df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of bodies that need to do continuous collision detection.  <a href="struct_physics_update_context_1_1_sub_step.html#a970a57db9780c65ac27b81935b640df9">More...</a><br /></td></tr>
 <tr class="separator:a970a57db9780c65ac27b81935b640df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f1b94333926aa9aeb1da725065f68d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a67f1b94333926aa9aeb1da725065f68d">mCCDBodiesCapacity</a> = 0</td></tr>
+<tr class="memitem:a67f1b94333926aa9aeb1da725065f68d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a67f1b94333926aa9aeb1da725065f68d">mCCDBodiesCapacity</a> = 0</td></tr>
 <tr class="memdesc:a67f1b94333926aa9aeb1da725065f68d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Capacity of the mCCDBodies list.  <a href="struct_physics_update_context_1_1_sub_step.html#a67f1b94333926aa9aeb1da725065f68d">More...</a><br /></td></tr>
 <tr class="separator:a67f1b94333926aa9aeb1da725065f68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cde1fdd1240ee68f6acfb1ebb69ea3e"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a8cde1fdd1240ee68f6acfb1ebb69ea3e">mNumCCDBodies</a> = 0</td></tr>
+<tr class="memitem:a8cde1fdd1240ee68f6acfb1ebb69ea3e"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a8cde1fdd1240ee68f6acfb1ebb69ea3e">mNumCCDBodies</a> = 0</td></tr>
 <tr class="memdesc:a8cde1fdd1240ee68f6acfb1ebb69ea3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of CCD bodies in mCCDBodies.  <a href="struct_physics_update_context_1_1_sub_step.html#a8cde1fdd1240ee68f6acfb1ebb69ea3e">More...</a><br /></td></tr>
 <tr class="separator:a8cde1fdd1240ee68f6acfb1ebb69ea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cf0e03fb1cf37054a279d8b3ff1f1bb"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a3cf0e03fb1cf37054a279d8b3ff1f1bb">mNextCCDBody</a> { 0 }</td></tr>
+<tr class="memitem:a3cf0e03fb1cf37054a279d8b3ff1f1bb"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a3cf0e03fb1cf37054a279d8b3ff1f1bb">mNextCCDBody</a> { 0 }</td></tr>
 <tr class="memdesc:a3cf0e03fb1cf37054a279d8b3ff1f1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next unprocessed body index in mCCDBodies.  <a href="struct_physics_update_context_1_1_sub_step.html#a3cf0e03fb1cf37054a279d8b3ff1f1bb">More...</a><br /></td></tr>
 <tr class="separator:a3cf0e03fb1cf37054a279d8b3ff1f1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fb2568e752c3a5d2b19aa38a5a6852d"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a4fb2568e752c3a5d2b19aa38a5a6852d">mActiveBodyToCCDBody</a> = nullptr</td></tr>
 <tr class="memdesc:a4fb2568e752c3a5d2b19aa38a5a6852d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mapping between an index in BodyManager::mActiveBodies and the index in mCCDBodies.  <a href="struct_physics_update_context_1_1_sub_step.html#a4fb2568e752c3a5d2b19aa38a5a6852d">More...</a><br /></td></tr>
 <tr class="separator:a4fb2568e752c3a5d2b19aa38a5a6852d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7951c6648377e0fce2f91bcf801969f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a7951c6648377e0fce2f91bcf801969f4">mNumActiveBodyToCCDBody</a> = 0</td></tr>
+<tr class="memitem:a7951c6648377e0fce2f91bcf801969f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a7951c6648377e0fce2f91bcf801969f4">mNumActiveBodyToCCDBody</a> = 0</td></tr>
 <tr class="memdesc:a7951c6648377e0fce2f91bcf801969f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of indices in mActiveBodyToCCDBody.  <a href="struct_physics_update_context_1_1_sub_step.html#a7951c6648377e0fce2f91bcf801969f4">More...</a><br /></td></tr>
 <tr class="separator:a7951c6648377e0fce2f91bcf801969f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33e57f5a6ed9cc17575e8277f9f99685"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_physics_update_context.html#abfb8bdd22591660d9452affe8a51ff43">JobHandleArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html#a33e57f5a6ed9cc17575e8277f9f99685">mSolveVelocityConstraints</a></td></tr>
@@ -225,7 +225,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> PhysicsUpdateContext::SubStep::mCCDBodiesCapacity = 0</td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> PhysicsUpdateContext::SubStep::mCCDBodiesCapacity = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,7 +257,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::SubStep::mIntegrateVelocityReadIdx { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::SubStep::mIntegrateVelocityReadIdx { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -337,7 +337,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::SubStep::mNextCCDBody { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::SubStep::mNextCCDBody { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +353,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a> PhysicsUpdateContext::SubStep::mNumActiveBodyToCCDBody = 0</td>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> PhysicsUpdateContext::SubStep::mNumActiveBodyToCCDBody = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -369,7 +369,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::SubStep::mNumCCDBodies = 0</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::SubStep::mNumCCDBodies = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -449,7 +449,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::SubStep::mSolvePositionConstraintsNextIsland { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::SubStep::mSolvePositionConstraintsNextIsland { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -481,7 +481,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a5522c54735d837fae7d6ba026b858441">uint32</a>&gt; PhysicsUpdateContext::SubStep::mSolveVelocityConstraintsNextIsland { 0 }</td>
+          <td class="memname">atomic&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&gt; PhysicsUpdateContext::SubStep::mSolveVelocityConstraintsNextIsland { 0 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
