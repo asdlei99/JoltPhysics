@@ -113,8 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9931c598c884e6be4baea88a612ef59e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a9931c598c884e6be4baea88a612ef59e">MotorSettings</a> ()=default</td></tr>
 <tr class="memdesc:a9931c598c884e6be4baea88a612ef59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_motor_settings.html#a9931c598c884e6be4baea88a612ef59e">More...</a><br /></td></tr>
 <tr class="separator:a9931c598c884e6be4baea88a612ef59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9651ca00c5b9b396257a789e28581ea5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a9651ca00c5b9b396257a789e28581ea5">MotorSettings</a> (const <a class="el" href="class_motor_settings.html">MotorSettings</a> &amp;inRHS)=default</td></tr>
-<tr class="separator:a9651ca00c5b9b396257a789e28581ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da51e1a3f8feb8e6a2b056c7e26d24b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a3da51e1a3f8feb8e6a2b056c7e26d24b">MotorSettings</a> (const <a class="el" href="class_motor_settings.html">MotorSettings</a> &amp;)=default</td></tr>
+<tr class="separator:a3da51e1a3f8feb8e6a2b056c7e26d24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81a42488fb27a4e36f3f2802bca0bdcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a81a42488fb27a4e36f3f2802bca0bdcc">MotorSettings</a> (float inFrequency, float inDamping)</td></tr>
 <tr class="separator:a81a42488fb27a4e36f3f2802bca0bdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a280a8c958af57873bd500de0104ef574"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a280a8c958af57873bd500de0104ef574">MotorSettings</a> (float inFrequency, float inDamping, float inForceLimit, float inTorqueLimit)</td></tr>
@@ -143,12 +143,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a1d0006b3a5ecda5f0defa968280305a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a1d0006b3a5ecda5f0defa968280305a0">mFrequency</a> = 2.0f</td></tr>
-<tr class="memdesc:a1d0006b3a5ecda5f0defa968280305a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Oscillation frequency when solving position target (Hz). Should be in the range (0, 0.5 * simulation frequency]. When simulating at 60 Hz, 20 is a good value for a strong motor. Only used for position motors.  <a href="class_motor_settings.html#a1d0006b3a5ecda5f0defa968280305a0">More...</a><br /></td></tr>
-<tr class="separator:a1d0006b3a5ecda5f0defa968280305a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a1eb523e1f92e0a9bc5e6073681e31a12">mDamping</a> = 1.0f</td></tr>
-<tr class="memdesc:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damping when solving position target (0 = minimal damping, 1 = critical damping). Only used for position motors.  <a href="class_motor_settings.html#a1eb523e1f92e0a9bc5e6073681e31a12">More...</a><br /></td></tr>
-<tr class="separator:a1eb523e1f92e0a9bc5e6073681e31a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a51d3f04aa12947eb85d08a1f01dab6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_spring_settings.html">SpringSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#a5a51d3f04aa12947eb85d08a1f01dab6">mSpringSettings</a> { ESpringMode::FrequencyAndDamping, 2.0f, 1.0f }</td></tr>
+<tr class="memdesc:a5a51d3f04aa12947eb85d08a1f01dab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings for the spring that is used to drive to the position target (not used when motor is a velocity motor).  <a href="class_motor_settings.html#a5a51d3f04aa12947eb85d08a1f01dab6">More...</a><br /></td></tr>
+<tr class="separator:a5a51d3f04aa12947eb85d08a1f01dab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motor_settings.html#ac8b066324ceb0052a8ff637e77d4e9c1">mMinForceLimit</a> = -FLT_MAX</td></tr>
 <tr class="memdesc:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum force to apply in case of a linear constraint (N). Usually this is -mMaxForceLimit unless you want a motor that can e.g. push but not pull. Not used when motor is an angular motor.  <a href="class_motor_settings.html#ac8b066324ceb0052a8ff637e77d4e9c1">More...</a><br /></td></tr>
 <tr class="separator:ac8b066324ceb0052a8ff637e77d4e9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,8 +189,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9651ca00c5b9b396257a789e28581ea5" name="a9651ca00c5b9b396257a789e28581ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9651ca00c5b9b396257a789e28581ea5">&#9670;&#160;</a></span>MotorSettings() <span class="overload">[2/4]</span></h2>
+<a id="a3da51e1a3f8feb8e6a2b056c7e26d24b" name="a3da51e1a3f8feb8e6a2b056c7e26d24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da51e1a3f8feb8e6a2b056c7e26d24b">&#9670;&#160;</a></span>MotorSettings() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,7 +202,7 @@ Public Attributes</h2></td></tr>
           <td class="memname">MotorSettings::MotorSettings </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_motor_settings.html">MotorSettings</a> &amp;&#160;</td>
-          <td class="paramname"><em>inRHS</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -503,38 +500,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1eb523e1f92e0a9bc5e6073681e31a12" name="a1eb523e1f92e0a9bc5e6073681e31a12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb523e1f92e0a9bc5e6073681e31a12">&#9670;&#160;</a></span>mDamping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MotorSettings::mDamping = 1.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Damping when solving position target (0 = minimal damping, 1 = critical damping). Only used for position motors. </p>
-
-</div>
-</div>
-<a id="a1d0006b3a5ecda5f0defa968280305a0" name="a1d0006b3a5ecda5f0defa968280305a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d0006b3a5ecda5f0defa968280305a0">&#9670;&#160;</a></span>mFrequency</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MotorSettings::mFrequency = 2.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Oscillation frequency when solving position target (Hz). Should be in the range (0, 0.5 * simulation frequency]. When simulating at 60 Hz, 20 is a good value for a strong motor. Only used for position motors. </p>
-
-</div>
-</div>
 <a id="aacf73d5d1dc3d729ed505b01f2b91425" name="aacf73d5d1dc3d729ed505b01f2b91425"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacf73d5d1dc3d729ed505b01f2b91425">&#9670;&#160;</a></span>mMaxForceLimit</h2>
 
@@ -596,6 +561,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Minimum torque to apply in case of a angular constraint (N m). Usually this is -mMaxTorqueLimit unless you want a motor that can e.g. push but not pull. Not used when motor is a position motor. </p>
+
+</div>
+</div>
+<a id="a5a51d3f04aa12947eb85d08a1f01dab6" name="a5a51d3f04aa12947eb85d08a1f01dab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a51d3f04aa12947eb85d08a1f01dab6">&#9670;&#160;</a></span>mSpringSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_spring_settings.html">SpringSettings</a> MotorSettings::mSpringSettings { ESpringMode::FrequencyAndDamping, 2.0f, 1.0f }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Settings for the spring that is used to drive to the position target (not used when motor is a velocity motor). </p>
 
 </div>
 </div>

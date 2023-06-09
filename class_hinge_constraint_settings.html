@@ -186,6 +186,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a269eb742fd612f668946d21161a182ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9611cf15f448a12d21191490b9628316"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint_settings.html#a9611cf15f448a12d21191490b9628316">mLimitsMax</a> = JPH_PI</td></tr>
 <tr class="separator:a9611cf15f448a12d21191490b9628316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefad4492ec92f4998a466087b5a89c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_spring_settings.html">SpringSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint_settings.html#aefad4492ec92f4998a466087b5a89c8c">mLimitsSpringSettings</a></td></tr>
+<tr class="memdesc:aefad4492ec92f4998a466087b5a89c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back.  <a href="class_hinge_constraint_settings.html#aefad4492ec92f4998a466087b5a89c8c">More...</a><br /></td></tr>
+<tr class="separator:aefad4492ec92f4998a466087b5a89c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f046631caa15b87030e4edfb568f248"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hinge_constraint_settings.html#a2f046631caa15b87030e4edfb568f248">mMaxFrictionTorque</a> = 0.0f</td></tr>
 <tr class="memdesc:a2f046631caa15b87030e4edfb568f248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum amount of torque (N m) to apply as friction when the constraint is not powered by a motor.  <a href="class_hinge_constraint_settings.html#a2f046631caa15b87030e4edfb568f248">More...</a><br /></td></tr>
 <tr class="separator:a2f046631caa15b87030e4edfb568f248"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -398,6 +401,22 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Bodies are assumed to be placed so that the hinge angle = 0, movement will be limited between [mLimitsMin, mLimitsMax] where mLimitsMin e [-pi, 0] and mLimitsMax e [0, pi]. Both angles are in radians. </p>
+
+</div>
+</div>
+<a id="aefad4492ec92f4998a466087b5a89c8c" name="aefad4492ec92f4998a466087b5a89c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefad4492ec92f4998a466087b5a89c8c">&#9670;&#160;</a></span>mLimitsSpringSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_spring_settings.html">SpringSettings</a> HingeConstraintSettings::mLimitsSpringSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back. </p>
 
 </div>
 </div>

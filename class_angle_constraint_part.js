@@ -1,6 +1,9 @@
 var class_angle_constraint_part =
 [
-    [ "CalculateConstraintProperties", "class_angle_constraint_part.html#a516a816eff2aca38720603c6672336ae", null ],
+    [ "CalculateConstraintProperties", "class_angle_constraint_part.html#a4db6fb3120c161301e04ee92276544d4", null ],
+    [ "CalculateConstraintPropertiesWithFrequencyAndDamping", "class_angle_constraint_part.html#ace82e23e9129e1c30c93134a2d75504e", null ],
+    [ "CalculateConstraintPropertiesWithSettings", "class_angle_constraint_part.html#ac8eb562a067ed5596aca09e04ffc32d1", null ],
+    [ "CalculateConstraintPropertiesWithStiffnessAndDamping", "class_angle_constraint_part.html#a13c8d05c1aef17b2edc81da4ea754404", null ],
     [ "Deactivate", "class_angle_constraint_part.html#a27c8bf9c172f0d3867c1a489aa08c840", null ],
     [ "GetTotalLambda", "class_angle_constraint_part.html#af482295498d9ca4f6fcdd0c034d0fb90", null ],
     [ "IsActive", "class_angle_constraint_part.html#a470e2813d397af02acc6bf8e8373431c", null ],

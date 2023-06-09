@@ -179,10 +179,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a7dd98fea4e812f9bc4168804c1bc4742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2535335c96322853cd8243a199ce54d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_distance_constraint_settings.html#a2535335c96322853cd8243a199ce54d1">mMaxDistance</a> = -1.0f</td></tr>
 <tr class="separator:a2535335c96322853cd8243a199ce54d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa21f3b3768295ccfee82babe57999f20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_distance_constraint_settings.html#aa21f3b3768295ccfee82babe57999f20">mFrequency</a> = 0.0f</td></tr>
-<tr class="separator:aa21f3b3768295ccfee82babe57999f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b875ddac4a5acdc58add7dc03ba1a0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_distance_constraint_settings.html#ab7b875ddac4a5acdc58add7dc03ba1a0">mDamping</a> = 0.0f</td></tr>
-<tr class="separator:ab7b875ddac4a5acdc58add7dc03ba1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09758da3857c1883a7fcd1e128bdb175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_spring_settings.html">SpringSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_distance_constraint_settings.html#a09758da3857c1883a7fcd1e128bdb175">mLimitsSpringSettings</a></td></tr>
+<tr class="memdesc:a09758da3857c1883a7fcd1e128bdb175"><td class="mdescLeft">&#160;</td><td class="mdescRight">When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back.  <a href="class_distance_constraint_settings.html#a09758da3857c1883a7fcd1e128bdb175">More...</a><br /></td></tr>
+<tr class="separator:a09758da3857c1883a7fcd1e128bdb175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_constraint_settings"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_constraint_settings')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_constraint_settings.html">ConstraintSettings</a></td></tr>
 <tr class="memitem:a190607bdccb3df5a2fef3d6cc60c4eae inherit pub_attribs_class_constraint_settings"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae">mEnabled</a> = true</td></tr>
 <tr class="memdesc:a190607bdccb3df5a2fef3d6cc60c4eae inherit pub_attribs_class_constraint_settings"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this constraint is enabled initially. Use <a class="el" href="class_constraint.html#aa6621fbefd246003aece1e9be8a169cb">Constraint::SetEnabled</a> to toggle after creation.  <a href="class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae">More...</a><br /></td></tr>
@@ -335,32 +334,19 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab7b875ddac4a5acdc58add7dc03ba1a0" name="ab7b875ddac4a5acdc58add7dc03ba1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b875ddac4a5acdc58add7dc03ba1a0">&#9670;&#160;</a></span>mDamping</h2>
+<a id="a09758da3857c1883a7fcd1e128bdb175" name="a09758da3857c1883a7fcd1e128bdb175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09758da3857c1883a7fcd1e128bdb175">&#9670;&#160;</a></span>mLimitsSpringSettings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float DistanceConstraintSettings::mDamping = 0.0f</td>
+          <td class="memname"><a class="el" href="class_spring_settings.html">SpringSettings</a> DistanceConstraintSettings::mLimitsSpringSettings</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aa21f3b3768295ccfee82babe57999f20" name="aa21f3b3768295ccfee82babe57999f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa21f3b3768295ccfee82babe57999f20">&#9670;&#160;</a></span>mFrequency</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float DistanceConstraintSettings::mFrequency = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >If mFrequency &gt; 0 the constraint will be soft and mFrequency specifies the oscillation frequency in Hz and mDamping the damping ratio (0 = no damping, 1 = critical damping). If mFrequency &lt;= 0, mDamping is ignored and the distance constraint will have hard limits (as hard as the time step / the number of velocity / position solver steps allows). Note that if you set mDamping = 0, you will not get an infinite oscillation. Because we integrate physics using an explicit Euler scheme, there is always energy loss. This is done to keep the simulation from exploding, because with a damping of 0 and even the slightest rounding error, the oscillation could become bigger and bigger until the simluation explodes. </p>
+<p>When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back. </p>
 
 </div>
 </div>

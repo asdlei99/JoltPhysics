@@ -181,6 +181,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9388c6c3c237389fa77aec2862fba244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa234472e01794bfa881cf59d0c5d6be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#aaa234472e01794bfa881cf59d0c5d6be">IsFreeAxis</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
 <tr class="separator:aaa234472e01794bfa881cf59d0c5d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70687b51cd67ed48ec11975e8799fcc5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_spring_settings.html">SpringSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#a70687b51cd67ed48ec11975e8799fcc5">GetLimitsSpringSettings</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis) const</td></tr>
+<tr class="memdesc:a70687b51cd67ed48ec11975e8799fcc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the limits spring settings.  <a href="class_six_d_o_f_constraint.html#a70687b51cd67ed48ec11975e8799fcc5">More...</a><br /></td></tr>
+<tr class="separator:a70687b51cd67ed48ec11975e8799fcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7933aafb327871eb4a45e2a2c79fc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#a0a7933aafb327871eb4a45e2a2c79fc0">SetLimitsSpringSettings</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis, const <a class="el" href="class_spring_settings.html">SpringSettings</a> &amp;inLimitsSpringSettings)</td></tr>
+<tr class="separator:a0a7933aafb327871eb4a45e2a2c79fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab28cc63599921c1b582f71549be647b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3">SetMaxFriction</a> (<a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a> inAxis, float inFriction)</td></tr>
 <tr class="memdesc:ab28cc63599921c1b582f71549be647b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the max friction for each axis.  <a href="class_six_d_o_f_constraint.html#ab28cc63599921c1b582f71549be647b3">More...</a><br /></td></tr>
 <tr class="separator:ab28cc63599921c1b582f71549be647b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -630,6 +635,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get constraint Limits. </p>
+
+</div>
+</div>
+<a id="a70687b51cd67ed48ec11975e8799fcc5" name="a70687b51cd67ed48ec11975e8799fcc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70687b51cd67ed48ec11975e8799fcc5">&#9670;&#160;</a></span>GetLimitsSpringSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_spring_settings.html">SpringSettings</a> &amp; SixDOFConstraint::GetLimitsSpringSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the limits spring settings. </p>
 
 </div>
 </div>
@@ -1153,6 +1186,42 @@ Additional Inherited Members</h2></td></tr>
 <p>Saving state for replay. </p>
 
 <p>Reimplemented from <a class="el" href="class_constraint.html#a829eb3dda397de5cc7a7799ce959cc8b">Constraint</a>.</p>
+
+</div>
+</div>
+<a id="a0a7933aafb327871eb4a45e2a2c79fc0" name="a0a7933aafb327871eb4a45e2a2c79fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a7933aafb327871eb4a45e2a2c79fc0">&#9670;&#160;</a></span>SetLimitsSpringSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SixDOFConstraint::SetLimitsSpringSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cd">EAxis</a>&#160;</td>
+          <td class="paramname"><em>inAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_spring_settings.html">SpringSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inLimitsSpringSettings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

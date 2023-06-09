@@ -7,7 +7,8 @@ var class_six_d_o_f_constraint_settings =
       [ "RotationX", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cda3bb18dfab58908c6fe0a34212574e804", null ],
       [ "RotationY", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cdab473d487df9caec2fc6c2f2e5c7f0a40", null ],
       [ "RotationZ", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cdaf83d5f4c529f5ff08c44a4a229536c7e", null ],
-      [ "Num", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cdabf8fb5a75f02a8ed4c0d14cb3e9f41d2", null ]
+      [ "Num", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cdabf8fb5a75f02a8ed4c0d14cb3e9f41d2", null ],
+      [ "NumTranslation", "class_six_d_o_f_constraint_settings.html#ad5d80ef30a4a99d4876b244e55fc10cda8dce276a8243615282b784869418ba66", null ]
     ] ],
     [ "Create", "class_six_d_o_f_constraint_settings.html#a81635495977742c547f592996574fada", null ],
     [ "IsFixedAxis", "class_six_d_o_f_constraint_settings.html#a8b211ad9cdf8dee7b453b10f2f747a89", null ],
@@ -23,6 +24,7 @@ var class_six_d_o_f_constraint_settings =
     [ "mAxisY2", "class_six_d_o_f_constraint_settings.html#a373e56a53fca7a5ccfc88dbf79a0080f", null ],
     [ "mLimitMax", "class_six_d_o_f_constraint_settings.html#a9921157d87173da02847e55fd49d21f0", null ],
     [ "mLimitMin", "class_six_d_o_f_constraint_settings.html#a647d4f74164c943a3a57cd7e2de765d0", null ],
+    [ "mLimitsSpringSettings", "class_six_d_o_f_constraint_settings.html#a43f8dc31c115124722b98689fce631f7", null ],
     [ "mMaxFriction", "class_six_d_o_f_constraint_settings.html#a94fa871604ea96b8db52fe4a099029f8", null ],
     [ "mMotorSettings", "class_six_d_o_f_constraint_settings.html#aa78bf1257750bc3d33b7fc7352d2d07a", null ],
     [ "mPosition1", "class_six_d_o_f_constraint_settings.html#abf8617babef063477401b6a88b4df02d", null ],

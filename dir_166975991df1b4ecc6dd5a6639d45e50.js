@@ -35,6 +35,8 @@ var dir_166975991df1b4ecc6dd5a6639d45e50 =
     [ "SixDOFConstraint.h", "_six_d_o_f_constraint_8h.html", "_six_d_o_f_constraint_8h" ],
     [ "SliderConstraint.cpp", "_slider_constraint_8cpp.html", "_slider_constraint_8cpp" ],
     [ "SliderConstraint.h", "_slider_constraint_8h.html", "_slider_constraint_8h" ],
+    [ "SpringSettings.cpp", "_spring_settings_8cpp.html", "_spring_settings_8cpp" ],
+    [ "SpringSettings.h", "_spring_settings_8h.html", "_spring_settings_8h" ],
     [ "SwingTwistConstraint.cpp", "_swing_twist_constraint_8cpp.html", "_swing_twist_constraint_8cpp" ],
     [ "SwingTwistConstraint.h", "_swing_twist_constraint_8h.html", "_swing_twist_constraint_8h" ],
     [ "TwoBodyConstraint.cpp", "_two_body_constraint_8cpp.html", "_two_body_constraint_8cpp" ],

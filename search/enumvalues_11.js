@@ -14,11 +14,12 @@ var searchData=
   ['statusiterationshift_11',['StatusIterationShift',['../class_large_island_splitter_1_1_splits.html#a0f8293e7c474ba25adfc13487fc005ccacb5adee1be4eaa632656d84c84327343',1,'LargeIslandSplitter::Splits']]],
   ['statussplitmask_12',['StatusSplitMask',['../class_large_island_splitter_1_1_splits.html#a0f8293e7c474ba25adfc13487fc005cca5f10b6f1afc0952ac2cda6048d1ef685',1,'LargeIslandSplitter::Splits']]],
   ['statussplitshift_13',['StatusSplitShift',['../class_large_island_splitter_1_1_splits.html#a0f8293e7c474ba25adfc13487fc005ccaa6e1ccf30b354c5c1accdf92a42009f9',1,'LargeIslandSplitter::Splits']]],
-  ['success_14',['Success',['../class_convex_hull_builder2_d.html#a249cc4fd8288bd1cf447d3d820e9dcd0a505a83f220c02df2f85c3810cd9ceb38',1,'ConvexHullBuilder2D::Success()'],['../class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38',1,'ConvexHullBuilder::Success()']]],
-  ['swingtwist_15',['SwingTwist',['../_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2da45c50d709bcdfc9e1733315ce452aeb2',1,'Constraint.h']]],
-  ['swizzle_5funused_16',['SWIZZLE_UNUSED',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aabca44adc50a0374d19509131edd0042',1,'Swizzle.h']]],
-  ['swizzle_5fw_17',['SWIZZLE_W',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a820def45b2f7468e331d0abe1880dd6a',1,'Swizzle.h']]],
-  ['swizzle_5fx_18',['SWIZZLE_X',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa27e48fb4ae47daab960f563f660dfea',1,'Swizzle.h']]],
-  ['swizzle_5fy_19',['SWIZZLE_Y',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57afd291953004304db41e7893449a2ff08',1,'Swizzle.h']]],
-  ['swizzle_5fz_20',['SWIZZLE_Z',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a193cb4a0d68ee0b032d86ae28008aa63',1,'Swizzle.h']]]
+  ['stiffnessanddamping_14',['StiffnessAndDamping',['../_spring_settings_8h.html#ac805e5e93f24003512d2ca7e0d71512da80c2dd5c28197f2baebff76bf0299d47',1,'SpringSettings.h']]],
+  ['success_15',['Success',['../class_convex_hull_builder2_d.html#a249cc4fd8288bd1cf447d3d820e9dcd0a505a83f220c02df2f85c3810cd9ceb38',1,'ConvexHullBuilder2D::Success()'],['../class_convex_hull_builder.html#aa49a23c340decb519ae98cfa2a9e469aa505a83f220c02df2f85c3810cd9ceb38',1,'ConvexHullBuilder::Success()']]],
+  ['swingtwist_16',['SwingTwist',['../_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2da45c50d709bcdfc9e1733315ce452aeb2',1,'Constraint.h']]],
+  ['swizzle_5funused_17',['SWIZZLE_UNUSED',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aabca44adc50a0374d19509131edd0042',1,'Swizzle.h']]],
+  ['swizzle_5fw_18',['SWIZZLE_W',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a820def45b2f7468e331d0abe1880dd6a',1,'Swizzle.h']]],
+  ['swizzle_5fx_19',['SWIZZLE_X',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57aa27e48fb4ae47daab960f563f660dfea',1,'Swizzle.h']]],
+  ['swizzle_5fy_20',['SWIZZLE_Y',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57afd291953004304db41e7893449a2ff08',1,'Swizzle.h']]],
+  ['swizzle_5fz_21',['SWIZZLE_Z',['../_swizzle_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a193cb4a0d68ee0b032d86ae28008aa63',1,'Swizzle.h']]]
 ];

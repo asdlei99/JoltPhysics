@@ -7,6 +7,7 @@ var class_hinge_constraint_settings =
     [ "mHingeAxis2", "class_hinge_constraint_settings.html#a4069dacb8fa8c749be023b0817592b3c", null ],
     [ "mLimitsMax", "class_hinge_constraint_settings.html#a9611cf15f448a12d21191490b9628316", null ],
     [ "mLimitsMin", "class_hinge_constraint_settings.html#a269eb742fd612f668946d21161a182ac", null ],
+    [ "mLimitsSpringSettings", "class_hinge_constraint_settings.html#aefad4492ec92f4998a466087b5a89c8c", null ],
     [ "mMaxFrictionTorque", "class_hinge_constraint_settings.html#a2f046631caa15b87030e4edfb568f248", null ],
     [ "mMotorSettings", "class_hinge_constraint_settings.html#ada7a75c71a3f4fc0c2bf643160406971", null ],
     [ "mNormalAxis1", "class_hinge_constraint_settings.html#ac470570dce09cb9de0d81194e023145c", null ],

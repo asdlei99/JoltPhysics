@@ -259,6 +259,7 @@ var annotated_dup =
     [ "SphereShape", "class_sphere_shape.html", "class_sphere_shape" ],
     [ "SphereShapeSettings", "class_sphere_shape_settings.html", "class_sphere_shape_settings" ],
     [ "SpringPart", "class_spring_part.html", "class_spring_part" ],
+    [ "SpringSettings", "class_spring_settings.html", "class_spring_settings" ],
     [ "StateRecorder", "class_state_recorder.html", "class_state_recorder" ],
     [ "StateRecorderImpl", "class_state_recorder_impl.html", "class_state_recorder_impl" ],
     [ "StaticArray", "class_static_array.html", "class_static_array" ],

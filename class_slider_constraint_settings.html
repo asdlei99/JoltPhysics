@@ -192,10 +192,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:abe9a0acdb04a3edde746680d7656e388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91634e77db65bc26c41edf00df74d2af"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a91634e77db65bc26c41edf00df74d2af">mLimitsMax</a> = FLT_MAX</td></tr>
 <tr class="separator:a91634e77db65bc26c41edf00df74d2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8a69c09159042b1ad556bedf021b46b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#af8a69c09159042b1ad556bedf021b46b">mFrequency</a> = 0.0f</td></tr>
-<tr class="separator:af8a69c09159042b1ad556bedf021b46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2dc80c4a06394c61303b802d0e300b2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#ac2dc80c4a06394c61303b802d0e300b2">mDamping</a> = 0.0f</td></tr>
-<tr class="separator:ac2dc80c4a06394c61303b802d0e300b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdba7344cb45b5f2097c0cb458e3a271"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_spring_settings.html">SpringSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#acdba7344cb45b5f2097c0cb458e3a271">mLimitsSpringSettings</a></td></tr>
+<tr class="memdesc:acdba7344cb45b5f2097c0cb458e3a271"><td class="mdescLeft">&#160;</td><td class="mdescRight">When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back.  <a href="class_slider_constraint_settings.html#acdba7344cb45b5f2097c0cb458e3a271">More...</a><br /></td></tr>
+<tr class="separator:acdba7344cb45b5f2097c0cb458e3a271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00acc443c620fecba7342534d9ec50eb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_slider_constraint_settings.html#a00acc443c620fecba7342534d9ec50eb">mMaxFrictionForce</a> = 0.0f</td></tr>
 <tr class="memdesc:a00acc443c620fecba7342534d9ec50eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum amount of friction force to apply (N) when not driven by a motor.  <a href="class_slider_constraint_settings.html#a00acc443c620fecba7342534d9ec50eb">More...</a><br /></td></tr>
 <tr class="separator:a00acc443c620fecba7342534d9ec50eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,35 +388,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2dc80c4a06394c61303b802d0e300b2" name="ac2dc80c4a06394c61303b802d0e300b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2dc80c4a06394c61303b802d0e300b2">&#9670;&#160;</a></span>mDamping</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float SliderConstraintSettings::mDamping = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8a69c09159042b1ad556bedf021b46b" name="af8a69c09159042b1ad556bedf021b46b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8a69c09159042b1ad556bedf021b46b">&#9670;&#160;</a></span>mFrequency</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float SliderConstraintSettings::mFrequency = 0.0f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >If mFrequency &gt; 0 the constraint limits will be soft and mFrequency specifies the oscillation frequency in Hz and mDamping the damping ratio (0 = no damping, 1 = critical damping). If mFrequency &lt;= 0, mDamping is ignored and the limits will be hard. </p>
-
-</div>
-</div>
 <a id="a91634e77db65bc26c41edf00df74d2af" name="a91634e77db65bc26c41edf00df74d2af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91634e77db65bc26c41edf00df74d2af">&#9670;&#160;</a></span>mLimitsMax</h2>
 
@@ -445,6 +415,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>When the bodies move so that mPoint1 coincides with mPoint2 the slider position is defined to be 0, movement will be limited between [mLimitsMin, mLimitsMax] where mLimitsMin e [-inf, 0] and mLimitsMax e [0, inf]. </p>
+
+</div>
+</div>
+<a id="acdba7344cb45b5f2097c0cb458e3a271" name="acdba7344cb45b5f2097c0cb458e3a271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdba7344cb45b5f2097c0cb458e3a271">&#9670;&#160;</a></span>mLimitsSpringSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_spring_settings.html">SpringSettings</a> SliderConstraintSettings::mLimitsSpringSettings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>When enabled, this makes the limits soft. When the constraint exceeds the limits, a spring force will pull it back. </p>
 
 </div>
 </div>
