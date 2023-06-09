@@ -254,10 +254,16 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a688718567a63ba567e52c13dab088373"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97fa55bb4283d82101118a7cb3c789b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a97fa55bb4283d82101118a7cb3c789b8">mLeanSpringDamping</a></td></tr>
 <tr class="separator:a97fa55bb4283d82101118a7cb3c789b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159abc09d514573ce94519c424244a11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a159abc09d514573ce94519c424244a11">mLeanSpringIntegrationCoefficient</a></td></tr>
+<tr class="separator:a159abc09d514573ce94519c424244a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a745a8a1838cf92a9bf7a993dc105e541"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a745a8a1838cf92a9bf7a993dc105e541">mLeanSpringIntegrationCoefficientDecay</a></td></tr>
+<tr class="separator:a745a8a1838cf92a9bf7a993dc105e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7196a7d0932e3e537e39514385e7184c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a7196a7d0932e3e537e39514385e7184c">mLeanSmoothingFactor</a></td></tr>
 <tr class="separator:a7196a7d0932e3e537e39514385e7184c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b83a81c63978a8048d781e9dc4ceddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a9b83a81c63978a8048d781e9dc4ceddb">mTargetLean</a> = <a class="el" href="class_vec3.html#ad03c52ab27761bc1e64e33c47632ba51">Vec3::sZero</a>()</td></tr>
 <tr class="separator:a9b83a81c63978a8048d781e9dc4ceddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fef8cc24d8f3afa9ec59a015fbd0639"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#a0fef8cc24d8f3afa9ec59a015fbd0639">mLeanSpringIntegratedDeltaAngle</a> = 0.0f</td></tr>
+<tr class="separator:a0fef8cc24d8f3afa9ec59a015fbd0639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e7a708da11a8da6e91bbb4c56b08d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller.html#ad9e7a708da11a8da6e91bbb4c56b08d7">mAppliedImpulse</a> = 0.0f</td></tr>
 <tr class="separator:ad9e7a708da11a8da6e91bbb4c56b08d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_wheeled_vehicle_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_wheeled_vehicle_controller')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_wheeled_vehicle_controller.html">WheeledVehicleController</a></td></tr>
@@ -673,6 +679,72 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float MotorcycleController::mLeanSpringDamping</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fef8cc24d8f3afa9ec59a015fbd0639" name="a0fef8cc24d8f3afa9ec59a015fbd0639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fef8cc24d8f3afa9ec59a015fbd0639">&#9670;&#160;</a></span>mLeanSpringIntegratedDeltaAngle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MotorcycleController::mLeanSpringIntegratedDeltaAngle = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a159abc09d514573ce94519c424244a11" name="a159abc09d514573ce94519c424244a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159abc09d514573ce94519c424244a11">&#9670;&#160;</a></span>mLeanSpringIntegrationCoefficient</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MotorcycleController::mLeanSpringIntegrationCoefficient</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a745a8a1838cf92a9bf7a993dc105e541" name="a745a8a1838cf92a9bf7a993dc105e541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745a8a1838cf92a9bf7a993dc105e541">&#9670;&#160;</a></span>mLeanSpringIntegrationCoefficientDecay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MotorcycleController::mLeanSpringIntegrationCoefficientDecay</td>
         </tr>
       </table>
   </td>

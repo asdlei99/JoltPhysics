@@ -6,5 +6,7 @@ var class_motorcycle_controller_settings =
     [ "mLeanSmoothingFactor", "class_motorcycle_controller_settings.html#ab432e48f3f8bf7836d0b6c2ea9745a8f", null ],
     [ "mLeanSpringConstant", "class_motorcycle_controller_settings.html#a89d4563cd7e9659a4fcdc2c7b34832d9", null ],
     [ "mLeanSpringDamping", "class_motorcycle_controller_settings.html#a1b4a9d49c0305c91955ce074881d46b0", null ],
+    [ "mLeanSpringIntegrationCoefficient", "class_motorcycle_controller_settings.html#a1dbe2b657773dabc46548a4b14a09446", null ],
+    [ "mLeanSpringIntegrationCoefficientDecay", "class_motorcycle_controller_settings.html#ab0a0e9d685c79d159bfab4736a578273", null ],
     [ "mMaxLeanAngle", "class_motorcycle_controller_settings.html#a0dac3fbd774847fa6fa66631b7cc2e91", null ]
 ];

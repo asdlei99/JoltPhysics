@@ -187,6 +187,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1b4a9d49c0305c91955ce074881d46b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller_settings.html#a1b4a9d49c0305c91955ce074881d46b0">mLeanSpringDamping</a> = 1000.0f</td></tr>
 <tr class="memdesc:a1b4a9d49c0305c91955ce074881d46b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spring damping constant for the lean spring.  <a href="class_motorcycle_controller_settings.html#a1b4a9d49c0305c91955ce074881d46b0">More...</a><br /></td></tr>
 <tr class="separator:a1b4a9d49c0305c91955ce074881d46b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dbe2b657773dabc46548a4b14a09446"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller_settings.html#a1dbe2b657773dabc46548a4b14a09446">mLeanSpringIntegrationCoefficient</a> = 0.0f</td></tr>
+<tr class="memdesc:a1dbe2b657773dabc46548a4b14a09446"><td class="mdescLeft">&#160;</td><td class="mdescRight">The lean spring applies an additional force equal to this coefficient * Integral(delta angle, 0, t), this effectively makes the lean spring a PID controller.  <a href="class_motorcycle_controller_settings.html#a1dbe2b657773dabc46548a4b14a09446">More...</a><br /></td></tr>
+<tr class="separator:a1dbe2b657773dabc46548a4b14a09446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a0e9d685c79d159bfab4736a578273"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller_settings.html#ab0a0e9d685c79d159bfab4736a578273">mLeanSpringIntegrationCoefficientDecay</a> = 4.0f</td></tr>
+<tr class="memdesc:ab0a0e9d685c79d159bfab4736a578273"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much to decay the angle integral when the wheels are not touching the floor: new_value = e^(-decay * t) * initial_value.  <a href="class_motorcycle_controller_settings.html#ab0a0e9d685c79d159bfab4736a578273">More...</a><br /></td></tr>
+<tr class="separator:ab0a0e9d685c79d159bfab4736a578273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab432e48f3f8bf7836d0b6c2ea9745a8f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motorcycle_controller_settings.html#ab432e48f3f8bf7836d0b6c2ea9745a8f">mLeanSmoothingFactor</a> = 0.8f</td></tr>
 <tr class="separator:ab432e48f3f8bf7836d0b6c2ea9745a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_wheeled_vehicle_controller_settings"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_wheeled_vehicle_controller_settings')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_wheeled_vehicle_controller_settings.html">WheeledVehicleControllerSettings</a></td></tr>
@@ -356,6 +362,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Spring damping constant for the lean spring. </p>
+
+</div>
+</div>
+<a id="a1dbe2b657773dabc46548a4b14a09446" name="a1dbe2b657773dabc46548a4b14a09446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dbe2b657773dabc46548a4b14a09446">&#9670;&#160;</a></span>mLeanSpringIntegrationCoefficient</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MotorcycleControllerSettings::mLeanSpringIntegrationCoefficient = 0.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The lean spring applies an additional force equal to this coefficient * Integral(delta angle, 0, t), this effectively makes the lean spring a PID controller. </p>
+
+</div>
+</div>
+<a id="ab0a0e9d685c79d159bfab4736a578273" name="ab0a0e9d685c79d159bfab4736a578273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a0e9d685c79d159bfab4736a578273">&#9670;&#160;</a></span>mLeanSpringIntegrationCoefficientDecay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MotorcycleControllerSettings::mLeanSpringIntegrationCoefficientDecay = 4.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How much to decay the angle integral when the wheels are not touching the floor: new_value = e^(-decay * t) * initial_value. </p>
 
 </div>
 </div>
