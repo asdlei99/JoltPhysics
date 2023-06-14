@@ -134,6 +134,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7567da447755e01f6684b7b1b4f239f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60befc8c7707dd567b633ecd7b870446"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_axis_constraint_part.html#a60befc8c7707dd567b633ecd7b870446">WarmStart</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody1, <a class="el" href="class_body.html">Body</a> &amp;ioBody2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWorldSpaceAxis, float inWarmStartImpulseRatio)</td></tr>
 <tr class="separator:a60befc8c7707dd567b633ecd7b870446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2617fd84fcdd5a77f4502c6e327143"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type1, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type2&gt; </td></tr>
+<tr class="memitem:a9f2617fd84fcdd5a77f4502c6e327143"><td class="memTemplItemLeft" align="right" valign="top">JPH_INLINE float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_axis_constraint_part.html#a9f2617fd84fcdd5a77f4502c6e327143">TemplatedSolveVelocityConstraintGetTotalLambda</a> (const <a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties1, const <a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWorldSpaceAxis) const</td></tr>
+<tr class="memdesc:a9f2617fd84fcdd5a77f4502c6e327143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Templated form of SolveVelocityConstraint with the motion types baked in, part 1: get the total lambda.  <a href="class_axis_constraint_part.html#a9f2617fd84fcdd5a77f4502c6e327143">More...</a><br /></td></tr>
+<tr class="separator:a9f2617fd84fcdd5a77f4502c6e327143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c3570301902d1a2d62ffcf1797f32cf"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type1, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type2&gt; </td></tr>
+<tr class="memitem:a7c3570301902d1a2d62ffcf1797f32cf"><td class="memTemplItemLeft" align="right" valign="top">JPH_INLINE bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_axis_constraint_part.html#a7c3570301902d1a2d62ffcf1797f32cf">TemplatedSolveVelocityConstraintApplyLambda</a> (<a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties1, <a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWorldSpaceAxis, float inTotalLambda)</td></tr>
+<tr class="memdesc:a7c3570301902d1a2d62ffcf1797f32cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Templated form of SolveVelocityConstraint with the motion types baked in, part 2: apply new lambda.  <a href="class_axis_constraint_part.html#a7c3570301902d1a2d62ffcf1797f32cf">More...</a><br /></td></tr>
+<tr class="separator:a7c3570301902d1a2d62ffcf1797f32cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6610601694897f9f3ea655d0ff649fbf"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type1, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type2&gt; </td></tr>
 <tr class="memitem:a6610601694897f9f3ea655d0ff649fbf"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_axis_constraint_part.html#a6610601694897f9f3ea655d0ff649fbf">TemplatedSolveVelocityConstraint</a> (<a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties1, <a class="el" href="class_motion_properties.html">MotionProperties</a> *ioMotionProperties2, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inWorldSpaceAxis, float inMinLambda, float inMaxLambda)</td></tr>
 <tr class="memdesc:a6610601694897f9f3ea655d0ff649fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Templated form of SolveVelocityConstraint with the motion types baked in.  <a href="class_axis_constraint_part.html#a6610601694897f9f3ea655d0ff649fbf">More...</a><br /></td></tr>
@@ -954,6 +962,104 @@ template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d
 </div><div class="memdoc">
 
 <p>Templated form of SolveVelocityConstraint with the motion types baked in. </p>
+
+</div>
+</div>
+<a id="a7c3570301902d1a2d62ffcf1797f32cf" name="a7c3570301902d1a2d62ffcf1797f32cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3570301902d1a2d62ffcf1797f32cf">&#9670;&#160;</a></span>TemplatedSolveVelocityConstraintApplyLambda()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type1, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPH_INLINE bool AxisConstraintPart::TemplatedSolveVelocityConstraintApplyLambda </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_motion_properties.html">MotionProperties</a> *&#160;</td>
+          <td class="paramname"><em>ioMotionProperties1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_motion_properties.html">MotionProperties</a> *&#160;</td>
+          <td class="paramname"><em>ioMotionProperties2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inWorldSpaceAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inTotalLambda</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Templated form of SolveVelocityConstraint with the motion types baked in, part 2: apply new lambda. </p>
+
+</div>
+</div>
+<a id="a9f2617fd84fcdd5a77f4502c6e327143" name="a9f2617fd84fcdd5a77f4502c6e327143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2617fd84fcdd5a77f4502c6e327143">&#9670;&#160;</a></span>TemplatedSolveVelocityConstraintGetTotalLambda()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type1, <a class="el" href="_motion_type_8h.html#a328245ddbb758681fad3c44c9d488fd8">EMotionType</a> Type2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JPH_INLINE float AxisConstraintPart::TemplatedSolveVelocityConstraintGetTotalLambda </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_motion_properties.html">MotionProperties</a> *&#160;</td>
+          <td class="paramname"><em>ioMotionProperties1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_motion_properties.html">MotionProperties</a> *&#160;</td>
+          <td class="paramname"><em>ioMotionProperties2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inWorldSpaceAxis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Templated form of SolveVelocityConstraint with the motion types baked in, part 1: get the total lambda. </p>
 
 </div>
 </div>

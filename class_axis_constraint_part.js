@@ -14,6 +14,8 @@ var class_axis_constraint_part =
     [ "SolveVelocityConstraint", "class_axis_constraint_part.html#a0f72dffd609be0cba29f2619c5a2c63a", null ],
     [ "TemplatedCalculateConstraintProperties", "class_axis_constraint_part.html#a7cbdcbd22fc977cf35550d787a512bbe", null ],
     [ "TemplatedSolveVelocityConstraint", "class_axis_constraint_part.html#a6610601694897f9f3ea655d0ff649fbf", null ],
+    [ "TemplatedSolveVelocityConstraintApplyLambda", "class_axis_constraint_part.html#a7c3570301902d1a2d62ffcf1797f32cf", null ],
+    [ "TemplatedSolveVelocityConstraintGetTotalLambda", "class_axis_constraint_part.html#a9f2617fd84fcdd5a77f4502c6e327143", null ],
     [ "TemplatedWarmStart", "class_axis_constraint_part.html#a7567da447755e01f6684b7b1b4f239f8", null ],
     [ "WarmStart", "class_axis_constraint_part.html#a60befc8c7707dd567b633ecd7b870446", null ]
 ];

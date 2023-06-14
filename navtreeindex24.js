@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"functions_func_r.html":[3,3,1,16],
+"functions_func_s.html":[3,3,1,17],
 "functions_func_t.html":[3,3,1,18],
 "functions_func_u.html":[3,3,1,19],
 "functions_func_v.html":[3,3,1,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#a3a9a5655d3583d15e247d7c3ce94da35":[3,0,68,1,10],
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#a77fc1dbc8b79d5ec9cb3bf6803f9ca33":[3,0,68,1,9],
 "struct_compound_shape_1_1_cast_ray_visitor_collector.html#a814152f9307136c005f19c36131746d2":[3,0,68,1,2],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#aa482aff5292c183077270554b7053fb5":[3,0,68,1,4],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#adcc33d30649befa932d49742db59986d":[3,0,68,1,1],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#af17b4ee8b0f590e72d35ced0d45563f0":[3,0,68,1,0]
+"struct_compound_shape_1_1_cast_ray_visitor_collector.html#aa482aff5292c183077270554b7053fb5":[3,0,68,1,4]
 };
