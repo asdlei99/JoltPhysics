@@ -115,6 +115,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ade2482177e9dd9c8596a4a1cc6338979"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979">mCombinedRestitution</a></td></tr>
 <tr class="memdesc:ade2482177e9dd9c8596a4a1cc6338979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined restitution for the body pair (see: <a class="el" href="class_physics_system.html#aadad532dfda2006fd3b699116e9fed08">PhysicsSystem::SetCombineRestitution</a>)  <a href="class_contact_settings.html#ade2482177e9dd9c8596a4a1cc6338979">More...</a><br /></td></tr>
 <tr class="separator:ade2482177e9dd9c8596a4a1cc6338979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2c4b599362d4e3837120571af2c3ce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#a6b2c4b599362d4e3837120571af2c3ce">mInvMassScale1</a> = 1.0f</td></tr>
+<tr class="memdesc:a6b2c4b599362d4e3837120571af2c3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale factor for the inverse mass of body 1 (0 = infinite mass, 1 = use original mass, 2 = body has half the mass). For the same contact pair, you should strive to keep the value the same over time.  <a href="class_contact_settings.html#a6b2c4b599362d4e3837120571af2c3ce">More...</a><br /></td></tr>
+<tr class="separator:a6b2c4b599362d4e3837120571af2c3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf521121674ff2c72b762c87bfabed11"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#aaf521121674ff2c72b762c87bfabed11">mInvInertiaScale1</a> = 1.0f</td></tr>
+<tr class="memdesc:aaf521121674ff2c72b762c87bfabed11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale factor for the inverse inertia of body 1 (usually same as mInvMassScale1)  <a href="class_contact_settings.html#aaf521121674ff2c72b762c87bfabed11">More...</a><br /></td></tr>
+<tr class="separator:aaf521121674ff2c72b762c87bfabed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37639a208ebcf5ca37462c3689c73828"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#a37639a208ebcf5ca37462c3689c73828">mInvMassScale2</a> = 1.0f</td></tr>
+<tr class="memdesc:a37639a208ebcf5ca37462c3689c73828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale factor for the inverse mass of body 2 (0 = infinite mass, 1 = use original mass, 2 = body has half the mass). For the same contact pair, you should strive to keep the value the same over time.  <a href="class_contact_settings.html#a37639a208ebcf5ca37462c3689c73828">More...</a><br /></td></tr>
+<tr class="separator:a37639a208ebcf5ca37462c3689c73828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699874a8c427e9861a83b993c55b1ee8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#a699874a8c427e9861a83b993c55b1ee8">mInvInertiaScale2</a> = 1.0f</td></tr>
+<tr class="memdesc:a699874a8c427e9861a83b993c55b1ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale factor for the inverse inertia of body 2 (usually same as mInvMassScale2)  <a href="class_contact_settings.html#a699874a8c427e9861a83b993c55b1ee8">More...</a><br /></td></tr>
+<tr class="separator:a699874a8c427e9861a83b993c55b1ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c5f448521399a40a9384dcc1aa1474f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_settings.html#a1c5f448521399a40a9384dcc1aa1474f">mIsSensor</a></td></tr>
 <tr class="memdesc:a1c5f448521399a40a9384dcc1aa1474f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the contact should be treated as a sensor vs body contact (no collision response)  <a href="class_contact_settings.html#a1c5f448521399a40a9384dcc1aa1474f">More...</a><br /></td></tr>
 <tr class="separator:a1c5f448521399a40a9384dcc1aa1474f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +166,70 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Combined restitution for the body pair (see: <a class="el" href="class_physics_system.html#aadad532dfda2006fd3b699116e9fed08">PhysicsSystem::SetCombineRestitution</a>) </p>
+
+</div>
+</div>
+<a id="aaf521121674ff2c72b762c87bfabed11" name="aaf521121674ff2c72b762c87bfabed11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf521121674ff2c72b762c87bfabed11">&#9670;&#160;</a></span>mInvInertiaScale1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ContactSettings::mInvInertiaScale1 = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scale factor for the inverse inertia of body 1 (usually same as mInvMassScale1) </p>
+
+</div>
+</div>
+<a id="a699874a8c427e9861a83b993c55b1ee8" name="a699874a8c427e9861a83b993c55b1ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a699874a8c427e9861a83b993c55b1ee8">&#9670;&#160;</a></span>mInvInertiaScale2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ContactSettings::mInvInertiaScale2 = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scale factor for the inverse inertia of body 2 (usually same as mInvMassScale2) </p>
+
+</div>
+</div>
+<a id="a6b2c4b599362d4e3837120571af2c3ce" name="a6b2c4b599362d4e3837120571af2c3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b2c4b599362d4e3837120571af2c3ce">&#9670;&#160;</a></span>mInvMassScale1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ContactSettings::mInvMassScale1 = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scale factor for the inverse mass of body 1 (0 = infinite mass, 1 = use original mass, 2 = body has half the mass). For the same contact pair, you should strive to keep the value the same over time. </p>
+
+</div>
+</div>
+<a id="a37639a208ebcf5ca37462c3689c73828" name="a37639a208ebcf5ca37462c3689c73828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37639a208ebcf5ca37462c3689c73828">&#9670;&#160;</a></span>mInvMassScale2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ContactSettings::mInvMassScale2 = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scale factor for the inverse mass of body 2 (0 = infinite mass, 1 = use original mass, 2 = body has half the mass). For the same contact pair, you should strive to keep the value the same over time. </p>
 
 </div>
 </div>

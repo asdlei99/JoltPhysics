@@ -73,6 +73,7 @@ var class_body_interface =
     [ "SetRestitution", "class_body_interface.html#a7fb8b9b6e59dfe3f78f9e8e3c2776675", null ],
     [ "SetRotation", "class_body_interface.html#a199aec558e03ec611fc32e2e4fcbfc07", null ],
     [ "SetShape", "class_body_interface.html#a051a4064706509e2b1c4dcc6d688676d", null ],
+    [ "SetUserData", "class_body_interface.html#abd152dcf89e6c0147a6929e04f96c578", null ],
     [ "UnassignBodyID", "class_body_interface.html#a90516454ed80b9ffd59dccb2dbcd8f2b", null ],
     [ "UnassignBodyIDs", "class_body_interface.html#a88613a7d9e6ba099b3a02faf842ac7d7", null ]
 ];

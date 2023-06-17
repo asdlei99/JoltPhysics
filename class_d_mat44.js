@@ -46,5 +46,6 @@ var class_d_mat44 =
     [ "SetRotation", "class_d_mat44.html#a896557b839b1a9126819a44a092f6bb6", null ],
     [ "SetTranslation", "class_d_mat44.html#a22da3bc4aa09a7285b79d63930c58637", null ],
     [ "ToMat44", "class_d_mat44.html#a358f19401d6b1d71fb10fbf2c1ff355e", null ],
+    [ "Transposed3x3", "class_d_mat44.html#a37bfd4712353f46ee35b3fe0717cbda8", null ],
     [ "operator<<", "class_d_mat44.html#ac2c17e5dbdf97a76d8807d6662ac0ec2", null ]
 ];
