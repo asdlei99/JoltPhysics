@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"class_vehicle_controller.html#abb6de4527ea93a58f69791c7c7093846":[3,0,311,9],
+"class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb":[3,0,311,0],
+"class_vehicle_controller.html#adaf1b8a1da0e7b167c8849e13743809c":[3,0,311,1],
 "class_vehicle_controller.html#ae169fc92f5bfadd69ae4afe3c81e799d":[3,0,311,8],
 "class_vehicle_controller.html#af93ef5080e32c5558d6b594da7080896":[3,0,311,11],
 "class_vehicle_controller_settings.html":[3,0,312],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "functions_func_d.html":[3,3,1,3],
 "functions_func_e.html":[3,3,1,4],
 "functions_func_f.html":[3,3,1,5],
-"functions_func_g.html":[3,3,1,6],
-"functions_func_h.html":[3,3,1,7],
-"functions_func_i.html":[3,3,1,8],
-"functions_func_j.html":[3,3,1,9]
+"functions_func_g.html":[3,3,1,6]
 };

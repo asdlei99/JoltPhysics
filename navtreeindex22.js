@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"class_vec3.html#a3ab8c224fb2c6be708e58e45fd0ee987":[3,0,300,4],
+"class_vec3.html#a3b5c2f1c893d46d390428ef8c487cc7d":[3,0,300,46],
+"class_vec3.html#a3c73495e25d5c416f1108ad89fb614d6":[3,0,300,38],
 "class_vec3.html#a3d4dc6f6807ead86b5150e7904ac80f5":[3,0,300,45],
 "class_vec3.html#a43de7b2b748f26d8854afee5edb944d5":[3,0,300,29],
 "class_vec3.html#a4c3d1ff36432563aef787f8ce7172bff":[3,0,300,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "class_vehicle_controller.html#a30b73bf12f0dea921ce21318d08cb7c0":[3,0,311,10],
 "class_vehicle_controller.html#a3561ef0070d906d1f0fbfa11bfa28210":[3,0,311,6],
 "class_vehicle_controller.html#a64cf71ec1f7bd0e92a08c4292f9f2515":[3,0,311,7],
-"class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45":[3,0,311,3],
-"class_vehicle_controller.html#abb6de4527ea93a58f69791c7c7093846":[3,0,311,9],
-"class_vehicle_controller.html#ad5cad3b5a580aaf05e36e4c350db37cb":[3,0,311,0],
-"class_vehicle_controller.html#adaf1b8a1da0e7b167c8849e13743809c":[3,0,311,1]
+"class_vehicle_controller.html#a67f4c989e175054bb615082afef27c45":[3,0,311,3]
 };

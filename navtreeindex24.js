@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"functions_func_h.html":[3,3,1,7],
+"functions_func_i.html":[3,3,1,8],
+"functions_func_j.html":[3,3,1,9],
 "functions_func_l.html":[3,3,1,10],
 "functions_func_m.html":[3,3,1,11],
 "functions_func_n.html":[3,3,1,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "struct_compound_shape_1_1_cast_ray_visitor.html#a848fb221cd472001c314498be3ad4f71":[3,0,68,0,5],
 "struct_compound_shape_1_1_cast_ray_visitor.html#a8b14b4e32934a67cbd94a7ff0f362ac5":[3,0,68,0,7],
 "struct_compound_shape_1_1_cast_ray_visitor.html#aa4f2babd360c7683d26e6d089179999e":[3,0,68,0,4],
-"struct_compound_shape_1_1_cast_ray_visitor.html#abcfb06db0c470f7b887bd1ccbdf293e9":[3,0,68,0,3],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html":[3,0,68,1],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#a085af308c94408bd9f45fb3195402ba1":[3,0,68,1,8],
-"struct_compound_shape_1_1_cast_ray_visitor_collector.html#a279153b159b17f4bf1fb7a1a4df46122":[3,0,68,1,7]
+"struct_compound_shape_1_1_cast_ray_visitor.html#abcfb06db0c470f7b887bd1ccbdf293e9":[3,0,68,0,3]
 };

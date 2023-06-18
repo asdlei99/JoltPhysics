@@ -216,6 +216,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad327b3b479e63fe5bfbecf0510d69d44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_creation_settings.html#ad327b3b479e63fe5bfbecf0510d69d44">mIsSensor</a> = false</td></tr>
 <tr class="memdesc:ad327b3b479e63fe5bfbecf0510d69d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this body is a sensor. A sensor will receive collision callbacks, but will not cause any collision responses and can be used as a trigger volume. See description at <a class="el" href="class_body.html#a5d8e1f66eed163868a633cdb93859f77">Body::SetIsSensor</a>.  <a href="class_body_creation_settings.html#ad327b3b479e63fe5bfbecf0510d69d44">More...</a><br /></td></tr>
 <tr class="separator:ad327b3b479e63fe5bfbecf0510d69d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f69e3a342d12982977dd9aad33daeb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_creation_settings.html#a7f69e3a342d12982977dd9aad33daeb1">mSensorDetectsStatic</a> = false</td></tr>
+<tr class="memdesc:a7f69e3a342d12982977dd9aad33daeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this sensor detects static objects entering it. Note that the sensor must be kinematic and active for it to detect static objects.  <a href="class_body_creation_settings.html#a7f69e3a342d12982977dd9aad33daeb1">More...</a><br /></td></tr>
+<tr class="separator:a7f69e3a342d12982977dd9aad33daeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e9e038bb9df7acfe71dbb56480271c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_creation_settings.html#a50e9e038bb9df7acfe71dbb56480271c">mUseManifoldReduction</a> = true</td></tr>
 <tr class="memdesc:a50e9e038bb9df7acfe71dbb56480271c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this body should use manifold reduction (see description at <a class="el" href="class_body.html#a8c24ff0c08f1a31fc57d01420f9cae8b">Body::SetUseManifoldReduction</a>)  <a href="class_body_creation_settings.html#a50e9e038bb9df7acfe71dbb56480271c">More...</a><br /></td></tr>
 <tr class="separator:a50e9e038bb9df7acfe71dbb56480271c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1124,6 +1127,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rotation of the body. </p>
+
+</div>
+</div>
+<a id="a7f69e3a342d12982977dd9aad33daeb1" name="a7f69e3a342d12982977dd9aad33daeb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f69e3a342d12982977dd9aad33daeb1">&#9670;&#160;</a></span>mSensorDetectsStatic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BodyCreationSettings::mSensorDetectsStatic = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If this sensor detects static objects entering it. Note that the sensor must be kinematic and active for it to detect static objects. </p>
 
 </div>
 </div>

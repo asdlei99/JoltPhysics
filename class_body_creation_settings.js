@@ -41,6 +41,7 @@ var class_body_creation_settings =
     [ "mPosition", "class_body_creation_settings.html#a71bcd0c1b8798b78246f3ccb9c2ab637", null ],
     [ "mRestitution", "class_body_creation_settings.html#ad248781dc0ad8671c19af02106c9f054", null ],
     [ "mRotation", "class_body_creation_settings.html#a8b4eaa2eceb1493a1a70d3bef422e3ad", null ],
+    [ "mSensorDetectsStatic", "class_body_creation_settings.html#a7f69e3a342d12982977dd9aad33daeb1", null ],
     [ "mUseManifoldReduction", "class_body_creation_settings.html#a50e9e038bb9df7acfe71dbb56480271c", null ],
     [ "mUserData", "class_body_creation_settings.html#aca747cc540a625d75c5a5abf0ad68216", null ]
 ];
