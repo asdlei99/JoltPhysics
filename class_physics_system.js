@@ -12,6 +12,7 @@ var class_physics_system =
     [ "DrawConstraintReferenceFrame", "class_physics_system.html#a0535d433ffd7c3d00595ba784ada4f91", null ],
     [ "DrawConstraints", "class_physics_system.html#a4fa500f710dcc423062fd1514fe07780", null ],
     [ "GetActiveBodies", "class_physics_system.html#a5c8f42e01808c672ae2d32950d66690a", null ],
+    [ "GetActiveBodiesUnsafe", "class_physics_system.html#a23a1a302352ce0ae7b196a4983c51d65", null ],
     [ "GetBodies", "class_physics_system.html#a01018de422e55bc7e23a17f318ecdd1f", null ],
     [ "GetBodyActivationListener", "class_physics_system.html#a8fd2362a6a9377d74902653f42e83170", null ],
     [ "GetBodyInterface", "class_physics_system.html#a579bc839c332cf3523c3eb2b03c98e3e", null ],
