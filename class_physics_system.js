@@ -47,6 +47,6 @@ var class_physics_system =
     [ "SetContactListener", "class_physics_system.html#ade7967ad5ff4a67d255cc6fb956943c8", null ],
     [ "SetGravity", "class_physics_system.html#ad09c12009bbcb0d0e6dbfd9582593be4", null ],
     [ "SetPhysicsSettings", "class_physics_system.html#a2f81c29dfb88dd7e0711caffcd2ebc22", null ],
-    [ "Update", "class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e", null ],
+    [ "Update", "class_physics_system.html#a4cdc76b2486dfaecfc9319d040e5e5f3", null ],
     [ "WereBodiesInContact", "class_physics_system.html#ad8f5849a90549504d9f1705c324a9a83", null ]
 ];

@@ -11,7 +11,6 @@ var searchData=
   ['string_8',['String',['../_s_t_l_allocator_8h.html#a0dacf8f805f8da23c2a50d9f7eb41ece',1,'STLAllocator.h']]],
   ['subgroupid_9',['SubGroupID',['../class_collision_group.html#ae26aaf0a13015f02f01c0e128ccebcfd',1,'CollisionGroup']]],
   ['subshapes_10',['SubShapes',['../class_compound_shape.html#a55fbd4f496242427b0e62d788a597e5b',1,'CompoundShape::SubShapes()'],['../class_compound_shape_settings.html#ac4842f25ad3eada96183eb8a0e1efdac',1,'CompoundShapeSettings::SubShapes()']]],
-  ['substeps_11',['SubSteps',['../class_physics_update_context.html#aac38112db4038adfa0a67a9fb2634b54',1,'PhysicsUpdateContext']]],
-  ['supportfunction_12',['SupportFunction',['../class_debug_renderer.html#af1cf6a05ac6c0387b26aebe24fe0a0d9',1,'DebugRenderer']]],
-  ['supportingface_13',['SupportingFace',['../class_shape.html#a95d3060318d33c1ef314c5b856a70cb8',1,'Shape']]]
+  ['supportfunction_11',['SupportFunction',['../class_debug_renderer.html#af1cf6a05ac6c0387b26aebe24fe0a0d9',1,'DebugRenderer']]],
+  ['supportingface_12',['SupportingFace',['../class_shape.html#a95d3060318d33c1ef314c5b856a70cb8',1,'Shape']]]
 ];

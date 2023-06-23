@@ -182,9 +182,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81dea14ac1bd33f74a07085690095403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a81dea14ac1bd33f74a07085690095403">GetAffectedBodies</a> (<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inConstraintIdx, const <a class="el" href="class_body.html">Body</a> *&amp;outBody1, const <a class="el" href="class_body.html">Body</a> *&amp;outBody2) const</td></tr>
 <tr class="memdesc:a81dea14ac1bd33f74a07085690095403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the affected bodies for a given constraint.  <a href="class_contact_constraint_manager.html#a81dea14ac1bd33f74a07085690095403">More...</a><br /></td></tr>
 <tr class="separator:a81dea14ac1bd33f74a07085690095403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e175c70964531d96d77791bc45ca960"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960">SetupVelocityConstraints</a> (const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxBegin, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxEnd, float inDeltaTime)</td></tr>
-<tr class="memdesc:a3e175c70964531d96d77791bc45ca960"><td class="mdescLeft">&#160;</td><td class="mdescRight">AddContactConstraint will also setup the velocity constraints for the first sub step. For subsequent sub steps this function must be called prior to warm starting the constraint.  <a href="class_contact_constraint_manager.html#a3e175c70964531d96d77791bc45ca960">More...</a><br /></td></tr>
-<tr class="separator:a3e175c70964531d96d77791bc45ca960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185466194a8e52da526a77bc3b6cc405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405">WarmStartVelocityConstraints</a> (const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxBegin, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxEnd, float inWarmStartImpulseRatio)</td></tr>
 <tr class="memdesc:a185466194a8e52da526a77bc3b6cc405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply last frame's impulses as an initial guess for this frame's impulses.  <a href="class_contact_constraint_manager.html#a185466194a8e52da526a77bc3b6cc405">More...</a><br /></td></tr>
 <tr class="separator:a185466194a8e52da526a77bc3b6cc405"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -911,42 +908,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Listener that is notified whenever a contact point between two bodies is added/updated/removed. </p>
-
-</div>
-</div>
-<a id="a3e175c70964531d96d77791bc45ca960" name="a3e175c70964531d96d77791bc45ca960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e175c70964531d96d77791bc45ca960">&#9670;&#160;</a></span>SetupVelocityConstraints()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ContactConstraintManager::SetupVelocityConstraints </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *&#160;</td>
-          <td class="paramname"><em>inConstraintIdxBegin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *&#160;</td>
-          <td class="paramname"><em>inConstraintIdxEnd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>inDeltaTime</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>AddContactConstraint will also setup the velocity constraints for the first sub step. For subsequent sub steps this function must be called prior to warm starting the constraint. </p>
 
 </div>
 </div>

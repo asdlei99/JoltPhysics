@@ -151,7 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa6041abc2a70cc411e4d814c9dbf43f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the state of constraints. Returns false if failed.  <a href="class_constraint_manager.html#aa6041abc2a70cc411e4d814c9dbf43f2">More...</a><br /></td></tr>
 <tr class="separator:aa6041abc2a70cc411e4d814c9dbf43f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8d4baabaedc6f26b774d40b71b6bf85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#ae8d4baabaedc6f26b774d40b71b6bf85">LockAllConstraints</a> ()</td></tr>
-<tr class="memdesc:ae8d4baabaedc6f26b774d40b71b6bf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock all constraints. This should only be done during <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">PhysicsSystem::Update()</a>.  <a href="class_constraint_manager.html#ae8d4baabaedc6f26b774d40b71b6bf85">More...</a><br /></td></tr>
+<tr class="memdesc:ae8d4baabaedc6f26b774d40b71b6bf85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lock all constraints. This should only be done during <a class="el" href="class_physics_system.html#a4cdc76b2486dfaecfc9319d040e5e5f3">PhysicsSystem::Update()</a>.  <a href="class_constraint_manager.html#ae8d4baabaedc6f26b774d40b71b6bf85">More...</a><br /></td></tr>
 <tr class="separator:ae8d4baabaedc6f26b774d40b71b6bf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef2a29f192caeb1209dfc1a6db0afb96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#aef2a29f192caeb1209dfc1a6db0afb96">UnlockAllConstraints</a> ()</td></tr>
 <tr class="separator:aef2a29f192caeb1209dfc1a6db0afb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,9 +174,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afe238a7b8236da9b32ab8f5d2805a9b0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#afe238a7b8236da9b32ab8f5d2805a9b0">sSetupVelocityConstraints</a> (<a class="el" href="class_constraint.html">Constraint</a> **inActiveConstraints, <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inNumActiveConstraints, float inDeltaTime)</td></tr>
 <tr class="memdesc:afe238a7b8236da9b32ab8f5d2805a9b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prior to solving the velocity constraints, you must call SetupVelocityConstraints once to precalculate values that are independent of velocity.  <a href="class_constraint_manager.html#afe238a7b8236da9b32ab8f5d2805a9b0">More...</a><br /></td></tr>
 <tr class="separator:afe238a7b8236da9b32ab8f5d2805a9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b35b54ec12600f5d48fbc499a1136eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a0b35b54ec12600f5d48fbc499a1136eb">sSetupVelocityConstraints</a> (<a class="el" href="class_constraint.html">Constraint</a> **inActiveConstraints, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxBegin, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxEnd, float inDeltaTime)</td></tr>
-<tr class="memdesc:a0b35b54ec12600f5d48fbc499a1136eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above, but applies to a limited amount of constraints only.  <a href="class_constraint_manager.html#a0b35b54ec12600f5d48fbc499a1136eb">More...</a><br /></td></tr>
-<tr class="separator:a0b35b54ec12600f5d48fbc499a1136eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a388e8cf0464836e424b9ceb0b4517baf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a388e8cf0464836e424b9ceb0b4517baf">sWarmStartVelocityConstraints</a> (<a class="el" href="class_constraint.html">Constraint</a> **inActiveConstraints, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxBegin, const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *inConstraintIdxEnd, float inWarmStartImpulseRatio)</td></tr>
 <tr class="memdesc:a388e8cf0464836e424b9ceb0b4517baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply last frame's impulses, must be called prior to SolveVelocityConstraints.  <a href="class_constraint_manager.html#a388e8cf0464836e424b9ceb0b4517baf">More...</a><br /></td></tr>
 <tr class="separator:a388e8cf0464836e424b9ceb0b4517baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -396,7 +393,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Lock all constraints. This should only be done during <a class="el" href="class_physics_system.html#abfb982732988bb2a7d35d394a680ed0e">PhysicsSystem::Update()</a>. </p>
+<p>Lock all constraints. This should only be done during <a class="el" href="class_physics_system.html#a4cdc76b2486dfaecfc9319d040e5e5f3">PhysicsSystem::Update()</a>. </p>
 
 </div>
 </div>
@@ -519,58 +516,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b35b54ec12600f5d48fbc499a1136eb" name="a0b35b54ec12600f5d48fbc499a1136eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b35b54ec12600f5d48fbc499a1136eb">&#9670;&#160;</a></span>sSetupVelocityConstraints() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ConstraintManager::sSetupVelocityConstraints </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_constraint.html">Constraint</a> **&#160;</td>
-          <td class="paramname"><em>inActiveConstraints</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *&#160;</td>
-          <td class="paramname"><em>inConstraintIdxBegin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> *&#160;</td>
-          <td class="paramname"><em>inConstraintIdxEnd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>inDeltaTime</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Same as above, but applies to a limited amount of constraints only. </p>
-
-</div>
-</div>
 <a id="afe238a7b8236da9b32ab8f5d2805a9b0" name="afe238a7b8236da9b32ab8f5d2805a9b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe238a7b8236da9b32ab8f5d2805a9b0">&#9670;&#160;</a></span>sSetupVelocityConstraints() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe238a7b8236da9b32ab8f5d2805a9b0">&#9670;&#160;</a></span>sSetupVelocityConstraints()</h2>
 
 <div class="memitem">
 <div class="memproto">

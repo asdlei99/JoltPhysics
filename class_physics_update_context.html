@@ -130,16 +130,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_step.html">Step</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains data needed for each collision step.  <a href="struct_physics_update_context_1_1_step.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_physics_update_context_1_1_sub_step.html">SubStep</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that contains job handles for each integration sub step.  <a href="struct_physics_update_context_1_1_sub_step.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:abfb8bdd22591660d9452affe8a51ff43"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#abfb8bdd22591660d9452affe8a51ff43">JobHandleArray</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="_job_system_8h.html#a1417608577c1b4286e945e4d8b01aa53">JobHandle</a>, <a class="el" href="class_physics_update_context.html#a914eeb78829e0177ad07274a1472aa70">cMaxConcurrency</a> &gt;</td></tr>
 <tr class="separator:abfb8bdd22591660d9452affe8a51ff43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac38112db4038adfa0a67a9fb2634b54"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#aac38112db4038adfa0a67a9fb2634b54">SubSteps</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="struct_physics_update_context_1_1_sub_step.html">SubStep</a>, <a class="el" href="class_physics_update_context.html#a0bc47f4c9b2e0a08105104099ffb0805">cMaxSubSteps</a> &gt;</td></tr>
-<tr class="separator:aac38112db4038adfa0a67a9fb2634b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a8cbbf5b9b0f8bf54cdd936b2a6516e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a1a8cbbf5b9b0f8bf54cdd936b2a6516e">BodyPairQueues</a> = <a class="el" href="class_static_array.html">StaticArray</a>&lt; <a class="el" href="struct_physics_update_context_1_1_body_pair_queue.html">BodyPairQueue</a>, <a class="el" href="class_physics_update_context.html#a914eeb78829e0177ad07274a1472aa70">cMaxConcurrency</a> &gt;</td></tr>
 <tr class="separator:a1a8cbbf5b9b0f8bf54cdd936b2a6516e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57722f8a1c879b71ae19337e61600b3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57722f8a1c879b71ae19337e61600b3d">JobMask</a> = <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a></td></tr>
@@ -183,15 +178,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2f93d5ea4f409db1b4fcb5e353093276"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a2f93d5ea4f409db1b4fcb5e353093276">mStepDeltaTime</a></td></tr>
 <tr class="memdesc:a2f93d5ea4f409db1b4fcb5e353093276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delta time for a simulation step (collision step)  <a href="class_physics_update_context.html#a2f93d5ea4f409db1b4fcb5e353093276">More...</a><br /></td></tr>
 <tr class="separator:a2f93d5ea4f409db1b4fcb5e353093276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf95f3a3b4a5f72ee23dc80a01657ae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a4cf95f3a3b4a5f72ee23dc80a01657ae">mSubStepDeltaTime</a></td></tr>
-<tr class="memdesc:a4cf95f3a3b4a5f72ee23dc80a01657ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delta time for a simulation sub step (integration step)  <a href="class_physics_update_context.html#a4cf95f3a3b4a5f72ee23dc80a01657ae">More...</a><br /></td></tr>
-<tr class="separator:a4cf95f3a3b4a5f72ee23dc80a01657ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52d38e3dd5e6fbe7beb3a90b4ea27e1f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a52d38e3dd5e6fbe7beb3a90b4ea27e1f">mWarmStartImpulseRatio</a></td></tr>
 <tr class="memdesc:a52d38e3dd5e6fbe7beb3a90b4ea27e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio of this step delta time vs last step.  <a href="class_physics_update_context.html#a52d38e3dd5e6fbe7beb3a90b4ea27e1f">More...</a><br /></td></tr>
 <tr class="separator:a52d38e3dd5e6fbe7beb3a90b4ea27e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7882ca12262d805d6f2de6babe96560"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">mUseLargeIslandSplitter</a></td></tr>
-<tr class="memdesc:ad7882ca12262d805d6f2de6babe96560"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, use large island splitting.  <a href="class_physics_update_context.html#ad7882ca12262d805d6f2de6babe96560">More...</a><br /></td></tr>
-<tr class="separator:ad7882ca12262d805d6f2de6babe96560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57bb8d85178c1a1082cfabed7334fa75"><td class="memItemLeft" align="right" valign="top">atomic&lt; <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">mErrors</a> { 0 }</td></tr>
 <tr class="memdesc:a57bb8d85178c1a1082cfabed7334fa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Errors that occurred during the update, actual type is EPhysicsUpdateError.  <a href="class_physics_update_context.html#a57bb8d85178c1a1082cfabed7334fa75">More...</a><br /></td></tr>
 <tr class="separator:a57bb8d85178c1a1082cfabed7334fa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,9 +201,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a914eeb78829e0177ad07274a1472aa70"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a914eeb78829e0177ad07274a1472aa70">cMaxConcurrency</a> = 32</td></tr>
 <tr class="memdesc:a914eeb78829e0177ad07274a1472aa70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum supported amount of concurrent jobs.  <a href="class_physics_update_context.html#a914eeb78829e0177ad07274a1472aa70">More...</a><br /></td></tr>
 <tr class="separator:a914eeb78829e0177ad07274a1472aa70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bc47f4c9b2e0a08105104099ffb0805"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_update_context.html#a0bc47f4c9b2e0a08105104099ffb0805">cMaxSubSteps</a> = 4</td></tr>
-<tr class="memdesc:a0bc47f4c9b2e0a08105104099ffb0805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum supported amount of integration sub steps.  <a href="class_physics_update_context.html#a0bc47f4c9b2e0a08105104099ffb0805">More...</a><br /></td></tr>
-<tr class="separator:a0bc47f4c9b2e0a08105104099ffb0805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Information used during the Update call. </p>
@@ -271,20 +257,6 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="class_physics_update_context.html#a0e631b90f31cf616621e61ed588aac2f">PhysicsUpdateContext::Steps</a> =  std::vector&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>, <a class="el" href="class_s_t_l_temp_allocator.html">STLTempAllocator</a>&lt;<a class="el" href="struct_physics_update_context_1_1_step.html">Step</a>&gt; &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac38112db4038adfa0a67a9fb2634b54" name="aac38112db4038adfa0a67a9fb2634b54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac38112db4038adfa0a67a9fb2634b54">&#9670;&#160;</a></span>SubSteps</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="class_physics_update_context.html#aac38112db4038adfa0a67a9fb2634b54">PhysicsUpdateContext::SubSteps</a> =  <a class="el" href="class_static_array.html">StaticArray</a>&lt;<a class="el" href="struct_physics_update_context_1_1_sub_step.html">SubStep</a>, <a class="el" href="class_physics_update_context.html#a0bc47f4c9b2e0a08105104099ffb0805">cMaxSubSteps</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -388,30 +360,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maximum supported amount of concurrent jobs. </p>
-
-</div>
-</div>
-<a id="a0bc47f4c9b2e0a08105104099ffb0805" name="a0bc47f4c9b2e0a08105104099ffb0805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bc47f4c9b2e0a08105104099ffb0805">&#9670;&#160;</a></span>cMaxSubSteps</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int PhysicsUpdateContext::cMaxSubSteps = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Maximum supported amount of integration sub steps. </p>
 
 </div>
 </div>
@@ -557,22 +505,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4cf95f3a3b4a5f72ee23dc80a01657ae" name="a4cf95f3a3b4a5f72ee23dc80a01657ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cf95f3a3b4a5f72ee23dc80a01657ae">&#9670;&#160;</a></span>mSubStepDeltaTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float PhysicsUpdateContext::mSubStepDeltaTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Delta time for a simulation sub step (integration step) </p>
-
-</div>
-</div>
 <a id="a849d877684ec2ecc251defcfe8c62e91" name="a849d877684ec2ecc251defcfe8c62e91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a849d877684ec2ecc251defcfe8c62e91">&#9670;&#160;</a></span>mTempAllocator</h2>
 
@@ -586,22 +518,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Temporary allocator used during the update. </p>
-
-</div>
-</div>
-<a id="ad7882ca12262d805d6f2de6babe96560" name="ad7882ca12262d805d6f2de6babe96560"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7882ca12262d805d6f2de6babe96560">&#9670;&#160;</a></span>mUseLargeIslandSplitter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool PhysicsUpdateContext::mUseLargeIslandSplitter</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>If true, use large island splitting. </p>
 
 </div>
 </div>
