@@ -115,9 +115,10 @@ Inheritance diagram for JobSystem:</div>
  <div class="center">
   <img src="class_job_system.png" usemap="#JobSystem_map" alt=""/>
   <map id="JobSystem_map" name="JobSystem_map">
-<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="0,0,138,24"/>
-<area href="class_job_system_with_barrier.html" alt="JobSystemWithBarrier" shape="rect" coords="0,112,138,136"/>
-<area href="class_job_system_thread_pool.html" alt="JobSystemThreadPool" shape="rect" coords="0,168,138,192"/>
+<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="86,0,248,24"/>
+<area href="class_job_system_single_threaded.html" title="Implementation of a JobSystem without threads, runs jobs as soon as they are added." alt="JobSystemSingleThreaded" shape="rect" coords="0,112,162,136"/>
+<area href="class_job_system_with_barrier.html" alt="JobSystemWithBarrier" shape="rect" coords="172,112,334,136"/>
+<area href="class_job_system_thread_pool.html" alt="JobSystemThreadPool" shape="rect" coords="172,168,334,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -288,7 +289,7 @@ delete job_system;
 
 <p>Create a new barrier, used to wait on jobs. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_with_barrier.html#a19401113c3246594dd83bc4563823ec5">JobSystemWithBarrier</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#ade901f3e457e5f60b071388bc6557778">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_with_barrier.html#a19401113c3246594dd83bc4563823ec5">JobSystemWithBarrier</a>.</p>
 
 </div>
 </div>
@@ -339,7 +340,7 @@ delete job_system;
 </div><div class="memdoc">
 <p >Create a new job, the job is started immediately if inNumDependencies == 0 otherwise it starts when RemoveDependency causes the dependency counter to reach 0. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_thread_pool.html#aa345080efb7aec00011c102b37988fa3">JobSystemThreadPool</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#ac183b901c9be0f04f21ff493cb5b2ec7">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_thread_pool.html#aa345080efb7aec00011c102b37988fa3">JobSystemThreadPool</a>.</p>
 
 </div>
 </div>
@@ -369,7 +370,7 @@ delete job_system;
 
 <p>Destroy a barrier when it is no longer used. The barrier should be empty at this point. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_with_barrier.html#a4827161974dbd03dff9c84424d75107e">JobSystemWithBarrier</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#a9333b0d4cb69ade4b4045b518c77a120">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_with_barrier.html#a4827161974dbd03dff9c84424d75107e">JobSystemWithBarrier</a>.</p>
 
 </div>
 </div>
@@ -399,7 +400,7 @@ delete job_system;
 
 <p>Frees a job. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_thread_pool.html#af916eac26591613c671484a3b60ab047">JobSystemThreadPool</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#abb23fc08db8c653059c7ab32e44fd7fd">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_thread_pool.html#af916eac26591613c671484a3b60ab047">JobSystemThreadPool</a>.</p>
 
 </div>
 </div>
@@ -428,7 +429,7 @@ delete job_system;
 
 <p>Get maximum number of concurrently executing jobs. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_thread_pool.html#ad9d1ead2ffc5ab1ec9aa6e06948c98ac">JobSystemThreadPool</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#a4e99aebfb2308cf3c4bdd8e54bb71799">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_thread_pool.html#ad9d1ead2ffc5ab1ec9aa6e06948c98ac">JobSystemThreadPool</a>.</p>
 
 </div>
 </div>
@@ -458,7 +459,7 @@ delete job_system;
 
 <p>Adds a job to the job queue. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_thread_pool.html#ab915a93f53fed71c48afb2fdf0d40910">JobSystemThreadPool</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#ac3eead674dbe8a93398dcbc13b324da5">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_thread_pool.html#ab915a93f53fed71c48afb2fdf0d40910">JobSystemThreadPool</a>.</p>
 
 </div>
 </div>
@@ -498,7 +499,7 @@ delete job_system;
 
 <p>Adds a number of jobs at once to the job queue. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_thread_pool.html#a60fe80b85a7711b87c51983d5fb5eb4a">JobSystemThreadPool</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#a1581f359dde3922b6b3f973ec78c73df">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_thread_pool.html#a60fe80b85a7711b87c51983d5fb5eb4a">JobSystemThreadPool</a>.</p>
 
 </div>
 </div>
@@ -528,7 +529,7 @@ delete job_system;
 
 <p>Wait for a set of jobs to be finished, note that only 1 thread can be waiting on a barrier at a time. </p>
 
-<p>Implemented in <a class="el" href="class_job_system_with_barrier.html#af33b27708e9ab2b343a0658cf14efe56">JobSystemWithBarrier</a>.</p>
+<p>Implemented in <a class="el" href="class_job_system_single_threaded.html#aa491ca6999f7f2285a79b114b696e6ac">JobSystemSingleThreaded</a>, and <a class="el" href="class_job_system_with_barrier.html#af33b27708e9ab2b343a0658cf14efe56">JobSystemWithBarrier</a>.</p>
 
 </div>
 </div>

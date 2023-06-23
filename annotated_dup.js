@@ -142,6 +142,7 @@ var annotated_dup =
     [ "IObjectStreamOut", "class_i_object_stream_out.html", "class_i_object_stream_out" ],
     [ "IslandBuilder", "class_island_builder.html", "class_island_builder" ],
     [ "JobSystem", "class_job_system.html", "class_job_system" ],
+    [ "JobSystemSingleThreaded", "class_job_system_single_threaded.html", "class_job_system_single_threaded" ],
     [ "JobSystemThreadPool", "class_job_system_thread_pool.html", "class_job_system_thread_pool" ],
     [ "JobSystemWithBarrier", "class_job_system_with_barrier.html", "class_job_system_with_barrier" ],
     [ "LargeIslandSplitter", "class_large_island_splitter.html", "class_large_island_splitter" ],

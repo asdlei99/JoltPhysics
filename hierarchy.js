@@ -220,11 +220,14 @@ var hierarchy =
       [ "GJKClosestPoint", "class_g_j_k_closest_point.html", null ],
       [ "IslandBuilder", "class_island_builder.html", null ],
       [ "JobSystem", "class_job_system.html", [
+        [ "JobSystemSingleThreaded", "class_job_system_single_threaded.html", null ],
         [ "JobSystemWithBarrier", "class_job_system_with_barrier.html", [
           [ "JobSystemThreadPool", "class_job_system_thread_pool.html", null ]
         ] ]
       ] ],
-      [ "JobSystem::Barrier", "class_job_system_1_1_barrier.html", null ],
+      [ "JobSystem::Barrier", "class_job_system_1_1_barrier.html", [
+        [ "JobSystemSingleThreaded::BarrierImpl", "class_job_system_single_threaded_1_1_barrier_impl.html", null ]
+      ] ],
       [ "LFHMAllocator", "class_l_f_h_m_allocator.html", null ],
       [ "LFHMAllocatorContext", "class_l_f_h_m_allocator_context.html", [
         [ "ContactConstraintManager::ContactAllocator", "class_contact_constraint_manager_1_1_contact_allocator.html", null ]

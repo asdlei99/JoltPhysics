@@ -19,6 +19,8 @@ var dir_1b21a6f5692b6d84bf3b848a79181d46 =
     [ "IssueReporting.h", "_issue_reporting_8h.html", "_issue_reporting_8h" ],
     [ "JobSystem.h", "_job_system_8h.html", "_job_system_8h" ],
     [ "JobSystem.inl", "_job_system_8inl.html", null ],
+    [ "JobSystemSingleThreaded.cpp", "_job_system_single_threaded_8cpp.html", null ],
+    [ "JobSystemSingleThreaded.h", "_job_system_single_threaded_8h.html", "_job_system_single_threaded_8h" ],
     [ "JobSystemThreadPool.cpp", "_job_system_thread_pool_8cpp.html", null ],
     [ "JobSystemThreadPool.h", "_job_system_thread_pool_8h.html", "_job_system_thread_pool_8h" ],
     [ "JobSystemWithBarrier.cpp", "_job_system_with_barrier_8cpp.html", null ],

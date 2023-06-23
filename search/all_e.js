@@ -52,7 +52,7 @@ var searchData=
   ['oncontactsolve_49',['OnContactSolve',['../class_character_contact_listener.html#a4d1a8b09ee3a923d4aa7bc53aec160b6',1,'CharacterContactListener']]],
   ['oncontactvalidate_50',['OnContactValidate',['../class_character_contact_listener.html#a46fc7a819cf904aa3db5cf1648f21530',1,'CharacterContactListener::OnContactValidate()'],['../class_contact_listener.html#abb704483e4e1f2eba7109b504afdf482',1,'ContactListener::OnContactValidate()']]],
   ['onground_51',['OnGround',['../class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea2b9beed57034f5727573d7ded76cf777',1,'CharacterBase']]],
-  ['onjobfinished_52',['OnJobFinished',['../class_job_system_1_1_barrier.html#ab76635eef3bb293a2bceb429192adb2a',1,'JobSystem::Barrier']]],
+  ['onjobfinished_52',['OnJobFinished',['../class_job_system_1_1_barrier.html#ab76635eef3bb293a2bceb429192adb2a',1,'JobSystem::Barrier::OnJobFinished()'],['../class_job_system_single_threaded_1_1_barrier_impl.html#ad13990ca369c5cb94826dd026a447733',1,'JobSystemSingleThreaded::BarrierImpl::OnJobFinished()']]],
   ['onsteepground_53',['OnSteepGround',['../class_character_base.html#a82dfb80348cdbf3a08f97d54b225f77ea50f80f8d96a6d65de73ba8a6b9910761',1,'CharacterBase']]],
   ['onstep_54',['OnStep',['../class_physics_step_listener.html#af2180e766b5fc038b7ce5ab2799c0230',1,'PhysicsStepListener']]],
   ['open_55',['Open',['../class_object_stream_in.html#a20be61d968a2f31e1039f364ba4ee44a',1,'ObjectStreamIn::Open()'],['../class_object_stream_out.html#ab6d07cfe9606730ae27e3c5fd3174f83',1,'ObjectStreamOut::Open()']]],
