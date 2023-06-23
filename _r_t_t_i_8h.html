@@ -423,7 +423,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>:                                                                                                             \</div>
 <div class="line">    JPH_OVERRIDE_NEW_DELETE                                                                                         \</div>
 <div class="line">    friend linkage <a class="code hl_class" href="class_r_t_t_i.html">RTTI</a> *       GetRTTIOfType(class_name *);                                                        \</div>
-<div class="line">    <span class="keyword">friend</span> <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="class_r_t_t_i.html">RTTI</a> *  GetRTTI(<span class="keyword">const</span> class_name *inObject) { <span class="keywordflow">return</span> GetRTTIOfType((class_name *)<span class="keyword">nullptr</span>); }\</div>
+<div class="line">    <span class="keyword">friend</span> <span class="keyword">inline</span> <span class="keyword">const</span> <a class="code hl_class" href="class_r_t_t_i.html">RTTI</a> *  GetRTTI([[maybe_unused]] <span class="keyword">const</span> class_name *inObject) { <span class="keywordflow">return</span> GetRTTIOfType((class_name *)<span class="keyword">nullptr</span>); }\</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span>                 sCreateRTTI(<a class="code hl_class" href="class_r_t_t_i.html">RTTI</a> &amp;inRTTI);                                                          \</div>
 </div><!-- fragment -->
 </div>
