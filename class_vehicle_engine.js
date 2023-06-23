@@ -3,6 +3,7 @@ var class_vehicle_engine =
     [ "ApplyDamping", "class_vehicle_engine.html#ad61683b9088153079e3e47334c2caf1a", null ],
     [ "ApplyTorque", "class_vehicle_engine.html#af916ceb8c4a323cee68c72465627901e", null ],
     [ "ClampRPM", "class_vehicle_engine.html#a10cc014bfd4c08086fc83ef73948c7ba", null ],
+    [ "ConvertRPMToAngle", "class_vehicle_engine.html#a39842ae2cd4c9520f0d194814c92d3d1", null ],
     [ "DrawRPM", "class_vehicle_engine.html#a1b616470faf6ab7c46026706a7c708df", null ],
     [ "GetAngularVelocity", "class_vehicle_engine.html#ae6735223f4b1d1fc898309e671504731", null ],
     [ "GetCurrentRPM", "class_vehicle_engine.html#ac1f11f381d186b50721cbc058931a2b5", null ],

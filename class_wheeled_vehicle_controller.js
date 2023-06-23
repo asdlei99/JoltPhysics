@@ -2,7 +2,7 @@ var class_wheeled_vehicle_controller =
 [
     [ "Differentials", "class_wheeled_vehicle_controller.html#ac37470c3ca61d99d2ab55e6c851410d0", null ],
     [ "WheeledVehicleController", "class_wheeled_vehicle_controller.html#ad00936264e25f1902bed6e7c86f198dc", null ],
-    [ "AllowSleep", "class_wheeled_vehicle_controller.html#a6125325237cbe777be8aa8c5fc831ce4", null ],
+    [ "AllowSleep", "class_wheeled_vehicle_controller.html#a93a56d516b3760052815ac323844d574", null ],
     [ "ConstructWheel", "class_wheeled_vehicle_controller.html#a87526c2489ef5c417f2ef34a69d19cbb", null ],
     [ "Draw", "class_wheeled_vehicle_controller.html#a254e0402efc01e79154b4bde178918a4", null ],
     [ "GetDifferentialLimitedSlipRatio", "class_wheeled_vehicle_controller.html#a54518ef2b442bd0a1fe7a871d36d167f", null ],
