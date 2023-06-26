@@ -12,6 +12,7 @@ var class_wheeled_vehicle_controller =
     [ "GetEngine", "class_wheeled_vehicle_controller.html#a459374f72146ee0bfe05ead3151d346c", null ],
     [ "GetTransmission", "class_wheeled_vehicle_controller.html#a8c3ab1fdbdcec9b95237e2b727c378ac", null ],
     [ "GetTransmission", "class_wheeled_vehicle_controller.html#a3a14cc53afb7a84709927cd9b5fc863b", null ],
+    [ "GetWheelSpeedAtClutch", "class_wheeled_vehicle_controller.html#a0ef079b5815d391cedacbceb40105c6f", null ],
     [ "PostCollide", "class_wheeled_vehicle_controller.html#ad3bf9ef08870494a7bf762b67beea1ef", null ],
     [ "PreCollide", "class_wheeled_vehicle_controller.html#a8b2dc5370272f15c968425a422ccaeff", null ],
     [ "RestoreState", "class_wheeled_vehicle_controller.html#a832989bb00f7c2577925f3bb978d116a", null ],
