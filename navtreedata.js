@@ -92,9 +92,9 @@ var NAVTREEINDEX =
 "class_tracked_vehicle_controller_settings.html#adbe8e52a437dcdb57ac4078958f2dece",
 "class_u_vec8.html#af4b5d732eccd1cce573ea07e1d005dea",
 "class_vehicle_constraint.html#af1d28eee52fc3cb7a2f8b8a81edfc464",
-"dir_a34232518e8eb2f6b4ca842b3eb863dd.html",
-"struct_collision_estimation_result.html",
-"struct_physics_settings.html#a739d00b8a125095ee04c70981244f1be"
+"dir_a240ac3d525f21f79994f1dc1d19664e.html",
+"struct_character_virtual_1_1_extended_update_settings.html#ac716eaa1338501e45efa6b6d0100e931",
+"struct_physics_settings.html#a69350ac3ff30bca78c45d402938a3ebf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

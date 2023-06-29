@@ -256,6 +256,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa389a6d0e57e4eb69c7d238be20c6575"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#aa389a6d0e57e4eb69c7d238be20c6575">mDifferentialLimitedSlipRatio</a></td></tr>
 <tr class="memdesc:aa389a6d0e57e4eb69c7d238be20c6575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ratio max / min average wheel speed of each differential (measured at the clutch).  <a href="class_wheeled_vehicle_controller.html#aa389a6d0e57e4eb69c7d238be20c6575">More...</a><br /></td></tr>
 <tr class="separator:aa389a6d0e57e4eb69c7d238be20c6575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae362fa84fc6185aca0663ed55835d477"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ae362fa84fc6185aca0663ed55835d477">mPreviousDeltaTime</a> = 0.0f</td></tr>
+<tr class="memdesc:ae362fa84fc6185aca0663ed55835d477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delta time of the last step.  <a href="class_wheeled_vehicle_controller.html#ae362fa84fc6185aca0663ed55835d477">More...</a><br /></td></tr>
+<tr class="separator:ae362fa84fc6185aca0663ed55835d477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae747e5529bef6e7f5d5c9ada5fa195b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wheeled_vehicle_controller.html#ae747e5529bef6e7f5d5c9ada5fa195b4">mRPMMeterPosition</a> { 0, 1, 0 }</td></tr>
 <tr class="memdesc:ae747e5529bef6e7f5d5c9ada5fa195b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position (in local space of the body) of the RPM meter when drawing the constraint.  <a href="class_wheeled_vehicle_controller.html#ae747e5529bef6e7f5d5c9ada5fa195b4">More...</a><br /></td></tr>
 <tr class="separator:ae747e5529bef6e7f5d5c9ada5fa195b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1057,6 +1060,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Value between 0 and 1 indicating how strong the hand brake is pulled. </p>
+
+</div>
+</div>
+<a id="ae362fa84fc6185aca0663ed55835d477" name="ae362fa84fc6185aca0663ed55835d477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae362fa84fc6185aca0663ed55835d477">&#9670;&#160;</a></span>mPreviousDeltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float WheeledVehicleController::mPreviousDeltaTime = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delta time of the last step. </p>
 
 </div>
 </div>

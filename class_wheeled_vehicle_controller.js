@@ -27,6 +27,7 @@ var class_wheeled_vehicle_controller =
     [ "mEngine", "class_wheeled_vehicle_controller.html#a4f7bcd7200890610de12f3eb207541e5", null ],
     [ "mForwardInput", "class_wheeled_vehicle_controller.html#a0a8a164e3c506f3763973ac2ae4cc656", null ],
     [ "mHandBrakeInput", "class_wheeled_vehicle_controller.html#a064bc3d019a1997828bc46c9201a0283", null ],
+    [ "mPreviousDeltaTime", "class_wheeled_vehicle_controller.html#ae362fa84fc6185aca0663ed55835d477", null ],
     [ "mRightInput", "class_wheeled_vehicle_controller.html#a5138b0898fa52c09e75c3f583459c519", null ],
     [ "mRPMMeterPosition", "class_wheeled_vehicle_controller.html#ae747e5529bef6e7f5d5c9ada5fa195b4", null ],
     [ "mRPMMeterSize", "class_wheeled_vehicle_controller.html#a7f88075b9e61d9a50c6edc663267f73b", null ],
