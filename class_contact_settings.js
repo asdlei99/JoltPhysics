@@ -7,5 +7,6 @@ var class_contact_settings =
     [ "mInvMassScale1", "class_contact_settings.html#a6b2c4b599362d4e3837120571af2c3ce", null ],
     [ "mInvMassScale2", "class_contact_settings.html#a37639a208ebcf5ca37462c3689c73828", null ],
     [ "mIsSensor", "class_contact_settings.html#a1c5f448521399a40a9384dcc1aa1474f", null ],
+    [ "mRelativeAngularSurfaceVelocity", "class_contact_settings.html#a5f18a7a0fa71d91b1bd75481ea549de9", null ],
     [ "mRelativeSurfaceVelocity", "class_contact_settings.html#a2c4a41fd1958fbdb62e6bdd272a27ccb", null ]
 ];
