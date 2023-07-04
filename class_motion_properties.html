@@ -116,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd43aa954cec19be744724fd633f892a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_memory_8h.html#a91074fb218fe28954a0938c099ddd9e0">JPH_OVERRIDE_NEW_DELETE</a> <a class="el" href="_motion_quality_8h.html#af43db3453103c2e62526f54dd8542d3a">EMotionQuality</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#acd43aa954cec19be744724fd633f892a">GetMotionQuality</a> () const</td></tr>
 <tr class="memdesc:acd43aa954cec19be744724fd633f892a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motion quality, or how well it detects collisions when it has a high velocity.  <a href="class_motion_properties.html#acd43aa954cec19be744724fd633f892a">More...</a><br /></td></tr>
 <tr class="separator:acd43aa954cec19be744724fd633f892a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bc5e1e111514783c9df29987815516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_allowed_d_o_fs_8h.html#a47bc570d6b4f457c417078ebab07d913">EAllowedDOFs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ae2bc5e1e111514783c9df29987815516">GetAllowedDOFs</a> () const</td></tr>
+<tr class="memdesc:ae2bc5e1e111514783c9df29987815516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the allowed degrees of freedom that this body has (this can be changed by calling SetMassProperties)  <a href="class_motion_properties.html#ae2bc5e1e111514783c9df29987815516">More...</a><br /></td></tr>
+<tr class="separator:ae2bc5e1e111514783c9df29987815516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6478c1ccabfc23ee9ce98faa0643c080"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a6478c1ccabfc23ee9ce98faa0643c080">GetLinearVelocity</a> () const</td></tr>
 <tr class="memdesc:a6478c1ccabfc23ee9ce98faa0643c080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get world space linear velocity of the center of mass.  <a href="class_motion_properties.html#a6478c1ccabfc23ee9ce98faa0643c080">More...</a><br /></td></tr>
 <tr class="separator:a6478c1ccabfc23ee9ce98faa0643c080"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,9 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b76b04c1ab039a881788d8a4ae7c115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a2b76b04c1ab039a881788d8a4ae7c115">SetAngularVelocityClamped</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inAngularVelocity)</td></tr>
 <tr class="memdesc:a2b76b04c1ab039a881788d8a4ae7c115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set world space angular velocity of the center of mass, will make sure the value is clamped against the maximum angular velocity.  <a href="class_motion_properties.html#a2b76b04c1ab039a881788d8a4ae7c115">More...</a><br /></td></tr>
 <tr class="separator:a2b76b04c1ab039a881788d8a4ae7c115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab85683c657425481988a549637dd1315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ab85683c657425481988a549637dd1315">MoveKinematic</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDeltaPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inDeltaRotation, float inDeltaTime)</td></tr>
-<tr class="memdesc:ab85683c657425481988a549637dd1315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set velocity of body such that it will be rotate/translate by inDeltaPosition/Rotation in inDeltaTime seconds.  <a href="class_motion_properties.html#ab85683c657425481988a549637dd1315">More...</a><br /></td></tr>
-<tr class="separator:ab85683c657425481988a549637dd1315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2471d63f11da6c88141a1adedf6149"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#afc2471d63f11da6c88141a1adedf6149">MoveKinematic</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDeltaPosition, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inDeltaRotation, float inDeltaTime)</td></tr>
+<tr class="memdesc:afc2471d63f11da6c88141a1adedf6149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set velocity of body such that it will be rotate/translate by inDeltaPosition/Rotation in inDeltaTime seconds.  <a href="class_motion_properties.html#afc2471d63f11da6c88141a1adedf6149">More...</a><br /></td></tr>
+<tr class="separator:afc2471d63f11da6c88141a1adedf6149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cc70977a90ef8a3bed8a60902f3c2db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a2cc70977a90ef8a3bed8a60902f3c2db">ClampLinearVelocity</a> ()</td></tr>
 <tr class="memdesc:a2cc70977a90ef8a3bed8a60902f3c2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamp velocity according to limit.  <a href="class_motion_properties.html#a2cc70977a90ef8a3bed8a60902f3c2db">More...</a><br /></td></tr>
 <tr class="separator:a2cc70977a90ef8a3bed8a60902f3c2db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,9 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a512531eb6b5f90a69deca6a0d0889243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cc6486eb03942da485948ba1cadb78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a8cc6486eb03942da485948ba1cadb78c">SetGravityFactor</a> (float inGravityFactor)</td></tr>
 <tr class="separator:a8cc6486eb03942da485948ba1cadb78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af54234b5b714feb5ac7eaa1b0033a8e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#af54234b5b714feb5ac7eaa1b0033a8e7">SetMassProperties</a> (const <a class="el" href="class_mass_properties.html">MassProperties</a> &amp;inMassProperties)</td></tr>
-<tr class="memdesc:af54234b5b714feb5ac7eaa1b0033a8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mass and inertia tensor.  <a href="class_motion_properties.html#af54234b5b714feb5ac7eaa1b0033a8e7">More...</a><br /></td></tr>
-<tr class="separator:af54234b5b714feb5ac7eaa1b0033a8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae935a749f1bb737668ba853c4b1d54df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ae935a749f1bb737668ba853c4b1d54df">SetMassProperties</a> (<a class="el" href="_allowed_d_o_fs_8h.html#a47bc570d6b4f457c417078ebab07d913">EAllowedDOFs</a> inAllowedDOFs, const <a class="el" href="class_mass_properties.html">MassProperties</a> &amp;inMassProperties)</td></tr>
+<tr class="memdesc:ae935a749f1bb737668ba853c4b1d54df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the mass and inertia tensor.  <a href="class_motion_properties.html#ae935a749f1bb737668ba853c4b1d54df">More...</a><br /></td></tr>
+<tr class="separator:ae935a749f1bb737668ba853c4b1d54df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a959bd2f7d8eb581d999e3b01920aa8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a8a959bd2f7d8eb581d999e3b01920aa8">GetInverseMass</a> () const</td></tr>
 <tr class="memdesc:a8a959bd2f7d8eb581d999e3b01920aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inverse mass (1 / mass). Should only be called on a dynamic object (static or kinematic bodies have infinite mass so should be treated as 1 / mass = 0)  <a href="class_motion_properties.html#a8a959bd2f7d8eb581d999e3b01920aa8">More...</a><br /></td></tr>
 <tr class="separator:a8a959bd2f7d8eb581d999e3b01920aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,6 +201,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a98ccf77045902a10f5665ba7208b67f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed5a48ab2a5e703c00e2e9ef2e0c68a"><td class="memItemLeft" align="right" valign="top">JPH_INLINE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#afed5a48ab2a5e703c00e2e9ef2e0c68a">ResetTorque</a> ()</td></tr>
 <tr class="separator:afed5a48ab2a5e703c00e2e9ef2e0c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a74ac0a487b11551bd7ce6b9468554"><td class="memItemLeft" align="right" valign="top">JPH_INLINE <a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a22a74ac0a487b11551bd7ce6b9468554">LockTranslation</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inV)</td></tr>
+<tr class="memdesc:a22a74ac0a487b11551bd7ce6b9468554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a translation vector inV and returns a vector where the components that are not allowed by mAllowedDOFs are set to 0.  <a href="class_motion_properties.html#a22a74ac0a487b11551bd7ce6b9468554">More...</a><br /></td></tr>
+<tr class="separator:a22a74ac0a487b11551bd7ce6b9468554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d0e7670106211909852cd6844286d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#ae1d0e7670106211909852cd6844286d9">ApplyForceTorqueAndDragInternal</a> (<a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inBodyRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inGravity, float inDeltaTime)</td></tr>
 <tr class="memdesc:ae1d0e7670106211909852cd6844286d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply all accumulated forces, torques and drag (should only be called by the <a class="el" href="class_physics_system.html">PhysicsSystem</a>)  <a href="class_motion_properties.html#ae1d0e7670106211909852cd6844286d9">More...</a><br /></td></tr>
 <tr class="separator:ae1d0e7670106211909852cd6844286d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,9 +218,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad3b333b7af3e3b39be95edf9b69d133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#aad3b333b7af3e3b39be95edf9b69d133">ResetSleepTestSpheres</a> (const <a class="el" href="_real_8h.html#ae088dda635fb0ba1c96ea179d384ca40">RVec3</a> *inPoints)</td></tr>
 <tr class="memdesc:aad3b333b7af3e3b39be95edf9b69d133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset spheres to center around inPoints with radius 0.  <a href="class_motion_properties.html#aad3b333b7af3e3b39be95edf9b69d133">More...</a><br /></td></tr>
 <tr class="separator:aad3b333b7af3e3b39be95edf9b69d133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42eb1fc1f3dc95b2023675e3cd7c1aed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a42eb1fc1f3dc95b2023675e3cd7c1aed">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
-<tr class="memdesc:a42eb1fc1f3dc95b2023675e3cd7c1aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_motion_properties.html#a42eb1fc1f3dc95b2023675e3cd7c1aed">More...</a><br /></td></tr>
-<tr class="separator:a42eb1fc1f3dc95b2023675e3cd7c1aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e308e4fb4cbb6c7dad8fe6b65d71aca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a9e308e4fb4cbb6c7dad8fe6b65d71aca">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
+<tr class="memdesc:a9e308e4fb4cbb6c7dad8fe6b65d71aca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_motion_properties.html#a9e308e4fb4cbb6c7dad8fe6b65d71aca">More...</a><br /></td></tr>
+<tr class="separator:a9e308e4fb4cbb6c7dad8fe6b65d71aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09a1e9e46776c7d15cdd2b19c4a146f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_properties.html#a09a1e9e46776c7d15cdd2b19c4a146f6">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a09a1e9e46776c7d15cdd2b19c4a146f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay.  <a href="class_motion_properties.html#a09a1e9e46776c7d15cdd2b19c4a146f6">More...</a><br /></td></tr>
 <tr class="separator:a09a1e9e46776c7d15cdd2b19c4a146f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,6 +450,33 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2bc5e1e111514783c9df29987815516" name="ae2bc5e1e111514783c9df29987815516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bc5e1e111514783c9df29987815516">&#9670;&#160;</a></span>GetAllowedDOFs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_allowed_d_o_fs_8h.html#a47bc570d6b4f457c417078ebab07d913">EAllowedDOFs</a> MotionProperties::GetAllowedDOFs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the allowed degrees of freedom that this body has (this can be changed by calling SetMassProperties) </p>
 
 </div>
 </div>
@@ -933,8 +966,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ab85683c657425481988a549637dd1315" name="ab85683c657425481988a549637dd1315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab85683c657425481988a549637dd1315">&#9670;&#160;</a></span>MoveKinematic()</h2>
+<a id="a22a74ac0a487b11551bd7ce6b9468554" name="a22a74ac0a487b11551bd7ce6b9468554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a74ac0a487b11551bd7ce6b9468554">&#9670;&#160;</a></span>LockTranslation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -943,7 +976,35 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MotionProperties::MoveKinematic </td>
+          <td class="memname">JPH_INLINE <a class="el" href="class_vec3.html">Vec3</a> MotionProperties::LockTranslation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inV</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Takes a translation vector inV and returns a vector where the components that are not allowed by mAllowedDOFs are set to 0. </p>
+
+</div>
+</div>
+<a id="afc2471d63f11da6c88141a1adedf6149" name="afc2471d63f11da6c88141a1adedf6149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2471d63f11da6c88141a1adedf6149">&#9670;&#160;</a></span>MoveKinematic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void MotionProperties::MoveKinematic </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
           <td class="paramname"><em>inDeltaPosition</em>, </td>
@@ -1105,14 +1166,14 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a42eb1fc1f3dc95b2023675e3cd7c1aed" name="a42eb1fc1f3dc95b2023675e3cd7c1aed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42eb1fc1f3dc95b2023675e3cd7c1aed">&#9670;&#160;</a></span>SaveState()</h2>
+<a id="a9e308e4fb4cbb6c7dad8fe6b65d71aca" name="a9e308e4fb4cbb6c7dad8fe6b65d71aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e308e4fb4cbb6c7dad8fe6b65d71aca">&#9670;&#160;</a></span>SaveState()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void MotionProperties::SaveState </td>
+          <td class="memname">void MotionProperties::SaveState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
           <td class="paramname"><em>inStream</em></td><td>)</td>
@@ -1266,7 +1327,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Set the inverse inertia tensor in local space by setting the diagonal and the rotation: \(I_{body}^{-1} = R \: D \: R^{-1}\). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change inertia, mass should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. </p>
+<p >Set the inverse inertia tensor in local space by setting the diagonal and the rotation: \(I_{body}^{-1} = R \: D \: R^{-1}\). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change inertia, mass should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. If you don't allow all rotational degrees of freedom, make sure that the corresponding diagonal elements are zero (see EAllowedDOFs). </p>
 
 </div>
 </div>
@@ -1293,7 +1354,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Set the inverse mass (1 / mass). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change mass, inertia should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. </p>
+<p >Set the inverse mass (1 / mass). Note that mass and inertia are linearly related (e.g. inertia of a sphere with mass m and radius r is \(2/5 \: m \: r^2\)). If you change mass, inertia should probably change as well. See <a class="el" href="class_mass_properties.html#aff72522796c853cdd8b250082e15a2cf" title="Set the mass and scale the inertia tensor to match the mass.">MassProperties::ScaleToMass</a>. If all your translation degrees of freedom are restricted, make sure this is zero (see EAllowedDOFs). </p>
 
 </div>
 </div>
@@ -1405,28 +1466,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="af54234b5b714feb5ac7eaa1b0033a8e7" name="af54234b5b714feb5ac7eaa1b0033a8e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af54234b5b714feb5ac7eaa1b0033a8e7">&#9670;&#160;</a></span>SetMassProperties()</h2>
+<a id="ae935a749f1bb737668ba853c4b1d54df" name="ae935a749f1bb737668ba853c4b1d54df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae935a749f1bb737668ba853c4b1d54df">&#9670;&#160;</a></span>SetMassProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="_core_8h.html#ad14098b68b8c44ea6112601031268405">JPH_NAMESPACE_BEGIN</a> void MotionProperties::SetMassProperties </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_mass_properties.html">MassProperties</a> &amp;&#160;</td>
-          <td class="paramname"><em>inMassProperties</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_allowed_d_o_fs_8h.html#a47bc570d6b4f457c417078ebab07d913">EAllowedDOFs</a>&#160;</td>
+          <td class="paramname"><em>inAllowedDOFs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="class_mass_properties.html">MassProperties</a> &amp;&#160;</td>
+          <td class="paramname"><em>inMassProperties</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Set the mass and inertia tensor. </p>

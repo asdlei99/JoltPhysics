@@ -21,6 +21,7 @@ var class_body_creation_settings =
     [ "SetShape", "class_body_creation_settings.html#a0c74dee7b551bce3c0a7477283f27145", null ],
     [ "SetShapeSettings", "class_body_creation_settings.html#af8e4ddec15be3ad2ba87e99139fec1e5", null ],
     [ "mAllowDynamicOrKinematic", "class_body_creation_settings.html#afe686c8d207fb99499a89e19d1780158", null ],
+    [ "mAllowedDOFs", "class_body_creation_settings.html#a871979dfec392313a4fe00760ff9ae07", null ],
     [ "mAllowSleeping", "class_body_creation_settings.html#a23d76509d285d785fbc84c7573343be8", null ],
     [ "mAngularDamping", "class_body_creation_settings.html#ac900bf31bcafa1dd0d5dfe42969687dd", null ],
     [ "mAngularVelocity", "class_body_creation_settings.html#a390f9572645214782004c8296f0e90cf", null ],
