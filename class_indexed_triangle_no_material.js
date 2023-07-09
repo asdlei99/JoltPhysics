@@ -3,7 +3,7 @@ var class_indexed_triangle_no_material =
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html#a23f00d353bda9289c5a686975d443a81", null ],
     [ "IndexedTriangleNoMaterial", "class_indexed_triangle_no_material.html#adb74d5a0ea9a32e34174b517d5382b9b", null ],
     [ "GetCentroid", "class_indexed_triangle_no_material.html#a279fe96ec89d38fe6eaafa515ff27cb1", null ],
-    [ "IsDegenerate", "class_indexed_triangle_no_material.html#a0a22c0154e54a18940fbc539f1b1ce2e", null ],
+    [ "IsDegenerate", "class_indexed_triangle_no_material.html#a439540e1770cfdda6ef0a663ef5eff3c", null ],
     [ "IsEquivalent", "class_indexed_triangle_no_material.html#ac0ae1c29594b849761b0db20c1f84fb9", null ],
     [ "IsOpposite", "class_indexed_triangle_no_material.html#ac117960e5b26bec04ed736d18b99219d", null ],
     [ "operator==", "class_indexed_triangle_no_material.html#ae51f167ef9a45334dad213a2f46cf79e", null ],
