@@ -1,5 +1,6 @@
 var class_vehicle_engine =
 [
+    [ "AllowSleep", "class_vehicle_engine.html#a542f9131ecce2c3f41526c44759b913b", null ],
     [ "ApplyDamping", "class_vehicle_engine.html#ad61683b9088153079e3e47334c2caf1a", null ],
     [ "ApplyTorque", "class_vehicle_engine.html#af916ceb8c4a323cee68c72465627901e", null ],
     [ "ClampRPM", "class_vehicle_engine.html#a10cc014bfd4c08086fc83ef73948c7ba", null ],

@@ -1,5 +1,6 @@
 var class_vehicle_transmission =
 [
+    [ "AllowSleep", "class_vehicle_transmission.html#a237601b6ae13f2d8b31ff20981b7ac9c", null ],
     [ "GetClutchFriction", "class_vehicle_transmission.html#a2dc82e524311127f8bb8d5fe2cd63809", null ],
     [ "GetCurrentGear", "class_vehicle_transmission.html#a2770cd2da41162587a2addd366ba4535", null ],
     [ "GetCurrentRatio", "class_vehicle_transmission.html#aa58a4bc8d9ede0b99f622a0f20b36012", null ],

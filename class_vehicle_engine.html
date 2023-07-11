@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b616470faf6ab7c46026706a7c708df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#a1b616470faf6ab7c46026706a7c708df">DrawRPM</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inPosition, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inForward, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inUp, float inSize, float inShiftDownRPM, float inShiftUpRPM) const</td></tr>
 <tr class="memdesc:a1b616470faf6ab7c46026706a7c708df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug draw a RPM meter.  <a href="class_vehicle_engine.html#a1b616470faf6ab7c46026706a7c708df">More...</a><br /></td></tr>
 <tr class="separator:a1b616470faf6ab7c46026706a7c708df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542f9131ecce2c3f41526c44759b913b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#a542f9131ecce2c3f41526c44759b913b">AllowSleep</a> () const</td></tr>
+<tr class="memdesc:a542f9131ecce2c3f41526c44759b913b"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the engine is idle we allow the vehicle to sleep.  <a href="class_vehicle_engine.html#a542f9131ecce2c3f41526c44759b913b">More...</a><br /></td></tr>
+<tr class="separator:a542f9131ecce2c3f41526c44759b913b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14fa6274b90508346dedcc3e21864204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vehicle_engine.html#a14fa6274b90508346dedcc3e21864204">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
 <tr class="memdesc:a14fa6274b90508346dedcc3e21864204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_vehicle_engine.html#a14fa6274b90508346dedcc3e21864204">More...</a><br /></td></tr>
 <tr class="separator:a14fa6274b90508346dedcc3e21864204"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +195,33 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Runtime data for engine. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a542f9131ecce2c3f41526c44759b913b" name="a542f9131ecce2c3f41526c44759b913b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542f9131ecce2c3f41526c44759b913b">&#9670;&#160;</a></span>AllowSleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VehicleEngine::AllowSleep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the engine is idle we allow the vehicle to sleep. </p>
+
+</div>
+</div>
 <a id="ad61683b9088153079e3e47334c2caf1a" name="ad61683b9088153079e3e47334c2caf1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad61683b9088153079e3e47334c2caf1a">&#9670;&#160;</a></span>ApplyDamping()</h2>
 
