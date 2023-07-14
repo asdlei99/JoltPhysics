@@ -31,6 +31,7 @@ var class_d_mat44 =
     [ "operator*", "class_d_mat44.html#a086981712295420afe35262a13989f06", null ],
     [ "operator*", "class_d_mat44.html#aca2af5f8afaf528035bc5fd0791d9608", null ],
     [ "operator*", "class_d_mat44.html#a1bfdf30fa6926f6f2076c90beeb588dc", null ],
+    [ "operator=", "class_d_mat44.html#a4c37a399a449603c4e611b81d58e004d", null ],
     [ "operator==", "class_d_mat44.html#a016d3a8c02d9a88d1fca7e6d73fea3fc", null ],
     [ "PostScaled", "class_d_mat44.html#a7d108f0330578e1274b9232c28a39326", null ],
     [ "PostTranslated", "class_d_mat44.html#a14f62e1b746001ac1dac9af1ba432ad2", null ],

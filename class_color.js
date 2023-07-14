@@ -10,6 +10,7 @@ var class_color =
     [ "operator!=", "class_color.html#a71e5796a05f70a9c800c094ff87a515d", null ],
     [ "operator()", "class_color.html#a55d48519d8f98cc395a6b30e87f6a023", null ],
     [ "operator()", "class_color.html#aa52025f450b77f4d76a76d822245eb69", null ],
+    [ "operator=", "class_color.html#af17368dfb9bb92e736c5cca7fe5911e7", null ],
     [ "operator==", "class_color.html#a03d0301862c3ad6820ced1619c30ab2b", null ],
     [ "ToVec4", "class_color.html#ab2a95c51874ddeb032fb6c08fd663873", null ],
     [ "a", "class_color.html#a729ed4dcbc4fc228bf764851fd28f913", null ],

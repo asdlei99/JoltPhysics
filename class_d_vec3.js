@@ -44,6 +44,7 @@ var class_d_vec3 =
     [ "operator/", "class_d_vec3.html#a98c87bc69aa4aaf5efff2f7371026213", null ],
     [ "operator/", "class_d_vec3.html#a80844acdcc20d872097060f18a49dfae", null ],
     [ "operator/=", "class_d_vec3.html#ac4311882ae51a22074b22caa012fb600", null ],
+    [ "operator=", "class_d_vec3.html#a90e7c899c1d5f2dddc3f332ba62c8de1", null ],
     [ "operator==", "class_d_vec3.html#af9f3df26312b07df5e6ea770e250e5bf", null ],
     [ "operator[]", "class_d_vec3.html#a6cdaec58545b032bd9c73e5da12cc50a", null ],
     [ "PrepareRoundToInf", "class_d_vec3.html#ab9a393f086d70f1a5a42e20a28f6278b", null ],

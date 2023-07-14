@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"class_compound_shape.html#aeec4b7c1a31225a01b314f2528f27b24":[3,0,68,16],
+"class_compound_shape.html#af70b012c88d2bedfb9541d40e6e46fb2":[3,0,68,27],
 "class_compound_shape.html#afe32beff5208c480e33fd9177ab8a6be":[3,0,68,14],
 "class_compound_shape_settings.html":[3,0,69],
 "class_compound_shape_settings.html#a1fcf910b218527bcd856bf017b8ea6f3":[3,0,69,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "class_convex_hull_shape_1_1_hull_with_convex_scaled.html#a35a3f457cbdae6352227be61c356bba1":[3,0,81,3,1],
 "class_convex_hull_shape_1_1_hull_with_convex_scaled.html#a909efa72b31f796f8b86bc2fbe00d620":[3,0,81,3,0],
 "class_convex_hull_shape_1_1_hull_with_convex_scaled.html#aad0e71dae0215de9d65abee32e3d5bb7":[3,0,81,3,2],
-"class_convex_hull_shape_settings.html":[3,0,82],
-"class_convex_hull_shape_settings.html#a3922b9c1f60a1e6b49fd1600304ed9dd":[3,0,82,2],
-"class_convex_hull_shape_settings.html#a3a3326f9fdbfa46abd18998e972efc6d":[3,0,82,7]
+"class_convex_hull_shape_settings.html":[3,0,82]
 };

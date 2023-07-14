@@ -43,6 +43,7 @@ var class_mat44 =
     [ "operator+=", "class_mat44.html#a60273e38c2e5071066f14905698ef994", null ],
     [ "operator-", "class_mat44.html#a22b266ee0c8cb215e96edaebc50d2cbf", null ],
     [ "operator-", "class_mat44.html#acb281c6516de9bfd045aa029f95ba0d0", null ],
+    [ "operator=", "class_mat44.html#a84bfaec450f946db0a29c1a6036f4043", null ],
     [ "operator==", "class_mat44.html#a3be30e0ae2ded68ebb5ceea9afbfe5c1", null ],
     [ "PostScaled", "class_mat44.html#a6503ccd1384b6681d191c327961fbb6d", null ],
     [ "PostTranslated", "class_mat44.html#a16b90363d2e120bd570c4200e29f5ba6", null ],

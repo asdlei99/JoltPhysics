@@ -27,6 +27,7 @@ var class_u_vec4 =
     [ "operator*", "class_u_vec4.html#ae2b7e062cd567b34fe691d46b15b072b", null ],
     [ "operator+", "class_u_vec4.html#aca855486776f06c4948abdf178ba17f2", null ],
     [ "operator+=", "class_u_vec4.html#a602f5243d8a4c73dc6796a03cecdc5f3", null ],
+    [ "operator=", "class_u_vec4.html#a9c25aa219fee97d2f183894eed6fd66d", null ],
     [ "operator==", "class_u_vec4.html#a998274caec249b2255973d43fcdd6111", null ],
     [ "operator[]", "class_u_vec4.html#a78e0cb1202ed92a559990923167ef077", null ],
     [ "operator[]", "class_u_vec4.html#a7a36608ab17fe736f68c0ff7c3f6ea04", null ],

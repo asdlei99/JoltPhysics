@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeecf02c008ca1e3a1695d8962a5b24da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a268ea0715fd0914ffde63ca7451bde61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vec3.html#a268ea0715fd0914ffde63ca7451bde61">Vec3</a> (const <a class="el" href="class_vec3.html">Vec3</a> &amp;inRHS)=default</td></tr>
 <tr class="separator:a268ea0715fd0914ffde63ca7451bde61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08ae539c06ae81a334c530bcb024b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vec3.html#ad08ae539c06ae81a334c530bcb024b35">operator=</a> (const <a class="el" href="class_vec3.html">Vec3</a> &amp;inRHS)=default</td></tr>
+<tr class="separator:ad08ae539c06ae81a334c530bcb024b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab8c224fb2c6be708e58e45fd0ee987"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vec3.html#a3ab8c224fb2c6be708e58e45fd0ee987">Vec3</a> (<a class="el" href="_math_types_8h.html#a65d26967b0fb36c525cedad5022e5ebe">Vec4Arg</a> inRHS)</td></tr>
 <tr class="separator:a3ab8c224fb2c6be708e58e45fd0ee987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67ff481d7a24cf569cb694519dc3ff63"><td class="memItemLeft" align="right" valign="top">JPH_INLINE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_vec3.html#a67ff481d7a24cf569cb694519dc3ff63">Vec3</a> (<a class="el" href="class_vec3.html#a113d94ab6f5a2f4fd236b64b9ad7cddc">Type</a> inRHS)</td></tr>
@@ -1286,6 +1288,32 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Divide vector by float. </p>
+
+</div>
+</div>
+<a id="ad08ae539c06ae81a334c530bcb024b35" name="ad08ae539c06ae81a334c530bcb024b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08ae539c06ae81a334c530bcb024b35">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> &amp; Vec3::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_vec3.html">Vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>inRHS</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2645,9 +2673,9 @@ template&lt;<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8"
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> std::vector&lt;Vec3&gt;(verts.begin(), verts.end());</div>
 <div class="line">}()</div>
-<div class="ttc" id="aclass_vec3_html_a142cc5c79f08229eb11532c26f1a1e90"><div class="ttname"><a href="class_vec3.html#a142cc5c79f08229eb11532c26f1a1e90">Vec3::sAxisX</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisX()</div><div class="ttdoc">Vectors with the principal axis.</div><div class="ttdef"><b>Definition:</b> Vec3.h:51</div></div>
-<div class="ttc" id="aclass_vec3_html_a2819718744feddb0bc150c6ccc26fad1"><div class="ttname"><a href="class_vec3.html#a2819718744feddb0bc150c6ccc26fad1">Vec3::sAxisY</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisY()</div><div class="ttdef"><b>Definition:</b> Vec3.h:52</div></div>
-<div class="ttc" id="aclass_vec3_html_aa16ac2747950d2e64537f8454872d174"><div class="ttname"><a href="class_vec3.html#aa16ac2747950d2e64537f8454872d174">Vec3::sAxisZ</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisZ()</div><div class="ttdef"><b>Definition:</b> Vec3.h:53</div></div>
+<div class="ttc" id="aclass_vec3_html_a142cc5c79f08229eb11532c26f1a1e90"><div class="ttname"><a href="class_vec3.html#a142cc5c79f08229eb11532c26f1a1e90">Vec3::sAxisX</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisX()</div><div class="ttdoc">Vectors with the principal axis.</div><div class="ttdef"><b>Definition:</b> Vec3.h:52</div></div>
+<div class="ttc" id="aclass_vec3_html_a2819718744feddb0bc150c6ccc26fad1"><div class="ttname"><a href="class_vec3.html#a2819718744feddb0bc150c6ccc26fad1">Vec3::sAxisY</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisY()</div><div class="ttdef"><b>Definition:</b> Vec3.h:53</div></div>
+<div class="ttc" id="aclass_vec3_html_aa16ac2747950d2e64537f8454872d174"><div class="ttname"><a href="class_vec3.html#aa16ac2747950d2e64537f8454872d174">Vec3::sAxisZ</a></div><div class="ttdeci">static JPH_INLINE Vec3 sAxisZ()</div><div class="ttdef"><b>Definition:</b> Vec3.h:54</div></div>
 </div><!-- fragment -->
 <p>A set of vectors uniformly spanning the surface of a unit sphere, usable for debug purposes. </p>
 

@@ -9,5 +9,6 @@ var class_sub_shape_i_d_pair =
     [ "GetSubShapeID1", "class_sub_shape_i_d_pair.html#ada31f15601de55a64463899ed5ec67b8", null ],
     [ "GetSubShapeID2", "class_sub_shape_i_d_pair.html#a6fd1caef92ab138b72a0663030ba1b14", null ],
     [ "operator<", "class_sub_shape_i_d_pair.html#ae6188138a93c9a7121c01d043e537631", null ],
+    [ "operator=", "class_sub_shape_i_d_pair.html#ac0d41cb46190b64395b1e199b78215b6", null ],
     [ "operator==", "class_sub_shape_i_d_pair.html#a553026ae2b87e33df1b3c5a82b48287b", null ]
 ];

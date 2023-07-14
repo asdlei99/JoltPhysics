@@ -40,6 +40,7 @@ var class_quat =
     [ "operator-=", "class_quat.html#a8297012460ea2f4851ed1f0f80eeddb9", null ],
     [ "operator/", "class_quat.html#a022e859768c59cdbdef45cdacada80d2", null ],
     [ "operator/=", "class_quat.html#afc3765d179c478cf2c08d76bd9391bfa", null ],
+    [ "operator=", "class_quat.html#a4a0da4e3fde81586973da99956f7d51c", null ],
     [ "operator==", "class_quat.html#a55ec695a492daa028921cca4740db11b", null ],
     [ "RotateAxisX", "class_quat.html#ad591c3ca827733b3be275ffaf808e838", null ],
     [ "RotateAxisY", "class_quat.html#adb1d1a70ed64c0a6fadc849126306706", null ],

@@ -3,6 +3,7 @@ var class_collision_collector =
     [ "ResultType", "class_collision_collector.html#aca5d333c728a1e1768694c8845d86783", null ],
     [ "CollisionCollector", "class_collision_collector.html#a1da599bacd865c579f31e64676e36206", null ],
     [ "CollisionCollector", "class_collision_collector.html#a7d7b02e890a7ea24b0030027ce4851f9", null ],
+    [ "CollisionCollector", "class_collision_collector.html#a9ece66bb7cac504d660f412ded03e024", null ],
     [ "~CollisionCollector", "class_collision_collector.html#a428497d94c0d54c4fb4e7ce6a016fc0d", null ],
     [ "AddHit", "class_collision_collector.html#a762c35402676662897e50dd8224e496e", null ],
     [ "ForceEarlyOut", "class_collision_collector.html#a04a9260170d7c96389b50c6f6843c8b5", null ],

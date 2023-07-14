@@ -5,6 +5,7 @@ var class_motor_settings =
     [ "MotorSettings", "class_motor_settings.html#a81a42488fb27a4e36f3f2802bca0bdcc", null ],
     [ "MotorSettings", "class_motor_settings.html#a280a8c958af57873bd500de0104ef574", null ],
     [ "IsValid", "class_motor_settings.html#a86075f9a0d21b35897e7f6f7e9c50fbc", null ],
+    [ "operator=", "class_motor_settings.html#a33d51a2bb5a231a689a1620577aed53a", null ],
     [ "RestoreBinaryState", "class_motor_settings.html#a0d171537fc44218d3c3a6159a95aab74", null ],
     [ "SaveBinaryState", "class_motor_settings.html#ac0a3de2c2c2545e381d5c00014bef682", null ],
     [ "SetForceLimit", "class_motor_settings.html#a7dbbf359da6a861e6876f702650dd5ea", null ],
