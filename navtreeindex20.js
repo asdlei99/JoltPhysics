@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"class_sphere_shape_1_1_sphere_no_convex.html#afd8c26363093475f569d9b01710e66d9":[3,0,251,0,1],
+"class_sphere_shape_1_1_sphere_with_convex.html":[3,0,251,1],
+"class_sphere_shape_1_1_sphere_with_convex.html#a503b8f57aa6e001cda690534f3c723a1":[3,0,251,1,2],
 "class_sphere_shape_1_1_sphere_with_convex.html#a63950fdd2ab3281634f5521a08fb6793":[3,0,251,1,1],
 "class_sphere_shape_1_1_sphere_with_convex.html#ac0c40365985e261513777a19d486b6d8":[3,0,251,1,0],
 "class_sphere_shape_settings.html":[3,0,252],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "class_tapered_capsule_shape.html#ab661a337941a8a5f00b77e9c342f0020":[3,0,273,17],
 "class_tapered_capsule_shape.html#abd2b0eee5fe8019f104f3fa8db182ef0":[3,0,273,6],
 "class_tapered_capsule_shape.html#ac8a542296217b1a4ccad96133c07a35e":[3,0,273,11],
-"class_tapered_capsule_shape.html#ace616f13de2f3cb7acf8f66194c01442":[3,0,273,3],
-"class_tapered_capsule_shape.html#ad3455a4df764b73c9b62450ab39ee7e0":[3,0,273,7],
-"class_tapered_capsule_shape.html#adc0e48fe3e684665c0b4ba3ec9e9ed6b":[3,0,273,13],
-"class_tapered_capsule_shape_1_1_tapered_capsule.html":[3,0,273,0]
+"class_tapered_capsule_shape.html#ace616f13de2f3cb7acf8f66194c01442":[3,0,273,3]
 };

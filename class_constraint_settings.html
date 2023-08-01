@@ -190,6 +190,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a190607bdccb3df5a2fef3d6cc60c4eae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae">mEnabled</a> = true</td></tr>
 <tr class="memdesc:a190607bdccb3df5a2fef3d6cc60c4eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this constraint is enabled initially. Use <a class="el" href="class_constraint.html#aa6621fbefd246003aece1e9be8a169cb">Constraint::SetEnabled</a> to toggle after creation.  <a href="class_constraint_settings.html#a190607bdccb3df5a2fef3d6cc60c4eae">More...</a><br /></td></tr>
 <tr class="separator:a190607bdccb3df5a2fef3d6cc60c4eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab01ba90506d17f415054bfa6208a4939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_settings.html#ab01ba90506d17f415054bfa6208a4939">mConstraintPriority</a> = 0</td></tr>
+<tr class="separator:ab01ba90506d17f415054bfa6208a4939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bf0946b0358ea3f786c61a280bb6e5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_settings.html#a6bf0946b0358ea3f786c61a280bb6e5a">mNumVelocityStepsOverride</a> = 0</td></tr>
 <tr class="memdesc:a6bf0946b0358ea3f786c61a280bb6e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for the number of solver velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a> and this for all constraints in the island.  <a href="class_constraint_settings.html#a6bf0946b0358ea3f786c61a280bb6e5a">More...</a><br /></td></tr>
 <tr class="separator:a6bf0946b0358ea3f786c61a280bb6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,6 +329,21 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab01ba90506d17f415054bfa6208a4939" name="ab01ba90506d17f415054bfa6208a4939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01ba90506d17f415054bfa6208a4939">&#9670;&#160;</a></span>mConstraintPriority</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> ConstraintSettings::mConstraintPriority = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Priority of the constraint when solving. Higher numbers have are more likely to be solved correctly. Note that if you want a deterministic simulation and you cannot guarantee the order in which constraints are added/removed, you can make the priority for all constraints unique to get a deterministic ordering. </p>
+
+</div>
+</div>
 <a id="ad2e3913b76c52d885bf88b9e9dc2bfd3" name="ad2e3913b76c52d885bf88b9e9dc2bfd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2e3913b76c52d885bf88b9e9dc2bfd3">&#9670;&#160;</a></span>mDrawConstraintSize</h2>
 

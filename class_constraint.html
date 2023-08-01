@@ -151,6 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a632a8161ad49c443c2e3a8b600a730a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_constraint_8h.html#adfc8350888df0c3a51714b7f372baf2d">EConstraintSubType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">GetSubType</a> () const =0</td></tr>
 <tr class="memdesc:a632a8161ad49c443c2e3a8b600a730a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sub type of a constraint.  <a href="class_constraint.html#a632a8161ad49c443c2e3a8b600a730a1">More...</a><br /></td></tr>
 <tr class="separator:a632a8161ad49c443c2e3a8b600a730a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c75250d651da3854eda9e929193e585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a6c75250d651da3854eda9e929193e585">GetConstraintPriority</a> () const</td></tr>
+<tr class="separator:a6c75250d651da3854eda9e929193e585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b32ce7efd330ecf878f8ace4e0dd151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a4b32ce7efd330ecf878f8ace4e0dd151">SetConstraintPriority</a> (<a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> inPriority)</td></tr>
+<tr class="separator:a4b32ce7efd330ecf878f8ace4e0dd151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint.html#a697eb2fc2cd4dc64be93a8e0269e56b0">SetNumVelocityStepsOverride</a> (int inN)</td></tr>
 <tr class="memdesc:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override for the number of solver velocity iterations to run, the total amount of iterations is the max of <a class="el" href="struct_physics_settings.html#a8f0f62f58573944fc48b055d6516d0a1">PhysicsSettings::mNumVelocitySteps</a> and this for all constraints in the island.  <a href="class_constraint.html#a697eb2fc2cd4dc64be93a8e0269e56b0">More...</a><br /></td></tr>
 <tr class="separator:a697eb2fc2cd4dc64be93a8e0269e56b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -488,6 +492,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="class_two_body_constraint.html#aab88ca80622557a5a14cbc1f2e6d0ec0">TwoBodyConstraint</a>.</p>
+
+</div>
+</div>
+<a id="a6c75250d651da3854eda9e929193e585" name="a6c75250d651da3854eda9e929193e585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c75250d651da3854eda9e929193e585">&#9670;&#160;</a></span>GetConstraintPriority()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> Constraint::GetConstraintPriority </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Priority of the constraint when solving. Higher numbers have are more likely to be solved correctly. Note that if you want a deterministic simulation and you cannot guarantee the order in which constraints are added/removed, you can make the priority for all constraints unique to get a deterministic ordering. </p>
 
 </div>
 </div>
@@ -838,6 +868,32 @@ Additional Inherited Members</h2></td></tr>
 <p>Saving state for replay. </p>
 
 <p>Reimplemented in <a class="el" href="class_cone_constraint.html#a754754ea8cf871ed812f27bed021fbc9">ConeConstraint</a>, <a class="el" href="class_distance_constraint.html#a8220e4b735572de4324c0cd1a181150f">DistanceConstraint</a>, <a class="el" href="class_fixed_constraint.html#ae23ae7de219a75c7d80d0e9b8af6ea2c">FixedConstraint</a>, <a class="el" href="class_gear_constraint.html#a31f12343d049e8c9a48136bb1a103b73">GearConstraint</a>, <a class="el" href="class_hinge_constraint.html#a5a0a5235be47dfd889f89a4651f36993">HingeConstraint</a>, <a class="el" href="class_path_constraint.html#a488ab67aba069c0fa0c81194afc74bd1">PathConstraint</a>, <a class="el" href="class_point_constraint.html#aa6743d4f861f34b303b5bddadb3157d9">PointConstraint</a>, <a class="el" href="class_pulley_constraint.html#ac37299bf924b5d34e41c8a51c621906a">PulleyConstraint</a>, <a class="el" href="class_rack_and_pinion_constraint.html#a7af920eb7de9a8e52f80b2ca386fb8a5">RackAndPinionConstraint</a>, <a class="el" href="class_six_d_o_f_constraint.html#ad6062bc0bb66d6bfa9a57e6e4e62fefa">SixDOFConstraint</a>, <a class="el" href="class_slider_constraint.html#a7025971cdb5e449293df12e2f4f56e97">SliderConstraint</a>, <a class="el" href="class_swing_twist_constraint.html#aee888f6c281abbbccc3e33d108716824">SwingTwistConstraint</a>, and <a class="el" href="class_vehicle_constraint.html#a6bdcc90af7d830f5821534d34be01ff7">VehicleConstraint</a>.</p>
+
+</div>
+</div>
+<a id="a4b32ce7efd330ecf878f8ace4e0dd151" name="a4b32ce7efd330ecf878f8ace4e0dd151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b32ce7efd330ecf878f8ace4e0dd151">&#9670;&#160;</a></span>SetConstraintPriority()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Constraint::SetConstraintPriority </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td>
+          <td class="paramname"><em>inPriority</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

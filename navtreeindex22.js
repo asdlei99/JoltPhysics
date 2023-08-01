@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"class_u_vec4.html#a7a36608ab17fe736f68c0ff7c3f6ea04":[3,0,299,30],
+"class_u_vec4.html#a7f2a2b3fbc39fe921799d53d6bfb1b87":[3,0,299,35],
+"class_u_vec4.html#a80d24f8e73a57edb4d6ed688c8e7e342":[3,0,299,36],
 "class_u_vec4.html#a8524d1d2a92eb5b564976d7d2a5f8a57":[3,0,299,15],
 "class_u_vec4.html#a8a5a4714c700cab249106fe37bf1f74f":[3,0,299,47],
 "class_u_vec4.html#a8d9ff8b435e5475505c944e96d872b2b":[3,0,299,37],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "class_vehicle_anti_roll_bar.html#ae4afc75ffe5f9652d5539064069d4271":[3,0,305,2],
 "class_vehicle_collision_tester.html":[3,0,306],
 "class_vehicle_collision_tester.html#a168d396a1e2431a984b36e83c2affe07":[3,0,306,6],
-"class_vehicle_collision_tester.html#a1fbc50043ae7ae56b6cd96a4e0d82a32":[3,0,306,15],
-"class_vehicle_collision_tester.html#a2af9d0d5ab81d3321133ec0b408752b7":[3,0,306,3],
-"class_vehicle_collision_tester.html#a2c9666896a28a8aa899171dfb1bf4a4e":[3,0,306,14],
-"class_vehicle_collision_tester.html#a46d45f0e1c06f4c8b08aba185e9279ac":[3,0,306,8]
+"class_vehicle_collision_tester.html#a1fbc50043ae7ae56b6cd96a4e0d82a32":[3,0,306,15]
 };
