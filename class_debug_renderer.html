@@ -208,9 +208,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa2e758e772dd9b51ea778cb74265090e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08387fe20ef6b38d160f97ec902072ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#a08387fe20ef6b38d160f97ec902072ce">DrawWireUnitSphere</a> (<a class="el" href="_real_8h.html#a61b9fb9774ecfc9a33318eead7118ee9">RMat44Arg</a> inMatrix, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, int inLevel=3)</td></tr>
 <tr class="separator:a08387fe20ef6b38d160f97ec902072ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2acfd35eb6f27a2d14b4de7c7eb494f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#ac2acfd35eb6f27a2d14b4de7c7eb494f">DrawTriangle</a> (<a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV1, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV2, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV3, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor)=0</td></tr>
-<tr class="memdesc:ac2acfd35eb6f27a2d14b4de7c7eb494f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a single back face culled triangle without any shadows.  <a href="class_debug_renderer.html#ac2acfd35eb6f27a2d14b4de7c7eb494f">More...</a><br /></td></tr>
-<tr class="separator:ac2acfd35eb6f27a2d14b4de7c7eb494f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc6b62590e5a26de8cbd98a29bf8b1a3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#afc6b62590e5a26de8cbd98a29bf8b1a3">DrawTriangle</a> (<a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV1, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV2, <a class="el" href="_real_8h.html#a43bea2d9c57780b4b66bab1312fd77f3">RVec3Arg</a> inV3, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, <a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9">ECastShadow</a> inCastShadow=<a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9ad15305d7a4e34e02489c74a5ef542f36">ECastShadow::Off</a>)=0</td></tr>
+<tr class="memdesc:afc6b62590e5a26de8cbd98a29bf8b1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a single back face culled triangle.  <a href="class_debug_renderer.html#afc6b62590e5a26de8cbd98a29bf8b1a3">More...</a><br /></td></tr>
+<tr class="separator:afc6b62590e5a26de8cbd98a29bf8b1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b78c771e85a3d8931b911417737591"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_renderer.html#a47b78c771e85a3d8931b911417737591">DrawBox</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a> inColor, <a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9">ECastShadow</a> inCastShadow=<a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9a521c36a31c2762741cf0f8890cbe05e3">ECastShadow::On</a>, <a class="el" href="class_debug_renderer.html#ab9951f7e2a6dd10b4e8f3b40f01bba32">EDrawMode</a> inDrawMode=<a class="el" href="class_debug_renderer.html#ab9951f7e2a6dd10b4e8f3b40f01bba32ae41480b6bbfbf7407974a88d3d34f4fa">EDrawMode::Solid</a>)</td></tr>
 <tr class="memdesc:a47b78c771e85a3d8931b911417737591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a box.  <a href="class_debug_renderer.html#a47b78c771e85a3d8931b911417737591">More...</a><br /></td></tr>
 <tr class="separator:a47b78c771e85a3d8931b911417737591"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1560,8 +1560,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2acfd35eb6f27a2d14b4de7c7eb494f" name="ac2acfd35eb6f27a2d14b4de7c7eb494f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2acfd35eb6f27a2d14b4de7c7eb494f">&#9670;&#160;</a></span>DrawTriangle()</h2>
+<a id="afc6b62590e5a26de8cbd98a29bf8b1a3" name="afc6b62590e5a26de8cbd98a29bf8b1a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc6b62590e5a26de8cbd98a29bf8b1a3">&#9670;&#160;</a></span>DrawTriangle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1591,7 +1591,13 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="_color_8h.html#a3daf1ee578b30da1860ff132c70474b5">ColorArg</a>&#160;</td>
-          <td class="paramname"><em>inColor</em>&#160;</td>
+          <td class="paramname"><em>inColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9">ECastShadow</a>&#160;</td>
+          <td class="paramname"><em>inCastShadow</em> = <code><a class="el" href="class_debug_renderer.html#aa24dcdedf792593f83eb1091d7e456b9ad15305d7a4e34e02489c74a5ef542f36">ECastShadow::Off</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1606,9 +1612,9 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Draw a single back face culled triangle without any shadows. </p>
+<p>Draw a single back face culled triangle. </p>
 
-<p>Implemented in <a class="el" href="class_debug_renderer_recorder.html#a51ec68af0e8b44fd460a12d436b99b3f">DebugRendererRecorder</a>.</p>
+<p>Implemented in <a class="el" href="class_debug_renderer_recorder.html#a4b0a137f2f193e8ce732be37ff906fab">DebugRendererRecorder</a>.</p>
 
 </div>
 </div>
