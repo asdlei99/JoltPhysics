@@ -5,6 +5,7 @@ var class_plane =
     [ "Plane", "class_plane.html#a06bce37f1586abd31ea5c2863f5ff2a3", null ],
     [ "GetConstant", "class_plane.html#a3510818ed64a5d821041da28102fc4d1", null ],
     [ "GetNormal", "class_plane.html#a70e66a46d4eb8b334c929ad71c48ba42", null ],
+    [ "GetTransformed", "class_plane.html#a23c3f6c2eaf6344447cb5e0a8a52d63d", null ],
     [ "Offset", "class_plane.html#adce0e2bf9f6e85a2788ede7adfbe031d", null ],
     [ "SetConstant", "class_plane.html#a25c2359dcb8d679f5730ff10119cba45", null ],
     [ "SetNormal", "class_plane.html#aa792e95ef15c14271bdf9c1d43c85d90", null ],
