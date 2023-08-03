@@ -16,7 +16,7 @@ var searchData=
   ['cfixedtoworld_13',['cFixedToWorld',['../class_physics_scene.html#abd0015fb95f8100ef9664c9e0d191575',1,'PhysicsScene']]],
   ['cgettrianglesmintrianglesrequested_14',['cGetTrianglesMinTrianglesRequested',['../class_shape.html#a69184c6cd6ddf309ee9b789300accbb6',1,'Shape']]],
   ['changesoffsetonpack_15',['ChangesOffsetOnPack',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#a6bcee096cce9bd21231620f20ab90f10',1,'TriangleCodecIndexed8BitPackSOA4Flags']]],
-  ['cinactiveindex_16',['cInactiveIndex',['../class_body.html#a636e301ffa9150e9df74895863394ee4',1,'Body']]],
+  ['cinactiveindex_16',['cInactiveIndex',['../class_body.html#a636e301ffa9150e9df74895863394ee4',1,'Body::cInactiveIndex()'],['../class_motion_properties.html#aacb0f4e9211a3b16ae353726f0b2895b',1,'MotionProperties::cInactiveIndex()']]],
   ['cinvalidbodyid_17',['cInvalidBodyID',['../class_body_i_d.html#afdcec75f1be1cceeb20d728bde4d4f83',1,'BodyID']]],
   ['cinvalidbodylocation_18',['cInvalidBodyLocation',['../struct_quad_tree_1_1_tracking.html#a313fd07dc88b7806204e7dd69a7b0a57',1,'QuadTree::Tracking']]],
   ['cinvalidgroup_19',['cInvalidGroup',['../class_collision_group.html#a5d5f66e30eaab92fc7dd332b0fa768ad',1,'CollisionGroup']]],

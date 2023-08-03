@@ -8,6 +8,7 @@ var class_sphere_shape =
     [ "CastRay", "class_sphere_shape.html#a355bc794c757307e88159557d0f43d79", null ],
     [ "CastRay", "class_sphere_shape.html#a961b5b5d30f21ea75df8bd1ef4ea7577", null ],
     [ "CollidePoint", "class_sphere_shape.html#ab8223102d141ca2fda0343ddfcb07ab4", null ],
+    [ "CollideSoftBodyVertices", "class_sphere_shape.html#a0f0623fe0b56ba85e36083e9f1cc848b", null ],
     [ "Draw", "class_sphere_shape.html#a278bd4a5d3c605638c48438eacc80124", null ],
     [ "GetInnerRadius", "class_sphere_shape.html#afb194e610fbe0025a2edebf8b0c20be3", null ],
     [ "GetLocalBounds", "class_sphere_shape.html#a1941ec6970a8a1daf084f5cbbf173094", null ],

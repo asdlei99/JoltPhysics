@@ -13,6 +13,7 @@ var class_compound_shape =
     [ "CompoundShape", "class_compound_shape.html#a6e087096097e738d9cb0547d1be060c9", null ],
     [ "CompoundShape", "class_compound_shape.html#ac6d8a7e5c9f6758682f1a85437b09014", null ],
     [ "CalculateInnerRadius", "class_compound_shape.html#ab1a1657fdb82a4b135872bacbca9ceaa", null ],
+    [ "CollideSoftBodyVertices", "class_compound_shape.html#a3722d1304de85a4d3f4f8e4e57b43254", null ],
     [ "Draw", "class_compound_shape.html#ae6d820f0033d6933b35babdd50cabe29", null ],
     [ "DrawGetSupportFunction", "class_compound_shape.html#afe32beff5208c480e33fd9177ab8a6be", null ],
     [ "DrawGetSupportingFace", "class_compound_shape.html#ad881834415dfef9c84b044402818d7fd", null ],

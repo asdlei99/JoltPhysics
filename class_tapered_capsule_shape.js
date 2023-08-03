@@ -3,6 +3,7 @@ var class_tapered_capsule_shape =
     [ "TaperedCapsule", "class_tapered_capsule_shape_1_1_tapered_capsule.html", "class_tapered_capsule_shape_1_1_tapered_capsule" ],
     [ "TaperedCapsuleShape", "class_tapered_capsule_shape.html#a26e7343399e7002fa535d95b208d6d55", null ],
     [ "TaperedCapsuleShape", "class_tapered_capsule_shape.html#a632f3cfdfb0c81974230eee592c47c97", null ],
+    [ "CollideSoftBodyVertices", "class_tapered_capsule_shape.html#a35d1fb619be5bd9f46d16479eca131f7", null ],
     [ "Draw", "class_tapered_capsule_shape.html#ace616f13de2f3cb7acf8f66194c01442", null ],
     [ "GetCenterOfMass", "class_tapered_capsule_shape.html#a66f2f00aa6cbbc1fe683d15993c3e736", null ],
     [ "GetInnerRadius", "class_tapered_capsule_shape.html#a84f84f37f87624d107b363e1fe0f54a6", null ],

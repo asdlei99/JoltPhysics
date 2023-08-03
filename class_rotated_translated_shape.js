@@ -7,6 +7,7 @@ var class_rotated_translated_shape =
     [ "CastRay", "class_rotated_translated_shape.html#ac9ed2a8c195640f6b0b65a06749b3f33", null ],
     [ "CollectTransformedShapes", "class_rotated_translated_shape.html#a99bfa78dc0fc1967212e73dd3894f648", null ],
     [ "CollidePoint", "class_rotated_translated_shape.html#ae878ff562cc8dbd769853db0b1fa7271", null ],
+    [ "CollideSoftBodyVertices", "class_rotated_translated_shape.html#a5b0291246cbb3c779e815e8df009bd5b", null ],
     [ "Draw", "class_rotated_translated_shape.html#a896a8828b726e57a15b696e85ce7f1c7", null ],
     [ "DrawGetSupportFunction", "class_rotated_translated_shape.html#aa38b6b32591db13a3848b2eb4bbdfbe6", null ],
     [ "DrawGetSupportingFace", "class_rotated_translated_shape.html#a111ac2a8df9ae1a243f1eceda27a8d76", null ],

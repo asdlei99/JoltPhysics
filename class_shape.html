@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('class_shape.html',''); initResizable()
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="class_shape-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Shape Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -119,13 +120,14 @@ Inheritance diagram for Shape:</div>
  <div class="center">
   <img src="class_shape.png" usemap="#Shape_map" alt=""/>
   <map id="Shape_map" name="Shape_map">
-<area href="class_ref_target.html" alt="RefTarget&lt; Shape &gt;" shape="rect" coords="609,0,773,24"/>
-<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="783,0,947,24"/>
+<area href="class_ref_target.html" alt="RefTarget&lt; Shape &gt;" shape="rect" coords="696,0,860,24"/>
+<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="870,0,1034,24"/>
 <area href="class_compound_shape.html" title="Base class for a compound shape." alt="CompoundShape" shape="rect" coords="0,112,164,136"/>
 <area href="class_convex_shape.html" title="Base class for all convex shapes. Defines a virtual interface." alt="ConvexShape" shape="rect" coords="348,112,512,136"/>
 <area href="class_decorated_shape.html" title="Base class for shapes that decorate another shape with extra functionality (e.g. scale,..." alt="DecoratedShape" shape="rect" coords="696,112,860,136"/>
 <area href="class_height_field_shape.html" title="A height field shape. Cannot be used as a dynamic object." alt="HeightFieldShape" shape="rect" coords="870,112,1034,136"/>
 <area href="class_mesh_shape.html" alt="MeshShape" shape="rect" coords="1044,112,1208,136"/>
+<area href="class_soft_body_shape.html" title="Shape used exclusively for soft bodies. Adds the ability to perform collision checks against soft bod..." alt="SoftBodyShape" shape="rect" coords="1218,112,1382,136"/>
 <area href="class_mutable_compound_shape.html" alt="MutableCompoundShape" shape="rect" coords="174,168,338,192"/>
 <area href="class_static_compound_shape.html" alt="StaticCompoundShape" shape="rect" coords="174,224,338,248"/>
 <area href="class_box_shape.html" title="A box, centered around the origin." alt="BoxShape" shape="rect" coords="522,168,686,192"/>
@@ -231,6 +233,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54b33219a3685aa4b964f6b69a2cfa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e77d16736434769d72152bf059a126"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#af6e77d16736434769d72152bf059a126">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const =0</td></tr>
 <tr class="separator:af6e77d16736434769d72152bf059a126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3caa44f2f0604f56cc83f8d44c12e1c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3caa44f2f0604f56cc83f8d44c12e1c8">CollideSoftBodyVertices</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;ioVertices, float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDisplacementDueToGravity, int inCollidingShapeIndex) const =0</td></tr>
+<tr class="separator:a3caa44f2f0604f56cc83f8d44c12e1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed865e7eb30221b418cfd61d1430173"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3ed865e7eb30221b418cfd61d1430173">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const</td></tr>
 <tr class="separator:a3ed865e7eb30221b418cfd61d1430173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b4b180a41ffdf7369f79706b0e27570"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4b4b180a41ffdf7369f79706b0e27570">TransformShape</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const</td></tr>
@@ -295,6 +299,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a98a42fc4c28896d87ac4287c38f213ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a98a42fc4c28896d87ac4287c38f213ad">RestoreBinaryState</a> (<a class="el" href="class_stream_in.html">StreamIn</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a98a42fc4c28896d87ac4287c38f213ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function should not be called directly, it is used by sRestoreFromBinaryState.  <a href="class_shape.html#a98a42fc4c28896d87ac4287c38f213ad">More...</a><br /></td></tr>
 <tr class="separator:a98a42fc4c28896d87ac4287c38f213ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2fff7d5dd25602bf880f69bd92049652"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a2fff7d5dd25602bf880f69bd92049652">sCollidePointUsingRayCast</a> (const <a class="el" href="class_shape.html">Shape</a> &amp;inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter)</td></tr>
+<tr class="memdesc:a2fff7d5dd25602bf880f69bd92049652"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fallback version of CollidePoint that uses a ray cast and counts the number of hits to determine if the point is inside the shape. Odd number of hits means inside, even number of hits means outside.  <a href="class_shape.html#a2fff7d5dd25602bf880f69bd92049652">More...</a><br /></td></tr>
+<tr class="separator:a2fff7d5dd25602bf880f69bd92049652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3b238051233ec6a6d07f988b79ff0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a1a3b238051233ec6a6d07f988b79ff0a">sCollideSoftBodyVerticesUsingRayCast</a> (const <a class="el" href="class_shape.html">Shape</a> &amp;inShape, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;ioVertices, float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDisplacementDueToGravity, int inCollidingShapeIndex)</td></tr>
+<tr class="memdesc:a1a3b238051233ec6a6d07f988b79ff0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fallback version of CollideSoftBodyVertices that uses a raycast to collide the vertices with the shape.  <a href="class_shape.html#a1a3b238051233ec6a6d07f988b79ff0a">More...</a><br /></td></tr>
+<tr class="separator:a1a3b238051233ec6a6d07f988b79ff0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Binary serialization of the shape. Note that this saves the 'cooked' shape in a format which will not be backwards compatible for newer library versions.</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p >In this case you need to recreate the shape from the <a class="el" href="class_shape_settings.html">ShapeSettings</a> object and save it again. The user is expected to call SaveBinaryState followed by SaveMaterialState and SaveSubShapeState. The stream should be stored as is and the material and shape list should be saved using the applications own serialization system (e.g. by assigning an ID to each pointer). When restoring data, call sRestoreFromBinararyState to get the shape and then call RestoreMaterialState and RestoreSubShapeState to restore the pointers to the external objects. </p>
@@ -618,7 +631,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Cast a ray against this shape. Allows returning multiple hits through ioCollector. Note that this version is more flexible but also slightly slower than the CastRay function that returns only a single hit. If you want the surface normal of the hit use GetSurfaceNormal(collected sub shape ID, inRay.GetPointOnRay(collected faction)). </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a9c2aaae3c5b69a6154a5ef68b0faf764">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#aebdc497b84304d41defc52341ff57dee">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a64c5d6f9050de88be123f9d35512f7a7">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a6a7068bc26b41c75a7ccee0f4bf71cf2">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#ab09749afef2d856a1a9b8834857ee5fa">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a624b715dc926521f7865d86e932cce7d">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a397f3571c6e9f7f027b1acd2abaaac35">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a4687967e5d1fdceabfd3bae64584eca8">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a355bc794c757307e88159557d0f43d79">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#a76efaa0b18ed8367a5865ce826a1b445">StaticCompoundShape</a>, and <a class="el" href="class_triangle_shape.html#a6095d8ea98d3e69ea17834a82ca1126e">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a9c2aaae3c5b69a6154a5ef68b0faf764">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#aebdc497b84304d41defc52341ff57dee">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#ae1a5536cb1e4855bdd86433e08496b3b">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a64c5d6f9050de88be123f9d35512f7a7">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a6a7068bc26b41c75a7ccee0f4bf71cf2">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#ab09749afef2d856a1a9b8834857ee5fa">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a624b715dc926521f7865d86e932cce7d">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a397f3571c6e9f7f027b1acd2abaaac35">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a4687967e5d1fdceabfd3bae64584eca8">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a355bc794c757307e88159557d0f43d79">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#a76efaa0b18ed8367a5865ce826a1b445">StaticCompoundShape</a>, <a class="el" href="class_triangle_shape.html#a6095d8ea98d3e69ea17834a82ca1126e">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a851380d12087292cc55c87097b9afea5">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -663,7 +676,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Cast a ray against this shape, returns true if it finds a hit closer than ioHit.mFraction and updates that fraction. Otherwise ioHit is left untouched and the function returns false. Note that the ray should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from <a class="el" href="struct_ray_cast_t.html#ae66dc4b0c20b242f17bcf70cb5507e51" title="Origin of the ray.">RayCast::mOrigin</a> if you want to cast against the shape in the space it was created). Convex objects will be treated as solid (meaning if the ray starts inside, you'll get a hit fraction of 0) and back face hits against triangles are returned. If you want the surface normal of the hit use GetSurfaceNormal(ioHit.mSubShapeID2, inRay.GetPointOnRay(ioHit.mFraction)). </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#afb509d4c0094c0f58a54590e5b801a0f">BoxShape</a>, <a class="el" href="class_capsule_shape.html#af2943e795c49300d95d68950231de8a3">CapsuleShape</a>, <a class="el" href="class_capsule_shape.html#a4db465fc9986e3c869fa5c0b65733403">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#a4bd9f4df37b021fb520b8acfaa441794">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#af2943e795c49300d95d68950231de8a3">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#af2943e795c49300d95d68950231de8a3">CylinderShape</a>, <a class="el" href="class_cylinder_shape.html#a6685737b774a4fdbcc626aae25f27770">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a370b1fb907c0e7e7a5b4e03eeea4a220">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a70a6a50967decae2c6bbb3b435857893">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#afd8f121a563bf40c32b8169765636a2b">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a5d0b1db48c88428b7be626d822e0599b">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#ac9ed2a8c195640f6b0b65a06749b3f33">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#add12e8276eda4a003e528e1646836bec">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a961b5b5d30f21ea75df8bd1ef4ea7577">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#a7704a962778d0a00b4f808fa448c49c5">StaticCompoundShape</a>, and <a class="el" href="class_triangle_shape.html#aadffe4301ac4d7a85693978a441b6c08">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#afb509d4c0094c0f58a54590e5b801a0f">BoxShape</a>, <a class="el" href="class_capsule_shape.html#af2943e795c49300d95d68950231de8a3">CapsuleShape</a>, <a class="el" href="class_capsule_shape.html#a4db465fc9986e3c869fa5c0b65733403">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#a4bd9f4df37b021fb520b8acfaa441794">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#af2943e795c49300d95d68950231de8a3">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#af2943e795c49300d95d68950231de8a3">CylinderShape</a>, <a class="el" href="class_cylinder_shape.html#a6685737b774a4fdbcc626aae25f27770">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a370b1fb907c0e7e7a5b4e03eeea4a220">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a70a6a50967decae2c6bbb3b435857893">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#afd8f121a563bf40c32b8169765636a2b">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a5d0b1db48c88428b7be626d822e0599b">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#ac9ed2a8c195640f6b0b65a06749b3f33">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#add12e8276eda4a003e528e1646836bec">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a961b5b5d30f21ea75df8bd1ef4ea7577">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#a7704a962778d0a00b4f808fa448c49c5">StaticCompoundShape</a>, <a class="el" href="class_triangle_shape.html#aadffe4301ac4d7a85693978a441b6c08">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#ac35d3b8df54c178044c0960d56691c9f">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -783,7 +796,73 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#ac79f1b2e03b7c9c374f8f8dbeb3104bb">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a8474d2a38ac14d1d950829f284a0ca97">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#a735042a5743c3f86f5a57efdf0326c85">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#a6257c07e716aa0654965b5a72ac31d39">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#ae24a72e2cc4218687cd7ab1bc1baaa4a">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a3dd607a4ac0f540c51a60e49cf84e224">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9f8a2bd04e4f014f21cf5da738909fa1">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#aa145b08202a26df921533b5f2db9f55f">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a2acee14056b7beb439004b66f9f76c13">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#ae878ff562cc8dbd769853db0b1fa7271">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ae5cef908731fb835103a01b2089aa361">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#ab8223102d141ca2fda0343ddfcb07ab4">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#ab2e2ccd7bd10816f6f919ca6aa3a405e">StaticCompoundShape</a>, and <a class="el" href="class_triangle_shape.html#a30e75a8329213c0df77088b28af7858d">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#ac79f1b2e03b7c9c374f8f8dbeb3104bb">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a8474d2a38ac14d1d950829f284a0ca97">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#a735042a5743c3f86f5a57efdf0326c85">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#a6257c07e716aa0654965b5a72ac31d39">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#ae24a72e2cc4218687cd7ab1bc1baaa4a">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a3dd607a4ac0f540c51a60e49cf84e224">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9f8a2bd04e4f014f21cf5da738909fa1">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#aa145b08202a26df921533b5f2db9f55f">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a2acee14056b7beb439004b66f9f76c13">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#ae878ff562cc8dbd769853db0b1fa7271">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ae5cef908731fb835103a01b2089aa361">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#ab8223102d141ca2fda0343ddfcb07ab4">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#ab2e2ccd7bd10816f6f919ca6aa3a405e">StaticCompoundShape</a>, <a class="el" href="class_triangle_shape.html#a30e75a8329213c0df77088b28af7858d">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#ada1aa746b6692793aa8658a316967bb3">SoftBodyShape</a>.</p>
+
+</div>
+</div>
+<a id="a3caa44f2f0604f56cc83f8d44c12e1c8" name="a3caa44f2f0604f56cc83f8d44c12e1c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3caa44f2f0604f56cc83f8d44c12e1c8">&#9670;&#160;</a></span>CollideSoftBodyVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Shape::CollideSoftBodyVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ioVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDeltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDisplacementDueToGravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inCollidingShapeIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Collides all vertices of a soft body with this shape and updates <a class="el" href="class_soft_body_vertex.html#ad875325c3ade4ca33d6b96716b8a2b07" title="Nearest collision plane, relative to the center of mass of the soft body.">SoftBodyVertex::mCollisionPlane</a>, <a class="el" href="class_soft_body_vertex.html#a887112c6a59e554fd15aac62b7e84dfe" title="Index in the colliding shapes list of the body we may collide with.">SoftBodyVertex::mCollidingShapeIndex</a> and <a class="el" href="class_soft_body_vertex.html#a8277ada20f83ca568c1e6173720fbf23" title="Used while finding the collision plane, stores the largest penetration found so far.">SoftBodyVertex::mLargestPenetration</a> if a collision with more penetration was found. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCenterOfMassTransform</td><td>Center of mass transform for this shape relative to the vertices. </td></tr>
+    <tr><td class="paramname">ioVertices</td><td>The vertices of the soft body </td></tr>
+    <tr><td class="paramname">inDeltaTime</td><td>Delta time of this time step (can be used to extrapolate the position using the velocity of the particle) </td></tr>
+    <tr><td class="paramname">inDisplacementDueToGravity</td><td>Displacement due to gravity during this time step </td></tr>
+    <tr><td class="paramname">inCollidingShapeIndex</td><td>Value to store in <a class="el" href="class_soft_body_vertex.html#a887112c6a59e554fd15aac62b7e84dfe" title="Index in the colliding shapes list of the body we may collide with.">SoftBodyVertex::mCollidingShapeIndex</a> when a collision was found </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_box_shape.html#a7f92241ccbfd714ec5c5550b6d040ec6">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a2edc1cf58497aa062e0e48006d09aec9">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a3722d1304de85a4d3f4f8e4e57b43254">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#ad95b90aaf7715a379834d85f35ac7814">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a30db9a5b6032827a4bbed21858a3e518">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a3ad4fef57f3d440bccf4a3d26db925f6">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a8b4fc0a85255b056f2baa6f5f0ceb781">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a6bb62c503bb31de09d7b99717d3ab696">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a5b0291246cbb3c779e815e8df009bd5b">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a1fda290dca16a8a2e85b48e5cbdbfbc4">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a0f0623fe0b56ba85e36083e9f1cc848b">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a35d1fb619be5bd9f46d16479eca131f7">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#a4a9394a9b59986b75524771200a883c9">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a8fd85f4dadc7eb4d008526cb562198d5">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -847,7 +926,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Draw the shape at a particular location with a particular color (debugging purposes) </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a4d5f89d904e7044077b0b187aa74e474">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a4e38d9480d6ce322203bc484f5ec9b12">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#ae6d820f0033d6933b35babdd50cabe29">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a539ee8eb075e2011e67dfd10292f0c12">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a216fefbc620f08d2e40a7c2ea4d5aa90">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a996a3f59d7ad00c4df53f817254f5ae1">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#afb09372cb71fdbe4cca9718557e144d0">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a24398fdf876a5577fc6261429af7e66a">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a896a8828b726e57a15b696e85ce7f1c7">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#aef8f4170bcd5d01f62862f08c3af3ce0">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a278bd4a5d3c605638c48438eacc80124">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ace616f13de2f3cb7acf8f66194c01442">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#a3d39b9ad69e1da9c16eb1f0a9221090b">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a4d5f89d904e7044077b0b187aa74e474">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a4e38d9480d6ce322203bc484f5ec9b12">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#ae6d820f0033d6933b35babdd50cabe29">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a539ee8eb075e2011e67dfd10292f0c12">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a216fefbc620f08d2e40a7c2ea4d5aa90">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a996a3f59d7ad00c4df53f817254f5ae1">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#afb09372cb71fdbe4cca9718557e144d0">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a24398fdf876a5577fc6261429af7e66a">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a896a8828b726e57a15b696e85ce7f1c7">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#aef8f4170bcd5d01f62862f08c3af3ce0">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a278bd4a5d3c605638c48438eacc80124">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ace616f13de2f3cb7acf8f66194c01442">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#a3d39b9ad69e1da9c16eb1f0a9221090b">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a4259140bb1fef6e7d7d2692d7dcd8577">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -980,7 +1059,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>All shapes are centered around their center of mass. This function returns the center of mass position that needs to be applied to transform the shape to where it was created. </p>
 
-<p>Reimplemented in <a class="el" href="class_compound_shape.html#aeec4b7c1a31225a01b314f2528f27b24">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a0f05c53d66e43a401aca34de00d700c1">ConvexHullShape</a>, <a class="el" href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">DecoratedShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a7d7b6b0edc6dd89125cab13d77eb3585">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#af9e8b8bdbc341d1b0f0caa497505d0f7">ScaledShape</a>, and <a class="el" href="class_tapered_capsule_shape.html#a66f2f00aa6cbbc1fe683d15993c3e736">TaperedCapsuleShape</a>.</p>
+<p>Reimplemented in <a class="el" href="class_compound_shape.html#aeec4b7c1a31225a01b314f2528f27b24">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a0f05c53d66e43a401aca34de00d700c1">ConvexHullShape</a>, <a class="el" href="class_decorated_shape.html#aa17a9fb29ce78eafc01cc8140d754dd6">DecoratedShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a9479ac77a9f53c5664f85b7a93135d95">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a7d7b6b0edc6dd89125cab13d77eb3585">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#af9e8b8bdbc341d1b0f0caa497505d0f7">ScaledShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a66f2f00aa6cbbc1fe683d15993c3e736">TaperedCapsuleShape</a>, and <a class="el" href="class_soft_body_shape.html#ade435c48ffcf2c054b84dedd23e87148">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1087,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Returns the radius of the biggest sphere that fits entirely in the shape. In case this shape consists of multiple sub shapes, it returns the smallest sphere of the parts. This can be used as a measure of how far the shape can be moved without risking going through geometry. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a50c713511a3e73d2c69cb03843eb06e8">BoxShape</a>, <a class="el" href="class_capsule_shape.html#aff824c6f74dbd43d6ddbb577e2324e50">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#ae17025f3ed04cdf063dc0f3b180468a4">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a43f64b08407a44d5c441f41ce520dfe5">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#ad0434b32d80b3256e9ad76524604598c">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a6546d622ca1ff86ea3c3cf7dc39753d3">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a7c2e775c8d2691c71de1243732dc702a">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a032a8fc143be25c8194a28c3a491c702">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a2d4eb8d7ec3b1b8e68fccd31bd6ffda9">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ac7caaa3409a215d6b7dd97ef08c1309b">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#afb194e610fbe0025a2edebf8b0c20be3">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a84f84f37f87624d107b363e1fe0f54a6">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#a0810f695ee3695e5206e9c8b4d506727">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a50c713511a3e73d2c69cb03843eb06e8">BoxShape</a>, <a class="el" href="class_capsule_shape.html#aff824c6f74dbd43d6ddbb577e2324e50">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#ae17025f3ed04cdf063dc0f3b180468a4">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a43f64b08407a44d5c441f41ce520dfe5">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#ad0434b32d80b3256e9ad76524604598c">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a6546d622ca1ff86ea3c3cf7dc39753d3">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a7c2e775c8d2691c71de1243732dc702a">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a032a8fc143be25c8194a28c3a491c702">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a2d4eb8d7ec3b1b8e68fccd31bd6ffda9">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ac7caaa3409a215d6b7dd97ef08c1309b">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#afb194e610fbe0025a2edebf8b0c20be3">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a84f84f37f87624d107b363e1fe0f54a6">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#a0810f695ee3695e5206e9c8b4d506727">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a5c4e7f0e89d968da93b5759b642d5493">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1116,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get local bounding box including convex radius, this box is centered around the center of mass rather than the world transform. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a5abe98f791addef880ea73ea813ec372">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac70e898196e639abb8602e67fed64848">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#aed1247824e7919d8a948293f586b15dc">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a49b4086adc746e5b69c772b4607cd2ec">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a2a80687423f2a189488cb20e3b8b0b18">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#aee35a24a90e88fd6858a648fcc3e8928">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a81ce8f3c413f4a72f2a5a5fb00fcc256">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a68d4124fd359bd6f37718080371617f0">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#adaffc4cb4b4ecb75c984b4dd655f8e53">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a98bf01077d911fb1ece20a2c11aa6d8c">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a1941ec6970a8a1daf084f5cbbf173094">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#abd2b0eee5fe8019f104f3fa8db182ef0">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#acb85ccdd921dcc7f1018bafd6cc54af0">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a5abe98f791addef880ea73ea813ec372">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac70e898196e639abb8602e67fed64848">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#aed1247824e7919d8a948293f586b15dc">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a49b4086adc746e5b69c772b4607cd2ec">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a2a80687423f2a189488cb20e3b8b0b18">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#aee35a24a90e88fd6858a648fcc3e8928">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a81ce8f3c413f4a72f2a5a5fb00fcc256">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a68d4124fd359bd6f37718080371617f0">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#adaffc4cb4b4ecb75c984b4dd655f8e53">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a98bf01077d911fb1ece20a2c11aa6d8c">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a1941ec6970a8a1daf084f5cbbf173094">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#abd2b0eee5fe8019f104f3fa8db182ef0">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#acb85ccdd921dcc7f1018bafd6cc54af0">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#aa6cb675060af07d4d24c6e7d6fca3d3d">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1145,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Calculate the mass and inertia of this shape. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a2a6f91fa07d5ef9ef2541c0acfcdf9e8">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a5eb19a20ae866f171dbbb7b2d5449d1c">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a24b8501f64dae77c9cb4cfa408fc7537">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#aef499d89aadc1f62c7d2acc527d54e4f">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#ac3f61c0e5ec4913f57a7842fcd8569fe">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#ae44d36f0e2b925556c4f6f2f30803b62">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#aeb665b7fb7702d516f965441b421f997">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#ac1699a722db6d84580b59a3058af572c">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a05206d318c8849d711695b1ae36c98b2">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a8e96fae113643ee75eb5f6355abd5425">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a1febf0517dfc8b724d1bd3b3c2decf55">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ad3455a4df764b73c9b62450ab39ee7e0">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#aed1e73c2a8e181beb5c775bd5bddca6f">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a2a6f91fa07d5ef9ef2541c0acfcdf9e8">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a5eb19a20ae866f171dbbb7b2d5449d1c">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a24b8501f64dae77c9cb4cfa408fc7537">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#aef499d89aadc1f62c7d2acc527d54e4f">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#ac3f61c0e5ec4913f57a7842fcd8569fe">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#ae44d36f0e2b925556c4f6f2f30803b62">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#aeb665b7fb7702d516f965441b421f997">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#ac1699a722db6d84580b59a3058af572c">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a05206d318c8849d711695b1ae36c98b2">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a8e96fae113643ee75eb5f6355abd5425">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a1febf0517dfc8b724d1bd3b3c2decf55">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ad3455a4df764b73c9b62450ab39ee7e0">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#aed1e73c2a8e181beb5c775bd5bddca6f">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#ac8e3e81fea2706ab86fcf9aa9302d40d">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1175,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get the material assigned to a particular sub shape ID. </p>
 
-<p>Implemented in <a class="el" href="class_compound_shape.html#a53e888da6c84a5a7a8b96bacd0a12f92">CompoundShape</a>, <a class="el" href="class_convex_shape.html#a7a9e29e9a33f123f0ab8b25dd4e04cc0">ConvexShape</a>, <a class="el" href="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#a0a17b135a1676e5588f012978824316b">HeightFieldShape</a>, and <a class="el" href="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37">MeshShape</a>.</p>
+<p>Implemented in <a class="el" href="class_compound_shape.html#a53e888da6c84a5a7a8b96bacd0a12f92">CompoundShape</a>, <a class="el" href="class_convex_shape.html#a7a9e29e9a33f123f0ab8b25dd4e04cc0">ConvexShape</a>, <a class="el" href="class_decorated_shape.html#a14df32d1573050287d989ce5171a1a86">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#a0a17b135a1676e5588f012978824316b">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a78ab194a4c2f30c0e0f22160ba06fd37">MeshShape</a>, and <a class="el" href="class_soft_body_shape.html#a3123c23cde35ee4b94cfa9639321193d">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1204,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get stats of this shape. Use for logging / data collection purposes only. Does not add values from child shapes, use GetStatsRecursive for this. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#aa47cad6cf56f35a41e8626c3fd587fb3">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a274bd9ad407e747585488727e4697357">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#abdfd4a2a43587db1b5d726c78d3ee2b5">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a30d8aeffc7430806287324f7f55eb5a5">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a9d3783be079e3d425bf049abf2c6a9e4">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9996003623615ba708c420e90e86349e">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#aabd799e121f048e83a6ef43490422fbe">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a656e5b4eee8f07b32ef59fb20858771b">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a33919b6a211cae9bd392914c25923111">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a1d1237076dc542497e7ca6b917cc7d68">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#adff6e55656d0dc2048f40b3dad359fd8">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#ad973e13f69ffa355e172f8a37d5fc347">StaticCompoundShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a5f3e2462c74c498511d4b010797ddbab">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#a41afaef8725be99a40861e777de22119">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#aa47cad6cf56f35a41e8626c3fd587fb3">BoxShape</a>, <a class="el" href="class_capsule_shape.html#a274bd9ad407e747585488727e4697357">CapsuleShape</a>, <a class="el" href="class_convex_hull_shape.html#abdfd4a2a43587db1b5d726c78d3ee2b5">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a30d8aeffc7430806287324f7f55eb5a5">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a9d3783be079e3d425bf049abf2c6a9e4">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9996003623615ba708c420e90e86349e">MeshShape</a>, <a class="el" href="class_mutable_compound_shape.html#aabd799e121f048e83a6ef43490422fbe">MutableCompoundShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a656e5b4eee8f07b32ef59fb20858771b">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a33919b6a211cae9bd392914c25923111">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a1d1237076dc542497e7ca6b917cc7d68">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#adff6e55656d0dc2048f40b3dad359fd8">SphereShape</a>, <a class="el" href="class_static_compound_shape.html#ad973e13f69ffa355e172f8a37d5fc347">StaticCompoundShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a5f3e2462c74c498511d4b010797ddbab">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#a41afaef8725be99a40861e777de22119">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#ae275b4c0b3e23b493bda12687d93970c">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1241,6 +1320,8 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="class_soft_body_shape.html#aa1909263e9c7099933d817f6a6d5eab0">SoftBodyShape</a>.</p>
+
 </div>
 </div>
 <a id="aee463ecaa01e871524f5396871b5e8c6" name="aee463ecaa01e871524f5396871b5e8c6"></a>
@@ -1268,7 +1349,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get the max number of sub shape ID bits that are needed to be able to address any leaf shape in this shape. Used mainly for checking that it is smaller or equal than <a class="el" href="class_sub_shape_i_d.html#a74d6785fe41b99c0d783fb6e66c39f4d" title="How many bits we can store in this ID.">SubShapeID::MaxBits</a>. </p>
 
-<p>Implemented in <a class="el" href="class_compound_shape.html#ab0cb754108355742e26e08614beaaec1">CompoundShape</a>, <a class="el" href="class_convex_shape.html#aeda184c70bca8f98105bd58df579eb87">ConvexShape</a>, <a class="el" href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#ab7c2e6fc0f60fa4290474d758473b3ab">HeightFieldShape</a>, and <a class="el" href="class_mesh_shape.html#a7e26f8abf395dc62026f5c4789e3c378">MeshShape</a>.</p>
+<p>Implemented in <a class="el" href="class_compound_shape.html#ab0cb754108355742e26e08614beaaec1">CompoundShape</a>, <a class="el" href="class_convex_shape.html#aeda184c70bca8f98105bd58df579eb87">ConvexShape</a>, <a class="el" href="class_decorated_shape.html#a0369b0f4e52b29f3625022bfd98a6924">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#ab7c2e6fc0f60fa4290474d758473b3ab">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a7e26f8abf395dc62026f5c4789e3c378">MeshShape</a>, and <a class="el" href="class_soft_body_shape.html#a3ff7ce4976bb19746e58ac06d90f1695">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1456,7 +1537,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_box_shape.html#a10628c6c084267e249ef86fa924ac620">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ae0226a091e853142536c48e5462ee463">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#aaa7ac5ce56a586d8179181add8af60fa">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a9707b7f687ecaac45496dc111535782e">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#aa2ef3b2d1a7889c6a55d868ac8549280">CylinderShape</a>, <a class="el" href="class_decorated_shape.html#abda124dcb2cd84b591101a32544e1c94">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#a39e1a2fa721479131b1fefe0b2ea98a7">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#ac15cb5e42c9123d08b5dfd7d5928bcad">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#aa18209657783f704b64fa02351c29fca">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#abab2852c1625584a5849d7a9ef96efcb">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#aacf906339a566563005b35af3a474385">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a9619a007d4bd51efef15792e464d8c0f">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a9634a3049b0006aefe65e52c72f3b3d1">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#ad35f626bfc8807441d6b200ebf74e216">TriangleShape</a>.</p>
+<p>Reimplemented in <a class="el" href="class_box_shape.html#a10628c6c084267e249ef86fa924ac620">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ae0226a091e853142536c48e5462ee463">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#aaa7ac5ce56a586d8179181add8af60fa">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a9707b7f687ecaac45496dc111535782e">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#aa2ef3b2d1a7889c6a55d868ac8549280">CylinderShape</a>, <a class="el" href="class_decorated_shape.html#abda124dcb2cd84b591101a32544e1c94">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#a39e1a2fa721479131b1fefe0b2ea98a7">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#ac15cb5e42c9123d08b5dfd7d5928bcad">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#aa18209657783f704b64fa02351c29fca">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#abab2852c1625584a5849d7a9ef96efcb">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#aacf906339a566563005b35af3a474385">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a9619a007d4bd51efef15792e464d8c0f">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a9634a3049b0006aefe65e52c72f3b3d1">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#ad35f626bfc8807441d6b200ebf74e216">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a034dea7c47610c270711b8c4a19f8b87">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1495,7 +1576,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Get the surface normal of a particular sub shape ID and point on surface (all vectors are relative to center of mass for this shape). Note: When you have a <a class="el" href="class_collide_shape_result.html" title="Class that contains all information of two colliding shapes.">CollideShapeResult</a> or <a class="el" href="class_shape_cast_result.html" title="Result of a shape cast test.">ShapeCastResult</a> you should use -mPenetrationAxis.Normalized() as contact normal as GetSurfaceNormal will only return face normals (and not vertex or edge normals). </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#ae279a012b515691509f4d15927925664">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac8ed07dee809bbe362b3dd4ec286aa35">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a4f1bcd2e95e17efeff42556cbc729110">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a586cf0e80d2f705fb104d4b6c3cb5d13">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a33a3dcb04ee6b0905b2992936acaa71c">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#ad652d9d9e8fc9a987722d222077b111a">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#aad9c34de931c5c15d19cfc7ac200583a">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a0af1704c7f1a2109f9b55343c4a6db7d">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#afb856f2a26b063d3f6d4aff131ce1a31">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a8d44329b0d06995572b38bbe3f23879f">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a2ae3fdc9da393a59106c6f4f75c20b25">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ac8a542296217b1a4ccad96133c07a35e">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#af2073f91655595dde2662482e5821006">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#ae279a012b515691509f4d15927925664">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac8ed07dee809bbe362b3dd4ec286aa35">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a4f1bcd2e95e17efeff42556cbc729110">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a586cf0e80d2f705fb104d4b6c3cb5d13">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a33a3dcb04ee6b0905b2992936acaa71c">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#ad652d9d9e8fc9a987722d222077b111a">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#aad9c34de931c5c15d19cfc7ac200583a">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a0af1704c7f1a2109f9b55343c4a6db7d">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#afb856f2a26b063d3f6d4aff131ce1a31">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#a8d44329b0d06995572b38bbe3f23879f">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a2ae3fdc9da393a59106c6f4f75c20b25">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#ac8a542296217b1a4ccad96133c07a35e">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#af2073f91655595dde2662482e5821006">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#af8f830edd7a8620969c68da8c4ff40f8">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1627,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >Call this repeatedly to get all triangles in the box. outTriangleVertices should be large enough to hold 3 * inMaxTriangleRequested entries. outMaterials (if it is not null) should contain inMaxTrianglesRequested entries. The function returns the amount of triangles that it found (which will be &lt;= inMaxTrianglesRequested), or 0 if there are no more triangles. Note that the function can return a value &lt; inMaxTrianglesRequested and still have more triangles to process (triangles can be returned in blocks). Note that the function may return triangles outside of the requested box, only coarse culling is performed on the returned triangles. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a90ed6d83a46a7311750bfa7877d72def">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac735140fc6d8d36ca5c598deba432ae2">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a86dbc7e794fdf43a39fed13e60731a0b">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a7def260c11540094261de145227efa04">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#ac067fd156edf8fa249c8ed65bc9f5f18">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#a6cfbb512a0c4dc1a9f02d4a830829721">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a08fee5448036495db2d6154bb4632a65">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9c170a3cbeccfbfa9349038d0aa5f10c">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a5a7033c9950e7ec7253047e8a257c360">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a2ecf8af0d2d44459c7fbce83d6323eb3">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ad222933cc81e3136f2b02cc70db545d9">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#aab3a1e57553613d5ce94557f6175ca93">SphereShape</a>, and <a class="el" href="class_triangle_shape.html#aea1cb87c9bdf927b353459aec286218f">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a90ed6d83a46a7311750bfa7877d72def">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac735140fc6d8d36ca5c598deba432ae2">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a86dbc7e794fdf43a39fed13e60731a0b">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a7def260c11540094261de145227efa04">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#ac067fd156edf8fa249c8ed65bc9f5f18">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#a6cfbb512a0c4dc1a9f02d4a830829721">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a08fee5448036495db2d6154bb4632a65">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a9c170a3cbeccfbfa9349038d0aa5f10c">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a5a7033c9950e7ec7253047e8a257c360">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a2ecf8af0d2d44459c7fbce83d6323eb3">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ad222933cc81e3136f2b02cc70db545d9">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#aab3a1e57553613d5ce94557f6175ca93">SphereShape</a>, <a class="el" href="class_triangle_shape.html#aea1cb87c9bdf927b353459aec286218f">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#aef58794da013b5ec5993744dab56f4b5">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1684,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p >To start iterating over triangles, call this function first. ioContext is a temporary buffer and should remain untouched until the last call to GetTrianglesNext. inBox is the world space bounding in which you want to get the triangles. inPositionCOM/inRotation/inScale describes the transform of this shape. To get the actual triangles call GetTrianglesNext. </p>
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a287e16289c491cd9dbd980e59ca7725b">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac5f59452b7a3fc2c31ba77f2997ec493">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a1e3571fbe4835d1bfec50d9d7a1a2b1f">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a6c4c9fd637e19f6d7d7aa32a0389a6a6">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#a063b182d0bc6eddcde2b3fd422fca7a7">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#aabb7fa62446dd36b1d18f149cef8fb22">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a03ddda27200f07afc08f6439ce36d491">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a409b6ac0a7548e275d6f1f2a9b57a19d">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a928422bd2dd3f8a9ac2107bdf503446e">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a801257f7a7ea6c26a728170cbd7ba55f">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#af3c0586193bee5223c9a94556ee019de">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#ae00fa28f36870678e33dc16085cafc5b">SphereShape</a>, and <a class="el" href="class_triangle_shape.html#a3fe954485d3333b502acd074ebd3d405">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a287e16289c491cd9dbd980e59ca7725b">BoxShape</a>, <a class="el" href="class_capsule_shape.html#ac5f59452b7a3fc2c31ba77f2997ec493">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a1e3571fbe4835d1bfec50d9d7a1a2b1f">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a6c4c9fd637e19f6d7d7aa32a0389a6a6">ConvexHullShape</a>, <a class="el" href="class_convex_shape.html#a063b182d0bc6eddcde2b3fd422fca7a7">ConvexShape</a>, <a class="el" href="class_cylinder_shape.html#aabb7fa62446dd36b1d18f149cef8fb22">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#a03ddda27200f07afc08f6439ce36d491">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a409b6ac0a7548e275d6f1f2a9b57a19d">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a928422bd2dd3f8a9ac2107bdf503446e">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a801257f7a7ea6c26a728170cbd7ba55f">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#af3c0586193bee5223c9a94556ee019de">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#ae00fa28f36870678e33dc16085cafc5b">SphereShape</a>, <a class="el" href="class_triangle_shape.html#a3fe954485d3333b502acd074ebd3d405">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#a28d58a8068af4f051eb33f5545524f8d">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1684,7 +1765,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_box_shape.html#a22a7afcc6db8041d6e0f335bfee62ec0">BoxShape</a>, <a class="el" href="class_capsule_shape.html#aeeab148856a7d53ddf1a42934fbb048c">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a2c66ad490f6662e3ef81e44cabee11fa">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a0f6066d340c3db1d1d06373fa18b4691">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a85e3891076275d55c6274d3cfd480b18">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#aefe0c0c9d3017a94ac8835e84e698e9a">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a69ed9404f75cceb172a608c746994c09">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a92a8fbf01df9c36b9176c18889b92f58">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a551123649d86e6cef5a8499c4318aa6d">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ae0c292389243763cf6abd92048200cf3">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a67684ecf3156eed16a5da749fcaad002">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a7899c1aa1dbb08bd5b79c2b8d01711a0">TaperedCapsuleShape</a>, and <a class="el" href="class_triangle_shape.html#ae85456e8f22b77ebef19e814221b9ec9">TriangleShape</a>.</p>
+<p>Implemented in <a class="el" href="class_box_shape.html#a22a7afcc6db8041d6e0f335bfee62ec0">BoxShape</a>, <a class="el" href="class_capsule_shape.html#aeeab148856a7d53ddf1a42934fbb048c">CapsuleShape</a>, <a class="el" href="class_compound_shape.html#a2c66ad490f6662e3ef81e44cabee11fa">CompoundShape</a>, <a class="el" href="class_convex_hull_shape.html#a0f6066d340c3db1d1d06373fa18b4691">ConvexHullShape</a>, <a class="el" href="class_cylinder_shape.html#a85e3891076275d55c6274d3cfd480b18">CylinderShape</a>, <a class="el" href="class_height_field_shape.html#aefe0c0c9d3017a94ac8835e84e698e9a">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a69ed9404f75cceb172a608c746994c09">MeshShape</a>, <a class="el" href="class_offset_center_of_mass_shape.html#a92a8fbf01df9c36b9176c18889b92f58">OffsetCenterOfMassShape</a>, <a class="el" href="class_rotated_translated_shape.html#a551123649d86e6cef5a8499c4318aa6d">RotatedTranslatedShape</a>, <a class="el" href="class_scaled_shape.html#ae0c292389243763cf6abd92048200cf3">ScaledShape</a>, <a class="el" href="class_sphere_shape.html#a67684ecf3156eed16a5da749fcaad002">SphereShape</a>, <a class="el" href="class_tapered_capsule_shape.html#a7899c1aa1dbb08bd5b79c2b8d01711a0">TaperedCapsuleShape</a>, <a class="el" href="class_triangle_shape.html#ae85456e8f22b77ebef19e814221b9ec9">TriangleShape</a>, and <a class="el" href="class_soft_body_shape.html#aa6126864f8ab7dc383063d46f9f89a4a">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -1819,7 +1900,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Check if this shape can only be used to create a static body or if it can also be dynamic/kinematic. </p>
 
-<p>Reimplemented in <a class="el" href="class_compound_shape.html#a1fe017e41afb14b1192689a5fa81ad2e">CompoundShape</a>, <a class="el" href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#ab850b5af741a24d3abc431d4b73d7caf">HeightFieldShape</a>, and <a class="el" href="class_mesh_shape.html#a99a0706d71a876e3fd589a09a438f84f">MeshShape</a>.</p>
+<p>Reimplemented in <a class="el" href="class_compound_shape.html#a1fe017e41afb14b1192689a5fa81ad2e">CompoundShape</a>, <a class="el" href="class_decorated_shape.html#ae68d25802b5bbe3e86cb3cb71698b78b">DecoratedShape</a>, <a class="el" href="class_height_field_shape.html#ab850b5af741a24d3abc431d4b73d7caf">HeightFieldShape</a>, <a class="el" href="class_mesh_shape.html#a99a0706d71a876e3fd589a09a438f84f">MeshShape</a>, and <a class="el" href="class_soft_body_shape.html#ab0e06455cdee319947603a03d4d653fe">SoftBodyShape</a>.</p>
 
 </div>
 </div>
@@ -2078,6 +2159,124 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a2fff7d5dd25602bf880f69bd92049652" name="a2fff7d5dd25602bf880f69bd92049652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fff7d5dd25602bf880f69bd92049652">&#9670;&#160;</a></span>sCollidePointUsingRayCast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Shape::sCollidePointUsingRayCast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_shape.html">Shape</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inPoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSubShapeIDCreator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;&#160;</td>
+          <td class="paramname"><em>ioCollector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShapeFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A fallback version of CollidePoint that uses a ray cast and counts the number of hits to determine if the point is inside the shape. Odd number of hits means inside, even number of hits means outside. </p>
+
+</div>
+</div>
+<a id="a1a3b238051233ec6a6d07f988b79ff0a" name="a1a3b238051233ec6a6d07f988b79ff0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a3b238051233ec6a6d07f988b79ff0a">&#9670;&#160;</a></span>sCollideSoftBodyVerticesUsingRayCast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Shape::sCollideSoftBodyVerticesUsingRayCast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_shape.html">Shape</a> &amp;&#160;</td>
+          <td class="paramname"><em>inShape</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ioVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDeltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDisplacementDueToGravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inCollidingShapeIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A fallback version of CollideSoftBodyVertices that uses a raycast to collide the vertices with the shape. </p>
 
 </div>
 </div>

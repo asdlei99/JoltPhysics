@@ -49,5 +49,6 @@ var struct_physics_update_context_1_1_step =
     [ "mStartNextStep", "struct_physics_update_context_1_1_step.html#a8648fd2c91cb4f4fc003682c09a56779", null ],
     [ "mStepListenerReadIdx", "struct_physics_update_context_1_1_step.html#a295a55ea8456a023f402bdd731b59922", null ],
     [ "mStepListeners", "struct_physics_update_context_1_1_step.html#ab660abd26126a1e92afee5e2d08dc4d5", null ],
-    [ "mUpdateBroadphaseFinalize", "struct_physics_update_context_1_1_step.html#abd9bafeccce1674c48d08f4edc56e739", null ]
+    [ "mUpdateBroadphaseFinalize", "struct_physics_update_context_1_1_step.html#abd9bafeccce1674c48d08f4edc56e739", null ],
+    [ "mUpdateSoftBodies", "struct_physics_update_context_1_1_step.html#a05b29ae34f151e0447ddf9f5ee5cb061", null ]
 ];

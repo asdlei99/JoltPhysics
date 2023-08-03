@@ -168,6 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab90b6879d9b21e0301102dd1f5791cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ab90b6879d9b21e0301102dd1f5791cb2">AllocateBody</a> (const <a class="el" href="class_body_creation_settings.html">BodyCreationSettings</a> &amp;inBodyCreationSettings) const</td></tr>
 <tr class="memdesc:ab90b6879d9b21e0301102dd1f5791cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a body using creation settings. The returned body will not be part of the body manager yet.  <a href="class_body_manager.html#ab90b6879d9b21e0301102dd1f5791cb2">More...</a><br /></td></tr>
 <tr class="separator:ab90b6879d9b21e0301102dd1f5791cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003634616068c3e51029c38e77de7fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_body.html">Body</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a003634616068c3e51029c38e77de7fec">AllocateSoftBody</a> (const <a class="el" href="class_soft_body_creation_settings.html">SoftBodyCreationSettings</a> &amp;inSoftBodyCreationSettings) const</td></tr>
+<tr class="memdesc:a003634616068c3e51029c38e77de7fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a soft body using creation settings. The returned body will not be part of the body manager yet.  <a href="class_body_manager.html#a003634616068c3e51029c38e77de7fec">More...</a><br /></td></tr>
+<tr class="separator:a003634616068c3e51029c38e77de7fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9b3fea305ee74fb2cb1d70d4773aee0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac9b3fea305ee74fb2cb1d70d4773aee0">FreeBody</a> (<a class="el" href="class_body.html">Body</a> *inBody) const</td></tr>
 <tr class="memdesc:ac9b3fea305ee74fb2cb1d70d4773aee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a body that has not been added to the body manager yet (if it has, use DestroyBodies).  <a href="class_body_manager.html#ac9b3fea305ee74fb2cb1d70d4773aee0">More...</a><br /></td></tr>
 <tr class="separator:ac9b3fea305ee74fb2cb1d70d4773aee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,15 +193,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af449412eb723ffe93a193d9b9aa86f3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#af449412eb723ffe93a193d9b9aa86f3b">SetMotionQuality</a> (<a class="el" href="class_body.html">Body</a> &amp;ioBody, <a class="el" href="_motion_quality_8h.html#af43db3453103c2e62526f54dd8542d3a">EMotionQuality</a> inMotionQuality)</td></tr>
 <tr class="memdesc:af449412eb723ffe93a193d9b9aa86f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the motion quality for a body.  <a href="class_body_manager.html#af449412eb723ffe93a193d9b9aa86f3b">More...</a><br /></td></tr>
 <tr class="separator:af449412eb723ffe93a193d9b9aa86f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5">GetActiveBodies</a> (<a class="el" href="_body_manager_8h.html#afc1c8d959352d66db407f29003a66bb8">BodyIDVector</a> &amp;outBodyIDs) const</td></tr>
-<tr class="memdesc:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get copy of the list of active bodies under protection of a lock.  <a href="class_body_manager.html#a6f586bcf6721612f3f30e6ce2cd07cc5">More...</a><br /></td></tr>
-<tr class="separator:a6f586bcf6721612f3f30e6ce2cd07cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82eddab23702dc985be81be36d91afb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_body_i_d.html">BodyID</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac82eddab23702dc985be81be36d91afb">GetActiveBodiesUnsafe</a> () const</td></tr>
-<tr class="memdesc:ac82eddab23702dc985be81be36d91afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of active bodies. Note: Not thread safe. The active bodies list can change at any moment.  <a href="class_body_manager.html#ac82eddab23702dc985be81be36d91afb">More...</a><br /></td></tr>
-<tr class="separator:ac82eddab23702dc985be81be36d91afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62687e8da923c91581a90e4854b556cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a62687e8da923c91581a90e4854b556cc">GetNumActiveBodies</a> () const</td></tr>
-<tr class="memdesc:a62687e8da923c91581a90e4854b556cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of active bodies.  <a href="class_body_manager.html#a62687e8da923c91581a90e4854b556cc">More...</a><br /></td></tr>
-<tr class="separator:a62687e8da923c91581a90e4854b556cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae54df1753149fbac33cb8ea6f930da7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#aae54df1753149fbac33cb8ea6f930da7">GetActiveBodies</a> (<a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a> inType, <a class="el" href="_body_manager_8h.html#afc1c8d959352d66db407f29003a66bb8">BodyIDVector</a> &amp;outBodyIDs) const</td></tr>
+<tr class="memdesc:aae54df1753149fbac33cb8ea6f930da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get copy of the list of active bodies under protection of a lock.  <a href="class_body_manager.html#aae54df1753149fbac33cb8ea6f930da7">More...</a><br /></td></tr>
+<tr class="separator:aae54df1753149fbac33cb8ea6f930da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac646f95e699a7d4525d65407ee3bea69"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_body_i_d.html">BodyID</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#ac646f95e699a7d4525d65407ee3bea69">GetActiveBodiesUnsafe</a> (<a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a> inType) const</td></tr>
+<tr class="memdesc:ac646f95e699a7d4525d65407ee3bea69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of active bodies. Note: Not thread safe. The active bodies list can change at any moment.  <a href="class_body_manager.html#ac646f95e699a7d4525d65407ee3bea69">More...</a><br /></td></tr>
+<tr class="separator:ac646f95e699a7d4525d65407ee3bea69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc847edf3623bce165d4c872f0dc4d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#afc847edf3623bce165d4c872f0dc4d68">GetNumActiveBodies</a> (<a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a> inType) const</td></tr>
+<tr class="memdesc:afc847edf3623bce165d4c872f0dc4d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of active bodies.  <a href="class_body_manager.html#afc847edf3623bce165d4c872f0dc4d68">More...</a><br /></td></tr>
+<tr class="separator:afc847edf3623bce165d4c872f0dc4d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a462f40b51e2bbdae500c62584d0376be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a462f40b51e2bbdae500c62584d0376be">GetNumActiveCCDBodies</a> () const</td></tr>
 <tr class="memdesc:a462f40b51e2bbdae500c62584d0376be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of active bodies that are using continuous collision detection.  <a href="class_body_manager.html#a462f40b51e2bbdae500c62584d0376be">More...</a><br /></td></tr>
 <tr class="separator:a462f40b51e2bbdae500c62584d0376be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -458,6 +461,26 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a003634616068c3e51029c38e77de7fec" name="a003634616068c3e51029c38e77de7fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003634616068c3e51029c38e77de7fec">&#9670;&#160;</a></span>AllocateSoftBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_body.html">Body</a> * BodyManager::AllocateSoftBody </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_soft_body_creation_settings.html">SoftBodyCreationSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>inSoftBodyCreationSettings</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a soft body using creation settings. The returned body will not be part of the body manager yet. </p>
+
+</div>
+</div>
 <a id="ac8e13efcbe3e2fab505e2c9047f9d2ef" name="ac8e13efcbe3e2fab505e2c9047f9d2ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8e13efcbe3e2fab505e2c9047f9d2ef">&#9670;&#160;</a></span>DeactivateBodies()</h2>
 
@@ -579,8 +602,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f586bcf6721612f3f30e6ce2cd07cc5" name="a6f586bcf6721612f3f30e6ce2cd07cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f586bcf6721612f3f30e6ce2cd07cc5">&#9670;&#160;</a></span>GetActiveBodies()</h2>
+<a id="aae54df1753149fbac33cb8ea6f930da7" name="aae54df1753149fbac33cb8ea6f930da7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae54df1753149fbac33cb8ea6f930da7">&#9670;&#160;</a></span>GetActiveBodies()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,9 +611,19 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void BodyManager::GetActiveBodies </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a>&#160;</td>
+          <td class="paramname"><em>inType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="_body_manager_8h.html#afc1c8d959352d66db407f29003a66bb8">BodyIDVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>outBodyIDs</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>outBodyIDs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -599,8 +632,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac82eddab23702dc985be81be36d91afb" name="ac82eddab23702dc985be81be36d91afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac82eddab23702dc985be81be36d91afb">&#9670;&#160;</a></span>GetActiveBodiesUnsafe()</h2>
+<a id="ac646f95e699a7d4525d65407ee3bea69" name="ac646f95e699a7d4525d65407ee3bea69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac646f95e699a7d4525d65407ee3bea69">&#9670;&#160;</a></span>GetActiveBodiesUnsafe()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -611,7 +644,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">const <a class="el" href="class_body_i_d.html">BodyID</a> * BodyManager::GetActiveBodiesUnsafe </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a>&#160;</td>
+          <td class="paramname"><em>inType</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -908,8 +942,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a62687e8da923c91581a90e4854b556cc" name="a62687e8da923c91581a90e4854b556cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62687e8da923c91581a90e4854b556cc">&#9670;&#160;</a></span>GetNumActiveBodies()</h2>
+<a id="afc847edf3623bce165d4c872f0dc4d68" name="afc847edf3623bce165d4c872f0dc4d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc847edf3623bce165d4c872f0dc4d68">&#9670;&#160;</a></span>GetNumActiveBodies()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -920,7 +954,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> BodyManager::GetNumActiveBodies </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a>&#160;</td>
+          <td class="paramname"><em>inType</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>

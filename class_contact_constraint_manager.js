@@ -10,6 +10,8 @@ var class_contact_constraint_manager =
     [ "FinalizeContactCacheAndCallContactPointRemovedCallbacks", "class_contact_constraint_manager.html#a3b9cf92154e49319463950b66e692f56", null ],
     [ "FinishConstraintBuffer", "class_contact_constraint_manager.html#a08550dcab7e85e7f82fcc0c7658baa32", null ],
     [ "GetAffectedBodies", "class_contact_constraint_manager.html#a81dea14ac1bd33f74a07085690095403", null ],
+    [ "GetCombineFriction", "class_contact_constraint_manager.html#a2f9d4fe92f6b8a2952b51acb10f55258", null ],
+    [ "GetCombineRestitution", "class_contact_constraint_manager.html#a3e9f74aa49c583d6656430fa421326ab", null ],
     [ "GetContactAllocator", "class_contact_constraint_manager.html#ae52944ca4945e6255a0f31794cf2aed5", null ],
     [ "GetContactListener", "class_contact_constraint_manager.html#a7aa47c7b4d7470e83735deb74eae608d", null ],
     [ "GetContactsFromCache", "class_contact_constraint_manager.html#ac438b9748b641a504658e700f0e43305", null ],

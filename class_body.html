@@ -114,8 +114,9 @@ Inheritance diagram for Body:</div>
  <div class="center">
   <img src="class_body.png" usemap="#Body_map" alt=""/>
   <map id="Body_map" name="Body_map">
-<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="0,0,161,24"/>
-<area href="class_body_with_motion_properties.html" alt="BodyWithMotionProperties" shape="rect" coords="0,112,161,136"/>
+<area href="class_non_copyable.html" title="Class that makes another class non-copyable. Usage: Inherit from NonCopyable." alt="NonCopyable" shape="rect" coords="126,0,368,24"/>
+<area href="class_body_with_motion_properties.html" alt="BodyWithMotionProperties" shape="rect" coords="0,112,242,136"/>
+<area href="class_soft_body_with_motion_properties_and_shape.html" alt="SoftBodyWithMotionPropertiesAndShape" shape="rect" coords="252,112,494,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -125,12 +126,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7d63b6039299773cbb574f8040080ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_body.html#a7d63b6039299773cbb574f8040080ed9">More...</a><br /></td></tr>
 <tr class="separator:a7d63b6039299773cbb574f8040080ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe1c4da65568cf7978b6247affc461e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#abe1c4da65568cf7978b6247affc461e3">~Body</a> ()</td></tr>
-<tr class="memdesc:abe1c4da65568cf7978b6247affc461e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor <br  />
-  <a href="class_body.html#abe1c4da65568cf7978b6247affc461e3">More...</a><br /></td></tr>
+<tr class="memdesc:abe1c4da65568cf7978b6247affc461e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="class_body.html#abe1c4da65568cf7978b6247affc461e3">More...</a><br /></td></tr>
 <tr class="separator:abe1c4da65568cf7978b6247affc461e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76a68b10378fdc8eb6572b995a0d7d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_body_i_d.html">BodyID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#ab76a68b10378fdc8eb6572b995a0d7d7">GetID</a> () const</td></tr>
 <tr class="memdesc:ab76a68b10378fdc8eb6572b995a0d7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of this body.  <a href="class_body.html#ab76a68b10378fdc8eb6572b995a0d7d7">More...</a><br /></td></tr>
 <tr class="separator:ab76a68b10378fdc8eb6572b995a0d7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864a31f176da8e3329f83cb65c23f3d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a864a31f176da8e3329f83cb65c23f3d6">GetBodyType</a> () const</td></tr>
+<tr class="memdesc:a864a31f176da8e3329f83cb65c23f3d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of body (rigid or soft)  <a href="class_body.html#a864a31f176da8e3329f83cb65c23f3d6">More...</a><br /></td></tr>
+<tr class="separator:a864a31f176da8e3329f83cb65c23f3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8365154663e94343e1045893ee3b4c16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a8365154663e94343e1045893ee3b4c16">IsRigidBody</a> () const</td></tr>
+<tr class="memdesc:a8365154663e94343e1045893ee3b4c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body is a rigid body.  <a href="class_body.html#a8365154663e94343e1045893ee3b4c16">More...</a><br /></td></tr>
+<tr class="separator:a8365154663e94343e1045893ee3b4c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a454781f1340576ad7f752b51dd8a179d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a454781f1340576ad7f752b51dd8a179d">IsSoftBody</a> () const</td></tr>
+<tr class="memdesc:a454781f1340576ad7f752b51dd8a179d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this body is a soft body.  <a href="class_body.html#a454781f1340576ad7f752b51dd8a179d">More...</a><br /></td></tr>
+<tr class="separator:a454781f1340576ad7f752b51dd8a179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae172c10ebdda3e473ae54f7e35c62cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#ae172c10ebdda3e473ae54f7e35c62cd1">IsActive</a> () const</td></tr>
 <tr class="memdesc:ae172c10ebdda3e473ae54f7e35c62cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this body is currently actively simulating (true) or sleeping (false)  <a href="class_body.html#ae172c10ebdda3e473ae54f7e35c62cd1">More...</a><br /></td></tr>
 <tr class="separator:ae172c10ebdda3e473ae54f7e35c62cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,7 +331,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8dd9a53f984efe2ced2f73ee084f636a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_body.html">Body</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a8dd9a53f984efe2ced2f73ee084f636a">sFixedToWorld</a></td></tr>
 <tr class="memdesc:a8dd9a53f984efe2ced2f73ee084f636a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dummy body that can be used by constraints to attach a constraint to the world instead of another body.  <a href="class_body.html#a8dd9a53f984efe2ced2f73ee084f636a">More...</a><br /></td></tr>
 <tr class="separator:a8dd9a53f984efe2ced2f73ee084f636a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a636e301ffa9150e9df74895863394ee4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a636e301ffa9150e9df74895863394ee4">cInactiveIndex</a> = <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>(-1)</td></tr>
+<tr class="memitem:a636e301ffa9150e9df74895863394ee4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body.html#a636e301ffa9150e9df74895863394ee4">cInactiveIndex</a> = MotionProperties::cInactiveIndex</td></tr>
 <tr class="memdesc:a636e301ffa9150e9df74895863394ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant indicating that body is not active.  <a href="class_body.html#a636e301ffa9150e9df74895863394ee4">More...</a><br /></td></tr>
 <tr class="separator:a636e301ffa9150e9df74895863394ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -465,8 +474,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Destructor <br  />
- </p>
+<p>Destructor. </p>
 
 </div>
 </div>
@@ -959,6 +967,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Debug function to convert a body back to a body creation settings object to be able to save/recreate the body later. </p>
+
+</div>
+</div>
+<a id="a864a31f176da8e3329f83cb65c23f3d6" name="a864a31f176da8e3329f83cb65c23f3d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a864a31f176da8e3329f83cb65c23f3d6">&#9670;&#160;</a></span>GetBodyType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_body_type_8h.html#ab494e27db6c263f9e31556ad388eb666">EBodyType</a> Body::GetBodyType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the type of body (rigid or soft) </p>
 
 </div>
 </div>
@@ -1942,6 +1977,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a8365154663e94343e1045893ee3b4c16" name="a8365154663e94343e1045893ee3b4c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8365154663e94343e1045893ee3b4c16">&#9670;&#160;</a></span>IsRigidBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Body::IsRigidBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if this body is a rigid body. </p>
+
+</div>
+</div>
 <a id="a251e1c9d8c9c7e40ddabc73420ac9ab1" name="a251e1c9d8c9c7e40ddabc73420ac9ab1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a251e1c9d8c9c7e40ddabc73420ac9ab1">&#9670;&#160;</a></span>IsSensor()</h2>
 
@@ -1966,6 +2028,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check if this body is a sensor. </p>
+
+</div>
+</div>
+<a id="a454781f1340576ad7f752b51dd8a179d" name="a454781f1340576ad7f752b51dd8a179d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a454781f1340576ad7f752b51dd8a179d">&#9670;&#160;</a></span>IsSoftBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Body::IsSoftBody </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if this body is a soft body. </p>
 
 </div>
 </div>
@@ -2795,7 +2884,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> Body::cInactiveIndex = <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a>(-1)</td>
+          <td class="memname">constexpr <a class="el" href="_core_8h.html#a8f95e75e58492e87412191fabadd8ca8">uint32</a> Body::cInactiveIndex = MotionProperties::cInactiveIndex</td>
         </tr>
       </table>
   </td>

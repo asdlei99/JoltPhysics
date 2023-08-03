@@ -9,6 +9,7 @@ var class_convex_hull_shape =
     [ "CastRay", "class_convex_hull_shape.html#aebdc497b84304d41defc52341ff57dee", null ],
     [ "CastRay", "class_convex_hull_shape.html#a4bd9f4df37b021fb520b8acfaa441794", null ],
     [ "CollidePoint", "class_convex_hull_shape.html#a735042a5743c3f86f5a57efdf0326c85", null ],
+    [ "CollideSoftBodyVertices", "class_convex_hull_shape.html#ad95b90aaf7715a379834d85f35ac7814", null ],
     [ "Draw", "class_convex_hull_shape.html#a539ee8eb075e2011e67dfd10292f0c12", null ],
     [ "DrawShrunkShape", "class_convex_hull_shape.html#ac286a6da6e3f7df5e7dc8fb507f80e2e", null ],
     [ "GetCenterOfMass", "class_convex_hull_shape.html#a0f05c53d66e43a401aca34de00d700c1", null ],

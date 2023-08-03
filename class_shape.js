@@ -16,6 +16,7 @@ var class_shape =
     [ "CastRay", "class_shape.html#a955ec1953bc94c6c910dc4dc16114732", null ],
     [ "CollectTransformedShapes", "class_shape.html#a3ed865e7eb30221b418cfd61d1430173", null ],
     [ "CollidePoint", "class_shape.html#af6e77d16736434769d72152bf059a126", null ],
+    [ "CollideSoftBodyVertices", "class_shape.html#a3caa44f2f0604f56cc83f8d44c12e1c8", null ],
     [ "Draw", "class_shape.html#af00149d141125f15e56d9aa82f07b6d4", null ],
     [ "DrawGetSupportFunction", "class_shape.html#aba9738d09ec43b40f10e32d1793b7ef5", null ],
     [ "DrawGetSupportingFace", "class_shape.html#a4feaa49afdf6c19764d939dc0bb2698d", null ],

@@ -6,6 +6,7 @@ var class_offset_center_of_mass_shape =
     [ "CastRay", "class_offset_center_of_mass_shape.html#a5d0b1db48c88428b7be626d822e0599b", null ],
     [ "CollectTransformedShapes", "class_offset_center_of_mass_shape.html#a188ffe92a93f632954f03730fc1f1aed", null ],
     [ "CollidePoint", "class_offset_center_of_mass_shape.html#a2acee14056b7beb439004b66f9f76c13", null ],
+    [ "CollideSoftBodyVertices", "class_offset_center_of_mass_shape.html#a6bb62c503bb31de09d7b99717d3ab696", null ],
     [ "Draw", "class_offset_center_of_mass_shape.html#a24398fdf876a5577fc6261429af7e66a", null ],
     [ "DrawGetSupportFunction", "class_offset_center_of_mass_shape.html#a76d792b27cb24f5e39358c58cbb8d92e", null ],
     [ "DrawGetSupportingFace", "class_offset_center_of_mass_shape.html#a3bf3f16aa5100aa0a9e63c74e570b6dd", null ],

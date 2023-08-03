@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['face_0',['Face',['../class_convex_hull_builder_1_1_face.html',1,'ConvexHullBuilder']]],
+  ['face_0',['Face',['../class_convex_hull_builder_1_1_face.html',1,'ConvexHullBuilder::Face'],['../struct_soft_body_shared_settings_1_1_face.html',1,'SoftBodySharedSettings::Face']]],
   ['factory_1',['Factory',['../class_factory.html',1,'']]],
   ['fixedconstraint_2',['FixedConstraint',['../class_fixed_constraint.html',1,'']]],
   ['fixedconstraintsettings_3',['FixedConstraintSettings',['../class_fixed_constraint_settings.html',1,'']]],

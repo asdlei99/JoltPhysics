@@ -7,6 +7,7 @@ var class_height_field_shape =
     [ "CastRay", "class_height_field_shape.html#a64c5d6f9050de88be123f9d35512f7a7", null ],
     [ "CastRay", "class_height_field_shape.html#a370b1fb907c0e7e7a5b4e03eeea4a220", null ],
     [ "CollidePoint", "class_height_field_shape.html#a3dd607a4ac0f540c51a60e49cf84e224", null ],
+    [ "CollideSoftBodyVertices", "class_height_field_shape.html#a3ad4fef57f3d440bccf4a3d26db925f6", null ],
     [ "Draw", "class_height_field_shape.html#a996a3f59d7ad00c4df53f817254f5ae1", null ],
     [ "GetInnerRadius", "class_height_field_shape.html#a6546d622ca1ff86ea3c3cf7dc39753d3", null ],
     [ "GetLocalBounds", "class_height_field_shape.html#aee35a24a90e88fd6858a648fcc3e8928", null ],

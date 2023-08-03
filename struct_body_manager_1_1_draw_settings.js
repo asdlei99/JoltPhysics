@@ -9,6 +9,10 @@ var struct_body_manager_1_1_draw_settings =
     [ "mDrawShapeColor", "struct_body_manager_1_1_draw_settings.html#a5ac74c40c61db70320bc76b745e691ca", null ],
     [ "mDrawShapeWireframe", "struct_body_manager_1_1_draw_settings.html#a45faca582ce3ba4844789bccf736a965", null ],
     [ "mDrawSleepStats", "struct_body_manager_1_1_draw_settings.html#ab4521660f84ef2ddb7422686794564fb", null ],
+    [ "mDrawSoftBodyEdgeConstraints", "struct_body_manager_1_1_draw_settings.html#aae6f634585850b102c3f276302d0d4a7", null ],
+    [ "mDrawSoftBodyPredictedBounds", "struct_body_manager_1_1_draw_settings.html#a55d3594fa72dc4a59c2cffb9828c31f7", null ],
+    [ "mDrawSoftBodyVertices", "struct_body_manager_1_1_draw_settings.html#a586529cbe14b25bb864ef4736db1d950", null ],
+    [ "mDrawSoftBodyVolumeConstraints", "struct_body_manager_1_1_draw_settings.html#a6142b1847878d24a4e7f7ac831d610bb", null ],
     [ "mDrawSupportDirection", "struct_body_manager_1_1_draw_settings.html#af16847645d9fd741e363740c7f329812", null ],
     [ "mDrawVelocity", "struct_body_manager_1_1_draw_settings.html#a69ad1647a82e8904b2387981351a95f5", null ],
     [ "mDrawWorldTransform", "struct_body_manager_1_1_draw_settings.html#a0355178c88d216e7c933ba8320d94498", null ]

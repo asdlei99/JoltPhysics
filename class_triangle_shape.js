@@ -9,6 +9,7 @@ var class_triangle_shape =
     [ "CastRay", "class_triangle_shape.html#a6095d8ea98d3e69ea17834a82ca1126e", null ],
     [ "CastRay", "class_triangle_shape.html#aadffe4301ac4d7a85693978a441b6c08", null ],
     [ "CollidePoint", "class_triangle_shape.html#a30e75a8329213c0df77088b28af7858d", null ],
+    [ "CollideSoftBodyVertices", "class_triangle_shape.html#a4a9394a9b59986b75524771200a883c9", null ],
     [ "Draw", "class_triangle_shape.html#a3d39b9ad69e1da9c16eb1f0a9221090b", null ],
     [ "GetConvexRadius", "class_triangle_shape.html#ad05039d8e56aca9a7f1e83453f4e897e", null ],
     [ "GetInnerRadius", "class_triangle_shape.html#a0810f695ee3695e5206e9c8b4d506727", null ],

@@ -8,6 +8,7 @@ var class_cylinder_shape =
     [ "CastRay", "class_cylinder_shape.html#af2943e795c49300d95d68950231de8a3", null ],
     [ "CastRay", "class_cylinder_shape.html#a6685737b774a4fdbcc626aae25f27770", null ],
     [ "CollidePoint", "class_cylinder_shape.html#ae24a72e2cc4218687cd7ab1bc1baaa4a", null ],
+    [ "CollideSoftBodyVertices", "class_cylinder_shape.html#a30db9a5b6032827a4bbed21858a3e518", null ],
     [ "Draw", "class_cylinder_shape.html#a216fefbc620f08d2e40a7c2ea4d5aa90", null ],
     [ "GetConvexRadius", "class_cylinder_shape.html#a4c725b9796a592daafff0476543c4629", null ],
     [ "GetHalfHeight", "class_cylinder_shape.html#a6ed4653b983e5e91e0a86f16b4186a25", null ],

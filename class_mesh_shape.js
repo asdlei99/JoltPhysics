@@ -6,6 +6,7 @@ var class_mesh_shape =
     [ "CastRay", "class_mesh_shape.html#a6a7068bc26b41c75a7ccee0f4bf71cf2", null ],
     [ "CastRay", "class_mesh_shape.html#a70a6a50967decae2c6bbb3b435857893", null ],
     [ "CollidePoint", "class_mesh_shape.html#a9f8a2bd04e4f014f21cf5da738909fa1", null ],
+    [ "CollideSoftBodyVertices", "class_mesh_shape.html#a8b4fc0a85255b056f2baa6f5f0ceb781", null ],
     [ "Draw", "class_mesh_shape.html#afb09372cb71fdbe4cca9718557e144d0", null ],
     [ "GetInnerRadius", "class_mesh_shape.html#a7c2e775c8d2691c71de1243732dc702a", null ],
     [ "GetLocalBounds", "class_mesh_shape.html#a81ce8f3c413f4a72f2a5a5fb00fcc256", null ],

@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a624b715dc926521f7865d86e932cce7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2acee14056b7beb439004b66f9f76c13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a2acee14056b7beb439004b66f9f76c13">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const override</td></tr>
 <tr class="separator:a2acee14056b7beb439004b66f9f76c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb62c503bb31de09d7b99717d3ab696"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a6bb62c503bb31de09d7b99717d3ab696">CollideSoftBodyVertices</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;ioVertices, float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDisplacementDueToGravity, int inCollidingShapeIndex) const override</td></tr>
+<tr class="separator:a6bb62c503bb31de09d7b99717d3ab696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188ffe92a93f632954f03730fc1f1aed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a188ffe92a93f632954f03730fc1f1aed">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const override</td></tr>
 <tr class="separator:a188ffe92a93f632954f03730fc1f1aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d00bab2ce478091ebef5d20168988ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_offset_center_of_mass_shape.html#a9d00bab2ce478091ebef5d20168988ac">TransformShape</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const override</td></tr>
@@ -300,6 +302,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54b33219a3685aa4b964f6b69a2cfa7d inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e77d16736434769d72152bf059a126 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#af6e77d16736434769d72152bf059a126">CollidePoint</a> (<a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter={ }) const =0</td></tr>
 <tr class="separator:af6e77d16736434769d72152bf059a126 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3caa44f2f0604f56cc83f8d44c12e1c8 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3caa44f2f0604f56cc83f8d44c12e1c8">CollideSoftBodyVertices</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;ioVertices, float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDisplacementDueToGravity, int inCollidingShapeIndex) const =0</td></tr>
+<tr class="separator:a3caa44f2f0604f56cc83f8d44c12e1c8 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed865e7eb30221b418cfd61d1430173 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a3ed865e7eb30221b418cfd61d1430173">CollectTransformedShapes</a> (const <a class="el" href="class_a_a_box.html">AABox</a> &amp;inBox, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPositionCOM, <a class="el" href="_math_types_8h.html#a63bb148630fd505cb6f2bd0d69182a34">QuatArg</a> inRotation, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inScale, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter) const</td></tr>
 <tr class="separator:a3ed865e7eb30221b418cfd61d1430173 inherit pub_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b4b180a41ffdf7369f79706b0e27570 inherit pub_methods_class_shape"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a4b4b180a41ffdf7369f79706b0e27570">TransformShape</a> (<a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_shape_8h.html#ac1f1a1681fa4d69dfbc6cd9cc08c2ee4">TransformedShapeCollector</a> &amp;ioCollector) const</td></tr>
@@ -409,6 +413,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#af317ba0cd0b3cd9e093c2e417f5f230e">sDrawSubmergedVolumes</a> = false</td></tr>
 <tr class="memdesc:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug helper which draws the intersection between water and the shapes, the center of buoyancy and the submerged volume.  <a href="class_shape.html#af317ba0cd0b3cd9e093c2e417f5f230e">More...</a><br /></td></tr>
 <tr class="separator:af317ba0cd0b3cd9e093c2e417f5f230e inherit pub_static_attribs_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_shape"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_shape')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_shape.html">Shape</a></td></tr>
+<tr class="memitem:a2fff7d5dd25602bf880f69bd92049652 inherit pro_static_methods_class_shape"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a2fff7d5dd25602bf880f69bd92049652">sCollidePointUsingRayCast</a> (const <a class="el" href="class_shape.html">Shape</a> &amp;inShape, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inPoint, const <a class="el" href="class_sub_shape_i_d_creator.html">SubShapeIDCreator</a> &amp;inSubShapeIDCreator, <a class="el" href="_shape_8h.html#aebaf36faa66f5b466411acbe12342d70">CollidePointCollector</a> &amp;ioCollector, const <a class="el" href="class_shape_filter.html">ShapeFilter</a> &amp;inShapeFilter)</td></tr>
+<tr class="memdesc:a2fff7d5dd25602bf880f69bd92049652 inherit pro_static_methods_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fallback version of CollidePoint that uses a ray cast and counts the number of hits to determine if the point is inside the shape. Odd number of hits means inside, even number of hits means outside.  <a href="class_shape.html#a2fff7d5dd25602bf880f69bd92049652">More...</a><br /></td></tr>
+<tr class="separator:a2fff7d5dd25602bf880f69bd92049652 inherit pro_static_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a3b238051233ec6a6d07f988b79ff0a inherit pro_static_methods_class_shape"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shape.html#a1a3b238051233ec6a6d07f988b79ff0a">sCollideSoftBodyVerticesUsingRayCast</a> (const <a class="el" href="class_shape.html">Shape</a> &amp;inShape, <a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a> inCenterOfMassTransform, <a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;ioVertices, float inDeltaTime, <a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a> inDisplacementDueToGravity, int inCollidingShapeIndex)</td></tr>
+<tr class="memdesc:a1a3b238051233ec6a6d07f988b79ff0a inherit pro_static_methods_class_shape"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fallback version of CollideSoftBodyVertices that uses a raycast to collide the vertices with the shape.  <a href="class_shape.html#a1a3b238051233ec6a6d07f988b79ff0a">More...</a><br /></td></tr>
+<tr class="separator:a1a3b238051233ec6a6d07f988b79ff0a inherit pro_static_methods_class_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_decorated_shape"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_decorated_shape')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_decorated_shape.html">DecoratedShape</a></td></tr>
 <tr class="memitem:a776a5391c3d5f4a78f2e81934bc19110 inherit pro_attribs_class_decorated_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ref_const.html">RefConst</a>&lt; <a class="el" href="class_shape.html">Shape</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decorated_shape.html#a776a5391c3d5f4a78f2e81934bc19110">mInnerShape</a></td></tr>
 <tr class="separator:a776a5391c3d5f4a78f2e81934bc19110 inherit pro_attribs_class_decorated_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -699,6 +710,72 @@ Additional Inherited Members</h2></td></tr>
 <p >Check if inPoint is inside this shape. For this tests all shapes are treated as if they were solid. Note that inPoint should be relative to the center of mass of this shape (i.e. subtract <a class="el" href="class_shape.html#a7e34b0626a40c31db0b2a761922adb1a" title="All shapes are centered around their center of mass. This function returns the center of mass positio...">Shape::GetCenterOfMass()</a> from inPoint if you want to test against the shape in the space it was created). For a mesh shape, this test will only provide sensible information if the mesh is a closed manifold. For each shape that collides, ioCollector will receive a hit. </p>
 
 <p>Implements <a class="el" href="class_shape.html#af6e77d16736434769d72152bf059a126">Shape</a>.</p>
+
+</div>
+</div>
+<a id="a6bb62c503bb31de09d7b99717d3ab696" name="a6bb62c503bb31de09d7b99717d3ab696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb62c503bb31de09d7b99717d3ab696">&#9670;&#160;</a></span>CollideSoftBodyVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OffsetCenterOfMassShape::CollideSoftBodyVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#af10dd31c5ad4acb62aba8025732597e6">Mat44Arg</a>&#160;</td>
+          <td class="paramname"><em>inCenterOfMassTransform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s_t_l_allocator_8h.html#a768b29a1710228b28e0a9c2cd49d80a6">Array</a>&lt; <a class="el" href="class_soft_body_vertex.html">SoftBodyVertex</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ioVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>inDeltaTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_math_types_8h.html#a649dd5cac54d4587b34e8ed889b69cef">Vec3Arg</a>&#160;</td>
+          <td class="paramname"><em>inDisplacementDueToGravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>inCollidingShapeIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Collides all vertices of a soft body with this shape and updates <a class="el" href="class_soft_body_vertex.html#ad875325c3ade4ca33d6b96716b8a2b07" title="Nearest collision plane, relative to the center of mass of the soft body.">SoftBodyVertex::mCollisionPlane</a>, <a class="el" href="class_soft_body_vertex.html#a887112c6a59e554fd15aac62b7e84dfe" title="Index in the colliding shapes list of the body we may collide with.">SoftBodyVertex::mCollidingShapeIndex</a> and <a class="el" href="class_soft_body_vertex.html#a8277ada20f83ca568c1e6173720fbf23" title="Used while finding the collision plane, stores the largest penetration found so far.">SoftBodyVertex::mLargestPenetration</a> if a collision with more penetration was found. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inCenterOfMassTransform</td><td>Center of mass transform for this shape relative to the vertices. </td></tr>
+    <tr><td class="paramname">ioVertices</td><td>The vertices of the soft body </td></tr>
+    <tr><td class="paramname">inDeltaTime</td><td>Delta time of this time step (can be used to extrapolate the position using the velocity of the particle) </td></tr>
+    <tr><td class="paramname">inDisplacementDueToGravity</td><td>Displacement due to gravity during this time step </td></tr>
+    <tr><td class="paramname">inCollidingShapeIndex</td><td>Value to store in <a class="el" href="class_soft_body_vertex.html#a887112c6a59e554fd15aac62b7e84dfe" title="Index in the colliding shapes list of the body we may collide with.">SoftBodyVertex::mCollidingShapeIndex</a> when a collision was found </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_shape.html#a3caa44f2f0604f56cc83f8d44c12e1c8">Shape</a>.</p>
 
 </div>
 </div>

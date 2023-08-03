@@ -9,6 +9,7 @@ var class_capsule_shape =
     [ "CastRay", "class_capsule_shape.html#af2943e795c49300d95d68950231de8a3", null ],
     [ "CastRay", "class_capsule_shape.html#a4db465fc9986e3c869fa5c0b65733403", null ],
     [ "CollidePoint", "class_capsule_shape.html#a8474d2a38ac14d1d950829f284a0ca97", null ],
+    [ "CollideSoftBodyVertices", "class_capsule_shape.html#a2edc1cf58497aa062e0e48006d09aec9", null ],
     [ "Draw", "class_capsule_shape.html#a4e38d9480d6ce322203bc484f5ec9b12", null ],
     [ "GetHalfHeightOfCylinder", "class_capsule_shape.html#a24208af1f0e53c7de6e62c821699a2c3", null ],
     [ "GetInnerRadius", "class_capsule_shape.html#aff824c6f74dbd43d6ddbb577e2324e50", null ],

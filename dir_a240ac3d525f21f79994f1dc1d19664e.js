@@ -19,6 +19,7 @@ var dir_a240ac3d525f21f79994f1dc1d19664e =
     [ "BodyManager.cpp", "_body_manager_8cpp.html", "_body_manager_8cpp" ],
     [ "BodyManager.h", "_body_manager_8h.html", "_body_manager_8h" ],
     [ "BodyPair.h", "_body_pair_8h.html", "_body_pair_8h" ],
+    [ "BodyType.h", "_body_type_8h.html", "_body_type_8h" ],
     [ "MassProperties.cpp", "_mass_properties_8cpp.html", "_mass_properties_8cpp" ],
     [ "MassProperties.h", "_mass_properties_8h.html", "_mass_properties_8h" ],
     [ "MotionProperties.cpp", "_motion_properties_8cpp.html", null ],
