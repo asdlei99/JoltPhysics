@@ -22,7 +22,7 @@ var class_contact_constraint_manager =
     [ "PrepareConstraintBuffer", "class_contact_constraint_manager.html#a56fbdeb8c26a568919d431973830111a", null ],
     [ "RecycleConstraintBuffer", "class_contact_constraint_manager.html#a3ede12b173e9c63f9421176573661b27", null ],
     [ "RestoreState", "class_contact_constraint_manager.html#a2bc5cc8b8d36cf641dc4217fed0e63f6", null ],
-    [ "SaveState", "class_contact_constraint_manager.html#ae5b233bb1a8124406e995c3841b08e29", null ],
+    [ "SaveState", "class_contact_constraint_manager.html#a09b5daefc89dca1489be3afa077cfcc0", null ],
     [ "SetCombineFriction", "class_contact_constraint_manager.html#aae82d70c097d2c5a514faebd73ee4873", null ],
     [ "SetCombineRestitution", "class_contact_constraint_manager.html#ae324c787f7d2ab43ed3adb13d3e7f24e", null ],
     [ "SetContactListener", "class_contact_constraint_manager.html#acf262d3235f4eea01cd2aa8a9a3bfe83", null ],

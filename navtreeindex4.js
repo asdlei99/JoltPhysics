@@ -108,6 +108,13 @@ var NAVTREEINDEX4 =
 "_spring_settings_8h.html#ac805e5e93f24003512d2ca7e0d71512da80c2dd5c28197f2baebff76bf0299d47":[4,0,1,5,3,36,1,1],
 "_spring_settings_8h_source.html":[4,0,1,5,3,36],
 "_state_recorder_8h.html":[4,0,1,5,25],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4":[4,0,1,5,25,2],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a2510bc0dd63bb7e0108708a98837f19d":[4,0,1,5,25,2,2],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a4cc6684df7b4a92b1dec6fce3264fac8":[4,0,1,5,25,2,1],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a6adf97f83acf6453d4a6a4b1070f3754":[4,0,1,5,25,2,0],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a9aa698f602b1e5694855cee73a683488":[4,0,1,5,25,2,3],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4aa5d083fbfc0611e061663c6b1a8ba698":[4,0,1,5,25,2,4],
+"_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4ab1c94ca2fbc3e78fc30069c8d0f01680":[4,0,1,5,25,2,5],
 "_state_recorder_8h_source.html":[4,0,1,5,25],
 "_state_recorder_impl_8cpp.html":[4,0,1,5,26],
 "_state_recorder_impl_8h.html":[4,0,1,5,27],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "_type_declarations_8cpp.html#ac9b74fbe4f4d9a2d54cb2b38a1c886eb":[4,0,1,4,21,5],
 "_type_declarations_8cpp.html#ad81c2911255e517b2e2b8112832839b1":[4,0,1,4,21,19],
 "_type_declarations_8cpp.html#aeb0656ddcc6a028148147995151f00b3":[4,0,1,4,21,0],
-"_type_declarations_8cpp.html#af343628ba183647c57887e6775472ac7":[4,0,1,4,21,6],
-"_type_declarations_8h.html":[4,0,1,4,22],
-"_type_declarations_8h.html#a06065058d89eb12bed3964edef601a05":[4,0,1,4,22,12],
-"_type_declarations_8h.html#a086d80a51af31bdeb74cb6bacde605ee":[4,0,1,4,22,9],
-"_type_declarations_8h.html#a1a8c7c60f7c3128fe7218e02ba9acfc4":[4,0,1,4,22,8],
-"_type_declarations_8h.html#a2704d2ff1bdac3b5b820248cc72cc875":[4,0,1,4,22,3],
-"_type_declarations_8h.html#a272e1bdcd39d7965dfb3fb42656ef299":[4,0,1,4,22,15],
-"_type_declarations_8h.html#a2cd12a5e336b2c97efa2937a9bb8edc2":[4,0,1,4,22,11]
+"_type_declarations_8cpp.html#af343628ba183647c57887e6775472ac7":[4,0,1,4,21,6]
 };

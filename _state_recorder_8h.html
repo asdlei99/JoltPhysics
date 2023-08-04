@@ -99,7 +99,8 @@ $(document).ready(function(){initNavTree('_state_recorder_8h.html',''); initResi
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">StateRecorder.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -110,9 +111,66 @@ $(document).ready(function(){initNavTree('_state_recorder_8h.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">User callbacks that allow determining which parts of the simulation should be saved by a <a class="el" href="class_state_recorder.html">StateRecorder</a>.  <a href="class_state_recorder_filter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_recorder.html">StateRecorder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ac746db0a34def4dfd77ccd487ae36eb4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4">EStateRecorderState</a> : uint8 { <br />
+&#160;&#160;<a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
+, <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a4cc6684df7b4a92b1dec6fce3264fac8">Global</a> = 1
+, <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a2510bc0dd63bb7e0108708a98837f19d">Bodies</a> = 2
+, <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4a9aa698f602b1e5694855cee73a683488">Contacts</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4aa5d083fbfc0611e061663c6b1a8ba698">Constraints</a> = 8
+, <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = Global | Bodies | Contacts | Constraints
+<br />
+ }</td></tr>
+<tr class="memdesc:ac746db0a34def4dfd77ccd487ae36eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A bit field that determines which aspects of the simulation to save.  <a href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4">More...</a><br /></td></tr>
+<tr class="separator:ac746db0a34def4dfd77ccd487ae36eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac746db0a34def4dfd77ccd487ae36eb4" name="ac746db0a34def4dfd77ccd487ae36eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac746db0a34def4dfd77ccd487ae36eb4">&#9670;&#160;</a></span>EStateRecorderState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4">EStateRecorderState</a> : <a class="el" href="_core_8h.html#a115946cb5fc5879545e9ccea096a6031">uint8</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A bit field that determines which aspects of the simulation to save. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4a6adf97f83acf6453d4a6a4b1070f3754" name="ac746db0a34def4dfd77ccd487ae36eb4a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p >Save nothing. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4a4cc6684df7b4a92b1dec6fce3264fac8" name="ac746db0a34def4dfd77ccd487ae36eb4a4cc6684df7b4a92b1dec6fce3264fac8"></a>Global&#160;</td><td class="fielddoc"><p >Save global physics system state (delta time, gravity, etc.) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4a2510bc0dd63bb7e0108708a98837f19d" name="ac746db0a34def4dfd77ccd487ae36eb4a2510bc0dd63bb7e0108708a98837f19d"></a>Bodies&#160;</td><td class="fielddoc"><p >Save the state of bodies. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4a9aa698f602b1e5694855cee73a683488" name="ac746db0a34def4dfd77ccd487ae36eb4a9aa698f602b1e5694855cee73a683488"></a>Contacts&#160;</td><td class="fielddoc"><p >Save the state of contacts. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4aa5d083fbfc0611e061663c6b1a8ba698" name="ac746db0a34def4dfd77ccd487ae36eb4aa5d083fbfc0611e061663c6b1a8ba698"></a>Constraints&#160;</td><td class="fielddoc"><p >Save the state of constraints. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac746db0a34def4dfd77ccd487ae36eb4ab1c94ca2fbc3e78fc30069c8d0f01680" name="ac746db0a34def4dfd77ccd487ae36eb4ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p >Save all state. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

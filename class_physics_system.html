@@ -208,9 +208,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a00aeeff60505f9baa3dd1ffdfe73c2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cdc76b2486dfaecfc9319d040e5e5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_e_physics_update_error_8h.html#a1df3f14c5cc9f3be49f239b17470aaa1">EPhysicsUpdateError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a4cdc76b2486dfaecfc9319d040e5e5f3">Update</a> (float inDeltaTime, int inCollisionSteps, <a class="el" href="class_temp_allocator.html">TempAllocator</a> *inTempAllocator, <a class="el" href="class_job_system.html">JobSystem</a> *inJobSystem)</td></tr>
 <tr class="separator:a4cdc76b2486dfaecfc9319d040e5e5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a8d0bd0f310e7f40bece38378d4ae33b5">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
-<tr class="memdesc:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_physics_system.html#a8d0bd0f310e7f40bece38378d4ae33b5">More...</a><br /></td></tr>
-<tr class="separator:a8d0bd0f310e7f40bece38378d4ae33b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13975e609ff125fa02b922795777824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#ae13975e609ff125fa02b922795777824">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream, <a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4">EStateRecorderState</a> inState=EStateRecorderState::All, const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *inFilter=nullptr) const</td></tr>
+<tr class="memdesc:ae13975e609ff125fa02b922795777824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_physics_system.html#ae13975e609ff125fa02b922795777824">More...</a><br /></td></tr>
+<tr class="separator:ae13975e609ff125fa02b922795777824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physics_system.html#a5c0936f0d1e9cc6f05a100e48a687bb6">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay. Returns false if failed.  <a href="class_physics_system.html#a5c0936f0d1e9cc6f05a100e48a687bb6">More...</a><br /></td></tr>
 <tr class="separator:a5c0936f0d1e9cc6f05a100e48a687bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1437,8 +1437,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d0bd0f310e7f40bece38378d4ae33b5" name="a8d0bd0f310e7f40bece38378d4ae33b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d0bd0f310e7f40bece38378d4ae33b5">&#9670;&#160;</a></span>SaveState()</h2>
+<a id="ae13975e609ff125fa02b922795777824" name="ae13975e609ff125fa02b922795777824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13975e609ff125fa02b922795777824">&#9670;&#160;</a></span>SaveState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1447,8 +1447,24 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">void PhysicsSystem::SaveState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
-          <td class="paramname"><em>inStream</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>inStream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4">EStateRecorderState</a>&#160;</td>
+          <td class="paramname"><em>inState</em> = <code>EStateRecorderState::All</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *&#160;</td>
+          <td class="paramname"><em>inFilter</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

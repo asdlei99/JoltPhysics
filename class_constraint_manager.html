@@ -144,9 +144,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a8e8f3c781d808b7676cb6a7e8e377a3b">DrawConstraintReferenceFrame</a> (<a class="el" href="class_debug_renderer.html">DebugRenderer</a> *inRenderer) const</td></tr>
 <tr class="memdesc:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw all constraint reference frames.  <a href="class_constraint_manager.html#a8e8f3c781d808b7676cb6a7e8e377a3b">More...</a><br /></td></tr>
 <tr class="separator:a8e8f3c781d808b7676cb6a7e8e377a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b2e8407273d1ecf529f38af334c8cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a23b2e8407273d1ecf529f38af334c8cc">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
-<tr class="memdesc:a23b2e8407273d1ecf529f38af334c8cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save state of constraints.  <a href="class_constraint_manager.html#a23b2e8407273d1ecf529f38af334c8cc">More...</a><br /></td></tr>
-<tr class="separator:a23b2e8407273d1ecf529f38af334c8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ead63fb9a81614e3a9bede90fbe730"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#a77ead63fb9a81614e3a9bede90fbe730">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream, const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *inFilter) const</td></tr>
+<tr class="memdesc:a77ead63fb9a81614e3a9bede90fbe730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save state of constraints.  <a href="class_constraint_manager.html#a77ead63fb9a81614e3a9bede90fbe730">More...</a><br /></td></tr>
+<tr class="separator:a77ead63fb9a81614e3a9bede90fbe730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6041abc2a70cc411e4d814c9dbf43f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_manager.html#aa6041abc2a70cc411e4d814c9dbf43f2">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:aa6041abc2a70cc411e4d814c9dbf43f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the state of constraints. Returns false if failed.  <a href="class_constraint_manager.html#aa6041abc2a70cc411e4d814c9dbf43f2">More...</a><br /></td></tr>
 <tr class="separator:aa6041abc2a70cc411e4d814c9dbf43f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,8 +446,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a23b2e8407273d1ecf529f38af334c8cc" name="a23b2e8407273d1ecf529f38af334c8cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23b2e8407273d1ecf529f38af334c8cc">&#9670;&#160;</a></span>SaveState()</h2>
+<a id="a77ead63fb9a81614e3a9bede90fbe730" name="a77ead63fb9a81614e3a9bede90fbe730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77ead63fb9a81614e3a9bede90fbe730">&#9670;&#160;</a></span>SaveState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,8 +456,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">void ConstraintManager::SaveState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
-          <td class="paramname"><em>inStream</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>inStream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *&#160;</td>
+          <td class="paramname"><em>inFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

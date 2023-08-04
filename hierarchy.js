@@ -517,6 +517,7 @@ var hierarchy =
     [ "LargeIslandSplitter::Splits", "class_large_island_splitter_1_1_splits.html", null ],
     [ "SpringPart", "class_spring_part.html", null ],
     [ "SpringSettings", "class_spring_settings.html", null ],
+    [ "StateRecorderFilter", "class_state_recorder_filter.html", null ],
     [ "StaticArray< T, N >", "class_static_array.html", [
       [ "EPAConvexHullBuilder::Points", "class_e_p_a_convex_hull_builder_1_1_points.html", null ],
       [ "EPAConvexHullBuilder::TriangleQueue", "class_e_p_a_convex_hull_builder_1_1_triangle_queue.html", null ]

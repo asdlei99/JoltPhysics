@@ -249,9 +249,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e5f1bfab762cd561b21320d97ef0594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a4e5f1bfab762cd561b21320d97ef0594">ValidateContactCacheForAllBodies</a> ()</td></tr>
 <tr class="memdesc:a4e5f1bfab762cd561b21320d97ef0594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the Body::EFlags::InvalidateContactCache flag for all bodies. All contact pairs in the contact cache will now by valid again.  <a href="class_body_manager.html#a4e5f1bfab762cd561b21320d97ef0594">More...</a><br /></td></tr>
 <tr class="separator:a4e5f1bfab762cd561b21320d97ef0594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e29ef49d0427df35ea154d00c355ecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a7e29ef49d0427df35ea154d00c355ecb">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream) const</td></tr>
-<tr class="memdesc:a7e29ef49d0427df35ea154d00c355ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_body_manager.html#a7e29ef49d0427df35ea154d00c355ecb">More...</a><br /></td></tr>
-<tr class="separator:a7e29ef49d0427df35ea154d00c355ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcbaca9d9a52129a56451ce519e9598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#a5fcbaca9d9a52129a56451ce519e9598">SaveState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream, const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *inFilter) const</td></tr>
+<tr class="memdesc:a5fcbaca9d9a52129a56451ce519e9598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saving state for replay.  <a href="class_body_manager.html#a5fcbaca9d9a52129a56451ce519e9598">More...</a><br /></td></tr>
+<tr class="separator:a5fcbaca9d9a52129a56451ce519e9598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64512a91a78f48a75c5cead5552e281"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_body_manager.html#af64512a91a78f48a75c5cead5552e281">RestoreState</a> (<a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;inStream)</td></tr>
 <tr class="memdesc:af64512a91a78f48a75c5cead5552e281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restoring state for replay. Returns false if failed.  <a href="class_body_manager.html#af64512a91a78f48a75c5cead5552e281">More...</a><br /></td></tr>
 <tr class="separator:af64512a91a78f48a75c5cead5552e281"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1183,8 +1183,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e29ef49d0427df35ea154d00c355ecb" name="a7e29ef49d0427df35ea154d00c355ecb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e29ef49d0427df35ea154d00c355ecb">&#9670;&#160;</a></span>SaveState()</h2>
+<a id="a5fcbaca9d9a52129a56451ce519e9598" name="a5fcbaca9d9a52129a56451ce519e9598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fcbaca9d9a52129a56451ce519e9598">&#9670;&#160;</a></span>SaveState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1193,8 +1193,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">void BodyManager::SaveState </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_state_recorder.html">StateRecorder</a> &amp;&#160;</td>
-          <td class="paramname"><em>inStream</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>inStream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_state_recorder_filter.html">StateRecorderFilter</a> *&#160;</td>
+          <td class="paramname"><em>inFilter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -31,11 +31,12 @@ var searchData=
   ['eshapesubtype_28',['EShapeSubType',['../_shape_8h.html#aa332e0529e75b83aad91881c8d32551b',1,'Shape.h']]],
   ['eshapetype_29',['EShapeType',['../_shape_8h.html#ad64a1c665070a3100e456e54073554a5',1,'Shape.h']]],
   ['espringmode_30',['ESpringMode',['../_spring_settings_8h.html#ac805e5e93f24003512d2ca7e0d71512d',1,'SpringSettings.h']]],
-  ['estatus_31',['EStatus',['../class_e_p_a_penetration_depth.html#aab59ecfbbefc06c5ac96f9cdc24252d0',1,'EPAPenetrationDepth::EStatus()'],['../class_large_island_splitter.html#aa7b284b561bd630d6d288bb706439f68',1,'LargeIslandSplitter::EStatus()']]],
-  ['estreamtype_32',['EStreamType',['../class_object_stream.html#a5feef3b87da292623ebf2a04c7c3482e',1,'ObjectStream']]],
-  ['esupportmode_33',['ESupportMode',['../class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06b',1,'ConvexShape']]],
-  ['etrackside_34',['ETrackSide',['../_vehicle_track_8h.html#a8008ce273c0da3c40bc613d9495818d2',1,'VehicleTrack.h']]],
-  ['etransmissionmode_35',['ETransmissionMode',['../_vehicle_transmission_8h.html#ad3e125d6d786c09fddfa10be390f851d',1,'VehicleTransmission.h']]],
-  ['evertexxy_36',['EVertexXY',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#ad85eb72dec6aa3c370e9ad969c46c4d2',1,'TriangleCodecIndexed8BitPackSOA4Flags']]],
-  ['evertexzy_37',['EVertexZY',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aace',1,'TriangleCodecIndexed8BitPackSOA4Flags']]]
+  ['estaterecorderstate_31',['EStateRecorderState',['../_state_recorder_8h.html#ac746db0a34def4dfd77ccd487ae36eb4',1,'StateRecorder.h']]],
+  ['estatus_32',['EStatus',['../class_e_p_a_penetration_depth.html#aab59ecfbbefc06c5ac96f9cdc24252d0',1,'EPAPenetrationDepth::EStatus()'],['../class_large_island_splitter.html#aa7b284b561bd630d6d288bb706439f68',1,'LargeIslandSplitter::EStatus()']]],
+  ['estreamtype_33',['EStreamType',['../class_object_stream.html#a5feef3b87da292623ebf2a04c7c3482e',1,'ObjectStream']]],
+  ['esupportmode_34',['ESupportMode',['../class_convex_shape.html#a4cd6e2f87f30d108faf1f119dd73a06b',1,'ConvexShape']]],
+  ['etrackside_35',['ETrackSide',['../_vehicle_track_8h.html#a8008ce273c0da3c40bc613d9495818d2',1,'VehicleTrack.h']]],
+  ['etransmissionmode_36',['ETransmissionMode',['../_vehicle_transmission_8h.html#ad3e125d6d786c09fddfa10be390f851d',1,'VehicleTransmission.h']]],
+  ['evertexxy_37',['EVertexXY',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#ad85eb72dec6aa3c370e9ad969c46c4d2',1,'TriangleCodecIndexed8BitPackSOA4Flags']]],
+  ['evertexzy_38',['EVertexZY',['../class_triangle_codec_indexed8_bit_pack_s_o_a4_flags.html#adf7b4eade64871b3f53059bdacf9aace',1,'TriangleCodecIndexed8BitPackSOA4Flags']]]
 ];
